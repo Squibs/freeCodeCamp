@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+  <header>
+    <h1 id="title">Survey Form</h1>
+  </header>
+  
+  <main>
+    <section>
+      <p id="description" tabindex="0">Let me know these random bits of information about you!</p>
+      
+      <form id="survey-form">
+        <div class="info">
+          <label id="name-label" for="name">* Name:</label>
+          <input id="name" type="text" name="name" placeholder="Enter your name" required/>
+        </div>
+        
+        <div class="info">
+          <label id="email-label" for="email">* Email:</label>
+          <input id="email" type="email" name="email" placeholder="Enter your email" required/>
+        </div>
+
+        <div class="info">
+          <label id="number-label" for="number">* Age:</label>
+          <input id="number" type="number" name="age" min="1" max="120" placeholder="Age" required/>
+        </div>
+        
+        <div class="info">
+          <label for="dropdown">What is your favorite color from these options?</label>
+          <select id="dropdown" name="color">
+            <option selected="true" disabled>Select an option</option>
+            <option value="aqua">Aqua</option>
+            <option value="black">Black</option>
+            <option value="blue">Blue</option>
+            <option value="brown">Brown</option>
+            <option value="chrome">Chrome</option>
+            <option value="fuscia">Fuscia</option>
+            <option value="gold">Gold</option>
+            <option value="green">Green</option>
+            <option value="hazel">Hazel</option>
+            <option value="lavender">Lavender</option>
+            <option value="light-blue">Light Blue</option>
+            <option value="lime-green">Lime Green</option>
+            <option value="orange">Orange</option>
+            <option value="pink">Pink</option>
+            <option value="purple">Purple</option>
+            <option value="red">Red</option>
+            <option value="silver">Silver</option>
+            <option value="tan">Tan</option>
+            <option value="white">White</option>
+            <option value="yellow">Yellow</option>
+          </select>
+        </div>
+        
+        <div class="fieldset">
+          <legend>Would it be okay to leave out your favorite color from the previous list?</legend>
+          <fieldset>
+            <input id="yes" type="radio" name="okay" value="yes"/>
+            <label for="yes"> Yes</label>
+            <input id="no" type="radio" name="okay" value="no"/>
+            <label for="no"> No</label>
+          </fieldset>
+        </div>
+        
+        <div class="fieldset">
+          <legend>I would like these colors added to the list <br>(Check any that apply):</legend>
+          <fieldset>
+            <input id="claret" type="checkbox" name="addColors" value="claret"/>
+            <label for="claret"> Claret</label>
+
+            <input id="eburnean" type="checkbox" name="addColors" value="eburnean"/>
+            <label for="eburnean"> Eburnean</label>
+           
+            <input id="gridelin" type="checkbox" name="addColors" value="gridelin"/>
+            <label for="gridelin"> Gridelin</label>
+            
+            <input id="hyacinthine" type="checkbox" name="addColors" value="hyacinthine"/>
+            <label for="hyacinthine"> Hyacinthine</label>
+            
+            <input id="incarnadine" type="checkbox" name="addColors" value="incarnadine"/>
+            <label for="incarnadine"> Incarnadine</label>
+            
+            <input id="lateritious" type="checkbox" name="addColors" value="lateritious"/>
+            <label for="lateritious"> Lateritious</label>
+            
+            <input id="madder" type="checkbox" name="addColors" value="madder"/>
+            <label for="madder"> Madder</label>
+            
+            <input id="meline" type="checkbox" name="addColors" value="meline"/>
+            <label for="meline"> Meline</label>
+            
+            <input id="stramineous" type="checkbox" name="addColors" value="stramineous"/>
+            <label for="stramineous"> Stramineous</label>
+            
+            <input id="watchet" type="checkbox" name="addColors" value="watchet"/>
+            <label for="watchet"> Watchet</label>
+          </fieldset>
+        </div>
+        
+        <div class="textarea">
+          <label for="forgot">You forgot a color:</label>
+          <textarea id="forgot" name="forgot" placeholder="You forgot this color, how dare you forget this color!"/></textarea>
+        </div>
+
+      <button id="submit" type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+</body>
+</html>

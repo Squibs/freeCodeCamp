@@ -1,0 +1,77 @@
+html {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  background-color: #557e44;
+}
+
+main {
+  background-color: #739566;
+  padding: 50px 100px 10px 100px;
+  border-radius: 40px;
+}
+
+#title { text-align: center;}
+
+p {
+  padding-bottom: 10px;
+  font-size: 1.4em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+div {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/****************************/
+
+.info { display: flex; }
+
+.info input, .info label, .info select {
+  width: 50%;
+}
+
+.info label {
+  text-align: end;
+  padding-right: 10px;
+}
+
+/****************************/
+
+.fieldset { display: flex; }
+
+fieldset { border: none; }
+
+.fieldset legend, .fieldset fieldset {
+  width: 50%;
+}
+
+.fieldset label, .fieldset input {
+  float: left;
+  clear: left;
+}
+
+.fieldset legend { text-align: end; }
+
+.fieldset label { clear: right; }
+
+/****************************/
+
+.textarea { display: flex; }
+
+.textarea label, .textarea textarea {
+  width: 50%;
+}
+
+.textarea label {
+  text-align: end;
+  margin-right: 8px;
+}
