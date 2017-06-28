@@ -24,6 +24,9 @@ nav header {
 
 .nav-container {
 	max-height: 40vmin;
+	max-width: 85%;
+	margin-left: auto;
+	margin-right: auto;
 	overflow-y: scroll;
 	list-style-type: none;
 	padding: 0;
@@ -73,6 +76,7 @@ nav .sub-section li { text-indent: -25px; }
 		height: auto;
 		overflow: initial;
 		max-height: inherit;
+		max-width: 100%;
 	}
 
 	main {
