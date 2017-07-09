@@ -33,184 +33,184 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 ### Responsive Web Design
 * [X] ~~*Responsive Web Design*~~
 	#### * [X] ~~*Basic HTML and HTML5*~~
-		* [X] ~~*Introduction to the Basic HTML and HTML5 Challenges*~~
-		* [X] ~~*Say Hello to HTML Elements*~~
-		* [X] ~~*Headline with the h2 Element*~~
-		* [X] ~~*Inform with the Paragraph Element*~~
-		* [X] ~~*Fill in the Blank with Placeholder Text*~~
-		* [X] ~~*Uncomment HTML*~~
-		* [X] ~~*Comment out HTML*~~
-		* [X] ~~*Delete HTML Elements*~~
-		* [X] ~~*Introduction to HTML5 Elements*~~
-		* [X] ~~*Add Images to Your Website*~~
-		* [X] ~~*Link to External Pages with Anchor Elements*~~
-		* [X] ~~*Link to Internal Sections of a Page with Anchor Elements*~~
-		* [X] ~~*Nest an Anchor Element within a Paragraph*~~
-		* [X] ~~*Make Dead Links Using the Hash Symbol*~~
-		* [X] ~~*Turn an Image into a Link*~~
-		* [X] ~~*Create a Bulleted Unordered List*~~
-		* [X] ~~*Create an Ordered List*~~
-		* [X] ~~*Create a Text Field*~~
-		* [X] ~~*Add Placeholder Text to a Text Field*~~
-		* [X] ~~*Create a Form Element*~~
-		* [X] ~~*Add a Submit Button to a Form*~~
-		* [X] ~~*Use HTML5 to Require a Field*~~
-		* [X] ~~*Create a Set of Radio Buttons*~~
-		* [X] ~~*Create a Set of Checkboxes*~~
-		* [X] ~~*Check Radio Buttons and Checkboxes by Default*~~
-		* [X] ~~*Nest Many Elements within a Single div Element*~~
-		* [X] ~~*Declare the Doctype of an HTML Document*~~
-		* [X] ~~*Define the Head and Body of an HTML Document*~~
+	* [X] ~~*Introduction to the Basic HTML and HTML5 Challenges*~~
+	* [X] ~~*Say Hello to HTML Elements*~~
+	* [X] ~~*Headline with the h2 Element*~~
+	* [X] ~~*Inform with the Paragraph Element*~~
+	* [X] ~~*Fill in the Blank with Placeholder Text*~~
+	* [X] ~~*Uncomment HTML*~~
+	* [X] ~~*Comment out HTML*~~
+	* [X] ~~*Delete HTML Elements*~~
+	* [X] ~~*Introduction to HTML5 Elements*~~
+	* [X] ~~*Add Images to Your Website*~~
+	* [X] ~~*Link to External Pages with Anchor Elements*~~
+	* [X] ~~*Link to Internal Sections of a Page with Anchor Elements*~~
+	* [X] ~~*Nest an Anchor Element within a Paragraph*~~
+	* [X] ~~*Make Dead Links Using the Hash Symbol*~~
+	* [X] ~~*Turn an Image into a Link*~~
+	* [X] ~~*Create a Bulleted Unordered List*~~
+	* [X] ~~*Create an Ordered List*~~
+	* [X] ~~*Create a Text Field*~~
+	* [X] ~~*Add Placeholder Text to a Text Field*~~
+	* [X] ~~*Create a Form Element*~~
+	* [X] ~~*Add a Submit Button to a Form*~~
+	* [X] ~~*Use HTML5 to Require a Field*~~
+	* [X] ~~*Create a Set of Radio Buttons*~~
+	* [X] ~~*Create a Set of Checkboxes*~~
+	* [X] ~~*Check Radio Buttons and Checkboxes by Default*~~
+	* [X] ~~*Nest Many Elements within a Single div Element*~~
+	* [X] ~~*Declare the Doctype of an HTML Document*~~
+	* [X] ~~*Define the Head and Body of an HTML Document*~~
 	#### * [X] ~~*Basic CSS*~~
-		* [X] ~~*Introduction to Basic CSS*~~
-		* [X] ~~*Change the Color of Text*~~
-		* [X] ~~*Use CSS Selectors to Style Elements*~~
-		* [X] ~~*Use a CSS Class to Style an Element*~~
-		* [X] ~~*Style Multiple Elements with a CSS Class*~~
-		* [X] ~~*Change the Font Size of an Element*~~
-		* [X] ~~*Set the Font Family of an Element*~~
-		* [X] ~~*Import a Google Font*~~
-		* [X] ~~*Specify How Fonts Should Degrade*~~
-		* [X] ~~*Size Your Images*~~
-		* [X] ~~*Add Borders Around Your Elements*~~
-		* [X] ~~*Add Rounded Corners with border-radius*~~
-		* [X] ~~*Make Circular Images with a border-radius*~~
-		* [X] ~~*Give a Background Color to a div Element*~~
-		* [X] ~~*Set the id of an Element*~~
-		* [X] ~~*Use an id Attribute to Style an Element*~~
-		* [X] ~~*Adjust the Padding of an Element*~~
-		* [X] ~~*Adjust the Margin of an Element*~~
-		* [X] ~~*Add a Negative Margin to an Element*~~
-		* [X] ~~*Add Different Padding to Each Side of an Element*~~
-		* [X] ~~*Add Different Margins to Each Side of an Element*~~
-		* [X] ~~*Use Clockwise Notation to Specify the Padding of an Element*~~
-		* [X] ~~*Use Clockwise Notation to Specify the Margin of an Element*~~
-		* [X] ~~*Use Attribute Selectors to Style Elements*~~
-		* [X] ~~*Understand Absolute versus Relative Units*~~
-		* [X] ~~*Style the HTML Body Element*~~
-		* [X] ~~*Inherit Styles from the Body Element*~~
-		* [X] ~~*Prioritize One Style Over Another*~~
-		* [X] ~~*Override Styles in Subsequent CSS*~~
-		* [X] ~~*Override Class Declarations by Styling ID Attributes*~~
-		* [X] ~~*Override Class Declarations with Inline Styles*~~
-		* [X] ~~*Override All Other Styles by using Important*~~
-		* [X] ~~*Use Hex Code for Specific Colors*~~
-		* [X] ~~*Use Hex Code to Mix Colors*~~
-		* [X] ~~*Use Abbreviated Hex Code*~~
-		* [X] ~~*Use RGB values to Color Elements*~~
-		* [X] ~~*Use RGB to Mix Colors*~~
+	* [X] ~~*Introduction to Basic CSS*~~
+	* [X] ~~*Change the Color of Text*~~
+	* [X] ~~*Use CSS Selectors to Style Elements*~~
+	* [X] ~~*Use a CSS Class to Style an Element*~~
+	* [X] ~~*Style Multiple Elements with a CSS Class*~~
+	* [X] ~~*Change the Font Size of an Element*~~
+	* [X] ~~*Set the Font Family of an Element*~~
+	* [X] ~~*Import a Google Font*~~
+	* [X] ~~*Specify How Fonts Should Degrade*~~
+	* [X] ~~*Size Your Images*~~
+	* [X] ~~*Add Borders Around Your Elements*~~
+	* [X] ~~*Add Rounded Corners with border-radius*~~
+	* [X] ~~*Make Circular Images with a border-radius*~~
+	* [X] ~~*Give a Background Color to a div Element*~~
+	* [X] ~~*Set the id of an Element*~~
+	* [X] ~~*Use an id Attribute to Style an Element*~~
+	* [X] ~~*Adjust the Padding of an Element*~~
+	* [X] ~~*Adjust the Margin of an Element*~~
+	* [X] ~~*Add a Negative Margin to an Element*~~
+	* [X] ~~*Add Different Padding to Each Side of an Element*~~
+	* [X] ~~*Add Different Margins to Each Side of an Element*~~
+	* [X] ~~*Use Clockwise Notation to Specify the Padding of an Element*~~
+	* [X] ~~*Use Clockwise Notation to Specify the Margin of an Element*~~
+	* [X] ~~*Use Attribute Selectors to Style Elements*~~
+	* [X] ~~*Understand Absolute versus Relative Units*~~
+	* [X] ~~*Style the HTML Body Element*~~
+	* [X] ~~*Inherit Styles from the Body Element*~~
+	* [X] ~~*Prioritize One Style Over Another*~~
+	* [X] ~~*Override Styles in Subsequent CSS*~~
+	* [X] ~~*Override Class Declarations by Styling ID Attributes*~~
+	* [X] ~~*Override Class Declarations with Inline Styles*~~
+	* [X] ~~*Override All Other Styles by using Important*~~
+	* [X] ~~*Use Hex Code for Specific Colors*~~
+	* [X] ~~*Use Hex Code to Mix Colors*~~
+	* [X] ~~*Use Abbreviated Hex Code*~~
+	* [X] ~~*Use RGB values to Color Elements*~~
+	* [X] ~~*Use RGB to Mix Colors*~~
 	#### * [X] ~~*Applied Visual Design*~~
-		* [X] ~~*Introduction to the Applied Visual Design Challenges*~~
-		* [X] ~~*Create Visual Balance Using the text-align Property*~~
-		* [X] ~~*Adjust the Width of an Element Using the width Property*~~
-		* [X] ~~*Adjust the Height of an Element Using the height Property*~~
-		* [X] ~~*Use the strong Tag to Make Text Bold*~~
-		* [X] ~~*Use the u Tag to Underline Text*~~
-		* [X] ~~*Use the em Tag to Italicize Text*~~
-		* [X] ~~*Use the del Tag to Strikethrough Text*~~
-		* [X] ~~*Create a Horizontal Line Using the hr Element*~~
-		* [X] ~~*Adjust the background-color Property of Text*~~
-		* [X] ~~*Adjust the Size of a Header Versus a Paragraph Tag*~~
-		* [X] ~~*Add a box-shadow to a Card-like Element*~~
-		* [X] ~~*Decrease the Opacity of an Element*~~
-		* [X] ~~*Use the text-transform Property to Make Text Uppercase*~~
-		* [X] ~~*Set the font-size for Multiple Heading Elements*~~
-		* [X] ~~*Set the font-weight for Multiple Heading Elements*~~
-		* [X] ~~*Set the font-size of Paragraph Text*~~
-		* [X] ~~*Set the line-height of Paragraphs*~~
-		* [X] ~~*Adjust the Hover State of an Anchor Tag*~~
-		* [X] ~~*Change an Element's Relative Position*~~
-		* [X] ~~*Move a Relatively Positioned Element with CSS Offsets*~~
-		* [X] ~~*Lock an Element to its Parent with Absolute Positioning*~~
-		* [X] ~~*Lock an Element to the Browser Window with Fixed Positioning*~~
-		* [X] ~~*Push Elements Left or Right with the float Property*~~
-		* [X] ~~*Change the Position of Overlapping Elements with the z-index Property*~~
-		* [X] ~~*Center an Element Horizontally Using the margin Property*~~
-		* [X] ~~*Learn about Complementary Colors*~~
-		* [X] ~~*Learn about Tertiary Colors*~~
-		* [X] ~~*Adjust the Color of Various Elements to Complementary Colors*~~
-		* [X] ~~*Adjust the Hue of a Color*~~
-		* [X] ~~*Adjust the Tone of a Color*~~
-		* [X] ~~*Create a Gradual CSS Linear Gradient*~~
-		* [X] ~~*Use a CSS Linear Gradient to Create a Striped Element*~~
-		* [X] ~~*Create Texture by Adding a Subtle Pattern as a Background Image*~~
-		* [X] ~~*Use the CSS Transform scale Property to Change the Size of an Element*~~
-		* [X] ~~*Use the CSS Transform scale Property to Scale an Element on Hover*~~
-		* [X] ~~*Use the CSS Transform Property skewX to Skew an Element Along the X-Axis*~~
-		* [X] ~~*Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis*~~
-		* [X] ~~*Create a Graphic Using CSS*~~
-		* [X] ~~*Create a More Complex Shape Using CSS and HTML*~~
-		* [X] ~~*Learn How the CSS @keyframes and animation Properties Work*~~
-		* [X] ~~*Use CSS Animation to Change the Hover State of a Button*~~
-		* [X] ~~*Modify Fill Mode of an Animation*~~
-		* [X] ~~*Create Movement Using CSS Animation*~~
-		* [X] ~~*Create Visual Direction by Fading an Element from Left to Right*~~
-		* [X] ~~*Animate Elements Continually Using an Infinite Animation Count*~~
-		* [X] ~~*Make a CSS Heartbeat using an Infinite Animation Count*~~
-		* [X] ~~*Animate Elements at Variable Rates*~~
-		* [X] ~~*Animate Multiple Elements at Variable Rates*~~
-		* [X] ~~*Change Animation Timing with Keywords*~~
-		* [X] ~~*Learn How Bezier Curves Work*~~
-		* [X] ~~*Use a Bezier Curve to Move a Graphic*~~
-		* [X] ~~*Make Motion More Natural Using a Bezier Curve*~~
+	* [X] ~~*Introduction to the Applied Visual Design Challenges*~~
+	* [X] ~~*Create Visual Balance Using the text-align Property*~~
+	* [X] ~~*Adjust the Width of an Element Using the width Property*~~
+	* [X] ~~*Adjust the Height of an Element Using the height Property*~~
+	* [X] ~~*Use the strong Tag to Make Text Bold*~~
+	* [X] ~~*Use the u Tag to Underline Text*~~
+	* [X] ~~*Use the em Tag to Italicize Text*~~
+	* [X] ~~*Use the del Tag to Strikethrough Text*~~
+	* [X] ~~*Create a Horizontal Line Using the hr Element*~~
+	* [X] ~~*Adjust the background-color Property of Text*~~
+	* [X] ~~*Adjust the Size of a Header Versus a Paragraph Tag*~~
+	* [X] ~~*Add a box-shadow to a Card-like Element*~~
+	* [X] ~~*Decrease the Opacity of an Element*~~
+	* [X] ~~*Use the text-transform Property to Make Text Uppercase*~~
+	* [X] ~~*Set the font-size for Multiple Heading Elements*~~
+	* [X] ~~*Set the font-weight for Multiple Heading Elements*~~
+	* [X] ~~*Set the font-size of Paragraph Text*~~
+	* [X] ~~*Set the line-height of Paragraphs*~~
+	* [X] ~~*Adjust the Hover State of an Anchor Tag*~~
+	* [X] ~~*Change an Element's Relative Position*~~
+	* [X] ~~*Move a Relatively Positioned Element with CSS Offsets*~~
+	* [X] ~~*Lock an Element to its Parent with Absolute Positioning*~~
+	* [X] ~~*Lock an Element to the Browser Window with Fixed Positioning*~~
+	* [X] ~~*Push Elements Left or Right with the float Property*~~
+	* [X] ~~*Change the Position of Overlapping Elements with the z-index Property*~~
+	* [X] ~~*Center an Element Horizontally Using the margin Property*~~
+	* [X] ~~*Learn about Complementary Colors*~~
+	* [X] ~~*Learn about Tertiary Colors*~~
+	* [X] ~~*Adjust the Color of Various Elements to Complementary Colors*~~
+	* [X] ~~*Adjust the Hue of a Color*~~
+	* [X] ~~*Adjust the Tone of a Color*~~
+	* [X] ~~*Create a Gradual CSS Linear Gradient*~~
+	* [X] ~~*Use a CSS Linear Gradient to Create a Striped Element*~~
+	* [X] ~~*Create Texture by Adding a Subtle Pattern as a Background Image*~~
+	* [X] ~~*Use the CSS Transform scale Property to Change the Size of an Element*~~
+	* [X] ~~*Use the CSS Transform scale Property to Scale an Element on Hover*~~
+	* [X] ~~*Use the CSS Transform Property skewX to Skew an Element Along the X-Axis*~~
+	* [X] ~~*Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis*~~
+	* [X] ~~*Create a Graphic Using CSS*~~
+	* [X] ~~*Create a More Complex Shape Using CSS and HTML*~~
+	* [X] ~~*Learn How the CSS @keyframes and animation Properties Work*~~
+	* [X] ~~*Use CSS Animation to Change the Hover State of a Button*~~
+	* [X] ~~*Modify Fill Mode of an Animation*~~
+	* [X] ~~*Create Movement Using CSS Animation*~~
+	* [X] ~~*Create Visual Direction by Fading an Element from Left to Right*~~
+	* [X] ~~*Animate Elements Continually Using an Infinite Animation Count*~~
+	* [X] ~~*Make a CSS Heartbeat using an Infinite Animation Count*~~
+	* [X] ~~*Animate Elements at Variable Rates*~~
+	* [X] ~~*Animate Multiple Elements at Variable Rates*~~
+	* [X] ~~*Change Animation Timing with Keywords*~~
+	* [X] ~~*Learn How Bezier Curves Work*~~
+	* [X] ~~*Use a Bezier Curve to Move a Graphic*~~
+	* [X] ~~*Make Motion More Natural Using a Bezier Curve*~~
 	#### * [X] ~~*Applied Accessibility*~~
-		* [X] ~~*Introduction to the Applied Accessibility Challenges*~~
-		* [X] ~~*Add a Text Alternative to Images for Visually Impaired Accessibility*~~
-		* [X] ~~*Know When Alt Text Should be Left Blank*~~
-		* [X] ~~*Use Headings to Show Hierarchical Relationships of Content*~~
-		* [X] ~~*Jump Straight to the Content Using the main Element*~~
-		* [X] ~~*Wrap Content in the article Element*~~
-		* [X] ~~*Make Screen Reader Navigation Easier with the header Landmark*~~
-		* [X] ~~*Make Screen Reader Navigation Easier with the nav Landmark*~~
-		* [X] ~~*Make Screen Reader Navigation Easier with the footer Landmark*~~
-		* [X] ~~*Improve Accessibility of Audio Content with the audio Element*~~
-		* [X] ~~*Improve Chart Accessibility with the figure Element*~~
-		* [X] ~~*Improve Form Field Accessibility with the label Element*~~
-		* [X] ~~*Wrap Radio Buttons in a fieldset Element for Better Accessibility*~~
-		* [X] ~~*Add an Accessible Date Picker*~~
-		* [X] ~~*Standardize Times with the HTML5 datetime Attribute*~~
-		* [X] ~~*Make Elements Only Visible to a Screen Reader by Using Custom CSS*~~
-		* [X] ~~*Improve Readability with High Contrast Text*~~
-		* [X] ~~*Avoid Colorblindness Issues by Using Sufficient Contrast*~~
-		* [X] ~~*Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information*~~
-		* [X] ~~*Give Links Meaning by Using Descriptive Link Text*~~
-		* [X] ~~*Make Links Navigatable with HTML Access Keys*~~
-		* [X] ~~*Use tabindex to Add Keyboard Focus to an Element*~~
-		* [X] ~~*Use tabindex to Specify the Order of Keyboard Focus for Several Elements*~~
+	* [X] ~~*Introduction to the Applied Accessibility Challenges*~~
+	* [X] ~~*Add a Text Alternative to Images for Visually Impaired Accessibility*~~
+	* [X] ~~*Know When Alt Text Should be Left Blank*~~
+	* [X] ~~*Use Headings to Show Hierarchical Relationships of Content*~~
+	* [X] ~~*Jump Straight to the Content Using the main Element*~~
+	* [X] ~~*Wrap Content in the article Element*~~
+	* [X] ~~*Make Screen Reader Navigation Easier with the header Landmark*~~
+	* [X] ~~*Make Screen Reader Navigation Easier with the nav Landmark*~~
+	* [X] ~~*Make Screen Reader Navigation Easier with the footer Landmark*~~
+	* [X] ~~*Improve Accessibility of Audio Content with the audio Element*~~
+	* [X] ~~*Improve Chart Accessibility with the figure Element*~~
+	* [X] ~~*Improve Form Field Accessibility with the label Element*~~
+	* [X] ~~*Wrap Radio Buttons in a fieldset Element for Better Accessibility*~~
+	* [X] ~~*Add an Accessible Date Picker*~~
+	* [X] ~~*Standardize Times with the HTML5 datetime Attribute*~~
+	* [X] ~~*Make Elements Only Visible to a Screen Reader by Using Custom CSS*~~
+	* [X] ~~*Improve Readability with High Contrast Text*~~
+	* [X] ~~*Avoid Colorblindness Issues by Using Sufficient Contrast*~~
+	* [X] ~~*Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information*~~
+	* [X] ~~*Give Links Meaning by Using Descriptive Link Text*~~
+	* [X] ~~*Make Links Navigatable with HTML Access Keys*~~
+	* [X] ~~*Use tabindex to Add Keyboard Focus to an Element*~~
+	* [X] ~~*Use tabindex to Specify the Order of Keyboard Focus for Several Elements*~~
 	#### * [X] ~~*Responsive Web Design Principles*~~
-		* [X] ~~*Introduction to the Responsive Web Design Challenges*~~
-		* [X] ~~*Create a Media Query*~~
-		* [X] ~~*Make an Image Responsive*~~
-		* [X] ~~*Use a Retina Image for Higher Resolution Displays*~~
-		* [X] ~~*Make Typography Responsive*~~
+	* [X] ~~*Introduction to the Responsive Web Design Challenges*~~
+	* [X] ~~*Create a Media Query*~~
+	* [X] ~~*Make an Image Responsive*~~
+	* [X] ~~*Use a Retina Image for Higher Resolution Displays*~~
+	* [X] ~~*Make Typography Responsive*~~
 	#### * [X] ~~*CSS Flexbox*~~
-		* [X] ~~*Introduction to the CSS Flexbox Challenges*~~
-		* [X] ~~*Use display: flex to Position Two Boxes*~~
-		* [X] ~~*Add Flex Superpowers to the Tweet Embed*~~
-		* [X] ~~*Use the flex-direction Property to Make a Row*~~
-		* [X] ~~*Apply the flex-direction Property to Create Rows in the Tweet Embed*~~
-		* [X] ~~*Use the flex-direction Property to Make a Column*~~
-		* [X] ~~*Apply the flex-direction Property to Create a Column in the Tweet Embed*~~
-		* [X] ~~*Align Elements Using the justify-content Property*~~
-		* [X] ~~*Use the justify-content Property in the Tweet Embed*~~
-		* [X] ~~*Align Elements Using the align-items Property*~~
-		* [X] ~~*Use the align-items Property in the Tweet Embed*~~
-		* [X] ~~*Use the flex-wrap Property to Wrap a Row or Column*~~
-		* [X] ~~*Use the flex-shrink Property to Shrink Items*~~
-		* [X] ~~*Use the flex-grow Property to Expand Items*~~
-		* [X] ~~*Use the flex-basis Property to Set the Initial Size of an Item*~~
-		* [X] ~~*Use the flex Shorthand Property*~~
-		* [X] ~~*Use the order Property to Rearrange Items*~~
-		* [X] ~~*Use the align-self Property*~~
+	* [X] ~~*Introduction to the CSS Flexbox Challenges*~~
+	* [X] ~~*Use display: flex to Position Two Boxes*~~
+	* [X] ~~*Add Flex Superpowers to the Tweet Embed*~~
+	* [X] ~~*Use the flex-direction Property to Make a Row*~~
+	* [X] ~~*Apply the flex-direction Property to Create Rows in the Tweet Embed*~~
+	* [X] ~~*Use the flex-direction Property to Make a Column*~~
+	* [X] ~~*Apply the flex-direction Property to Create a Column in the Tweet Embed*~~
+	* [X] ~~*Align Elements Using the justify-content Property*~~
+	* [X] ~~*Use the justify-content Property in the Tweet Embed*~~
+	* [X] ~~*Align Elements Using the align-items Property*~~
+	* [X] ~~*Use the align-items Property in the Tweet Embed*~~
+	* [X] ~~*Use the flex-wrap Property to Wrap a Row or Column*~~
+	* [X] ~~*Use the flex-shrink Property to Shrink Items*~~
+	* [X] ~~*Use the flex-grow Property to Expand Items*~~
+	* [X] ~~*Use the flex-basis Property to Set the Initial Size of an Item*~~
+	* [X] ~~*Use the flex Shorthand Property*~~
+	* [X] ~~*Use the order Property to Rearrange Items*~~
+	* [X] ~~*Use the align-self Property*~~
 	#### * [X] ~~*Applied Responsive Web Design Projects*~~
-		* [X] ~~*Get Set for our Responsive Web Design Projects*~~
-		* [X] ~~*Build a Tribute Page**~~
-		* [X] ~~*Build a Survey Form**~~
-		* [X] ~~*Build a Product Landing Page**~~
-		* [X] ~~*Build a Technical Documentation Page**~~
-		* [X] ~~*Build a Personal Portfolio Webpage**~~
+	* [X] ~~*Get Set for our Responsive Web Design Projects*~~
+	* [X] ~~*Build a Tribute Page**~~
+	* [X] ~~*Build a Survey Form**~~
+	* [X] ~~*Build a Product Landing Page**~~
+	* [X] ~~*Build a Technical Documentation Page**~~
+	* [X] ~~*Build a Personal Portfolio Webpage**~~
 	#### * [ ] Claim Your Responsive Web Design Certificate
-		* [ ] Claim Your Responsive Web Design Certificate
+	* [ ] Claim Your Responsive Web Design Certificate
 
 ### JavaScript Algorithms and Data Structures
 * [ ] Basic JavaScript
