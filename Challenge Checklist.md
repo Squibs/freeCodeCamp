@@ -32,7 +32,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 
 ### Responsive Web Design
 * [X] ~~*Responsive Web Design*~~
-	* [X] ~~*Basic HTML and HTML5*~~
+	#### * [X] ~~*Basic HTML and HTML5*~~
 		* [X] ~~*Introduction to the Basic HTML and HTML5 Challenges*~~
 		* [X] ~~*Say Hello to HTML Elements*~~
 		* [X] ~~*Headline with the h2 Element*~~
@@ -61,7 +61,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 		* [X] ~~*Nest Many Elements within a Single div Element*~~
 		* [X] ~~*Declare the Doctype of an HTML Document*~~
 		* [X] ~~*Define the Head and Body of an HTML Document*~~
-	* [X] ~~*Basic CSS*~~
+	#### * [X] ~~*Basic CSS*~~
 		* [X] ~~*Introduction to Basic CSS*~~
 		* [X] ~~*Change the Color of Text*~~
 		* [X] ~~*Use CSS Selectors to Style Elements*~~
@@ -99,7 +99,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 		* [X] ~~*Use Abbreviated Hex Code*~~
 		* [X] ~~*Use RGB values to Color Elements*~~
 		* [X] ~~*Use RGB to Mix Colors*~~
-	* [X] ~~*Applied Visual Design*~~
+	#### * [X] ~~*Applied Visual Design*~~
 		* [X] ~~*Introduction to the Applied Visual Design Challenges*~~
 		* [X] ~~*Create Visual Balance Using the text-align Property*~~
 		* [X] ~~*Adjust the Width of an Element Using the width Property*~~
@@ -153,7 +153,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 		* [X] ~~*Learn How Bezier Curves Work*~~
 		* [X] ~~*Use a Bezier Curve to Move a Graphic*~~
 		* [X] ~~*Make Motion More Natural Using a Bezier Curve*~~
-	* [X] ~~*Applied Accessibility*~~
+	#### * [X] ~~*Applied Accessibility*~~
 		* [X] ~~*Introduction to the Applied Accessibility Challenges*~~
 		* [X] ~~*Add a Text Alternative to Images for Visually Impaired Accessibility*~~
 		* [X] ~~*Know When Alt Text Should be Left Blank*~~
@@ -177,13 +177,13 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 		* [X] ~~*Make Links Navigatable with HTML Access Keys*~~
 		* [X] ~~*Use tabindex to Add Keyboard Focus to an Element*~~
 		* [X] ~~*Use tabindex to Specify the Order of Keyboard Focus for Several Elements*~~
-	* [X] ~~*Responsive Web Design Principles*~~
+	#### * [X] ~~*Responsive Web Design Principles*~~
 		* [X] ~~*Introduction to the Responsive Web Design Challenges*~~
 		* [X] ~~*Create a Media Query*~~
 		* [X] ~~*Make an Image Responsive*~~
 		* [X] ~~*Use a Retina Image for Higher Resolution Displays*~~
 		* [X] ~~*Make Typography Responsive*~~
-	* [X] ~~*CSS Flexbox*~~
+	#### * [X] ~~*CSS Flexbox*~~
 		* [X] ~~*Introduction to the CSS Flexbox Challenges*~~
 		* [X] ~~*Use display: flex to Position Two Boxes*~~
 		* [X] ~~*Add Flex Superpowers to the Tweet Embed*~~
@@ -202,14 +202,14 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 		* [X] ~~*Use the flex Shorthand Property*~~
 		* [X] ~~*Use the order Property to Rearrange Items*~~
 		* [X] ~~*Use the align-self Property*~~
-	* [X] ~~*Applied Responsive Web Design Projects*~~
+	#### * [X] ~~*Applied Responsive Web Design Projects*~~
 		* [X] ~~*Get Set for our Responsive Web Design Projects*~~
 		* [X] ~~*Build a Tribute Page**~~
 		* [X] ~~*Build a Survey Form**~~
 		* [X] ~~*Build a Product Landing Page**~~
 		* [X] ~~*Build a Technical Documentation Page**~~
 		* [X] ~~*Build a Personal Portfolio Webpage**~~
-	* [ ] Claim Your Responsive Web Design Certificate
+	#### * [ ] Claim Your Responsive Web Design Certificate
 		* [ ] Claim Your Responsive Web Design Certificate
 
 ### JavaScript Algorithms and Data Structures
