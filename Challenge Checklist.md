@@ -3,6 +3,7 @@
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
 <strong>178</strong> out of <strong>1378</strong> tasks complete.
+(<em>May or may not be up-to-date.</em>)
 
 ---
 
@@ -260,112 +261,112 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 ---
 
 ### JavaScript Algorithms and Data Structures
-#### Basic JavaScript
-* [ ] Introduction to JavaScript
-* [ ] Comment Your JavaScript Code
-* [ ] Declare JavaScript Variables
-* [ ] Storing Values with the Assignment Operator
-* [ ] Initializing Variables with the Assignment Operator
-* [ ] Understanding Uninitialized Variables
-* [ ] Understanding Case Sensitivity in Variables
-* [ ] Add Two Numbers with JavaScript
-* [ ] Subtract One Number from Another with JavaScript
-* [ ] Multiply Two Numbers with JavaScript
-* [ ] Divide One Number by Another with JavaScript
-* [ ] Increment a Number with JavaScript
-* [ ] Decrement a Number with JavaScript
-* [ ] Create Decimal Numbers with JavaScript
-* [ ] Multiply Two Decimals with JavaScript
-* [ ] Divide one Decimal by Another with JavaScript
-* [ ] Finding a Remainder in JavaScript
-* [ ] Compound Assignment With Augmented Addition
-* [ ] Compound Assignment With Augmented Subtraction
-* [ ] Compound Assignment With Augmented Multiplication
-* [ ] Compound Assignment With Augmented Division
-* [ ] Declare String Variables
-* [ ] Escaping Literal Quotes in Strings
-* [ ] Quoting Strings with Single Quotes
-* [ ] Escape Sequences in Strings
-* [ ] Concatenating Strings with Plus Operator
-* [ ] Concatenating Strings with the Plus Equals Operator
-* [ ] Constructing Strings with Variables
-* [ ] Appending Variables to Strings
-* [ ] Find the Length of a String
-* [ ] Use Bracket Notation to Find the First Character in a String
-* [ ] Understand String Immutability
-* [ ] Use Bracket Notation to Find the Nth Character in a String
-* [ ] Use Bracket Notation to Find the Last Character in a String
-* [ ] Use Bracket Notation to Find the Nth-to-Last Character in a String
-* [ ] Word Blanks
-* [ ] Store Multiple Values in one Variable using JavaScript Arrays
-* [ ] Nest one Array within Another Array
-* [ ] Access Array Data with Indexes
-* [ ] Modify Array Data With Indexes
-* [ ] Access Multi-Dimensional Arrays With Indexes
-* [ ] Manipulate Arrays With push()
-* [ ] Manipulate Arrays With pop()
-* [ ] Manipulate Arrays With shift()
-* [ ] Manipulate Arrays With unshift()
-* [ ] Shopping List
-* [ ] Write Reusable JavaScript with Functions
-* [ ] Passing Values to Functions with Arguments
-* [ ] Global Scope and Functions
-* [ ] Local Scope and Functions
-* [ ] Global vs. Local Scope in Functions
-* [ ] Return a Value from a Function with Return
-* [ ] Assignment with a Returned Value
-* [ ] Stand in Line
-* [ ] Understanding Boolean Values
-* [ ] Use Conditional Logic with If Statements
-* [ ] Comparison with the Equality Operator
-* [ ] Comparison with the Strict Equality Operator
-* [ ] Comparison with the Inequality Operator
-* [ ] Comparison with the Strict Inequality Operator
-* [ ] Comparison with the Greater Than Operator
-* [ ] Comparison with the Greater Than Or Equal To Operator
-* [ ] Comparison with the Less Than Operator
-* [ ] Comparison with the Less Than Or Equal To Operator
-* [ ] Comparisons with the Logical And Operator
-* [ ] Comparisons with the Logical Or Operator
-* [ ] Introducing Else Statements
-* [ ] Introducing Else If Statements
-* [ ] Logical Order in If Else Statements
-* [ ] Chaining If Else Statements
-* [ ] Golf Code
-* [ ] Selecting from Many Options with Switch Statements
-* [ ] Adding a Default Option in Switch Statements
-* [ ] Multiple Identical Options in Switch Statements
-* [ ] Replacing If Else Chains with Switch
-* [ ] Returning Boolean Values from Functions
-* [ ] Return Early Pattern for Functions
-* [ ] Counting Cards
-* [ ] Build JavaScript Objects
-* [ ] Accessing Object Properties with the Dot Operator
-* [ ] Accessing Object Properties with Bracket Notation
-* [ ] Accessing Object Properties with Variables
-* [ ] Updating Object Properties
-* [ ] Add New Properties to a JavaScript Object
-* [ ] Delete Properties from a JavaScript Object
-* [ ] Using Objects for Lookups
-* [ ] Testing Objects for Properties
-* [ ] Manipulating Complex Objects
-* [ ] Accessing Nested Objects
-* [ ] Accessing Nested Arrays
-* [ ] Record Collection
-* [ ] Iterate with JavaScript While Loops
-* [ ] Iterate with JavaScript For Loops
-* [ ] Iterate Odd Numbers With a For Loop
-* [ ] Count Backwards With a For Loop
-* [ ] Iterate Through an Array with a For Loop
-* [ ] Nesting For Loops
-* [ ] Profile Lookup
-* [ ] Generate Random Fractions with JavaScript
-* [ ] Generate Random Whole Numbers with JavaScript
-* [ ] Generate Random Whole Numbers within a Range
-* [ ] Use the parseInt Function
-* [ ] Use the parseInt Function with a Radix
-* [ ] Use the Conditional (Ternary) Operator
-* [ ] Use Multiple Conditional (Ternary) Operators
+#### ~~*Basic JavaScript*~~
+* [X] ~~*Introduction to JavaScript*~~
+* [X] ~~*Comment Your JavaScript Code*~~
+* [X] ~~*Declare JavaScript Variables*~~
+* [X] ~~*Storing Values with the Assignment Operator*~~
+* [X] ~~*Initializing Variables with the Assignment Operator*~~
+* [X] ~~*Understanding Uninitialized Variables*~~
+* [X] ~~*Understanding Case Sensitivity in Variables*~~
+* [X] ~~*Add Two Numbers with JavaScript*~~
+* [X] ~~*Subtract One Number from Another with JavaScript*~~
+* [X] ~~*Multiply Two Numbers with JavaScript*~~
+* [X] ~~*Divide One Number by Another with JavaScript*~~
+* [X] ~~*Increment a Number with JavaScript*~~
+* [X] ~~*Decrement a Number with JavaScript*~~
+* [X] ~~*Create Decimal Numbers with JavaScript*~~
+* [X] ~~*Multiply Two Decimals with JavaScript*~~
+* [X] ~~*Divide one Decimal by Another with JavaScript*~~
+* [X] ~~*Finding a Remainder in JavaScript*~~
+* [X] ~~*Compound Assignment With Augmented Addition*~~
+* [X] ~~*Compound Assignment With Augmented Subtraction*~~
+* [X] ~~*Compound Assignment With Augmented Multiplication*~~
+* [X] ~~*Compound Assignment With Augmented Division*~~
+* [X] ~~*Declare String Variables*~~
+* [X] ~~*Escaping Literal Quotes in Strings*~~
+* [X] ~~*Quoting Strings with Single Quotes*~~
+* [X] ~~*Escape Sequences in Strings*~~
+* [X] ~~*Concatenating Strings with Plus Operator*~~
+* [X] ~~*Concatenating Strings with the Plus Equals Operator*~~
+* [X] ~~*Constructing Strings with Variables*~~
+* [X] ~~*Appending Variables to Strings*~~
+* [X] ~~*Find the Length of a String*~~
+* [X] ~~*Use Bracket Notation to Find the First Character in a String*~~
+* [X] ~~*Understand String Immutability*~~
+* [X] ~~*Use Bracket Notation to Find the Nth Character in a String*~~
+* [X] ~~*Use Bracket Notation to Find the Last Character in a String*~~
+* [X] ~~*Use Bracket Notation to Find the Nth-to-Last Character in a String*~~
+* [X] ~~*Word Blanks*~~
+* [X] ~~*Store Multiple Values in one Variable using JavaScript Arrays*~~
+* [X] ~~*Nest one Array within Another Array*~~
+* [X] ~~*Access Array Data with Indexes*~~
+* [X] ~~*Modify Array Data With Indexes*~~
+* [X] ~~*Access Multi-Dimensional Arrays With Indexes*~~
+* [X] ~~*Manipulate Arrays With push()*~~
+* [X] ~~*Manipulate Arrays With pop()*~~
+* [X] ~~*Manipulate Arrays With shift()*~~
+* [X] ~~*Manipulate Arrays With unshift()*~~
+* [X] ~~*Shopping List*~~
+* [X] ~~*Write Reusable JavaScript with Functions*~~
+* [X] ~~*Passing Values to Functions with Arguments*~~
+* [X] ~~*Global Scope and Functions*~~
+* [X] ~~*Local Scope and Functions*~~
+* [X] ~~*Global vs. Local Scope in Functions*~~
+* [X] ~~*Return a Value from a Function with Return*~~
+* [X] ~~*Assignment with a Returned Value*~~
+* [X] ~~*Stand in Line*~~
+* [X] ~~*Understanding Boolean Values*~~
+* [X] ~~*Use Conditional Logic with If Statements*~~
+* [X] ~~*Comparison with the Equality Operator*~~
+* [X] ~~*Comparison with the Strict Equality Operator*~~
+* [X] ~~*Comparison with the Inequality Operator*~~
+* [X] ~~*Comparison with the Strict Inequality Operator*~~
+* [X] ~~*Comparison with the Greater Than Operator*~~
+* [X] ~~*Comparison with the Greater Than Or Equal To Operator*~~
+* [X] ~~*Comparison with the Less Than Operator*~~
+* [X] ~~*Comparison with the Less Than Or Equal To Operator*~~
+* [X] ~~*Comparisons with the Logical And Operator*~~
+* [X] ~~*Comparisons with the Logical Or Operator*~~
+* [X] ~~*Introducing Else Statements*~~
+* [X] ~~*Introducing Else If Statements*~~
+* [X] ~~*Logical Order in If Else Statements*~~
+* [X] ~~*Chaining If Else Statements*~~
+* [X] ~~*Golf Code*~~
+* [X] ~~*Selecting from Many Options with Switch Statements*~~
+* [X] ~~*Adding a Default Option in Switch Statements*~~
+* [X] ~~*Multiple Identical Options in Switch Statements*~~
+* [X] ~~*Replacing If Else Chains with Switch*~~
+* [X] ~~*Returning Boolean Values from Functions*~~
+* [X] ~~*Return Early Pattern for Functions*~~
+* [X] ~~*Counting Cards*~~
+* [X] ~~*Build JavaScript Objects*~~
+* [X] ~~*Accessing Object Properties with the Dot Operator*~~
+* [X] ~~*Accessing Object Properties with Bracket Notation*~~
+* [X] ~~*Accessing Object Properties with Variables*~~
+* [X] ~~*Updating Object Properties*~~
+* [X] ~~*Add New Properties to a JavaScript Object*~~
+* [X] ~~*Delete Properties from a JavaScript Object*~~
+* [X] ~~*Using Objects for Lookups*~~
+* [X] ~~*Testing Objects for Properties*~~
+* [X] ~~*Manipulating Complex Objects*~~
+* [X] ~~*Accessing Nested Objects*~~
+* [X] ~~*Accessing Nested Arrays*~~
+* [X] ~~*Record Collection*~~
+* [X] ~~*Iterate with JavaScript While Loops*~~
+* [X] ~~*Iterate with JavaScript For Loops*~~
+* [X] ~~*Iterate Odd Numbers With a For Loop*~~
+* [X] ~~*Count Backwards With a For Loop*~~
+* [X] ~~*Iterate Through an Array with a For Loop*~~
+* [X] ~~*Nesting For Loops*~~
+* [X] ~~*Profile Lookup*~~
+* [X] ~~*Generate Random Fractions with JavaScript*~~
+* [X] ~~*Generate Random Whole Numbers with JavaScript*~~
+* [X] ~~*Generate Random Whole Numbers within a Range*~~
+* [X] ~~*Use the parseInt Function*~~
+* [X] ~~*Use the parseInt Function with a Radix*~~
+* [X] ~~*Use the Conditional (Ternary) Operator*~~
+* [X] ~~*Use Multiple Conditional (Ternary) Operators*~~
 #### ES6
 * [ ] Introduction to the ES6 Challenges
 * [ ] Explore Problems with the var Keyword
