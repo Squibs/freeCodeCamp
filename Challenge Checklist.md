@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>283</strong> out of <strong>1378</strong> tasks complete.
+<strong>309</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -21,7 +21,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [Claim Your Responsive Web Design Certificate](#claim-your-responsive-web-design-certificate)
 - [JavaScript Algorithms and Data Structures](#javascript-algorithms-and-data-structures)
 	- [~~*Basic JavaScript*~~](#basic-javascript)
-	- [ES6](#es6)
+	- [~~*ES6*~~](#es6)
 	- [Regular Expressions](#regular-expressions)
 	- [Debugging](#debugging)
 	- [Basic Data Structures](#basic-data-structures)
@@ -368,32 +368,32 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use the Conditional (Ternary) Operator*~~
 * [X] ~~*Use Multiple Conditional (Ternary) Operators*~~
 #### ES6
-* [ ] Introduction to the ES6 Challenges
-* [ ] Explore Problems with the var Keyword
-* [ ] Compare Scopes of the var and let Keywords
-* [ ] Declare a Read-Only Variable with the const Keyword
-* [ ] Mutate an Array Declared with const
-* [ ] Use Arrow Functions to Write Concise Anonymous Functions
-* [ ] Write Arrow Functions with Parameters
-* [ ] Write Higher Order Arrow Functions
-* [ ] Set Default Parameters for Your Functions
-* [ ] Use the Rest Operator with Function Parameters
-* [ ] Use the Spread Operator to Evaluate Arrays In-Place
-* [ ] Use Destructuring Assignment to Assign Variables from Objects
-* [ ] Use Destructuring Assignment to Assign Variables from Nested Objects
-* [ ] Use Destructuring Assignment to Assign Variables from Arrays
-* [ ] Use Destructuring Assignment with the Rest Operator to Reassign Array Elements
-* [ ] Use Destructuring Assignment to Pass an Object as a Function's Parameters
-* [ ] Create Strings using Template Literals
-* [ ] Write Concise Object Literal Declarations Using Simple Fields
-* [ ] Write Concise Declarative Functions with ES6
-* [ ] Use class Syntax to Define a Constructor Function
-* [ ] Use getters and setters to Control Access to an Object
-* [ ] Understand the Differences Between import and require
-* [ ] Use export to Reuse a Code Block
-* [ ] Use * to Import Everything from a File
-* [ ] Create an Export Fallback with export default
-* [ ] Import a Default Export
+* [X] ~~*Introduction to the ES6 Challenges*~~
+* [X] ~~*Explore Problems with the var Keyword*~~
+* [X] ~~*Compare Scopes of the var and let Keywords*~~
+* [X] ~~*Declare a Read-Only Variable with the const Keyword*~~
+* [X] ~~*Mutate an Array Declared with const*~~
+* [X] ~~*Use Arrow Functions to Write Concise Anonymous Functions*~~
+* [X] ~~*Write Arrow Functions with Parameters*~~
+* [X] ~~*Write Higher Order Arrow Functions*~~
+* [X] ~~*Set Default Parameters for Your Functions*~~
+* [X] ~~*Use the Rest Operator with Function Parameters*~~
+* [X] ~~*Use the Spread Operator to Evaluate Arrays In-Place*~~
+* [X] ~~*Use Destructuring Assignment to Assign Variables from Objects*~~
+* [X] ~~*Use Destructuring Assignment to Assign Variables from Nested Objects*~~
+* [X] ~~*Use Destructuring Assignment to Assign Variables from Arrays*~~
+* [X] ~~*Use Destructuring Assignment with the Rest Operator to Reassign Array Elements*~~
+* [X] ~~*Use Destructuring Assignment to Pass an Object as a Function's Parameters*~~
+* [X] ~~*Create Strings using Template Literals*~~
+* [X] ~~*Write Concise Object Literal Declarations Using Simple Fields*~~
+* [X] ~~*Write Concise Declarative Functions with ES6*~~
+* [X] ~~*Use class Syntax to Define a Constructor Function*~~
+* [X] ~~*Use getters and setters to Control Access to an Object*~~
+* [X] ~~*Understand the Differences Between import and require*~~
+* [X] ~~*Use export to Reuse a Code Block*~~
+* [X] ~~*Use * to Import Everything from a File*~~
+* [X] ~~*Create an Export Fallback with export default*~~
+* [X] ~~*Import a Default Export*~~
 #### Regular Expressions
 * [ ] Introduction to the Regular Expression Challenges
 * [ ] Using the Test Method
