@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>178</strong> out of <strong>1378</strong> tasks complete.
+<strong>283</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -20,7 +20,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Applied Responsive Web Design Projects*~~](#applied-responsive-web-design-projects)
 	- [Claim Your Responsive Web Design Certificate](#claim-your-responsive-web-design-certificate)
 - [JavaScript Algorithms and Data Structures](#javascript-algorithms-and-data-structures)
-	- [Basic JavaScript](#basic-javascript)
+	- [~~*Basic JavaScript*~~](#basic-javascript)
 	- [ES6](#es6)
 	- [Regular Expressions](#regular-expressions)
 	- [Debugging](#debugging)
