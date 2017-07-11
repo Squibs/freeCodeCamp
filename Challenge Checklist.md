@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>354</strong> out of <strong>1378</strong> tasks complete.
+<strong>376</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -24,7 +24,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*ES6*~~](#es6)
 	- [~~*Regular Expressions*~~](#regular-expressions)
 	- [~~*Debugging*~~](#debugging)
-	- [Basic Data Structures](#basic-data-structures)
+	- [~~*Basic Data Structures*~~](#basic-data-structures)
 	- [Basic Algorithm Scripting](#basic-algorithm-scripting)
 	- [Object Oriented Programming](#object-oriented-programming)
 	- [Functional Programming](#functional-programming)
@@ -442,28 +442,28 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use Caution When Reinitializing Variables Inside a Loop*~~
 * [X] ~~*Prevent Infinite Loops with a Valid Terminal Condition*~~
 #### Basic Data Structures
-* [ ] Introduction to Arrays
-* [ ] Use an Array to Store a Collection of Data
-* [ ] Access an Array's Contents Using Bracket Notation
-* [ ] Add Items to an Array with push() and unshift()
-* [ ] Remove Items from an Array with pop() and shift()
-* [ ] Remove Items Using splice()
-* [ ] Add Items Using splice()
-* [ ] Copy Array Items Using slice()
-* [ ] Copy an Array with the Spread Operator
-* [ ] Combine Arrays with the Spread Operator
-* [ ] Check For The Presence of an Element With indexOf()
-* [ ] Iterate Through All an Array's Items Using For Loops
-* [ ] Create complex multi-dimensional arrays
-* [ ] Introduction to Objects
-* [ ] Add Key-Value Pairs to JavaScript Objects
-* [ ] Modify an Object Nested Within an Object
-* [ ] Access Property Names with Bracket Notation
-* [ ] Use the delete Keyword to Remove Object Properties
-* [ ] Check if an Object has a Property
-* [ ] Iterate Through the Keys of an Object with a for...in Statement
-* [ ] Generate an Array of All Object Keys with Object.keys()
-* [ ] Modify an Array Stored in an Object
+* [X] ~~*Introduction to Arrays*~~
+* [X] ~~*Use an Array to Store a Collection of Data*~~
+* [X] ~~*Access an Array's Contents Using Bracket Notation*~~
+* [X] ~~*Add Items to an Array with push() and unshift()*~~
+* [X] ~~*Remove Items from an Array with pop() and shift()*~~
+* [X] ~~*Remove Items Using splice()*~~
+* [X] ~~*Add Items Using splice()*~~
+* [X] ~~*Copy Array Items Using slice()*~~
+* [X] ~~*Copy an Array with the Spread Operator*~~
+* [X] ~~*Combine Arrays with the Spread Operator*~~
+* [X] ~~*Check For The Presence of an Element With indexOf()*~~
+* [X] ~~*Iterate Through All an Array's Items Using For Loops*~~
+* [X] ~~*Create complex multi-dimensional arrays*~~
+* [X] ~~*Introduction to Objects*~~
+* [X] ~~*Add Key-Value Pairs to JavaScript Objects*~~
+* [X] ~~*Modify an Object Nested Within an Object*~~
+* [X] ~~*Access Property Names with Bracket Notation*~~
+* [X] ~~*Use the delete Keyword to Remove Object Properties*~~
+* [X] ~~*Check if an Object has a Property*~~
+* [X] ~~*Iterate Through the Keys of an Object with a for...in Statement*~~
+* [X] ~~*Generate an Array of All Object Keys with Object.keys()*~~
+* [X] ~~*Modify an Array Stored in an Object*~~
 #### Basic Algorithm Scripting
 * [ ] Get Set for our Algorithm Challenges
 * [ ] Convert Celsius to Fahrenheit*
