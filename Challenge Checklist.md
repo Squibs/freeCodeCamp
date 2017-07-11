@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>309</strong> out of <strong>1378</strong> tasks complete.
+<strong>342</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -22,7 +22,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 - [JavaScript Algorithms and Data Structures](#javascript-algorithms-and-data-structures)
 	- [~~*Basic JavaScript*~~](#basic-javascript)
 	- [~~*ES6*~~](#es6)
-	- [Regular Expressions](#regular-expressions)
+	- [~~*Regular Expressions*~~](#regular-expressions)
 	- [Debugging](#debugging)
 	- [Basic Data Structures](#basic-data-structures)
 	- [Basic Algorithm Scripting](#basic-algorithm-scripting)
@@ -395,39 +395,39 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Create an Export Fallback with export default*~~
 * [X] ~~*Import a Default Export*~~
 #### Regular Expressions
-* [ ] Introduction to the Regular Expression Challenges
-* [ ] Using the Test Method
-* [ ] Match Literal Strings
-* [ ] Match a Literal String with Different Possibilities
-* [ ] Ignore Case While Matching
-* [ ] Extract Matches
-* [ ] Find More Than the First Match
-* [ ] Match Anything with Wildcard Period
-* [ ] Match Single Character with Multiple Possibilities
-* [ ] Match Letters of the Alphabet
-* [ ] Match Numbers and Letters of the Alphabet
-* [ ] Match Single Characters Not Specified
-* [ ] Match Characters that Occur One or More Times
-* [ ] Match Characters that Occur Zero or More Times
-* [ ] Find Characters with Lazy Matching
-* [ ] Find One or More Criminals in a Hunt
-* [ ] Match Beginning String Patterns
-* [ ] Match Ending String Patterns
-* [ ] Match All Letters and Numbers
-* [ ] Match Everything But Letters and Numbers
-* [ ] Match All Numbers
-* [ ] Match All Non-Numbers
-* [ ] Restrict Possible Usernames
-* [ ] Match Whitespace
-* [ ] Match Non-Whitespace Characters
-* [ ] Specify Upper and Lower Number of Matches
-* [ ] Specify Only the Lower Number of Matches
-* [ ] Specify Exact Number of Matches
-* [ ] Check for All or None
-* [ ] Positive and Negative Lookahead
-* [ ] Reuse Patterns Using Capture Groups
-* [ ] Use Capture Groups to Search and Replace
-* [ ] Remove Whitespace from Start and End
+* [X] ~~*Introduction to the Regular Expression Challenges*~~
+* [X] ~~*Using the Test Method*~~
+* [X] ~~*Match Literal Strings*~~
+* [X] ~~*Match a Literal String with Different Possibilities*~~
+* [X] ~~*Ignore Case While Matching*~~
+* [X] ~~*Extract Matches*~~
+* [X] ~~*Find More Than the First Match*~~
+* [X] ~~*Match Anything with Wildcard Period*~~
+* [X] ~~*Match Single Character with Multiple Possibilities*~~
+* [X] ~~*Match Letters of the Alphabet*~~
+* [X] ~~*Match Numbers and Letters of the Alphabet*~~
+* [X] ~~*Match Single Characters Not Specified*~~
+* [X] ~~*Match Characters that Occur One or More Times*~~
+* [X] ~~*Match Characters that Occur Zero or More Times*~~
+* [X] ~~*Find Characters with Lazy Matching*~~
+* [X] ~~*Find One or More Criminals in a Hunt*~~
+* [X] ~~*Match Beginning String Patterns*~~
+* [X] ~~*Match Ending String Patterns*~~
+* [X] ~~*Match All Letters and Numbers*~~
+* [X] ~~*Match Everything But Letters and Numbers*~~
+* [X] ~~*Match All Numbers*~~
+* [X] ~~*Match All Non-Numbers*~~
+* [X] ~~*Restrict Possible Usernames*~~
+* [X] ~~*Match Whitespace*~~
+* [X] ~~*Match Non-Whitespace Characters*~~
+* [X] ~~*Specify Upper and Lower Number of Matches*~~
+* [X] ~~*Specify Only the Lower Number of Matches*~~
+* [X] ~~*Specify Exact Number of Matches*~~
+* [X] ~~*Check for All or None*~~
+* [X] ~~*Positive and Negative Lookahead*~~
+* [X] ~~*Reuse Patterns Using Capture Groups*~~
+* [X] ~~*Use Capture Groups to Search and Replace*~~
+* [X] ~~*Remove Whitespace from Start and End*~~
 #### Debugging
 * [ ] Introduction to the Debugging Challenges
 * [ ] Use the JavaScript Console to Check the Value of a Variable
