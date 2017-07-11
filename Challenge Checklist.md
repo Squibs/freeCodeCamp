@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>376</strong> out of <strong>1378</strong> tasks complete.
+<strong>392</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -25,7 +25,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Regular Expressions*~~](#regular-expressions)
 	- [~~*Debugging*~~](#debugging)
 	- [~~*Basic Data Structures*~~](#basic-data-structures)
-	- [Basic Algorithm Scripting](#basic-algorithm-scripting)
+	- [~~*Basic Algorithm Scripting*~~](#basic-algorithm-scripting)
 	- [Object Oriented Programming](#object-oriented-programming)
 	- [Functional Programming](#functional-programming)
 	- [Intermediate Algorithm Scripting](#intermediate-algorithm-scripting)
@@ -465,22 +465,22 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Generate an Array of All Object Keys with Object.keys()*~~
 * [X] ~~*Modify an Array Stored in an Object*~~
 #### Basic Algorithm Scripting
-* [ ] Get Set for our Algorithm Challenges
-* [ ] Convert Celsius to Fahrenheit*
-* [ ] Reverse a String*
-* [ ] Factorialize a Number*
-* [ ] Find the Longest Word in a String*
-* [ ] Return Largest Numbers in Arrays*
-* [ ] Confirm the Ending*
-* [ ] Repeat a String Repeat a String*
-* [ ] Truncate a String*
-* [ ] Finders Keepers*
-* [ ] Boo who*
-* [ ] Title Case a Sentence*
-* [ ] Falsy Bouncer*
-* [ ] Where do I Belong*
-* [ ] Mutations*
-* [ ] Chunky Monkey*
+* [X] ~~*Get Set for our Algorithm Challenges*~~
+* [X] ~~*Convert Celsius to Fahrenheit**~~
+* [X] ~~*Reverse a String**~~
+* [X] ~~*Factorialize a Number**~~
+* [X] ~~*Find the Longest Word in a String**~~
+* [X] ~~*Return Largest Numbers in Arrays**~~
+* [X] ~~*Confirm the Ending**~~
+* [X] ~~*Repeat a String Repeat a String**~~
+* [X] ~~*Truncate a String**~~
+* [X] ~~*Finders Keepers**~~
+* [X] ~~*Boo who**~~
+* [X] ~~*Title Case a Sentence**~~
+* [X] ~~*Falsy Bouncer**~~
+* [X] ~~*Where do I Belong**~~
+* [X] ~~*Mutations**~~
+* [X] ~~*Chunky Monkey**~~
 #### Object Oriented Programming
 * [ ] Introduction to the Object Oriented Programming Challenges
 * [ ] Create a Basic JavaScript Object
