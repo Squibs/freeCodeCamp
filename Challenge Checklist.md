@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>342</strong> out of <strong>1378</strong> tasks complete.
+<strong>354</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -23,7 +23,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Basic JavaScript*~~](#basic-javascript)
 	- [~~*ES6*~~](#es6)
 	- [~~*Regular Expressions*~~](#regular-expressions)
-	- [Debugging](#debugging)
+	- [~~*Debugging*~~](#debugging)
 	- [Basic Data Structures](#basic-data-structures)
 	- [Basic Algorithm Scripting](#basic-algorithm-scripting)
 	- [Object Oriented Programming](#object-oriented-programming)
@@ -429,18 +429,18 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use Capture Groups to Search and Replace*~~
 * [X] ~~*Remove Whitespace from Start and End*~~
 #### Debugging
-* [ ] Introduction to the Debugging Challenges
-* [ ] Use the JavaScript Console to Check the Value of a Variable
-* [ ] Use typeof to Check the Type of a Variable
-* [ ] Catch Misspelled Variable and Function Names
-* [ ] Catch Unclosed Parentheses, Brackets, Braces and Quotes
-* [ ] Catch Mixed Usage of Single and Double Quotes
-* [ ] Catch Use of Assignment Operator Instead of Equality Operator
-* [ ] Catch Missing Open and Closing Parenthesis After a Function Call
-* [ ] Catch Arguments Passed in the Wrong Order When Calling a Function
-* [ ] Catch Off By One Errors When Using Indexing
-* [ ] Use Caution When Reinitializing Variables Inside a Loop
-* [ ] Prevent Infinite Loops with a Valid Terminal Condition
+* [X] ~~*Introduction to the Debugging Challenges*~~
+* [X] ~~*Use the JavaScript Console to Check the Value of a Variable*~~
+* [X] ~~*Use typeof to Check the Type of a Variable*~~
+* [X] ~~*Catch Misspelled Variable and Function Names*~~
+* [X] ~~*Catch Unclosed Parentheses, Brackets, Braces and Quotes*~~
+* [X] ~~*Catch Mixed Usage of Single and Double Quotes*~~
+* [X] ~~*Catch Use of Assignment Operator Instead of Equality Operator*~~
+* [X] ~~*Catch Missing Open and Closing Parenthesis After a Function Call*~~
+* [X] ~~*Catch Arguments Passed in the Wrong Order When Calling a Function*~~
+* [X] ~~*Catch Off By One Errors When Using Indexing*~~
+* [X] ~~*Use Caution When Reinitializing Variables Inside a Loop*~~
+* [X] ~~*Prevent Infinite Loops with a Valid Terminal Condition*~~
 #### Basic Data Structures
 * [ ] Introduction to Arrays
 * [ ] Use an Array to Store a Collection of Data
