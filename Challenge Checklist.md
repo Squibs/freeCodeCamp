@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>419</strong> out of <strong>1378</strong> tasks complete.
+<strong>443</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -27,7 +27,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Basic Data Structures*~~](#basic-data-structures)
 	- [~~*Basic Algorithm Scripting*~~](#basic-algorithm-scripting)
 	- [~~*Object Oriented Programming*~~](#object-oriented-programming)
-	- [Functional Programming](#functional-programming)
+	- [~~*Functional Programming*~~](#functional-programming)
 	- [Intermediate Algorithm Scripting](#intermediate-algorithm-scripting)
 	- [Claim Your JavaScript Algorithms and Data Structures Certificate](#claim-your-javascript-algorithms-and-data-structures-certificate)
 - [Front End Libraries](#front-end-libraries)
@@ -510,30 +510,30 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Understand the Immediately Invoked Function Expression (IIFE)*~~
 * [X] ~~*Use an IIFE to Create a Module*~~
 #### Functional Programming
-* [ ] Introduction to the Functional Programming Challenges
-* [ ] Learn About Functional Programming
-* [ ] Understand Functional Programming Terminology
-* [ ] Understand the Hazards of Using Imperative Code
-* [ ] Avoid Mutations and Side Effects Using Functional Programming
-* [ ] Pass Arguments to Avoid External Dependence in a Function
-* [ ] Refactor Global Variables Out of Functions
-* [ ] Use the map Method to Extract Data from an Array
-* [ ] Implement map on a Prototype
-* [ ] Use the filter Method to Extract Data from an Array
-* [ ] Implement the filter Method on a Prototype
-* [ ] Return Part of an Array Using the slice Method
-* [ ] Remove Elements from an Array Using slice Instead of splice
-* [ ] Combine Two Arrays Using the concat Method
-* [ ] Add Elements to the End of an Array Using concat Instead of push
-* [ ] Use the reduce Method to Analyze Data
-* [ ] Sort an Array Alphabetically using the sort Method
-* [ ] Return a Sorted Array Without Changing the Original Array
-* [ ] Split a String into an Array Using the split Method
-* [ ] Combine an Array into a String Using the join Method
-* [ ] Apply Functional Programming to Convert Strings to URL Slugs
-* [ ] Use the every Method to Check that Every Element in an Array Meets a Criteria
-* [ ] Use the some Method to Check that Any Elements in an Array Meet a Criteria
-* [ ] Introduction to Currying and Partial Application
+* [X] ~~*Introduction to the Functional Programming Challenges*~~
+* [X] ~~*Learn About Functional Programming*~~
+* [X] ~~*Understand Functional Programming Terminology*~~
+* [X] ~~*Understand the Hazards of Using Imperative Code*~~
+* [X] ~~*Avoid Mutations and Side Effects Using Functional Programming*~~
+* [X] ~~*Pass Arguments to Avoid External Dependence in a Function*~~
+* [X] ~~*Refactor Global Variables Out of Functions*~~
+* [X] ~~*Use the map Method to Extract Data from an Array*~~
+* [X] ~~*Implement map on a Prototype*~~
+* [X] ~~*Use the filter Method to Extract Data from an Array*~~
+* [X] ~~*Implement the filter Method on a Prototype*~~
+* [X] ~~*Return Part of an Array Using the slice Method*~~
+* [X] ~~*Remove Elements from an Array Using slice Instead of splice*~~
+* [X] ~~*Combine Two Arrays Using the concat Method*~~
+* [X] ~~*Add Elements to the End of an Array Using concat Instead of push*~~
+* [X] ~~*Use the reduce Method to Analyze Data*~~
+* [X] ~~*Sort an Array Alphabetically using the sort Method*~~
+* [X] ~~*Return a Sorted Array Without Changing the Original Array*~~
+* [X] ~~*Split a String into an Array Using the split Method*~~
+* [X] ~~*Combine an Array into a String Using the join Method*~~
+* [X] ~~*Apply Functional Programming to Convert Strings to URL Slugs*~~
+* [X] ~~*Use the every Method to Check that Every Element in an Array Meets a Criteria*~~
+* [X] ~~*Use the some Method to Check that Any Elements in an Array Meet a Criteria*~~
+* [X] ~~*Introduction to Currying and Partial Application*~~
 #### Intermediate Algorithm Scripting
 * [ ] Sum All Numbers in a Range*
 * [ ] Diff Two Arrays*
