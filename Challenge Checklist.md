@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>392</strong> out of <strong>1378</strong> tasks complete.
+<strong>419</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -26,7 +26,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Debugging*~~](#debugging)
 	- [~~*Basic Data Structures*~~](#basic-data-structures)
 	- [~~*Basic Algorithm Scripting*~~](#basic-algorithm-scripting)
-	- [Object Oriented Programming](#object-oriented-programming)
+	- [~~*Object Oriented Programming*~~](#object-oriented-programming)
 	- [Functional Programming](#functional-programming)
 	- [Intermediate Algorithm Scripting](#intermediate-algorithm-scripting)
 	- [Claim Your JavaScript Algorithms and Data Structures Certificate](#claim-your-javascript-algorithms-and-data-structures-certificate)
@@ -482,33 +482,33 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Mutations**~~
 * [X] ~~*Chunky Monkey**~~
 #### Object Oriented Programming
-* [ ] Introduction to the Object Oriented Programming Challenges
-* [ ] Create a Basic JavaScript Object
-* [ ] Use Dot Notation to Access the Properties of an Object
-* [ ] Create a Method on an Object
-* [ ] Make Code More Reusable with the this Keyword
-* [ ] Define a Constructor Function
-* [ ] Use a Constructor to Create Objects
-* [ ] Extend Constructors to Receive Arguments
-* [ ] Verify an Object's Constructor with instanceof
-* [ ] Understand Own Properties
-* [ ] Use Prototype Properties to Reduce Duplicate Code
-* [ ] Iterate Over All Properties
-* [ ] Understand the Constructor Property
-* [ ] Change the Prototype to a New Object
-* [ ] Remember to Set the Constructor Property when Changing the Prototype
-* [ ] Understand Where an Object’s Prototype Comes From
-* [ ] Understand the Prototype Chain
-* [ ] Use Inheritance So You Don't Repeat Yourself
-* [ ] Inherit Behaviors from a Supertype
-* [ ] Set the Child's Prototype to an Instance of the Parent
-* [ ] Reset an Inherited Constructor Property
-* [ ] Add Methods After Inheritance
-* [ ] Override Inherited Methods
-* [ ] Use a Mixin to Add Common Behavior Between Unrelated Objects
-* [ ] Use Closure to Protect Properties Within an Object from Being Modified Externally
-* [ ] Understand the Immediately Invoked Function Expression (IIFE)
-* [ ] Use an IIFE to Create a Module
+* [X] ~~*Introduction to the Object Oriented Programming Challenges*~~
+* [X] ~~*Create a Basic JavaScript Object*~~
+* [X] ~~*Use Dot Notation to Access the Properties of an Object*~~
+* [X] ~~*Create a Method on an Object*~~
+* [X] ~~*Make Code More Reusable with the this Keyword*~~
+* [X] ~~*Define a Constructor Function*~~
+* [X] ~~*Use a Constructor to Create Objects*~~
+* [X] ~~*Extend Constructors to Receive Arguments*~~
+* [X] ~~*Verify an Object's Constructor with instanceof*~~
+* [X] ~~*Understand Own Properties*~~
+* [X] ~~*Use Prototype Properties to Reduce Duplicate Code*~~
+* [X] ~~*Iterate Over All Properties*~~
+* [X] ~~*Understand the Constructor Property*~~
+* [X] ~~*Change the Prototype to a New Object*~~
+* [X] ~~*Remember to Set the Constructor Property when Changing the Prototype*~~
+* [X] ~~*Understand Where an Object’s Prototype Comes From*~~
+* [X] ~~*Understand the Prototype Chain*~~
+* [X] ~~*Use Inheritance So You Don't Repeat Yourself*~~
+* [X] ~~*Inherit Behaviors from a Supertype*~~
+* [X] ~~*Set the Child's Prototype to an Instance of the Parent*~~
+* [X] ~~*Reset an Inherited Constructor Property*~~
+* [X] ~~*Add Methods After Inheritance*~~
+* [X] ~~*Override Inherited Methods*~~
+* [X] ~~*Use a Mixin to Add Common Behavior Between Unrelated Objects*~~
+* [X] ~~*Use Closure to Protect Properties Within an Object from Being Modified Externally*~~
+* [X] ~~*Understand the Immediately Invoked Function Expression (IIFE)*~~
+* [X] ~~*Use an IIFE to Create a Module*~~
 #### Functional Programming
 * [ ] Introduction to the Functional Programming Challenges
 * [ ] Learn About Functional Programming
