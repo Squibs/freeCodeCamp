@@ -8,30 +8,26 @@ I created this as I liked the reference pages that [W3Schools](https://www.w3sch
 
 ## Table of Contents
 
-<!-- TOC -->
+- [Array Object](#array-object)
+	- [Array Object Properties](#array-object-properties)
+	- [Array Object Methods](#array-object-methods)
+	- [Array Instance Methods](#array-instance-methods)
+		- [Mutator Methods](#mutator-methods)
+		- [Accessor Methods](#accessor-methods)
+		- [Iteration methods](#iteration-methods)
 
-- [JavaScript References](#javascript-references)
-	- [Table of Contents](#table-of-contents)
-	- [Array Object](#array-object)
-		- [Array Object Properties](#array-object-properties)
-		- [Array Object Methods](#array-object-methods)
-		- [Array Instance Methods](#array-instance-methods)
-			- [Mutator Methods](#mutator-methods)
-			- [Accessor Methods](#accessor-methods)
-			- [Iteration methods](#iteration-methods)
-	- [String Object](#string-object)
-		- [String Object Properties](#string-object-properties)
-		- [String Object Methods](#string-object-methods)
-		- [String Instance Methods](#string-instance-methods)
-	- [Regular Expressions](#regular-expressions)
-		- [Modifiers](#modifiers)
-		- [Brackets](#brackets)
-		- [Metacharacters](#metacharacters)
-		- [Quantifiers](#quantifiers)
-		- [Regex Object Properties](#regex-object-properties)
-		- [Regex Object Methods](#regex-object-methods)
+- [String Object](#string-object)
+	- [String Object Properties](#string-object-properties)
+	- [String Object Methods](#string-object-methods)
+	- [String Instance Methods](#string-instance-methods)
 
-<!-- /TOC -->
+- [Regular Expressions](#regular-expressions)
+	- [Modifiers](#modifiers)
+	- [Brackets](#brackets)
+	- [Metacharacters](#metacharacters)
+	- [Quantifiers](#quantifiers)
+	- [Regex Object Properties](#regex-object-properties)
+	- [Regex Object Methods](#regex-object-methods)
 
 ---
 
