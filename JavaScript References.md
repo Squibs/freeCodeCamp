@@ -23,7 +23,13 @@ I created this as I liked the reference pages that [W3Schools](https://www.w3sch
 		- [String Object Properties](#string-object-properties)
 		- [String Object Methods](#string-object-methods)
 		- [String Instance Methods](#string-instance-methods)
-	- [Regular Expression Reference](#regular-expression-reference)
+	- [Regular Expressions](#regular-expressions)
+		- [Modifiers](#modifiers)
+		- [Brackets](#brackets)
+		- [Metacharacters](#metacharacters)
+		- [Quantifiers](#quantifiers)
+		- [Regex Object Properties](#regex-object-properties)
+		- [Regex Object Methods](#regex-object-methods)
 
 <!-- /TOC -->
 
@@ -51,7 +57,7 @@ For a tutorial about Arrays, read our [JavaScript Array Tutorial](https://www.w3
 
 ### Array Object Methods
 
-|Property|Description|ECMAScript|Links|
+|Method|Description|ECMAScript|Links|
 |--------|-----------|:--------:|-----|
 |`Array.from()`|Creates a new Array instance from an array-like or iterable object.|ES6|[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)|
 |`Array.isArray()`|Returns true if a variable is an array, if not false.|ES5.1|[W3S](https://www.w3schools.com/jsref/jsref_isarray.asp) \ [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)|
@@ -172,7 +178,108 @@ For a tutorial about Strings, read our [JavaScript String Tutorial](https://www.
 |`valueOf()`|Returns the primitive value of a String object|ES1|[W3S](https://www.w3schools.com/jsref/jsref_valueof_string.asp) \ [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf)|
 
 ---
-|`()`||ES|[W3S]() \ [MDN]()|
-## Regular Expression Reference
 
+## Regular Expressions
+
+<strong>[Regular Expressions 101](https://regex101.com/) a great site to see what a regular experssion will match.</strong>
+
+A regular expression is an object that describes a pattern of characters.
+
+Regular expressions are used to perform pattern-matching and "search-and-replace" functions on text.
+
+<em>`/pattern/modifiers;`</em>
+
+<strong>Example</strong>
+```JavaScript
+const patt = /w3schools/i;
+```
+
+Example explained:
+- <strong>/w3schools/i</strong> is a regular expression.
+- <strong>w3schools</strong> is a pattern (to be used in a search).
+- <strong>i</strong> is a modifier (modifies the search to be case-insensitive).
+
+For a tutorial about Regular Expressions, read our [JavaScript RegExp Tutorial](https://www.w3schools.com/js/js_regexp.asp).
+
+
+### Modifiers
+|Modifier|Description|
+|--------|-----------|
+|`i`|Perform case-insensitive matching|
+|`g`|Perform a global match (find all matches rather than stopping after the first match)|
+|`m`|Perform multiline matching|
+
+### Brackets
+
+Brackets are used to find a range of characters:
+
+|Expression|Description|
+|----------|-----------|
+|`[abc]`|Find any character between the brackets|
+|`[^abc]`|Find any character NOT between the brackets|
+|`[0-9]`|Find any character between the brackets (any digit)|
+|`[^0-9]`|Find any character NOT between the brackets (any non-digit)|
+|`(x|y)`|Find any of the alternatives specified|
+
+
+### Metacharacters
+
+Metacharacters are characters with a special meaning:
+
+|Metacharacter|Description|
+|-------------|-----------|
+|`.`|Find a single character, except newline or line terminator|
+|`\w`|Find a word character|
+|`\W`|Find a non-word character|
+|`\d`|Find a digit|
+|`\D`|Find a non-digit character|
+|`\s`|Find a whitespace character|
+|`\S`|Find a non-whitespace character|
+|`\b`|Find a match at the beginning/end of a word|
+|`\B`|Find a match not at the beginning/end of a word|
+|`\0`|Find a NUL character|
+|`\n`|Find a new line character|
+|`\f`|Find a form feed character|
+|`\r`|Find a carriage return character|
+|`\t`|Find a tab character|
+|`\v`|Find a vertical tab character|
+|`\xxx`|Find the character specified by an octal number xxx|
+|`\xdd`|Find the character specified by a hexadecimal number dd|
+|`\uxxxx`|Find the Unicode character specified by a hexadecimal number xxxx|
+
+### Quantifiers
+
+|Quantifier|Description|
+|----------|-----------|
+|`n+`|Matches any string that contains at least one n|
+|`n*`|Matches any string that contains zero or more occurrences of n|
+|`n?`|Matches any string that contains zero or one occurrences of n|
+|`n{X}`|Matches any string that contains a sequence of X n's|
+|`n{X,Y}`|Matches any string that contains a sequence of X to Y n's|
+|`n{X,}`|Matches any string that contains a sequence of at least X n's|
+|`n$`|Matches any string with n at the end of it|
+|`^n`|Matches any string with n at the beginning of it|
+|`?=n`|Matches any string that is followed by a specific string n|
+|`?!n`|Matches any string that is not followed by a specific string n|
+
+### Regex Object Properties
+
+|Property|Description|Links|
+|--------|-----------|-----|
+|`RegExp.constructor`|Returns the function that created the RegExp object's prototype|[W3S](https://www.w3schools.com/jsref/jsref_regexp_constructor.asp)|
+|`RegExp.global`|Checks whether the "g" modifier is set|[W3S](https://www.w3schools.com/jsref/jsref_regexp_global.asp)|
+|`RegExp.ignoreCase`|Checks whether the "i" modifier is set|[W3S](https://www.w3schools.com/jsref/jsref_regexp_ignorecase.asp)|
+|`RegExp.lastIndex`|Specifies the index at which to start the next match|[W3S](https://www.w3schools.com/jsref/jsref_regexp_lastindex.asp)|
+|`RegExp.multiline`|Checks whether the "m" modifier is set|[W3S](https://www.w3schools.com/jsref/jsref_regexp_multiline.asp)|
+|`RegExp.source`|Returns the text of the RegExp pattern|[W3S](https://www.w3schools.com/jsref/jsref_regexp_source.asp)|
+
+### Regex Object Methods
+|Method|Description|Links|
+|------|-----------|-----|
+|`compile()`|<strong>Deprecated in version 1.5.</strong> Compiles a regular expression|[W3S](https://www.w3schools.com/jsref/jsref_regexp_compile.asp)|
+|`exec()`|Tests for a match in a string. Returns the first match|[W3S](https://www.w3schools.com/jsref/jsref_regexp_exec.asp)|
+|`test()`|Tests for a match in a string. Returns true or false|[W3S](https://www.w3schools.com/jsref/jsref_regexp_test.asp)|
+|`toString()`|Returns the string value of the regular expression|[W3S](https://www.w3schools.com/jsref/jsref_regexp_tostring.asp)|
+
+<!-- Image / Icon References -->
 [beaker]: http://res.cloudinary.com/squibs/image/upload/c_scale,w_15/v1499917997/beaker_gjjg7f.png "Experimental Feature"
