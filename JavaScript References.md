@@ -4,7 +4,7 @@ I created this as I liked the reference pages that [W3Schools](https://www.w3sch
 
 <strong>I created this for personal use only.</strong> If you stumble upon this feel free to use this. Just know it's only a collection of references and links to more information. Some information might be outdated or missing from this list.
 
-![beaker] <em>If this icon is in the <strong>ECMAScript</strong> column, the feature is currently experimental and probably shouln't be used.</em>
+![beaker] <em>If this icon is in the <strong>ECMAScript</strong> column, the feature is currently experimental and probably shouln't be used quite yet.</em>
 
 ## Table of Contents
 
