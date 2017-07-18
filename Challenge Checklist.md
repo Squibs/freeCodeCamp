@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>443</strong> out of <strong>1378</strong> tasks complete.
+<strong>467</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -28,7 +28,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Basic Algorithm Scripting*~~](#basic-algorithm-scripting)
 	- [~~*Object Oriented Programming*~~](#object-oriented-programming)
 	- [~~*Functional Programming*~~](#functional-programming)
-	- [Intermediate Algorithm Scripting](#intermediate-algorithm-scripting)
+	- [~~*Intermediate Algorithm Scripting*~~](#intermediate-algorithm-scripting)
 	- [Claim Your JavaScript Algorithms and Data Structures Certificate](#claim-your-javascript-algorithms-and-data-structures-certificate)
 - [Front End Libraries](#front-end-libraries)
 	- [Bootstrap](#bootstrap)
@@ -535,30 +535,30 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use the some Method to Check that Any Elements in an Array Meet a Criteria*~~
 * [X] ~~*Introduction to Currying and Partial Application*~~
 #### Intermediate Algorithm Scripting
-* [ ] Sum All Numbers in a Range*
-* [ ] Diff Two Arrays*
-* [ ] Check for Palindromes*
-* [ ] Seek and Destroy*
-* [ ] Wherefore art thou*
-* [ ] Spinal Tap Case*
-* [ ] Roman Numeral Converter*
-* [ ] Caesars Cipher*
-* [ ] Pig Latin*
-* [ ] Search and Replace*
-* [ ] DNA Pairing*
-* [ ] Missing letters*
-* [ ] Sorted Union*
-* [ ] Convert HTML Entities*
-* [ ] Sum All Odd Fibonacci Numbers*
-* [ ] Sum All Primes*
-* [ ] Smallest Common Multiple*
-* [ ] Drop it*
-* [ ] Steamroller*
-* [ ] Binary Agents*
-* [ ] Everything Be True*
-* [ ] Arguments Optional*
-* [ ] Make a Person
-* [ ] Map the Debris
+* [X] ~~*Sum All Numbers in a Range**~~
+* [X] ~~*Diff Two Arrays**~~
+* [X] ~~*Check for Palindromes**~~
+* [X] ~~*Seek and Destroy**~~
+* [X] ~~*Wherefore art thou**~~
+* [X] ~~*Spinal Tap Case**~~
+* [X] ~~*Roman Numeral Converter**~~
+* [X] ~~*Caesars Cipher**~~
+* [X] ~~*Pig Latin**~~
+* [X] ~~*Search and Replace**~~
+* [X] ~~*DNA Pairing**~~
+* [X] ~~*Missing letters**~~
+* [X] ~~*Sorted Union**~~
+* [X] ~~*Convert HTML Entities**~~
+* [X] ~~*Sum All Odd Fibonacci Numbers**~~
+* [X] ~~*Sum All Primes**~~
+* [X] ~~*Smallest Common Multiple**~~
+* [X] ~~*Drop it**~~
+* [X] ~~*Steamroller**~~
+* [X] ~~*Binary Agents**~~
+* [X] ~~*Everything Be True**~~
+* [X] ~~*Arguments Optional**~~
+* [X] ~~*Make a Person*~~
+* [X] ~~*Map the Debris*~~
 #### Claim Your JavaScript Algorithms and Data Structures Certificate
 * [ ] Claim Your JavaScript Algorithms and Data Structures Certificate
 
