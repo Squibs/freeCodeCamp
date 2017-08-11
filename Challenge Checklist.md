@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>467</strong> out of <strong>1378</strong> tasks complete.
+<strong>499</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -31,7 +31,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Intermediate Algorithm Scripting*~~](#intermediate-algorithm-scripting)
 	- [Claim Your JavaScript Algorithms and Data Structures Certificate](#claim-your-javascript-algorithms-and-data-structures-certificate)
 - [Front End Libraries](#front-end-libraries)
-	- [Bootstrap](#bootstrap)
+	- [~~*Bootstrap*~~](#bootstrap)
 	- [jQuery](#jquery)
 	- [Sass](#sass)
 	- [React](#react)
@@ -566,38 +566,38 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 
 ### Front End Libraries
 #### Bootstrap
-* [ ] Introduction to the Bootstrap Challenges
-* [ ] Use Responsive Design with Bootstrap Fluid Containers
-* [ ] Make Images Mobile Responsive
-* [ ] Center Text with Bootstrap
-* [ ] Create a Bootstrap Button
-* [ ] Create a Block Element Bootstrap Button
-* [ ] Taste the Bootstrap Button Color Rainbow
-* [ ] Call out Optional Actions with btn-info
-* [ ] Warn Your Users of a Dangerous Action with btn-danger
-* [ ] Use the Bootstrap Grid to Put Elements Side By Side
-* [ ] Ditch Custom CSS for Bootstrap
-* [ ] Use a span to Target Inline Elements
-* [ ] Create a Custom Heading
-* [ ] Add Font Awesome Icons to our Buttons
-* [ ] Add Font Awesome Icons to all of our Buttons
-* [ ] Responsively Style Radio Buttons
-* [ ] Responsively Style Checkboxes
-* [ ] Style Text Inputs as Form Controls
-* [ ] Line up Form Elements Responsively with Bootstrap
-* [ ] Create a Bootstrap Headline
-* [ ] House our page within a Bootstrap container-fluid div
-* [ ] Create a Bootstrap Row
-* [ ] Split Your Bootstrap Row
-* [ ] Create Bootstrap Wells
-* [ ] Add Elements within Your Bootstrap Wells
-* [ ] Apply the Default Bootstrap Button Style
-* [ ] Create a Class to Target with jQuery Selectors
-* [ ] Add id Attributes to Bootstrap Elements
-* [ ] Label Bootstrap Wells
-* [ ] Give Each Element a Unique id
-* [ ] Label Bootstrap Buttons
-* [ ] Use Comments to Clarify Code
+* [X] ~~*Introduction to the Bootstrap Challenges*~~
+* [X] ~~*Use Responsive Design with Bootstrap Fluid Containers*~~
+* [X] ~~*Make Images Mobile Responsive*~~
+* [X] ~~*Center Text with Bootstrap*~~
+* [X] ~~*Create a Bootstrap Button*~~
+* [X] ~~*Create a Block Element Bootstrap Button*~~
+* [X] ~~*Taste the Bootstrap Button Color Rainbow*~~
+* [X] ~~*Call out Optional Actions with btn-info*~~
+* [X] ~~*Warn Your Users of a Dangerous Action with btn-danger*~~
+* [X] ~~*Use the Bootstrap Grid to Put Elements Side By Side*~~
+* [X] ~~*Ditch Custom CSS for Bootstrap*~~
+* [X] ~~*Use a span to Target Inline Elements*~~
+* [X] ~~*Create a Custom Heading*~~
+* [X] ~~*Add Font Awesome Icons to our Buttons*~~
+* [X] ~~*Add Font Awesome Icons to all of our Buttons*~~
+* [X] ~~*Responsively Style Radio Buttons*~~
+* [X] ~~*Responsively Style Checkboxes*~~
+* [X] ~~*Style Text Inputs as Form Controls*~~
+* [X] ~~*Line up Form Elements Responsively with Bootstrap*~~
+* [X] ~~*Create a Bootstrap Headline*~~
+* [X] ~~*House our page within a Bootstrap container-fluid div*~~
+* [X] ~~*Create a Bootstrap Row*~~
+* [X] ~~*Split Your Bootstrap Row*~~
+* [X] ~~*Create Bootstrap Wells*~~
+* [X] ~~*Add Elements within Your Bootstrap Wells*~~
+* [X] ~~*Apply the Default Bootstrap Button Style*~~
+* [X] ~~*Create a Class to Target with jQuery Selectors*~~
+* [X] ~~*Add id Attributes to Bootstrap Elements*~~
+* [X] ~~*Label Bootstrap Wells*~~
+* [X] ~~*Give Each Element a Unique id*~~
+* [X] ~~*Label Bootstrap Buttons*~~
+* [X] ~~*Use Comments to Clarify Code*~~
 #### jQuery
 * [ ] Learn How Script Tags and Document Ready Work
 * [ ] Target HTML Elements with Selectors Using jQuery
