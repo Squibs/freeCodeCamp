@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>499</strong> out of <strong>1378</strong> tasks complete.
+<strong>514</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -32,7 +32,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [Claim Your JavaScript Algorithms and Data Structures Certificate](#claim-your-javascript-algorithms-and-data-structures-certificate)
 - [Front End Libraries](#front-end-libraries)
 	- [~~*Bootstrap*~~](#bootstrap)
-	- [jQuery](#jquery)
+	- [~~*jQuery*~~](#jquery)
 	- [Sass](#sass)
 	- [React](#react)
 	- [Redux](#redux)
@@ -599,24 +599,24 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Label Bootstrap Buttons*~~
 * [X] ~~*Use Comments to Clarify Code*~~
 #### jQuery
-* [ ] Learn How Script Tags and Document Ready Work
-* [ ] Target HTML Elements with Selectors Using jQuery
-* [ ] Target Elements by Class Using jQuery
-* [ ] Target Elements by id Using jQuery
-* [ ] Delete Your jQuery Functions
-* [ ] Target the Same Element with Multiple jQuery Selectors
-* [ ] Remove Classes from an Element with jQuery
-* [ ] Change the CSS of an Element Using jQuery
-* [ ] Disable an Element Using jQuery
-* [ ] Change Text Inside an Element Using jQuery
-* [ ] Remove an Element Using jQuery
-* [ ] Use appendTo to Move Elements with jQuery
-* [ ] Clone an Element Using jQuery
-* [ ] Target the Parent of an Element Using jQuery
-* [ ] Target the Children of an Element Using jQuery
-* [ ] Target a Specific Child of an Element Using jQuery
-* [ ] Target Even Elements Using jQuery
-* [ ] Use jQuery to Modify the Entire Page
+* [X] ~~*Learn How Script Tags and Document Ready Work*~~
+* [X] ~~*Target HTML Elements with Selectors Using jQuery*~~
+* [X] ~~*Target Elements by Class Using jQuery*~~
+* [X] ~~*Target Elements by id Using jQuery*~~
+* [X] ~~*Delete Your jQuery Functions*~~
+* [X] ~~*Target the Same Element with Multiple jQuery Selectors*~~
+* [X] ~~*Remove Classes from an Element with jQuery*~~
+* [X] ~~*Change the CSS of an Element Using jQuery*~~
+* [X] ~~*Disable an Element Using jQuery*~~
+* [X] ~~*Change Text Inside an Element Using jQuery*~~
+* [X] ~~*Remove an Element Using jQuery*~~
+* [X] ~~*Use appendTo to Move Elements with jQuery*~~
+* [X] ~~*Clone an Element Using jQuery*~~
+* [X] ~~*Target the Parent of an Element Using jQuery*~~
+* [X] ~~*Target the Children of an Element Using jQuery*~~
+* [X] ~~*Target a Specific Child of an Element Using jQuery*~~
+* [X] ~~*Target Even Elements Using jQuery*~~
+* [X] ~~*Use jQuery to Modify the Entire Page*~~
 #### Sass
 * [ ] Introduction to the Sass Challenges
 * [ ] Store Data with Sass Variables
