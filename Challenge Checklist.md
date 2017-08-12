@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>514</strong> out of <strong>1378</strong> tasks complete.
+<strong>527</strong> out of <strong>1378</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -33,7 +33,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 - [Front End Libraries](#front-end-libraries)
 	- [~~*Bootstrap*~~](#bootstrap)
 	- [~~*jQuery*~~](#jquery)
-	- [Sass](#sass)
+	- [~~*Sass*~~](#sass)
 	- [React](#react)
 	- [Redux](#redux)
 	- [React and Redux](#react-and-redux)
@@ -618,16 +618,16 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Target Even Elements Using jQuery*~~
 * [X] ~~*Use jQuery to Modify the Entire Page*~~
 #### Sass
-* [ ] Introduction to the Sass Challenges
-* [ ] Store Data with Sass Variables
-* [ ] Nest CSS with Sass
-* [ ] Create Reusable CSS with Mixins
-* [ ] Use @if and @else to Add Logic To Your Styles
-* [ ] Use @for to Create a Sass Loop
-* [ ] Use @each to Map Over Items in a List
-* [ ] Apply a Style Until a Condition is Met with @while
-* [ ] Split Your Styles into Smaller Chunks with Partials
-* [ ] Extend One Set of CSS Styles to Another Element
+* [X] ~~*Introduction to the Sass Challenges*~~
+* [X] ~~*Store Data with Sass Variables*~~
+* [X] ~~*Nest CSS with Sass*~~
+* [X] ~~*Create Reusable CSS with Mixins*~~
+* [X] ~~*Use @if and @else to Add Logic To Your Styles*~~
+* [X] ~~*Use @for to Create a Sass Loop*~~
+* [X] ~~*Use @each to Map Over Items in a List*~~
+* [X] ~~*Apply a Style Until a Condition is Met with @while*~~
+* [X] ~~*Split Your Styles into Smaller Chunks with Partials*~~
+* [X] ~~*Extend One Set of CSS Styles to Another Element*~~
 #### React
 * [ ] Introduction to the React Challenges
 #### Redux
