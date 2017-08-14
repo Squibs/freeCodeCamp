@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>578</strong> out of <strong>1456</strong> tasks complete.
+<strong>597</strong> out of <strong>1456</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -35,7 +35,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*jQuery*~~](#jquery)
 	- [~~*Sass*~~](#sass)
 	- [~~*React*~~](#react)
-	- [Redux](#redux)
+	- [~~*Redux*~~](#redux)
 	- [React and Redux](#react-and-redux)
 	- [Front End Frameworks Projects](#front-end-frameworks-projects)
 	- [Claim Your Front End Libraries Certificate](#claim-your-front-end-libraries-certificate)
@@ -681,25 +681,25 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use Array.filter() to Dynamically Filter an Array*~~
 * [X] ~~*Render React on the Server with renderToString*~~
 #### Redux
-* [ ] Introduction to the Redux Challenges
-* [ ] Create a Redux Store
-* [ ] Get the State of the Redux Store
-* [ ] Define a Redux Action
-* [ ] Define an Action Creator
-* [ ] Dispatch an Action Event
-* [ ] Handle an Action in the Store
-* [ ] Use a Switch Statement to Handle Multiple Actions
-* [ ] Use const for Action Types
-* [ ] Register a Store Listener
-* [ ] Combine Multiple Reducers
-* [ ] Send Action Data to the Store
-* [ ] Use Middleware to Handle Asynchronous Actions
-* [ ] Write a Coutner in Redux
-* [ ] Never Mutate State
-* [ ] Use the Spread Operator on Arrays
-* [ ] Remove an Item from an Array
-* [ ] Copy an Object with Object.assign
-* [ ] Use the ES6 Spread Operator with Objects
+* [X] ~~*Introduction to the Redux Challenges*~~
+* [X] ~~*Create a Redux Store*~~
+* [X] ~~*Get the State of the Redux Store*~~
+* [X] ~~*Define a Redux Action*~~
+* [X] ~~*Define an Action Creator*~~
+* [X] ~~*Dispatch an Action Event*~~
+* [X] ~~*Handle an Action in the Store*~~
+* [X] ~~*Use a Switch Statement to Handle Multiple Actions*~~
+* [X] ~~*Use const for Action Types*~~
+* [X] ~~*Register a Store Listener*~~
+* [X] ~~*Combine Multiple Reducers*~~
+* [X] ~~*Send Action Data to the Store*~~
+* [X] ~~*Use Middleware to Handle Asynchronous Actions*~~
+* [X] ~~*Write a Coutner in Redux*~~
+* [X] ~~*Never Mutate State*~~
+* [X] ~~*Use the Spread Operator on Arrays*~~
+* [X] ~~*Remove an Item from an Array*~~
+* [X] ~~*Copy an Object with Object.assign*~~
+* [X] ~~*Use the ES6 Spread Operator with Objects*~~
 #### React and Redux
 * [ ] Introduction to the React and Redux Challenges
 * [ ] Getting Started with React Redux
