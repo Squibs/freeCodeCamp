@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>597</strong> out of <strong>1456</strong> tasks complete.
+<strong>608</strong> out of <strong>1456</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -36,7 +36,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Sass*~~](#sass)
 	- [~~*React*~~](#react)
 	- [~~*Redux*~~](#redux)
-	- [React and Redux](#react-and-redux)
+	- [~~*React and Redux*~~](#react-and-redux)
 	- [Front End Frameworks Projects](#front-end-frameworks-projects)
 	- [Claim Your Front End Libraries Certificate](#claim-your-front-end-libraries-certificate)
 - [Data Visualization](#data-visualization)
@@ -701,17 +701,17 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Copy an Object with Object.assign*~~
 * [X] ~~*Use the ES6 Spread Operator with Objects*~~
 #### React and Redux
-* [ ] Introduction to the React and Redux Challenges
-* [ ] Getting Started with React Redux
-* [ ] Manage State Locally First
-* [ ] Extract State Logic to Redux
-* [ ] Use Provider to Connect Redux to React
-* [ ] Map State to Props
-* [ ] Map Dispatch to Props
-* [ ] Connect Redux to React
-* [ ] Connect Redux to the Messages App
-* [ ] Extract Local State into Redux
-* [ ] Moving Forward From Here
+* [X] ~~*Introduction to the React and Redux Challenges*~~
+* [X] ~~*Getting Started with React Redux*~~
+* [X] ~~*Manage State Locally First*~~
+* [X] ~~*Extract State Logic to Redux*~~
+* [X] ~~*Use Provider to Connect Redux to React*~~
+* [X] ~~*Map State to Props*~~
+* [X] ~~*Map Dispatch to Props*~~
+* [X] ~~*Connect Redux to React*~~
+* [X] ~~*Connect Redux to the Messages App*~~
+* [X] ~~*Extract Local State into Redux*~~
+* [X] ~~*Moving Forward From Here*~~
 #### Front End Frameworks Projects
 * [ ] Build a Random Quote Machine*
 * [ ] Build a Markdown Previewer*
