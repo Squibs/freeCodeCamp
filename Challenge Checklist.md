@@ -2,7 +2,7 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>527</strong> out of <strong>1378</strong> tasks complete.
+<strong>578</strong> out of <strong>1456</strong> tasks complete.
 (<em>May or may not be up-to-date.</em>)
 
 ---
@@ -34,7 +34,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Bootstrap*~~](#bootstrap)
 	- [~~*jQuery*~~](#jquery)
 	- [~~*Sass*~~](#sass)
-	- [React](#react)
+	- [~~*React*~~](#react)
 	- [Redux](#redux)
 	- [React and Redux](#react-and-redux)
 	- [Front End Frameworks Projects](#front-end-frameworks-projects)
@@ -629,11 +629,89 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Split Your Styles into Smaller Chunks with Partials*~~
 * [X] ~~*Extend One Set of CSS Styles to Another Element*~~
 #### React
-* [ ] Introduction to the React Challenges
+* [X] ~~*Introduction to the React Challenges*~~
+* [X] ~~*Create a Simple JSX Element*~~
+* [X] ~~*Create a Complex JSX Element*~~
+* [X] ~~*Add Comments in JSX*~~
+* [X] ~~*Render HTML Elements to the DOM*~~
+* [X] ~~*Define an HTML Class in JSX*~~
+* [X] ~~*Learn About Self-Closing JSX Tags*~~
+* [X] ~~*Create a Stateless Functional Component*~~
+* [X] ~~*Create a Component with React*~~
+* [X] ~~*Create a Component with Composition*~~
+* [X] ~~*Use React to Render Nested Components*~~
+* [X] ~~*Compose React Components*~~
+* [X] ~~*Render a Class Component to the DOM*~~
+* [X] ~~*Write a React Component from Scratch*~~
+* [X] ~~*Pass Props to a Stateless Functional Component*~~
+* [X] ~~*Pass an Array as Props*~~
+* [X] ~~*Use Default Props*~~
+* [X] ~~*Override Default Props*~~
+* [X] ~~*Use PropTypes to Define the Props You Expect*~~
+* [X] ~~*Access Props Using this.props*~~
+* [X] ~~*Using Props with Stateless Functional Components*~~
+* [X] ~~*Create a Stateful Component*~~
+* [X] ~~*Render State in the User Interface*~~
+* [X] ~~*Render State in the User Interface Another Way*~~
+* [X] ~~*Set State with this.setState*~~
+* [X] ~~*Bind 'this' to a Class Method*~~
+* [X] ~~*Bind 'this' with an ES6 Arrow Function*~~
+* [X] ~~*Use State to Toggle an Element*~~
+* [X] ~~*Write a Simple Counter*~~
+* [X] ~~*Create a Controlled Input*~~
+* [X] ~~*Create a Controlled Form*~~
+* [X] ~~*Pass State as Props to Child Components*~~
+* [X] ~~*Pass a Callback as Props*~~
+* [X] ~~*Use the Lifecycle Method componentWillMount*~~
+* [X] ~~*Use the Lifecycle Method compnenentDidMount*~~
+* [X] ~~*Add Event Listeners*~~
+* [X] ~~*Manage Updates with Lifecycle Methods*~~
+* [X] ~~*Optimize Re-Renders with shouldComponentUpdate*~~
+* [X] ~~*Introducing Inline Styles*~~
+* [X] ~~*Add Inline Styles in React*~~
+* [X] ~~*Use Advanced JavaScript in React Render Method*~~
+* [X] ~~*Render with an If/Else Condition*~~
+* [X] ~~*Use && for a More Concise Conditional*~~
+* [X] ~~*Return null to Prevent Rendering*~~
+* [X] ~~*Use a Ternary Expression for Conditional Rendering*~~
+* [X] ~~*Render Conditionally from Props*~~
+* [X] ~~*Change Inline CSS Conditionally Based on Component State*~~
+* [X] ~~*Use Array.map() to Dynamically Render Elements*~~
+* [X] ~~*Give Sibling Elements a Unique Key Attribute*~~
+* [X] ~~*Use Array.filter() to Dynamically Filter an Array*~~
+* [X] ~~*Render React on the Server with renderToString*~~
 #### Redux
 * [ ] Introduction to the Redux Challenges
+* [ ] Create a Redux Store
+* [ ] Get the State of the Redux Store
+* [ ] Define a Redux Action
+* [ ] Define an Action Creator
+* [ ] Dispatch an Action Event
+* [ ] Handle an Action in the Store
+* [ ] Use a Switch Statement to Handle Multiple Actions
+* [ ] Use const for Action Types
+* [ ] Register a Store Listener
+* [ ] Combine Multiple Reducers
+* [ ] Send Action Data to the Store
+* [ ] Use Middleware to Handle Asynchronous Actions
+* [ ] Write a Coutner in Redux
+* [ ] Never Mutate State
+* [ ] Use the Spread Operator on Arrays
+* [ ] Remove an Item from an Array
+* [ ] Copy an Object with Object.assign
+* [ ] Use the ES6 Spread Operator with Objects
 #### React and Redux
 * [ ] Introduction to the React and Redux Challenges
+* [ ] Getting Started with React Redux
+* [ ] Manage State Locally First
+* [ ] Extract State Logic to Redux
+* [ ] Use Provider to Connect Redux to React
+* [ ] Map State to Props
+* [ ] Map Dispatch to Props
+* [ ] Connect Redux to React
+* [ ] Connect Redux to the Messages App
+* [ ] Extract Local State into Redux
+* [ ] Moving Forward From Here
 #### Front End Frameworks Projects
 * [ ] Build a Random Quote Machine*
 * [ ] Build a Markdown Previewer*
