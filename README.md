@@ -7,7 +7,7 @@ Click the links below to navigate through each section and view the solutions I 
 
 - [Responsive Web Design](https://github.com/Squibs/Beta-freeCodeCamp/tree/master/Responsive%20Web%20Design#responsive-web-design)
 - [Javascript Algorithms and Data Structures](https://github.com/Squibs/Beta-freeCodeCamp/tree/master/JavaScript%20Algorithms%20and%20Data%20Structures#javascript-algorithms-and-data-structures)
-- [Front End Libraries](https://github.com/Squibs/Beta-freeCodeCamp/tree/master/Front%20End%20Libraries)
+- [Front End Libraries](https://github.com/Squibs/Beta-freeCodeCamp/tree/master/Front%20End%20Libraries#front-end-libraries)
 - ~~Data Visualizatioin~~
 - ~~APIs and Microservices~~
 - ~~Information Security and Quality Assurance~~
