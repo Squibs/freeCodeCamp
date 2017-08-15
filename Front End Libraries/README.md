@@ -4,8 +4,6 @@ Click any of the links below to view my notes and answers I came up with while g
 
 <strong>View my <em>Front End Frameworks Projects</em></strong> most importantly for this section. It contains all the projects relevant to this section and is where I am able to show what I have learned by going through the lessons and challenges in this section.
 
-<strong>View <em>Applied Responsive Web Design Projects</em></strong> most importantly for this section. It contains all the projects relevant to this section and is where I am able to show what I learned by going through the lessons / challenges in this section.
-
 1. [Bootstrap](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Front%20End%20Libraries/1.%20Bootstrap.md#bootstrap)
 2. [jQuery](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Front%20End%20Libraries/2.%20jQuery.md#jquery)
 3. [Sass](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Front%20End%20Libraries/3.%20Sass.md#sass)
