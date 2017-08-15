@@ -2,7 +2,7 @@
 
 Click any of the links below to view my notes and answers I came up with while going through the <em>Responsive Web Design</em> challenges and projects on freeCodeCamp.
 
-<strong>View <em>Applied Responsive Web Design Projects</em></strong> most importantly for this section. It contains all the projects relevant to this section and is where I am able to show what I learned by going through the lessons / challenges in this section.
+<strong>View my <em>Applied Responsive Web Design Projects</em></strong> most importantly for this section. It contains all the projects relevant to this section and is where I am able to show what I have learned by going through the lessons and challenges in this section.
 
 1. [Basic HTML and HTML5](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Responsive%20Web%20Design/1.%20Basic%20HTML%20and%20HTML5.md#basic-html-and-html5)
 2. [Basic CSS](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Responsive%20Web%20Design/2.%20Basic%20CSS.md#basic-css)
