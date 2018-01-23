@@ -10,5 +10,5 @@ Click any of the links below to view my notes and answers I came up with while g
 4. [Applied Accessibility](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Responsive%20Web%20Design/4.%20Applied%20Accessibility.md#applied-accessibility)
 5. [Responsive Web Design Principles](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Responsive%20Web%20Design/5.%20Responsive%20Web%20Design%20Principles.md#responsive-web-design-principles)
 6. [CSS Flexbox](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Responsive%20Web%20Design/6.%20CSS%20Flexbox.md#css-flexbox)
-7. [Applied Responsive Web Design Projects](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Responsive%20Web%20Design/7.%20Applied%20Responsive%20Web%20Design%20Projects.md#applied-responsive-web-design-projects)
+7. [**Applied Responsive Web Design Projects**](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Responsive%20Web%20Design/7.%20Applied%20Responsive%20Web%20Design%20Projects.md#applied-responsive-web-design-projects)
 8. [Claim Your Responsive Web Design Certification](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Responsive%20Web%20Design/8.%20Claim%20Your%20Responsive%20Web%20Design%20Certificate.md#claim-your-responsive-web-design-certificate)
