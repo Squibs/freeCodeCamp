@@ -163,7 +163,7 @@ For a tutorial about Strings, read our [JavaScript String Tutorial](https://www.
 |`padEnd()`|Pads the current string from the end with a given string to create a new string from a given length.|![beaker] ES7|[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd)|
 |`padStart()`|Pads the current string from the start with a given string to create a new string from a given length.|![beaker] ES7|[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart)|
 |`repeat()`|Returns a new string with a specified number of copies of an existing string.|ES6|[W3S](https://www.w3schools.com/jsref/jsref_repeat.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)|
-|`replace()`|Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced.|ES3|[W3S](https://www.w3schools.com/jsref/jsref_replace.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)|
+|`replace()`|Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced.<br/><br/>There exists [special replacement patterns](#replace-method) for this method.|ES3|[W3S](https://www.w3schools.com/jsref/jsref_replace.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)|
 |`search()`|Searches a string for a specified value, or regular expression, and returns the position of the match.|ES3|[W3S](https://www.w3schools.com/jsref/jsref_search.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search)|
 |`slice()`|Extracts a part of a string and returns a new string.|ES3|[W3S](https://www.w3schools.com/jsref/jsref_slice_string.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)|
 |`split()`|Splits a string into an array of substrings.|ES3|[W3S](https://www.w3schools.com/jsref/jsref_split.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)|
@@ -177,6 +177,37 @@ For a tutorial about Strings, read our [JavaScript String Tutorial](https://www.
 |`toUpperCase()`|Converts a string to uppercase letters.|ES1|[W3S](https://www.w3schools.com/jsref/jsref_touppercase.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)|
 |`trim()`|Removes whitespace from both ends of a string.|ES5.1|[W3S](https://www.w3schools.com/jsref/jsref_trim_string.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)|
 |`valueOf()`|Returns the primitive value of a String object.|ES1|[W3S](https://www.w3schools.com/jsref/jsref_valueof_string.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf)|
+
+#### Replace Method
+**Mark which methods can use regular expressions**
+This method does not change the `String` object it is called on. It simply returns a new string.
+
+To performa global search and replace, include the `g` switch in the regular expression.
+
+##### Specifying a string as a parameter
+
+The replacement string can include the following special replacement patterns:
+
+|Pattern|Inserts|
+|-------|-------|
+|`$$`|Inserts a "$".|
+|`$&`|Inserts the matched substring.|
+|``$` ``|Inserts the portion of the string that precedes the matched substring.|
+|`$'`|Inserts the portion of the string that follows the matched substring.|
+|`$`*`n`*|Where *`n`* is a positive integer less than 100, inserts the *n*th parenthesized submatch string, provided the first argument was a `RegExp` object. Note that this is 1-indexed.|
+
+##### Examples
+
+```JavaScript
+function spinalCase(str) {
+  return str.replace(/[A-Z]/g, ' $&');
+}
+
+console.log(spinalCase('WordsThatAreConnectedTogether'));
+// returns ' Words That Are Connected Together'. Note the space at the front.
+```
+
+This example is using the `$&` pattern when replacing a match with the `replace()` method. This example is replacing any capital letter (`/[A-Z]/g`); however, the use of the pattern `$&` (in this case a space preceding the pattern (<code> $&</code>)) is placing/adding a space before the capital letter, instead.
 
 ---
 
@@ -215,77 +246,100 @@ Regular expression flags can be used separately or together in any order, but th
 |`u`|`u`nicode; treat pattern as a sequence of Unicode code points.|[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode)|
 |`y`|Stick`y`; matches only from the index indicated by the `lastIndex` property of this regular expression in the target string (and does not attempt to match from any later indexes).|[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/sticky)|
 
-### Brackets
+### Character Classes
 
-Brackets are used to find a range of characters:
+|Character|Meaning|
+|---------|-------|
+|`.`|Matches any single character *except* newline or line terminators: `\n`, `\r`, `\u2028` or `\u2029`.|
+|`\d`|Matches any digit (Arabic numberal).<br/>Equivalent to `[0-9]`.|
+|`\D`|Matches any character that is **not** a digit (Arabic numeral).<br/>Equivalent to `[^0-9]`.|
+|`\w`|Matches any alphanumeric character from the basic Latin alphabet, including the underscore.<br/>Equivalent to `[A-Za-z0-9_]`.|
+|`\W`|Matches any character that is **not** a word character from the basic Latin alphabet.<br/>Equivalent to `[^A-Za-z0-9_]`.|
+|`\s`|Matches a single white space character, including space, tab, form feed, line feed and other Unicode spaces.<br/>Equivaletnt to `[ \f\n\r\t\v\u00a0\1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]`.|
+|`\S`|Matches a single character other than white space.<br/>Equivalent to `[^ \f\n\r\t\v\u00a0\1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]`.|
+|`\t`|Matches a horizontal tab.|
+|`\r`|Matches a carriage return.|
+|`\n`|Matches a linefeed.|
+|`\v`|Matches a vertical tab.|
+|`\f`|Matches a form-feed.|
+|`[\b]`|Matches a backspace. (Not to be confused with `\b`).|
+|`\0`|Matches a NUL character. Do not follow this with another digit.|
+|`\c`*`X`*|Where *`X`* is a letter from A - Z. Matches a control character in a string.|
+|`\x`*`hh`*|Matches the character with the code *`hh`* (two hexadecimal digits).|
+|`\u`*`hhhh`*|Matches a UTF-16 code-unit with the value *`hhhh`* (four hexadecimal digits).|
+|`\u{`*`hhhh`*`}`<br/>or<br/>`\u{`*`hhhhh`*`}`|(only when u flag is set) Matches the character with the Unicode value U+*`hhhh`* or U+*`hhhhh`* (hexadecimal digits).|
+|`\`|For characters that are usually treated literally, indicates that the next character is special and not to be interpreted literally.<br/><br/>*or*<br/><br/>For characters that are usually treated specially, indicates that the next character is not special and should be interpreted literally.|
 
-|Expression|Description|
-|----------|-----------|
-|`[abc]`|Find any character between the brackets.|
-|`[^abc]`|Find any character NOT between the brackets.|
-|`[0-9]`|Find any character between the brackets (any digit).|
-|`[^0-9]`|Find any character NOT between the brackets (any non-digit).|
-|`(x|y)`|Find any of the alternatives specified.|
+### Character Sets
 
+|Character|Meaning|
+|---------|-------|
+|`[xyz]`<br/>`[a-c]`<br/>`[0-9]`|A character set. Matches any one of the enclosed characters. You can specify a range of characters by using a hyphen, but if the hyphen appears as the first or last character enclosed in the square brackets it is taken as a literal hyphen to be included in the character set as a normal character. It is also possible to include a character class in a character set.|
+|`[^xyz]`<br/>`[^a-c]`<br/>`[^0-9]`|A negated or complemented character set. That is, it matches anything that is not enclosed in the brackets. You can specify a range of characters by using a hyphen, but if the hyphen appears as the first or last character enclosed in the square brackets it is taken as a literal hyphen to be included in the character set as a normal character.|
 
-### Metacharacters
+### Alternation
 
-Metacharacters are characters with a special meaning:
+|Character|Meaning|
+|---------|-------|
+|*`x`*`|`*`y`*|Matches either *`x`* or *`y`*.|
 
-|Metacharacter|Description|
-|-------------|-----------|
-|`.`|Find a single character, except newline or line terminator.|
-|`\w`|Find a word character.|
-|`\W`|Find a non-word character.|
-|`\d`|Find a digit.|
-|`\D`|Find a non-digit character.|
-|`\s`|Find a whitespace character.|
-|`\S`|Find a non-whitespace character.|
-|`\b`|Find a match at the beginning/end of a word.|
-|`\B`|Find a match not at the beginning/end of a word.|
-|`\0`|Find a NUL character.|
-|`\n`|Find a new line character.|
-|`\f`|Find a form feed character.|
-|`\r`|Find a carriage return character.|
-|`\t`|Find a tab character.|
-|`\v`|Find a vertical tab character.|
-|`\xxx`|Find the character specified by an octal number xxx.|
-|`\xdd`|Find the character specified by a hexadecimal number dd.|
-|`\uxxxx`|Find the Unicode character specified by a hexadecimal number xxxx.|
+### Boundaries
+
+|Character|Meaning|
+|---------|-------|
+|`^`|Matches beginning of input. If the multiline flag is set to true, also matches immediately after a line break character.|
+|`$`|Matches end of input. If the multiline flag is set to true, also matches immediately before a line break character.|
+|`\b`|Matches a word boundary. This is the position where a word character is not followed or preceded by another word-character, such as between a letter and a space. Note that a matched word boundary is not included in the match. In other words, the length of a matched word boundary is zero.|
+|`\B`|Matches a non-word boundary. This is a position where the previous and next character are of the same type: Either both must be words, or both must be non-words. Such as between two letters or between two spaces. The beginning and end of a string are considered non-words. Same as the matched word boundary, the matched non-word boundary is also not included in the match.|
+
+### Grouping and back references
+
+|Character|Meaning|
+|---------|-------|
+|`(`*`x`*`)`|Matches *`x`* and remembers the match. These are called capturing groups.<br/><br/>For example, `/(foo)/` matches and remembers "foo" in "foo bar".<br/><br/>The capturing groups are numbered according to the order of left parentheses of capturing groups, starting from 1. The matched substring can be recalled from the resulting array's elements `[1], ..., [n]` or from the predefined `RegExp` object's properties `$1, ..., $9`.<br/><br/>Captruing groups have a performance penalty. If you don't need the matched substring to be recalled, prefer non-capturing parentheses (see below).|
+|`\`*`n`*|Where *`n`* is a positive integer. A back reference to the last substring matching the n parenthetical in the regular expression (counting left parentheses).<br/><br/>For example, `/apple(,)\sorange\1/` matches "apple, orange," in "apple, orange, cherry, peach".|
+|`(?:`*`x`*`)`|Matches *`x`* but does not remember the match. These are called non-capturing groups. The matched substring cannot be recalled from the resulting array's elements `[1], ..., [n]` or from the predefined `RegExp` object's properties `$1, ..., $9`.|
 
 ### Quantifiers
 
-|Quantifier|Description|
-|----------|-----------|
-|`n+`|Matches any string that contains at least one n.|
-|`n*`|Matches any string that contains zero or more occurrences of n.|
-|`n?`|Matches any string that contains zero or one occurrences of n.|
-|`n{X}`|Matches any string that contains a sequence of X n's.|
-|`n{X,Y}`|Matches any string that contains a sequence of X to Y n's.|
-|`n{X,}`|Matches any string that contains a sequence of at least X n's.|
-|`n$`|Matches any string with n at the end of it.|
-|`^n`|Matches any string with n at the beginning of it.|
-|`?=n`|Matches any string that is followed by a specific string n.|
-|`?!n`|Matches any string that is not followed by a specific string n.|
+|Character|Meaning|
+|---------|-------|
+|*`x`*`*`|Matches the preceding item *x*, 0 or more times.|
+|*`x`*`+`|Matches the preceding item *x*, 1 or more times.<br/>Equivalent to `{1,}`.|
+|*`x`*`?`|Matches the preceding item *x*, 0 or 1 time.|
+|*`x`*`{`*`n`*`}`|Where *`n`* is a positive integer. Matches **exactly** *`n`* occurrences of the preceding item *x*.|
+|*`x`*`{`*`n`*`,}`|Where *`n`* is a positive integer. Matches **at least** *`n`* occurrences of the preceding item *x*.|
+|*`x`*`{`*`n`*`,`*`m`*`}`|Where *`n`* is 0 or a positive integer, and *`m`* is a positive integer. Matches at least *`n`* and at most *`m`* occurrences of the preceding item *x*.|
+|*`x`*`*?`<br/>*`x`*`+?`<br/>*`x`*`??`<br/>*`x`*`{`*`n`*`}?`<br/>*`x`*`{`*`n`*`,}?`<br/>*`x`*`{`*`n`*`,`*`m`*`}?`|Matches the preceding item *x* like `*`, `+`, `?`, and `{...}` from above, however the match is the smallest possible match.<br/><br/>For example, `/<.*?>/` matches "\<foo>" in "\<foo> \<bar>", whereas `/<.*>/` matches "\<foo> \<bar>".<br/><br/>Quantifiers **without** `?` are said to be greedy. Those **with** `?` are called "non-greedy".|
+
+### Assertions
+
+|Character|Meaning|
+|---------|-------|
+|*`x`*`(?=`*`y`*`)`|Matches *`x`* only if *`x`* is followed by *`y`*.|
+|*`x`*`(?!`*`y`*`)`|Matches *`x`* only if *`x`* is **not** followed by *`y`*.|
 
 ### Regex Object Properties
 
 |Property|Description|Links|
 |--------|-----------|-----|
 |`RegExp.constructor`|Returns the function that created the RegExp object's prototype.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_constructor.asp)|
-|`RegExp.global`|Checks whether the "g" modifier is set.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_global.asp)|
-|`RegExp.ignoreCase`|Checks whether the "i" modifier is set.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_ignorecase.asp)|
+|`RegExp.flags`|A string that contains the flags of the `RegExp` object.|[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags)|
+|`RegExp.global`|Checks whether the "g" modifier is set.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_global.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/global)|
+|`RegExp.ignoreCase`|Checks whether the "i" modifier is set.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_ignorecase.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/ignoreCase)|
 |`RegExp.lastIndex`|Specifies the index at which to start the next match.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_lastindex.asp)|
-|`RegExp.multiline`|Checks whether the "m" modifier is set.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_multiline.asp)|
-|`RegExp.source`|Returns the text of the RegExp pattern.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_source.asp)|
+|`RegExp.multiline`|Checks whether the "m" modifier is set.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_multiline.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/multiline)|
+|`RegExp.source`|Returns the text of the RegExp pattern.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_source.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source)|
+|`RegExp.sticky`|Checks whether or not the search is sticky.|[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/sticky)|
+|`RegExp.unicode`|Checks whether or not Unicode features are enabled.|[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode)|
 
 ### Regex Object Methods
 |Method|Description|Links|
 |------|-----------|-----|
-|`compile()`|<strong>Deprecated in version 1.5.</strong> Compiles a regular expression.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_compile.asp)|
-|`exec()`|Tests for a match in a string. Returns the first match.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_exec.asp)|
-|`test()`|Tests for a match in a string. Returns true or false.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_test.asp)|
-|`toString()`|Returns the string value of the regular expression.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_tostring.asp)|
+|`compile()`|<strong>Deprecated in version 1.5.</strong> Compiles a regular expression.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_compile.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/compile)|
+|`exec()`|Tests for a match in a string. Returns the first match.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_exec.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)|
+|`test()`|Tests for a match in a string. Returns true or false.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_test.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)|
+|`toString()`|Returns the string value of the regular expression.|[W3S](https://www.w3schools.com/jsref/jsref_regexp_tostring.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/toString)|
 
 <!-- Image / Icon References -->
 [beaker]: http://res.cloudinary.com/squibs/image/upload/c_scale,w_15/v1499917997/beaker_gjjg7f.png "Experimental Feature"
