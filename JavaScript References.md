@@ -20,12 +20,20 @@ I created this as I liked the reference pages that [W3Schools](https://www.w3sch
 	- [String Object Properties](#string-object-properties)
 	- [String Object Methods](#string-object-methods)
 	- [String Instance Methods](#string-instance-methods)
+	- [Additional Notes](#additional-notes)
+		- [Replace Method](#replace-method)
+			- [Specifying a string as a parameter](#specifying-a-string-as-a-parameter)
+			- [Examples](#examples)
 
 - [Regular Expressions](#regular-expressions)
 	- [Modifiers/Flags](#modifiersflags)
-	- [Brackets](#brackets)
-	- [Metacharacters](#metacharacters)
+	- [Character Classes](#character-classes)
+	- [Character Sets](#character-sets)
+	- [Alternation](#alternation)
+	- [Boundaries](#boundaries)
+	- [Grouping and back references](#grouping-and-back-references)
 	- [Quantifiers](#quantifiers)
+	- [Assertions](#assertions)
 	- [Regex Object Properties](#regex-object-properties)
 	- [Regex Object Methods](#regex-object-methods)
 
@@ -178,8 +186,10 @@ For a tutorial about Strings, read our [JavaScript String Tutorial](https://www.
 |`trim()`|Removes whitespace from both ends of a string.|ES5.1|[W3S](https://www.w3schools.com/jsref/jsref_trim_string.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)|
 |`valueOf()`|Returns the primitive value of a String object.|ES1|[W3S](https://www.w3schools.com/jsref/jsref_valueof_string.asp) [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf)|
 
+### Additional Notes
+
 #### Replace Method
-**Mark which methods can use regular expressions**
+
 This method does not change the `String` object it is called on. It simply returns a new string.
 
 To performa global search and replace, include the `g` switch in the regular expression.
@@ -192,9 +202,9 @@ The replacement string can include the following special replacement patterns:
 |-------|-------|
 |`$$`|Inserts a "$".|
 |`$&`|Inserts the matched substring.|
-|``$` ``|Inserts the portion of the string that precedes the matched substring.|
+|<code>$`</code>|Inserts the portion of the string that precedes the matched substring.|
 |`$'`|Inserts the portion of the string that follows the matched substring.|
-|`$`*`n`*|Where *`n`* is a positive integer less than 100, inserts the *n*th parenthesized submatch string, provided the first argument was a `RegExp` object. Note that this is 1-indexed.|
+|<code>$<i>n</i></code>|Where *`n`* is a positive integer less than 100, inserts the *n*th parenthesized submatch string, provided the first argument was a `RegExp` object. Note that this is 1-indexed.|
 
 ##### Examples
 
@@ -264,10 +274,10 @@ Regular expression flags can be used separately or together in any order, but th
 |`\f`|Matches a form-feed.|
 |`[\b]`|Matches a backspace. (Not to be confused with `\b`).|
 |`\0`|Matches a NUL character. Do not follow this with another digit.|
-|`\c`*`X`*|Where *`X`* is a letter from A - Z. Matches a control character in a string.|
-|`\x`*`hh`*|Matches the character with the code *`hh`* (two hexadecimal digits).|
-|`\u`*`hhhh`*|Matches a UTF-16 code-unit with the value *`hhhh`* (four hexadecimal digits).|
-|`\u{`*`hhhh`*`}`<br/>or<br/>`\u{`*`hhhhh`*`}`|(only when u flag is set) Matches the character with the Unicode value U+*`hhhh`* or U+*`hhhhh`* (hexadecimal digits).|
+|<code>\c<i>X</i></code>|Where *`X`* is a letter from A - Z. Matches a control character in a string.|
+|<code>\x<i>hh</i></code>|Matches the character with the code *`hh`* (two hexadecimal digits).|
+|<code>\u<i>hhhh</i></code>|Matches a UTF-16 code-unit with the value *`hhhh`* (four hexadecimal digits).|
+|<code>\u{<i>hhhh</i>}</code><br/>or<br/><code>\u{<i>hhhhh</i>}</code>|(only when u flag is set) Matches the character with the Unicode value U+<code><i>hhhh</i></code> or U+<code><i>hhhhh</i></code> (hexadecimal digits).|
 |`\`|For characters that are usually treated literally, indicates that the next character is special and not to be interpreted literally.<br/><br/>*or*<br/><br/>For characters that are usually treated specially, indicates that the next character is not special and should be interpreted literally.|
 
 ### Character Sets
@@ -281,7 +291,7 @@ Regular expression flags can be used separately or together in any order, but th
 
 |Character|Meaning|
 |---------|-------|
-|*`x`*`|`*`y`*|Matches either *`x`* or *`y`*.|
+|<code><i>x</i>&#124;<i>y</i></code>|Matches either *`x`* or *`y`*|
 
 ### Boundaries
 
@@ -296,28 +306,28 @@ Regular expression flags can be used separately or together in any order, but th
 
 |Character|Meaning|
 |---------|-------|
-|`(`*`x`*`)`|Matches *`x`* and remembers the match. These are called capturing groups.<br/><br/>For example, `/(foo)/` matches and remembers "foo" in "foo bar".<br/><br/>The capturing groups are numbered according to the order of left parentheses of capturing groups, starting from 1. The matched substring can be recalled from the resulting array's elements `[1], ..., [n]` or from the predefined `RegExp` object's properties `$1, ..., $9`.<br/><br/>Captruing groups have a performance penalty. If you don't need the matched substring to be recalled, prefer non-capturing parentheses (see below).|
-|`\`*`n`*|Where *`n`* is a positive integer. A back reference to the last substring matching the n parenthetical in the regular expression (counting left parentheses).<br/><br/>For example, `/apple(,)\sorange\1/` matches "apple, orange," in "apple, orange, cherry, peach".|
-|`(?:`*`x`*`)`|Matches *`x`* but does not remember the match. These are called non-capturing groups. The matched substring cannot be recalled from the resulting array's elements `[1], ..., [n]` or from the predefined `RegExp` object's properties `$1, ..., $9`.|
+|<code>(<i>x</i>)</code>|Matches *`x`* and remembers the match. These are called capturing groups.<br/><br/>For example, `/(foo)/` matches and remembers "foo" in "foo bar".<br/><br/>The capturing groups are numbered according to the order of left parentheses of capturing groups, starting from 1. The matched substring can be recalled from the resulting array's elements `[1], ..., [n]` or from the predefined `RegExp` object's properties `$1, ..., $9`.<br/><br/>Captruing groups have a performance penalty. If you don't need the matched substring to be recalled, prefer non-capturing parentheses (see below).|
+|<code>\\<i>n</i></code>|Where *`n`* is a positive integer. A back reference to the last substring matching the n parenthetical in the regular expression (counting left parentheses).<br/><br/>For example, `/apple(,)\sorange\1/` matches "apple, orange," in "apple, orange, cherry, peach".|
+|<code>(?:<i>x</i>)</code>|Matches *`x`* but does not remember the match. These are called non-capturing groups. The matched substring cannot be recalled from the resulting array's elements `[1], ..., [n]` or from the predefined `RegExp` object's properties `$1, ..., $9`.|
 
 ### Quantifiers
 
 |Character|Meaning|
 |---------|-------|
-|*`x`*`*`|Matches the preceding item *x*, 0 or more times.|
-|*`x`*`+`|Matches the preceding item *x*, 1 or more times.<br/>Equivalent to `{1,}`.|
-|*`x`*`?`|Matches the preceding item *x*, 0 or 1 time.|
-|*`x`*`{`*`n`*`}`|Where *`n`* is a positive integer. Matches **exactly** *`n`* occurrences of the preceding item *x*.|
-|*`x`*`{`*`n`*`,}`|Where *`n`* is a positive integer. Matches **at least** *`n`* occurrences of the preceding item *x*.|
-|*`x`*`{`*`n`*`,`*`m`*`}`|Where *`n`* is 0 or a positive integer, and *`m`* is a positive integer. Matches at least *`n`* and at most *`m`* occurrences of the preceding item *x*.|
-|*`x`*`*?`<br/>*`x`*`+?`<br/>*`x`*`??`<br/>*`x`*`{`*`n`*`}?`<br/>*`x`*`{`*`n`*`,}?`<br/>*`x`*`{`*`n`*`,`*`m`*`}?`|Matches the preceding item *x* like `*`, `+`, `?`, and `{...}` from above, however the match is the smallest possible match.<br/><br/>For example, `/<.*?>/` matches "\<foo>" in "\<foo> \<bar>", whereas `/<.*>/` matches "\<foo> \<bar>".<br/><br/>Quantifiers **without** `?` are said to be greedy. Those **with** `?` are called "non-greedy".|
+|<code><i>x</i>*</code>|Matches the preceding item *x*, 0 or more times.|
+|<code><i>x</i>+</code>|Matches the preceding item *x*, 1 or more times.<br/>Equivalent to `{1,}`.|
+|<code><i>x</i>?</code>|Matches the preceding item *x*, 0 or 1 time.|
+|<code><i>x</i>{<i>n</i>}</code>|Where *`n`* is a positive integer. Matches **exactly** *`n`* occurrences of the preceding item *x*.|
+|<code><i>x</i>{<i>n</i>,}</code>|Where *`n`* is a positive integer. Matches **at least** *`n`* occurrences of the preceding item *x*.|
+|<code><i>x</i>{<i>n</i>,<i>m</i>}</code>|Where *`n`* is 0 or a positive integer, and *`m`* is a positive integer. Matches at least *`n`* and at most *`m`* occurrences of the preceding item *x*.|
+|<code><i>x</i>*?</code><br/><code><i>x</i>+?</code><br/><code><i>x</i>??</code><br/><code><i>x</i>{<i>n</i>}?</code><br/><code><i>x</i>{<i>n</i>,}?</code><br/><code><i>x</i>{<i>n</i>,<i>m</i>}?</code>|Matches the preceding item *x* like `*`, `+`, `?`, and `{...}` from above, however the match is the smallest possible match.<br/><br/>For example, `/<.*?>/` matches "\<foo>" in "\<foo> \<bar>", whereas `/<.*>/` matches "\<foo> \<bar>".<br/><br/>Quantifiers **without** `?` are said to be greedy. Those **with** `?` are called "non-greedy".|
 
 ### Assertions
 
 |Character|Meaning|
 |---------|-------|
-|*`x`*`(?=`*`y`*`)`|Matches *`x`* only if *`x`* is followed by *`y`*.|
-|*`x`*`(?!`*`y`*`)`|Matches *`x`* only if *`x`* is **not** followed by *`y`*.|
+|<code><i>x</i>(?=<i>y</i>)</code>|Matches *`x`* only if *`x`* is followed by *`y`*.|
+|<code><i>x</i>(?!<i>y</i>)</code>|Matches *`x`* only if *`x`* is **not** followed by *`y`*.|
 
 ### Regex Object Properties
 
