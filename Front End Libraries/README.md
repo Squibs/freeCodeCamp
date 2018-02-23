@@ -10,4 +10,4 @@ Click any of the links below to view my notes and answers I came up with while g
 4. [React](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Front%20End%20Libraries/4.%20React.md#react)
 5. [Redux](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Front%20End%20Libraries/5.%20Redux.md#redux)
 6. [React and Redux](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Front%20End%20Libraries/6.%20React%20and%20Redux.md#react-and-redux)
-7. [Front End Frameworks Projects](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Front%20End%20Libraries/7.%20Front%20End%20Frameworks%20Projects.md#front-end-frameworks-projects)
+7. [**Front End Frameworks Projects**](https://github.com/Squibs/Beta-freeCodeCamp/blob/master/Front%20End%20Libraries/7.%20Front%20End%20Frameworks%20Projects.md#front-end-frameworks-projects)
