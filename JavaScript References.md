@@ -4,7 +4,7 @@ I created this as I liked the reference pages that [W3Schools](https://www.w3sch
 
 <strong>I created this for personal use only.</strong> If you stumble upon this feel free to use this. Just know it's only a collection of references and links to more information. Some information might be outdated or missing from this list.
 
-![beaker] <em>If this icon is in the <strong>ECMAScript</strong> column, the feature is currently experimental and probably shouln't be used quite yet.</em>
+![beaker] <em>If this icon is in the <strong>ECMAScript</strong> column, the feature is currently experimental and probably shouldn't be used quite yet.</em>
 
 ## Table of Contents
 
@@ -192,7 +192,7 @@ For a tutorial about Strings, read our [JavaScript String Tutorial](https://www.
 
 This method does not change the `String` object it is called on. It simply returns a new string.
 
-To performa global search and replace, include the `g` switch in the regular expression.
+To perform a global search and replace, include the `g` switch in the regular expression.
 
 ##### Specifying a string as a parameter
 
@@ -223,7 +223,7 @@ This example is using the `$&` pattern when replacing a match with the `replace(
 
 ## Regular Expressions
 
-<strong>[Regular Expressions 101](https://regex101.com/) a great site to see what a regular experssion will match.</strong>
+<strong>[Regular Expressions 101](https://regex101.com/) a great site to see what a regular expression will match.</strong>
 
 A regular expression is an object that describes a pattern of characters.
 
@@ -261,11 +261,11 @@ Regular expression flags can be used separately or together in any order, but th
 |Character|Meaning|
 |---------|-------|
 |`.`|Matches any single character *except* newline or line terminators: `\n`, `\r`, `\u2028` or `\u2029`.|
-|`\d`|Matches any digit (Arabic numberal).<br/>Equivalent to `[0-9]`.|
+|`\d`|Matches any digit (Arabic numeral).<br/>Equivalent to `[0-9]`.|
 |`\D`|Matches any character that is **not** a digit (Arabic numeral).<br/>Equivalent to `[^0-9]`.|
 |`\w`|Matches any alphanumeric character from the basic Latin alphabet, including the underscore.<br/>Equivalent to `[A-Za-z0-9_]`.|
 |`\W`|Matches any character that is **not** a word character from the basic Latin alphabet.<br/>Equivalent to `[^A-Za-z0-9_]`.|
-|`\s`|Matches a single white space character, including space, tab, form feed, line feed and other Unicode spaces.<br/>Equivaletnt to `[ \f\n\r\t\v\u00a0\1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]`.|
+|`\s`|Matches a single white space character, including space, tab, form feed, line feed and other Unicode spaces.<br/>Equivalent to `[ \f\n\r\t\v\u00a0\1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]`.|
 |`\S`|Matches a single character other than white space.<br/>Equivalent to `[^ \f\n\r\t\v\u00a0\1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]`.|
 |`\t`|Matches a horizontal tab.|
 |`\r`|Matches a carriage return.|
@@ -297,8 +297,8 @@ Regular expression flags can be used separately or together in any order, but th
 
 |Character|Meaning|
 |---------|-------|
-|`^`|Matches beginning of input. If the multiline flag is set to true, also matches immediately after a line break character.|
-|`$`|Matches end of input. If the multiline flag is set to true, also matches immediately before a line break character.|
+|`^`|Matches beginning of input. If the multi-line flag is set to true, also matches immediately after a line break character.|
+|`$`|Matches end of input. If the multi-line flag is set to true, also matches immediately before a line break character.|
 |`\b`|Matches a word boundary. This is the position where a word character is not followed or preceded by another word-character, such as between a letter and a space. Note that a matched word boundary is not included in the match. In other words, the length of a matched word boundary is zero.|
 |`\B`|Matches a non-word boundary. This is a position where the previous and next character are of the same type: Either both must be words, or both must be non-words. Such as between two letters or between two spaces. The beginning and end of a string are considered non-words. Same as the matched word boundary, the matched non-word boundary is also not included in the match.|
 
@@ -306,7 +306,7 @@ Regular expression flags can be used separately or together in any order, but th
 
 |Character|Meaning|
 |---------|-------|
-|<code>(<i>x</i>)</code>|Matches *`x`* and remembers the match. These are called capturing groups.<br/><br/>For example, `/(foo)/` matches and remembers "foo" in "foo bar".<br/><br/>The capturing groups are numbered according to the order of left parentheses of capturing groups, starting from 1. The matched substring can be recalled from the resulting array's elements `[1], ..., [n]` or from the predefined `RegExp` object's properties `$1, ..., $9`.<br/><br/>Captruing groups have a performance penalty. If you don't need the matched substring to be recalled, prefer non-capturing parentheses (see below).|
+|<code>(<i>x</i>)</code>|Matches *`x`* and remembers the match. These are called capturing groups.<br/><br/>For example, `/(foo)/` matches and remembers "foo" in "foo bar".<br/><br/>The capturing groups are numbered according to the order of left parentheses of capturing groups, starting from 1. The matched substring can be recalled from the resulting array's elements `[1], ..., [n]` or from the predefined `RegExp` object's properties `$1, ..., $9`.<br/><br/>Capturing groups have a performance penalty. If you don't need the matched substring to be recalled, prefer non-capturing parentheses (see below).|
 |<code>\\<i>n</i></code>|Where *`n`* is a positive integer. A back reference to the last substring matching the n parenthetical in the regular expression (counting left parentheses).<br/><br/>For example, `/apple(,)\sorange\1/` matches "apple, orange," in "apple, orange, cherry, peach".|
 |<code>(?:<i>x</i>)</code>|Matches *`x`* but does not remember the match. These are called non-capturing groups. The matched substring cannot be recalled from the resulting array's elements `[1], ..., [n]` or from the predefined `RegExp` object's properties `$1, ..., $9`.|
 
