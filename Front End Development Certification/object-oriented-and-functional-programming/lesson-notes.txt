@@ -1,0 +1,129 @@
+Object Oriented and Functional Programming lessons:
+
+A constructor function is given a capitalized name to make it clear that it is a constructor.
+	var Car = function() { // Car is capitalized
+		this.wheels = 4;
+		this.engines = 1;
+		this.seats = 5;
+	}
+
+	create instances of constructors:
+		var myCar = new Car();
+
+	you can add parameters to a constructor:
+		var Car = function(wheels, seats, engines) {
+		  this.wheels = wheels;
+		  this.seats = seats;
+		  this.engines = engines;
+		};
+
+		var myCar = new Car(4, 8, 1); // 4 wheels, 8 seats, 1 engine
+
+	Objects have their own attributes (called properties) and functions (called methods):
+
+	Objects can have private properties and methods.
+		to do this declare the variable instead of using the this.property method
+			var speed = 10; instead of this.speed = 10;
+
+Useful array methods:
+	The map() method is a way to iterate through arrays:
+		var oldArray = [1,2,3,4,5];
+
+		var newArray = oldArray.map(function(val){
+		  return val + 3;
+		});
+
+		//newArray is now set equal to [4,5,6,7,8]
+
+	The reduce() method is a way to iterate through an array and condense it into one value:
+		var array = [4,5,6,7,8];
+		var singleVal = 0;
+
+		singleVal = array.reduce(function(previousVal, currentVal) {
+		  return previousVal + currentVal;
+		});
+
+		// singleVal is set equal to 30
+
+	The filter() method is used to iterate through an array and filter out elements where a given condition is not true:
+		var oldArray = [1,2,3,4,5,6,7,8,9,10];
+
+		var newArray = oldArray.filter(function(val) {
+		  return val < 6;
+		}); 
+
+		//newArray is set equal to [1,2,3,4,5]
+
+	The sort() method is used to sort the values in an array alphabetically or numerically (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort?v=example)
+		var array = [1, 12, 21, 2];
+
+		array.sort(function(a, b) {
+		  return b - a; 
+		}); 
+
+		// b-a sorts from larget to smallest ... use a - b for smallest to largest; if no compare (callback) function is passed in it will convert the values to strings and sort alphabetically.
+
+
+	The reverse() method is used to reverse the elements in an array:
+		var array = [1,2,3,4,5,6,7];
+		var newArray = [];
+
+		newArray = array.reverse();
+
+		// newArray is set equal to [7,6,5,4,3,2,1]
+
+	The concat() method can be used to merge the contents of two arrays into one:
+		var oldArray = [1,2,3];
+		var newArray = [];
+
+		var concatMe = [4,5,6];
+
+		newArray = oldArray.concat(concatMe);
+
+		// newArray is set equal to [1,2,3,4,5,6]
+
+	The split() method can be used to split a string into an array:
+		var string = "Split me into an array";
+		var array = [];
+
+		array = string.split(' '); //splits at every space
+
+		// array is set equal to ["Split", "me", "into", "an", "array"]
+
+	The join() method is used to join each element of an array into a string separated by whatever delimiter that is used as an argument:
+		var joinMe = ["Split","me","into","an","array"];
+		var joinedString = '';
+
+		joinedString = joinMe.join(' ');
+
+		// joinedString is set equal to "Split me into an array"
+
+
+
+
+================================================================================================================================================================
+Random examples I learned something from:
+	-------------------------
+	Make Object Properties Private
+	-------------------------
+	Private gear property. Two public methods that allow the private gear property to be set.
+	-------------------------
+		var Bike = function() {
+
+		  var gear = 1;
+		  
+		  this.getGear = function(getGear) {
+		    getGear = gear;
+		    return getGear;
+		  };
+		  
+		  this.setGear = function(setGear) {
+		    gear = setGear;
+		  };
+
+		};
+
+		var myBike = new Bike();
+
+		myBike.setGear(4); // sets gear to 4
+		myBike.getGear(); // returns 4

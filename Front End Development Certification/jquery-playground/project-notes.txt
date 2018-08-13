@@ -1,0 +1,38 @@
+jQuery playground 
+
+Keywords: jQuery,
+
+jQuery is the most popular JavaScript tool of all time.
+All jQuery is done outside of html; in the head.
+code put inside a document.ready function will run as soon as your browser has loaded your page.
+	without the document ready function the code may run before your html is rendered which could cause bugs
+All jQuery functions start with $ (dollar sign operator, bling)
+$("STRING") is a selector; .addClass("animated bounce"); is adding a css class to the selected
+	animated and bounce are both different classes in jQuery's library
+		eg($("STRING").addClass("animated bounce");) 
+	several targets include:
+		$("button") select by type
+		$(".btn") select by class
+		$("#target1") select by ID
+	several jQuery functions are
+		.addClass(); add a class to the target
+		.removeClass(); remove a class from the target
+		.css(); edit CSS of the target
+			eg ( .css("background-color", "blue"); )
+		.prop(); edit the properties of the target]
+		.html(); add HTML tags and text within an element
+		.text(); alters text only; won't evaluate html tags passed to it
+		.remove(); removes element
+		.appendTo(); move element to another element
+		.clone(); clones element
+		.parent(); access parent of element that is selected
+			eg ( $("#target1").parent().css("background-color", "red"); )
+		.children(); access child of element that is selected
+	function chaining allows you to combine jQuery functions 
+		eg( $("#target5").clone().appendTo("#left-well"); )
+	jQuery can use CSS Selectors to target elements
+		eg( target:nth-child(n) )
+			eg ( $(".target:nth-child(3)").addClass("animated bunce"); )
+		.target:odd selects odd-numbered elements
+			jQuery is zero-indexed, meaning that, counter-intuitively, :odd selects the second, fourth and so on elements.
+		.target:even selects even-numbered elements
