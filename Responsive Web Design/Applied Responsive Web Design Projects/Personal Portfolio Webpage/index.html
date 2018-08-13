@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<title>Personal Portfolio</title>
+
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<link rel="stylesheet" href="css/normalize.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
+
+		<!-- ignore: for fCC. Site has no need for a media query, but one is 'required'. -->
+		<style>@media (min-width: 550px) {}</style>
+	</head>
+
+	<body data-spy="scroll" data-target="#navbarNav">
+
+		<div class="backstretch"></div>
+
+		<header id="home">
+			<nav id="navbar" class="navbar fixed-top navbar-toggleable-sm navbar-light">
+
+				<!-- mobile button for mobile/collapsed navbar -->
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- navbar links -->
+				<a class="navbar-brand" href="#home">Zachary Holman</a>
+				<div id="navbarNav" class="collapse navbar-collapse">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+						<li class="nav-item"><a class="nav-link" href="#projects">My Projects</a></li>
+						<li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+				</div>
+			</nav>
+
+			<div id="welcome-section" class="home">
+				<h1>Zachary Holman</h1>
+				<h2>Aspiring Full-stack Developer</h2>
+			</div>
+		</header>
+
+		<div class="container-fluid">
+			<div id="about" class="about row">
+				<div class="col-md-12">
+					<h1>About Me</h1>
+				</div>
+
+				<div class="col-lg-1"></div> <!-- padding -->
+
+				<!-- profile image -->
+				<div class="col-lg-3">
+					<div class="img-container">
+						<img src="img/image-squibs.png" class="img-fluid" alt="Profile picture for portfolio"/>
+					</div>
+				</div>
+
+				<div class="col-lg-7">
+					<h2>My name is Zachary,</h2>
+					<p>I am taking my beginning steps into learning more about web development, and learning more about myself along the way. I was born in California, but have lived almost all of my entire life in Colorado.</p> 
+					<p>The way I see it, any type of programming can be treated as a puzzle, which is why I am drawn to it as an interest; it allows for unique, creative, and many different types of solutions. Video games started off my interest in programming; always wanting to create my own one day and wanting to know exactly how they were made.</p>
+					<p>As time has passed, my programming interests have shifted, and web development is now a large interest of mine. I'm excited to learn more and create something that others, or even just one other person, will be able to use.</p>
+				</div>
+			</div> <!-- end #about .row -->
+
+			<div id="projects" class="projects row">
+				<div class="col-sm-12">
+					<h1>Projects</h1>
+				</div>
+
+				<div class="col-md-2 col-lg-1"></div> <!-- padding -->
+
+				<div class="deck-container col-md-8 col-lg-10">
+					<div class="row">
+						<!-- wikipedia-viewer card -->
+						<div class="card-container manual-flip col-sm-12 col-lg-6 col-xl-4 project-tile">
+							<div class="card">
+								<div class="card-front">
+									<div class="card-content-header">
+										<img class="card-img-top" src="img/screenshot-wikipedia-viewer.png" alt="Screenshot of my Wikipedia viewer project / website." style="height: 365px;"/>
+									</div>
+									<div class="card-content-main">
+										<h1>Wikipedia Viewer</h1>
+									</div>
+									<div class="card-content-footer">
+										<img src="img/icon-html5.svg" alt="HTML5 icon" width="21.5"/>
+										<img src="img/icon-css3.svg" alt="CSS3 icon" width="25"/>
+										<img src="img/icon-javascript.svg" alt="Javascript icon" width="25"/>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+								<div class="card-back">
+									<div class="card-content-header">
+										<h1>Wikipedia Viewer</h1>
+									</div>
+									<div class="card-content-main">
+										<div class="dummy-spacer"></div>
+										<div class="dummy-flip"></div>
+										<p>A wikipedia viewer. Uses the Wikipedia API to search for what the user enteres in the text box. Uses CSS flexbox and grid for the page layout.</p>
+									</div>
+									<div class="card-content-footer">
+										<a href="https://squibs.github.io/wikipedia-viewer/" class="btn btn-primary" target="_blank"><i class="fa fa-external-link"> Site</i></a>
+										<a href="https://github.com/Squibs/wikipedia-viewer" class="btn btn-primary" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+							</div>
+						</div> <!-- end template card .card-container -->
+
+						<!-- local weather card -->
+						<div class="card-container manual-flip col-sm-12 col-lg-6 col-xl-4 project-tile">
+							<div class="card">
+								<div class="card-front">
+									<div class="card-content-header">
+										<img class="card-img-top" src="img/screenshot-local-weather.png" alt="Screenshot of my local weather website / project." style="height: 365px;" />
+									</div>
+									<div class="card-content-main">
+										<h1>Local Weather</h1>
+									</div>
+									<div class="card-content-footer">
+										<img src="img/icon-html5.svg" alt="HTML5 icon" width="21.5" />
+										<img src="img/icon-css3.svg" alt="CSS3 icon" width="25" />
+										<img src="img/icon-javascript.svg" alt="Javascript icon" width="25" />
+										<img src="img/icon-jquery.svg" alt="jQuery icon" width="25" />
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+								<div class="card-back">
+									<div class="card-content-header">
+										<h1>Local Weather</h1>
+									</div>
+									<div class="card-content-main">
+										<div class="dummy-spacer"></div>
+										<div class="dummy-flip"></div>
+										<p>The second intermediate front end development project I completed on freeCodeCamp. This project uses geolocation and the Dark Sky API to display the local weather of the user.</p>
+									</div>
+									<div class="card-content-footer">
+										<a href="https://squibs.github.io/local-weather/" class="btn btn-primary" target="_blank"><i class="fa fa-external-link"> Site</i></a>
+										<a href="https://github.com/Squibs/local-weather" class="btn btn-primary" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end local weather card .card-container -->
+
+						<!-- quote machine card -->
+						<div class="card-container manual-flip col-sm-12 col-lg-6 col-xl-4 project-tile">
+							<div class="card">
+								<div class="card-front">
+									<div class="card-content-header">
+										<img class="card-img-top" src="img/screenshot-quote-machine.png" alt="Screenshot of my quote machine project / website." style="height: 365px;"/>
+									</div>
+									<div class="card-content-main">
+										<h1>Quote Machine</h1>
+									</div>
+									<div class="card-content-footer">
+										<img src="img/icon-html5.svg" alt="HTML5 icon" width="21.5"/>
+										<img src="img/icon-css3.svg" alt="CSS3 icon" width="25"/>
+										<img src="img/icon-javascript.svg" alt="Javascript icon" width="25"/>
+										<img src="img/icon-jquery.svg" alt="jQuery icon" width="25"/>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+								<div class="card-back">
+									<div class="card-content-header">
+										<h1>Quote Machine</h1>
+									</div>
+									<div class="card-content-main">
+										<div class="dummy-spacer"></div>
+										<div class="dummy-flip"></div>
+										<p>The first intermediate front end development project I completed on freeCodeCamp. This project uses the API of Quotes on Design in order to provde the quotes generated on the site.</p>
+									</div>
+									<div class="card-content-footer">
+										<a href="https://squibs.github.io/quote-machine/" class="btn btn-primary" target="_blank"><i class="fa fa-external-link"> Site</i></a>
+										<a href="https://github.com/Squibs/quote-machine" class="btn btn-primary" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+							</div>
+						</div> <!-- end quote machine .card-container -->
+
+						<!-- learning to necro card -->
+						<div class="card-container manual-flip col-sm-12 col-lg-6 col-xl-4 project-tile">
+							<div class="card">
+								<div class="card-front">
+									<div class="card-content-header">
+										<img class="card-img-top" src="img/screenshot-learning-to-necro.png" alt="Screenshot preview of Learning to Necro website." style="height: 365px;"/>
+									</div>
+									<div class="card-content-main">
+										<h1>Learning to Necro</h1>
+									</div>
+									<div class="card-content-footer">
+										<img src="img/icon-html5.svg" alt="HTML5 icon" width="21.5"/>
+										<img src="img/icon-css3.svg" alt="CSS3 icon" width="25"/>
+										<img src="img/icon-javascript.svg" alt="Javascript icon" width="25"/>
+										<img src="img/icon-jquery.svg" alt="jQuery icon" width="25"/>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+								<div class="card-back">
+									<div class="card-content-header">
+										<h1>Learning to Necro</h1>
+									</div>
+									<div class="card-content-main">
+										<div class="dummy-spacer"></div>
+										<div class="dummy-flip"></div>
+										<p>One of my first projects. Around the release of <em>Guild Wars 2</em>, I built this website as a way to learn more about html. While it may not serve a real purpose for players in the game today, I can look back at this being a first stepping stone into learning more about web development.</p>
+									</div>
+									<div class="card-content-footer">
+										<a href="http://learningtonecro.com/" class="btn btn-primary" target="_blank"><i class="fa fa-external-link"> Site</i></a>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+							</div>
+						</div> <!-- end learning to necro .card-container -->
+
+						<!-- tribute page card -->
+						<div class="card-container manual-flip col-sm-12 col-lg-6 col-xl-4 project-tile">
+							<div class="card">
+								<div class="card-front">
+									<div class="card-content-header">
+										<img class="card-img-top" src="img/screenshot-tribute-page.png" alt="Screenshot preview of Tribute Page project." style="height: 365px;"/>
+									</div>
+									<div class="card-content-main">
+										<h1>Tribute Page</h1>
+									</div>
+									<div class="card-content-footer">
+										<img src="img/icon-html5.svg" alt="HTML5 icon" width="21.5"/>
+										<img src="img/icon-css3.svg" alt="CSS3 icon" width="25"/>
+										<img src="img/icon-bootstrap.svg" alt="BootStrap icon" width="25"/>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+								<div class="card-back">
+									<div class="card-content-header">
+										<h1>Tribute Page</h1>
+									</div>
+									<div class="card-content-main">
+										<div class="dummy-spacer"></div>
+										<div class="dummy-flip"></div>
+										<p>The first basic front end development project I created for <em>freeCodeCamp</em>. I made a tribute page to John M. Keynes a 20th century British economist.</p>
+									</div>
+									<div class="card-content-footer">
+										<a href="https://codepen.io/Sulph/full/XRavGG/" class="btn btn-primary" target="_blank"><i class="fa fa-codepen"></i> Site</a>
+										<a href="https://github.com/Squibs/freeCodeCamp/tree/master/Front%20End%20Development%20Certification/tribute-page" class="btn btn-primary" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+							</div>
+						</div> <!-- end tribute page .card-container -->
+
+						<!-- jquery playground card -->
+						<div class="card-container manual-flip col-sm-12 col-lg-6 col-xl-4 project-tile">
+							<div class="card">
+								<div class="card-front">
+									<div class="card-content-header">
+										<img class="card-img-top" src="img/screenshot-jquery-playground.png" alt="Screenshot preview of jQuery Playground project." style="height: 365px;"/>
+									</div>
+									<div class="card-content-main">
+										<h1>jQuery Playground</h1>
+									</div>
+									<div class="card-content-footer">
+										<img src="img/icon-javascript.svg" alt="Javascript icon" width="25"/>
+										<img src="img/icon-jquery.svg" alt="jQuery icon" width="25"/>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+								<div class="card-back">
+									<div class="card-content-header">
+										<h1>jQuery Playground</h1>
+									</div>
+									<div class="card-content-main">
+										<div class="dummy-spacer"></div>
+										<div class="dummy-flip"></div>
+										<p>A playground used in several freeCodeCamp challenges teaching about how to use various jQuery commands. While this is not very much of a project to show off, I believe it is a good thing to recognize a simple project that allows you to test the many functions of jQuery.</p>
+									</div>
+									<div class="card-content-footer">
+										<a href="https://codepen.io/Sulph/pen/aWEyaK" class="btn btn-primary" target="_blank"><i class="fa fa-codepen"></i> Site</a>
+										<a href="https://github.com/Squibs/freeCodeCamp/tree/master/Front%20End%20Development%20Certification/jquery-playground" class="btn btn-primary" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+							</div>
+						</div> <!-- end jquery playground .card-container -->
+
+						<!-- template card
+						<div class="card-container manual-flip col-sm-12 col-lg-6 col-xl-4 project-tile">
+							<div class="card">
+								<div class="card-front">
+									<div class="card-content-header">
+										<img class="card-img-top" src="img/image-coming-soon.png" alt="Template picture alt text." style="height: 365px;"/>
+									</div>
+									<div class="card-content-main">
+										<h1>Template Title</h1>
+									</div>
+									<div class="card-content-footer">
+										<img src="img/icon-html5.svg" alt="HTML5 icon" width="21.5"/>
+										<img src="img/icon-css3.svg" alt="CSS3 icon" width="25"/>
+										<img src="img/icon-javascript.svg" alt="Javascript icon" width="25"/>
+										<img src="img/icon-bootstrap.svg" alt="BootStrap icon" width="25"/>
+										<img src="img/icon-jquery.svg" alt="jQuery icon" width="25"/>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+								<div class="card-back">
+									<div class="card-content-header">
+										<h1>Template Title</h1>
+									</div>
+									<div class="card-content-main">
+										<div class="dummy-spacer"></div>
+										<div class="dummy-flip"></div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate mauris eget lectus blandit mattis. In mollis turpis at sodales fringilla. Quisque vitae mi non ipsum ornare cursus eget sed tortor. Morbi pretium feugiat scelerisque. Mauris aliquam id lorem ac tristique.</p>
+									</div>
+									<div class="card-content-footer">
+										<a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-external-link"> Site</i></a>
+										<a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+										<a onclick="rotateCard(this)"><div class="card-flip-btn"><p>Flip</p><i class="fa fa-undo fa-4x"></i></div></a>
+									</div>
+								</div>
+							</div>
+						</div> end template card .card-container -->
+
+					</div>
+				</div> <!-- end .deck-container -->
+			</div> <!-- end #projects .row -->
+
+			<div id="contact" class="contact row">
+				<div class="col-sm-12">
+					<h1>Contact Me</h1>
+				</div>
+
+				<div class="col-lg-1"></div> <!-- padding -->
+
+				<div class="col-lg-5 form-fix">
+					<h2>Feel free to send me a message!</h2>
+					<p>Interesting in learning more about anything you see here or about other things I'm involved in? Check out my social media links below, or get in contact with me by sending a message. I would love to hear about anything you have to say!</p>
+					<p>Visit <a href="https://github.com/Squibs/freeCodeCamp" class="textLink" target="_blank">my freeCodeCamp <i class="fa fa-github"></i> GitHub repository</a> and see other projects I have made and view my personal notes I have created while going through the lessons on freeCodeCamp.</p>
+
+					<span class="socials">
+						<a id="profile-link" href="https://www.freecodecamp.com/squibs" target="_blank"><span class="fa-stack fa-lg fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-free-code-camp fa-stack-1x fa-inverse"></i></span></a>
+
+						<a href="https://github.com/Squibs" target="_blank"><span class="fa-stack fa-lg fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a>
+
+						<a href="http://codepen.io/Sulph/" target="_blank"><span class="fa-stack fa-lg fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-codepen fa-stack-1x fa-inverse"></i></span></a>
+
+						<a href="https://www.youtube.com/channel/UCa0bxvZBPXMjHTH3xe6AoKw" target="_blank"><span class="fa-stack fa-lg fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube fa-stack-1x fa-inverse"></i></span></a>
+
+						<a href="https://twitter.com/SquibsVids" target="_blank"><span class="fa-stack fa-lg fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>
+					</span>
+				</div>
+
+				<!-- contact me form -->
+				<div class="col-lg-5">
+					<form id="form" class="form responsive-form" method="POST" >
+						<div class="form-group">
+							<label for="name">Your Name:</label>
+							<input type="text" class="form-control" name="name" required/>
+						</div>
+						<div class="form-group">
+							<label for="email">Your Email:</label>
+							<input type="email" class="form-control" name="_replyto" required/>
+						</div>
+						<div class="form-group">
+							<label for="message">Message to send to me:</label>
+							<textarea class="form-control" name="message" rows="6" maxlength="2000" required></textarea/>
+						</div>
+						<input type="text" name="_gotcha" style="display: none" />
+						<input type="hidden" name="_subject" value="My GitHub Hosted Portfolio - Contact Form"/>
+						<button type="submit" class="btn btn-primary btn"><i class="fa fa-paper-plane"></i> Send</button>
+					</form>
+				</div>
+			</div> <!-- end #contact .row -->
+
+		</div> <!-- end .container-fluid -->
+
+		<!-- load jquery before bootstrap -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/tether.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/flipandform.js"></script>
+		<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+	</body>
+
+	<footer>
+		<h1>&copy; 2017 Zachary Holman</h1>
+		<p>Created for the <a href="https://www.freecodecamp.com/">freeCodeCamp</a> portfolio challenge. Background-image by <a href="http://jovicasmileski.deviantart.com/art/Flat-Landscape-Winter-Edition-576667116">"Jovica Smileski."</a></p>
+	</footer>
+</html>

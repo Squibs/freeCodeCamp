@@ -1,0 +1,924 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<title>Technical Documentation</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+	<nav id="navbar">
+		<header>AMD Ryzen Processor and AMD Ryzen Master Overclocking User's Guide</header>
+		<ul class="nav-container">
+			<!-- Chapter 1 -->
+			<a class="nav-link" href="#Chapter_1_Guidance_Terms_and_Conditions">
+				<li><span class="chapter">Chapter 1</span> Guidance Terms and Conditions</li></a>
+
+			<!-- Chapter 2 -->				
+			<a class="nav-link" href="#Chapter_2_Supported_Products_and_Operating_Systems">
+				<li><span class="chapter">Chapter 2</span> Supported Products and Operating Systems</li></a>
+
+			<!-- Chapter 3 -->				
+			<a class="nav-link" href="#Chapter_3_Introduction_to_AMD_Ryzen_Processor_Overclocking">
+				<li><span class="chapter">Chapter 3</span> Introduction to AMD Ryzen Processor Overclocking</li></a>
+
+			<!-- Chapter 4 -->				
+			<a class="nav-link" href="#Chapter_4_AMD_Ryzen_Processor_Overclocking_Summary">
+				<li class="noBorder"><span class="chapter">Chapter 4</span> AMD Ryzen Processor Overclocking Summary</li></a>
+				<ul class="sub-section">
+					<a class="nav-link" href="#4.1_AMD_Ryzen_Processor_Normal_Operation">
+						<li class="yesBorder"><span class="subChapter">4.1</span> AMD Ryzen Processor Normal Operation</li></a>
+					<a class="nav-link" href="#4.2_AMD_Ryzen_Processor_Overclocking_Mode">
+						<li><span class="subChapter">4.2</span> AMD Ryzen Processor Overclocking Mode</li></a>
+					<a class="nav-link" href="#4.3_CPU_Overclocking_Enablement">
+						<li><span class="subChapter">4.3</span> CPU Overclocking Enablement</li></a>
+					</ul>
+					
+			<!-- Chapter 5 -->					
+			<a class="nav-link" href="#Chapter_5_AMD_Ryzen_Master_Application">
+				<li class="noBorder"><span class="chapter">Chapter 5</span> AMD Ryzen Master Application</li></a>
+				<ul class="sub-section">
+					<a class="nav-link" href="#5.1_Main_Features">
+						<li class="yesBorder"><span class="subChapter">5.1</span> Main Features</li></a>
+					<a class="nav-link" href="#5.2_CPU_Overclocking_Example">
+						<li><span class="subChapter">5.2</span> CPU Overclocking Example</li></a>
+					<a class="nav-link" href="#5.3_CPU_Performance_and_Temperature_Histogram">
+						<li><span class="subChapter">5.3</span> CPU Performance and Temperature Histogram</li></a>
+					<a class="nav-link" href="#5.4_Disabling_Cores">
+						<li><span class="subChapter">5.4</span> Disabling Cores</li></a>
+					<a class="nav-link" href="#5.5_Memory_Overclocking">
+						<li><span class="subChapter">5.5</span> Memory Overclocking</li></a>
+					</ul>
+					
+			<!-- Chapter 6 -->					
+			<a class="nav-link" href="#Chapter_6_CPU_Core_Configuration">
+				<li><span class="chapter">Chapter 6</span> CPU Core Configuration</li></a>
+
+			<!-- Chapter 7 -->				
+			<a class="nav-link" href="#Chapter_7_Important_Information">
+				<li class="noBorder"><span class="chapter">Chapter 7</span> Important Information</li></a>
+				<ul class="sub-section">
+					<a class="nav-link" href="#7.1_Enabling_HPET">
+						<li class="yesBorder"><span class="subChapter">7.1</span> Enabling HPET</li></a>
+					<a class="nav-link" href="#7.2_Disabling_HPET">
+						<li><span class="subChapter">7.2</span> Disabling HPET</li></a>
+					<a class="nav-link" href="#7.3_Memory_Voltages_VDDIO_and_VTT">
+						<li><span class="subChapter">7.3</span> Memory Voltages - VDDIO and VTT</li></a>
+					<a class="nav-link" href="#7.4_Windows_Power_Options">
+						<li><span class="subChapter">7.4</span> Windows® Power Options</li></a>
+					<a class="nav-link" href="#7.5_AMD_Ryzen_Master_Processor_Resource_Consumption">
+						<li><span class="subChapter">7.5</span> AMD Ryzen Master Processor Resource Consumption</li></a>
+					</ul>
+					
+			<!-- Chapter 8 -->					
+			<a class="nav-link" href="#Chapter_8_Glossary_of_Terms">
+				<li><span class="chapter">Chapter 8</span> Glossary of Terms</li></a>
+
+			<!-- Chapter 9 -->				
+			<a class="nav-link" href="#Chapter_9_AMD_Ryzen_Master_Application_Features_History">
+				<li><span class="chapter">Chapter 9</span> AMD Ryzen Master Application Features History</li></a>
+
+			<!-- Reference -->
+			<a class="nav-link" href="#Reference"><li class="nav-item-last">Reference</li></a>
+		</ul>
+	</nav>
+
+
+	<main id="main-doc">
+		<!-- Chapter 1 -->
+		<section id="Chapter_1_Guidance_Terms_and_Conditions" class="main-section">
+			<header><span class="chapter">Chapter 1</span> Guidance Terms and Conditions</header>
+			<article>
+				<p>This AMD Ryzen Processor and AMD Ryzen Master User Guide (“Guidance”) and the AMD
+					Ryzen Master application (“AMD Ryzen Master”) are provided subject to the following terms and
+					conditions:</p>
+				<ul>
+					<li>The Guidance in no way modifies, alters or supersedes AMD’s officially published
+						specifications for any AMD product (the “Specifications”).</li>
+					<li>Operation of an AMD product outside of the Specifications or outside of factory settings,
+						including but not limited to the conducting of overclocking (including use of the Guidance),
+						may result in damage to an AMD product and/or lead to other problems, including but not
+						limited to, damage to the AMD product-based computer system components (e.g. the
+						motherboard and components thereon); system instabilities (e.g. data loss and corrupted
+						images); reduction in system performance; shortened product, system component and/or
+						system life; and in extreme cases, total unrecoverable system failure.</li>
+					<li> AMD does not provide support or service for issues or damages related to use of an AMD
+						product outside of the Specifications or outside of factory settings and Recipient assumes
+						any and all liability and risk associated with such usage, including by providing
+						motherboards or other components that facilitate or allow usage outside of the Specifications
+						or factory settings.</li>
+					<li>THE GUIDANCE IS PROVIDED TO YOU ON AN "AS IS" BASIS WITHOUT
+						WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT
+						NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+						A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THOSE ARISING FROM
+						CUSTOM OR TRADE. AMD DOES NOT WARRANT, GUARANTEE, OR MAKE ANY
+						REPRESENTATIONS AS TO THE CORRECTNESS, ACCURACY OR RELIABILITY
+						OF THE GUIDANCE (INCLUDING THE PERFORMANCE OF THE AMD PRODUCT)
+						AND MAY MODIFY, AMEND, DELETE OR RETRACT THE GUIDANCE AT ANY
+						TIME. TO THE FULLEST EXTENT ALLOWED BY LAW, IN NO EVENT WILL AMD
+						BE LIABLE TO YOU OR ANY OTHER PARTY FOR ANY DIRECT OR INDIRECT
+						DAMAGES, LOST PROFITS, LOST SAVINGS OR OTHER INCIDENTIAL OR
+						CONSEQUENTIAL DAMAGES WHICH MAY ARISE OUT OF OR RELATE TO THE
+						GUIDANCE.</li>
+				</ul>
+				<p><b><u>WARNING:</u></b><i> AMD processors, including chipsets, CPUs, APUs and GPUs (collectively and
+						individually “AMD processor”), are intended to be operated only within their
+						associated specifications and factory settings. Operating your AMD processor
+						outside of official AMD specifications or outside of factory settings, including but not
+						limited to the conducting of overclocking (including use of this overclocking
+						software, even if such software has been directly or indirectly provided by AMD or
+						an entity otherwise affiliated in any way with AMD), may damage your processor,
+						affect the operation of your processor or the security features therein and/or lead to
+						other problems, including but not limited to damage to your system components
+						(including your motherboard and components thereon (e.g., memory)), system
+						instabilities (e.g., data loss and corrupted images), reduction in system performance,
+						shortened processor, system component and/or system life, and in extreme cases,
+						total system failure. It is recommended that you save any important data before
+						using the tool. AMD does not provide support or service for issues or damages
+						related to use of an AMD processor outside of official AMD specifications or outside
+						of factory settings. You may also not receive support or service from your board or
+						system manufacturer. Please make sure you have saved all important data before
+						using this overclocking software. DAMAGES CAUSED BY USE OF YOUR AMD
+						PROCESSOR OUTSIDE OF OFFICIAL AMD SPECIFICATIONS OR OUTSIDE OF
+						FACTORY SETTINGS ARE NOT COVERED UNDER ANY AMD PRODUCT
+						WARRANTY AND MAY NOT BE COVERED BY YOUR BOARD OR SYSTEM
+						MANUFACTURER’S WARRANTY.</i></p>
+					<p>This information describes methods to change factory settings and operate the processor outside of
+						AMD’s published operating specifications. Recipient understands that operation of the product
+						outside of AMD’s published specifications will void any AMD warranty and that overclocking of
+						the processor may impact its functionality and longevity</p>
+			</article>
+		</section>
+		
+
+		<!-- Chapter 2 -->
+		<section id="Chapter_2_Supported_Products_and_Operating_Systems" class="main-section">
+			<header><span class="chapter">Chapter 2</span> Supported Products and Operating Systems</header>
+			<article>
+				<p>This document and the AMD Ryzen Master application currently support the following AMD products:</p>
+				<ul>
+					<li>AMD “Ryzen” Processor family in the AM4 socket infrastructure</li>
+				</ul>
+				<p>Future AMD products will be added when supported. </p>
+				<p>AMD product overclocking support provided by AMD OverDrive™ and the AMD Ryzen Master application are mutually exclusive.</p>
+				<p>The AMD OverDrive™ application remains the sole AMD-provided overclocking tool for the following AMD products:</p>
+				<ul>
+					<li>Processor products in the AMD AM3 and AM3+ socket infrastructures </li>
+					<li>Processor products in the AMD FM2 and FM2+ socket infrastructures </li>
+				</ul>
+				<p>The AMD Ryzen Master application is supported on the following operating systems:</p>
+				<ul>
+					<li>Microsoft® Windows® 10 64-bit version</li>
+				</ul>
+			</article>
+		</section>
+
+
+		<!-- Chapter 3 -->
+		<section id="Chapter_3_Introduction_to_AMD_Ryzen_Processor_Overclocking" class="main-section">
+			<header><span class="chapter">Chapter 3</span> Introduction to AMD Ryzen Processor Overclocking</header>
+			<article>
+				<p>Systems based on the AMD Ryzen processor may be tuned to deliver added system performance.
+					The AMD Ryzen family of processors offer an exciting amount of performance tuning options,
+					including potential overclocking headroom. Note that each processor and motherboard is
+					different, and may result in lower or no overclocking margin. <i>Examples of processor
+					configurations, cores and frequencies described herein are examples only and do not necessarily
+					reflect commercially available products or overclocking range.</i></p>
+				<p>AMD Ryzen Master gives users advanced, real-time control of system performance. More details
+					on how to use the AMD Ryzen Master application are included in the “AMD Ryzen Master
+					Application” section of this guide.</p>
+				<p>The purpose of this document is to provide detailed information on the various performance
+					tuning knobs that are present in systems using the AMD Ryzen processor based on the AMD Zen
+					processor core.</p>
+				<figure>
+					<img src="img/img1.jpg"/>
+					<figcaption><b>Figure 1. AMD Ryzen Processor</b></figcaption>
+				</figure>
+			</article>
+		</section>
+
+
+		<!-- Chapter 4 -->
+		<section id="Chapter_4_AMD_Ryzen_Processor_Overclocking_Summary" class="main-section">
+			<header><span class="chapter">Chapter 4</span> AMD Ryzen Processor Overclocking Summary</header>
+			<article>
+				<p>AMD AM4-based Ryzen processors are unlocked when paired with the enabling AMD chipsets
+					and necessary BIOS software and therefore allow the user to adjust the CPU clock above or below
+					the stock value. When run on boards enabled for overclocking, AMD Ryzen Master will
+					automatically enable the Overclocking Mode at the user’s initiation of a change to a stock
+					parameter. The CPU will be returned to stock operation through a system power cycle.</p>
+				<p>The process for finding a stable overclocking configuration with the AMD Ryzen processor is not
+					fundamentally different from the previous generation AMD processors (such as the AMD FX
+					processors). The final operating voltages and frequencies will depend highly on the specific
+					system’s processor, motherboard, cooling solution, operating environment, and the user’s
+					decisions on what elements to overclock and to what degree. </p>
+			</article>
+
+			<section id="4.1_AMD_Ryzen_Processor_Normal_Operation" class="sub-section">
+				<header><span class="subChapter">4.1</span> AMD Ryzen Processor Normal Operation</header>
+				<article>
+					<p>To describe how the AMD processor operates in Overclocking Mode it is best to understand how
+						the AMD Ryzen processor operates normally. When operating normally, the AMD Ryzen
+						processor has the following characteristics:</p>
+					<ol>
+						<li>The frequency of processor core clock is determined by a combination of the softwarerequested
+							p-state and then adjusted by a combination of numerous power and performance
+							optimizing features to attain any of number of fine grain p-states around that softwarerequested
+							p-state.</li>
+						<li>Internal control mechanisms measure internal temperatures, power and current consumption,
+							and manage the operating voltage and frequency of various internal cores to maintain specified
+							levels. For example, when the number of active cores is below a pre-determined threshold, the
+							active core temperatures are below maximum, and the consumed total current is below
+							infrastructure limits, then those active cores will be boosted in voltage and frequency to the cstate
+							“boost” frequency until any of those conditions are no longer true.</li>
+						<li>The voltages for some of the various cores are internally generated from external supplies. For
+							example, each of the processor cores uses a supply independently generated from the external
+							supply. As the operating frequency for each processor core is adjusted to attain various fine
+							grain p-states, the operating voltage of the core is adjusted to support that new frequency at
+							optimal power consumption. The voltage adjustments are done using the internal voltage
+							regulator and the SVI2 controlled external supply voltage, if needed.</li>
+						<li>Software requested p-state or halt states adjust the level of power to which those internal
+							control mechanisms manage. For example, when software executes a HALT instruction on a
+							processor core, that core will enter the C1 reduced-power state. If that core does not receive 
+							an interrupt to resume execution, it will progress to increasingly-lower power states until
+							finally saving the state of the core and being powered off.</li>
+						<li>The internal memory controller and various other data paths will be initialized to the highest
+							common operating frequency of any of the memory DIMMS present in the system and with
+							memory timing parameters obtained from the DIMM resident SPD ROMs.</li>
+					</ol>
+					<p>A fundamental assumption of the normal operation of the AMD Ryzen processor is that the
+						surrounding system current delivery and cooling capabilities are designed to the specified levels.
+						The complicated operation described above manages the overall AMD Ryzen processor operation
+						to maintain those specified capabilities. But what can be done if the system provides more current
+						and cooling than those required for normal operation?</p>	
+				</article>
+			</section>
+
+			<section id="4.2_AMD_Ryzen_Processor_Overclocking_Mode" class="sub-section">
+				<header><span class="subChapter">4.2</span> AMD Ryzen Processor Overclocking Mode</header>
+				<article>
+					<p>The AMD Ryzen processor supports an operating mode allowing enthusiast users to directly
+						control the operating condition of the processor to precisely tune the performance and power
+						consumption to the extent of their specific and unique system capabilities (current and cooling)
+						and environmental conditions (ambient temperature). This is done by allowing the user to
+						program or run utilities to directly set the precise voltage and frequency at which the CPU operates
+						so that the maximum performance can be achieved. This is called the Overclocking Mode. This
+						mode still uses the processor’s control methods for the external power supplies (SVI2) and
+						internal clock generators and divisors thereby simplifying the implementation and eliminating any
+						needs for voltage regulator overrides or external clock generators. This mode allows
+						overclocking-capable motherboards to use the same voltage regulator controllers and the same
+						BIOS to support normal operation and overclocking.</p>
+				</article>
+			</section>
+
+			<section id="4.3_CPU_Overclocking_Enablement" class="sub-section">
+				<header><span class="subChapter">4.3</span> CPU Overclocking Enablement</header>
+				<article>
+					<p>When used on an overclocking-enabled motherboard, an AMD Ryzen processor is ready for
+						Overclocking Mode. The processor will run normally with all internal power, voltage, and
+						thermal management features enabled until a point in time when user-directed system software reprograms
+						the specific voltage and frequency values to levels other than stock operating values.
+						The following changes take effect when the values are re-programmed and the processor enters
+						Overclocking Mode:</p>
+					<ol>
+						<li>All enabled CPU cores operate at the newly user-programmed voltage and P0 frequency value.
+							Adjustment of the CPU clock is in 25MHz steps.</li>
+						<li>Internal features of the processor which control the CPU operating voltage and frequency to
+							manage the CPU temperature, current consumption, and power consumption to specified
+							maximums are disabled so that no additional stress to system voltage regulators and thermals
+							are induced. This includes c-state boost.</li>
+						<li>CPU low power c-states (CC1, CC6, and PC6) and software visible p-states (P1 and P2)
+							remain operational and may be requested by software so that power savings can be achieved.</li>
+						<ol type="a">
+							<li>The P1 and P2 p-state tables may also be modified to adjust the voltage and frequency of
+								the CPU when running in software-requested, reduced-performance states. These may also
+								be left at stock values.</li>
+							<li>If the OS-level software power policy is also changed so that the CPU’s power-saving pstates
+								are not used, then these power-saving states will never be requested.</li>
+							<li>If AMD Cool’N’Quiet is disabled, then low power c-states will also be disabled.</li>
+						</ol>
+						
+						<li>Various internal voltage regulators supplying CPU core power are placed into bypass mode,
+							allowing the external VDDCR_CPU to directly supply the CPU cores.</li>
+					</ol>
+				</article>
+			</section>
+		</section>
+
+
+		<!-- Chapter 5 -->
+		<section id="Chapter_5_AMD_Ryzen_Master_Application" class="main-section">
+			<header><span class="chapter">Chapter 5</span> AMD Ryzen Master Application</header>
+			<article>
+				<p>The new AMD Ryzen Master application supports AMD’s new generation of Socket AM4
+					processors. This new application no longer includes GPU overclocking as was provided in the
+					former AMD OverDrive™ utility. For overclocking AMD’s discrete graphics cards, see the
+					Radeon WattMan GPU Overclocking utility within the Radeon Software provided with AMD
+					discrete graphics cards. AMD Ryzen Master is compatible with GPU overclocking tools provided
+					by other discrete graphics card manufacturers.</p>
+				<p>AMD Ryzen Master allows the user to control various clock and voltage settings in real time
+					directly from supported Windows Operating System. In addition to real-time control there are
+					certain adjustable parameters – normally found only inside the BIOS menu – that require a system
+					restart for applying the new values. </p>
+				<p>The use of the AMD Ryzen Master application requires that the user accepts the End User License
+					Agreement and inherent risks of configuring the AMD processor to performance levels that
+					exceed specifications and stock settings</p>
+				<figure>
+					<img src="img/img2.jpg"/>
+					<figcaption><b>Figure 2. AMD Ryzen Master Warning and Warranty Disclaimer Message</b></figcaption>
+				</figure>
+			</article>
+
+			<section id="5.1_Main_Features" class="sub-section">
+				<header><span class="subChapter">5.1</span> Main Features</header>
+				<article>
+					<p>AMD Ryzen Master supports the following key capabilities for AMD Ryzen processor
+						performance-tuning and monitoring:</p>
+					<ol>
+						<li>CPU core clock adjustment</li>
+						<ol type="a">
+							<li>CPU clock speed slider (mouse) or via CPU clock speed text box (type in value, use mouse
+								scroll, use up/down keyboard keys or click the up/down button)</li>
+						</ol>
+
+						<li>CPU core voltage adjustment</li>
+						<ol type="a">
+							<li>CPU VID value (type in value, use mouse scroll, use up/down keyboard keys or click the
+								up/down button)</li>
+						</ol>
+
+						<li>CPU SOC voltage adjustment</li>
+						<ol type="a">
+							<li>VDDCR_SOC value (type in value, use mouse scroll, use up/down keyboard keys or click
+								the up/down button)</li>
+						</ol>
+
+						<li>CPU Core Disable</li>
+						<ol type="a">
+							<li>Select 0, 2, 4 or 6 cores to disable</li>
+						</ol>
+
+						<li>Memory voltage adjustment</li>
+						<ol type="a">
+							<li>MEM VDDIO (type in value, use mouse scroll, use up/down keyboard keys or click the
+								up/down button) and MEM VTT (type in value, use mouse scroll, use up/down keyboard
+								keys or click the up/down button, recommended to set for one half of MEM VDDIO)</li>
+							<li>Note: Motherboards that do not make MEM VDDIO available to AMD Ryzen Master
+								through BIOS will cause AMD Ryzen Master to display 0.000V for MEM VDDIO and
+								MEM VTT. Memory clock and timing adjustment may still function within the scope of
+								the fixed memory voltage. For detailed memory over-clocking, use the motherboard’s
+								BIOS utility.</li>
+						</ol>
+
+						<li>Memory clock adjustment</li>
+						<ol type="a">
+							<li>Memory clock horizontal speed slider (move with mouse or use mouse scroll)</li>
+							<li>Keyboard left/right arrow keys can also be used to adjust the memory clock</li>
+						</ol>
+
+						<li>Memory timing adjustment</li>
+						<ol type="a">
+							<li>Tcl, Trcdrd, Trcdwr, Tras and Trp clock cycle values from drop down menus</li>
+						</ol>
+
+						<li>Profiles support</li>
+						<ol type="a">
+							<li>Up to four different profiles can be created, tested and saved for use.</li>
+							<li>A given profile can be created to optimize core configuration and performance for a class
+								of applications, typically based on how many cores and threads the applications tend to
+								use.</li>
+							<li>With four profiles, a system with an AMD Ryzen 7 8-core processor could configure and
+								optimize frequencies for 8-core, 6-core, 4-core and 2-core application classes, respectively.
+								Note that a system reset will be required when switching between profiles that change
+								enabled cores.</li>
+						</ol>
+
+						<li>Clock monitoring</li>
+						<ol type="a">
+							<li>Per-core CPU clock monitoring via Histogram (including current, average and peak clock
+								readings)</li>
+							<li>Current average clock speed across all enabled cores</li>
+						</ol>
+
+						<li>CPU Temperature monitoring</li>
+						<ol type="a">
+							<li>CPU temperature monitoring via Histogram</li>
+						</ol>
+					</ol>
+
+					<p><b>Notes:</b></p>
+					<ol>
+						<li><i>At launch, March 2, 2017, the AMD Ryzen processor required the High Precision Event Timer
+								service (HPET) for overclocking. Later system BIOS improvements have eliminated the need for
+								HPET for overclocking. AMD Ryzen Master automatically determines which mode to function in.
+								If your system BIOS requires HPET for Ryzen overclocking, AMD Ryzen Master will request that
+								you enable the HPET service. Please refer to Chapter 7 for additional information on enabling
+								and disabling HPET.</i></li>
+						<li><i>AMD Ryzen Master requires that the Windows 10 Power Options be configured such that the
+								Power Button mode is set with Fast Boot disabled. This is necessary to allow the processor cores
+								to all be enabled after a system power cycle.</i></li>
+					</ol>
+				</article>
+			</section>
+
+			<section id="5.2_CPU_Overclocking_Example" class="sub-section">
+				<header><span class="subChapter">5.2</span> CPU Overclocking Example</header>
+				<article>
+					<p><i>Examples of CPU configurations, cores and frequencies described herein are examples only and
+							do not necessarily reflect commercially available products or overclocking range.</i></p>
+					<p>The CPU core clock is by far the most important performance tuning knob available on the AMD
+						Ryzen processor. The following example shows the necessary steps for CPU overclocking using
+						AMD Ryzen Master.</p>
+					<p>In the below example AMD Ryzen Master has been launched while the CPU is running at the
+						given core clock speed and CPU voltage. AMD Ryzen Master opens the Current profile (“C”
+						profile tab in the lower left corner of the UI). The Current profile reflects the current CPU settings
+						from boot or as applied from an AMD Ryzen Master profile; it is read-only and does not directly
+						allow user adjustments.</p>
+					<figure>
+						<img src="img/img3.png"/>
+						<figcaption><b>Figure 3. Current settings for AMD Ryzen Master application</b></figcaption>
+					</figure>
+					<p>The values can be adjusted by selecting one of the four user editable profiles (1 to 4). In the below
+						example Profile 1 has been selected.</p>
+					<p>To Overclock the CPU the user needs to adjust the CPU clock. There are five ways to do this with
+						AMD Ryzen Master:</p>
+					<ol>
+						<li>dragging the yellow dot in the clock slider</li>
+						<li>by typing in the desired CPU clock in the text box.</li>
+						<li>by clicking the up and down buttons with mouse</li>
+						<li>by clicking the Speed text box (left mouse button) and then dialing in the desired value using
+							keyboard up/down button</li>
+						<li>by activating the text box and adjusting the value with mouse scroll wheel</li>
+					</ol>
+					<p>The CPU clock can be adjusted in 25 MHz steps.</p>
+					<p>CPU Voltage can be adjusted by typing in a new value in the CPU VID text box. The example
+						below uses a value of 1.40V. The CPU voltage can be adjusted in 0.00625V steps.</p>
+					<p><i><b>Note:</b> Some motherboards may apply a voltage offset from the BIOS. In this case the actual CPU
+						voltage may be higher (or lower) than what the CPU VID value suggests. It’s always a
+						good idea to monitor the actual voltage level (from the BIOS or with the motherboard
+						vendors monitoring application).</i></p>
+					<p><i><b>Caution:</b> Raising the CPU Voltage above the stock setting is the single-most contributing factor
+						to reduced life of the processor and/or damage due to transistor over-stress and
+						temperature. Each individual CPU unit may respond to changes in CPU Voltage
+						differently.</i></p>
+					<p>The settings are not applied until the user clicks the “Apply” button in the upper right corner of the
+						UI. Clicking “Apply” will also automatically save the settings to the active profile.</p>
+					<p><i><b>Note:</b> Under overclocking mode all CPU Cores will operate at the same frequency and voltage.</i></p>
+					<p>It’s a good idea to verify the performance increase and stability by running CPU performance
+						benchmark(s) and stability tests (example: Maxon’s CINEBENCH R15). Please close all
+						background apps to ensure stable and consistent performance results run-to-run, but expect some
+						variation.</p>
+					<figure>
+						<img src="img/img4.png"/>
+						<figcaption><b>Figure 4. AMD Ryzen Master example</b></figcaption>
+					</figure>
+					<p>The recommendation is to increase the CPU clock in small steps while monitoring CPU
+						performance, stability and CPU, motherboard, system and GPU temperatures.</p>
+					<p>Once an unstable CPU clock has been reached and the CPU temperature is not too high it’s
+						possible to increase the CPU voltage in small steps to see if the increased CPU voltage allows
+						stable operation at higher frequencies.</p>
+					<p>The optimal settings for this profile can be saved by clicking the “Save Profile” button. To apply
+						a saved profile, launch AMD Ryzen Master, browse to the desired profile and click “Apply”.</p>
+				</article>
+			</section>
+
+			<section id="5.3_CPU_Performance_and_Temperature_Histogram" class="sub-section">
+				<header><span class="subChapter">5.3</span> CPU Performance and Temperature Histogram</header>
+				<article>
+					<p>AMD Ryzen Master features a Histogram for monitoring the CPU core clock speeds and the CPU
+						temperature. The Histogram can be expanded and minimized by clicking the ˅ and ˃ buttons. The
+						Speed and Temperature histograms may be individually displayed via their respective check
+						boxes.</p>
+					<p>The Speed Histogram graph displays the sampled current (instantaneous) clock speeds of enabled
+						cores. The Current, Peak or Avg core clock speeds are available per core left of the Histogram.
+						The User may select which parameter is displayed. Each Core can be individually displayed
+						(checked) or hidden (unchecked) from the listing and the histogram. Note that the histogram only
+						displays the Current core clock speed. A core’s check box color corresponds to that core’s line
+						color in the histogram.</p>
+					<p>The Temperature Histogram displays approximate CPU die temperature averaged across a range
+						of sensors across the die, down to 0C.</p>
+					<p>To the left of the core speed sliders is displayed the instantaneous peak speed of the fasted core
+						and the instantaneous die temperature.</p>
+					<figure>
+						<img src="img/img5.png"/>
+						<figcaption><b>Figure 5. AMD Ryzen Master Application Histogram</b></figcaption>
+					</figure>
+				</article>
+			</section>
+
+			<section id="5.4_Disabling_Cores" class="sub-section">
+				<header><span class="subChapter">5.4</span> Disabling Cores</header>
+				<article>
+					<p>The AMD Ryzen Master application allows the user to disable a select number of CPU cores.
+						This may improve overclocking headroom for the remaining CPU cores or can be used to reduce
+						the overall CPU power consumption. Please refer to Chapter 7 for further information on AMD
+						Ryzen processor core configuration.</p>
+					<p>By default, the CPU runs with all cores enabled. AMD Ryzen Master supports disabling cores in
+						pairs. For example, an 8-core AMD Ryzen processor model can be configured to disable two,
+						four or six cores. Disabling all cores is not supported since the product would cease to function
+						with no enabled cores. Note that disabling cores will disable the Windows Sleep option. When you
+						want to restore all cores and the Windows Sleep option, use Windows Shut down, then restart.</p>
+					<p>The below example outlines the necessary steps for disabling two CPU cores which results in six
+						enabled cores.</p>
+					<figure>
+						<img src="img/img6.png"/>
+						<figcaption><b>Figure 6: CPU Core Configuration - Disabling Two Cores</b></figcaption>
+					</figure>
+					<p>The first step includes activating the user-editable Profile 1 by clicking “1” from the lower left
+						corner. In this example two cores are disabled and the settings are applied by hitting “Apply”
+						from the upper right corner.</p>
+					<p>Since Core Disable requires a system reboot the following pop up message will appear. Click
+						“OK” to reboot the system or “Cancel” if you do not wish to disable the cores now.</p>
+					<figure>
+						<img src="img/img7.png"/>
+						<figcaption><b>Figure 7. CPU Core Configuration - System Restart Pop-Up</b></figcaption>
+					</figure>
+					<p>Once the system has rebooted back to the Operating System, AMD Ryzen Master is <u>automatically</u>
+						launched. <u>It is important to give the OS and AMD Ryzen Master a few moments to initialize after
+						this step.</u> Do not re-start AMD Ryzen Master manually or you will get the message that another
+						instance of AMD Ryzen Master is already running, either the automatic one or the one you
+						opened, and the second instance cannot start.</p>
+					<p>The following screenshot shows the new default profile with six enabled cores and two disabled
+						cores.</p>
+					<figure>
+						<img src="img/img8.png"/>
+						<figcaption><b>Figure 8. CPU Core Configuration - Two Cores Disabled</b></figcaption>
+					</figure>
+					<p>The number of enabled cores can be verified by opening the Windows 10 Task Manager and the
+						Performance tab (change the CPU graph to display Logical processors:</p>
+					<figure>
+						<img src="img/img9.jpg"/>
+						<figcaption><b>Figure 9. Windows® 10 Task Manager with six enabled CPU cores</b></figcaption>
+					</figure>
+					<p>Note that since the disabled cores have been hidden from the OS, they will not appear as idle or
+						parked in any Windows resource-monitoring application until enabled.</p>
+					<p>Note also that most applications that report the number of cores or threads, such as benchmarks,
+						sample the CPU resources only when first started and will not register changes to CPU core count
+						or frequency that you change via AMD Ryzen Master. Always re-open such monitoring
+						applications after AMD Ryzen Master changes are applied.</p>
+					<p>Certain CPU monitoring tools are able to track dynamic changes initiated by AMD Ryzen Master.</p>
+					<p>In order to re-enable the disabled cores, the system must be powered off completely (alternatively
+						the motherboard may initiate a cold reset) and restarted.</p>
+					<p>Note that Windows® 10 must be configured in the Power Options to disable fast startup when the
+						chassis power button is pressed to turn the system on. Make sure the box is <u>unchecked</u> for “Turn
+						on fast startup”</p>
+					<figure>
+						<img src="img/img10.png"/>
+						<figcaption><b>Figure 10. Windows® Power Options configuration</b></figcaption>
+					</figure>
+					<p>It is possible to disable additional cores without cold resetting the system (i.e. a normal OS
+						system restart will work here). Therefore the user can switch within a profile or across profiles
+						from 8 to 6 to 4 to 2 cores without shutting down the system.</p>
+				</article>
+			</section>
+
+			<section id="5.5_Memory_Overclocking" class="sub-section">
+				<header><span class="subChapter">5.5</span> Memory Overclocking</header>
+				<article>
+					<p>AMD Ryzen Master offers an easy-to-use graphical user interface for adjusting the most important
+						memory parameters.</p>
+					<p>Memory performance can be tuned by increasing the memory clock or by reducing the memory
+						timings and latency. Typically, the higher memory clocks require higher memory timing values
+						but in some cases, it may be possible to maintain the timings or even lower them. Results will
+						vary depending on the exact configuration.</p>
+					<p>If the memory modules support a higher memory clock it’s recommended to apply the timings as
+						per the memory specification (SPD settings).</p>
+					<p>The following example uses a dual channel DDR4-2400 memory kit (CL17-17-17-17-39 timings,
+						1.2 V voltage, 2x8 GB).</p>
+					<figure>
+						<img src="img/img11.jpg"/>
+						<figcaption><b>Figure 11. AMD Ryzen Master Application - Memory Overclocking Example</b></figcaption>
+					</figure>
+					<p>In the above example the memory clock is adjusted from default 1200MHz (DDR4-2400) to
+						1333 MHz (DDR4-2666) while timings have been increased from 17-17-17-17-39 to 18-18-18-18-
+						40. Memory voltage was also adjusted from default 1.20V up to 1.296V and SOC Voltage was set
+						to 1.20 V. Note that Memory VTT voltage will automatically be set to half of Memory voltage
+						(MEM VDDIO).</p>
+					<p>System restart is required for applying the settings as memory needs to be retrained for the new
+						values.</p>
+					<figure>
+						<img src="img/img12.png"/>
+						<figcaption><b>Figure 12. System Reboot Pop-Up Message Following Memory Adjustments</b></figcaption>
+					</figure>
+					<p>Click “OK” to reboot the system and apply the new memory settings.</p>
+					<p><i><b>Note:</b> Memory settings should be adjusted with great care as incorrect or unstable settings may
+						prevent the system from booting up or may fail to load the OS (including corrupting the OS
+						installation). Running a stand-alone memory stability test (such as MemTest86™) is
+						recommended for checking the memory stability in advance of loading the OS.</i></p>
+				</article>
+			</section>
+		</section>
+
+
+		<!-- Chapter 6 -->
+		<section id="Chapter_6_CPU_Core_Configuration" class="main-section">
+			<header><span class="chapter">Chapter 6</span> CPU Core Configuration</header>
+			<article>
+				<p>As core counts increase for enthusiast processors, it becomes valuable for the user to have control
+					over how many cores are accessible to software. A performance-tuned system running low
+					thread-count software and four enabled cores might be optimal for one user. Alternatively, a
+					performance-tuned system with all cores enabled might be better for another user.</p>
+				<ol>
+					<li>The number of enabled CPU cores may be reduced from the maximum to tune the available
+						number of threads of execution and the associated CPU power requirements and related
+						cooling requirements to achieve maximum performance for given applications.</li>
+					<li>Reduction of the number of enabled CPU cores from the maximum will reduce the current and
+						power consumed by the processor. This power consumption reduction can allow the user to
+						avoid current delivery limitations of the system, avoid processor cooling limitations of the
+						system, and/or allow the enabled CPU cores to operate at lower temperatures and therefore
+						potentially higher frequencies.</li>
+					<li>Through core configuration the number of cores to be enabled is selected by the user and after
+						a system restart, only that number of cores is initialized and reported to the operating system
+						for task scheduling. This is a static assignment of enabled cores per system boot. Note that
+						disabling cores will disable the Windows Sleep option. When you want to restore all cores and
+						the Windows Sleep option, use Windows Shut down, then restart.</li>
+					<li>The AMD Ryzen processor operates all cores at the same operating frequency. This provides
+						uniform performance for each enabled core to the operating system task scheduler. In
+						overclocking mode, each core is supplied power directly from the external VDDCR_CPU
+						supply and therefore at the same voltage.</li>
+					<li>Core configuration allows for cores to be disabled in logical pairs. Cores may be disabled in
+						increments of two up to two less than the total cores provided by the given processor model.
+						For example, a four-core model will allow only two cores to be disabled, leaving two cores
+						active. An eight-core model will allow two, four or six cores to be disabled, leaving no less
+						than two cores active.</li>
+					<li>To re-activate disabled cores, the system must be cold reset and restarted. Upon restart, the
+						processor will be returned to stock configuration and all originally available cores will be
+						enabled</li>
+				</ol>
+			</article>
+		</section>
+
+
+		<!-- Chapter 7 -->
+		<section id="Chapter_7_Important_Information" class="main-section">
+			<header><span class="chapter">Chapter 7</span> Important Information</header>
+			<article>
+				<p></p>
+			</article>
+
+			<section id="7.1_Enabling_HPET" class="sub-section">
+				<header><span class="subChapter">7.1</span> Enabling HPET</header>
+				<article>
+					<p>At launch, March 2, 2017, the AMD Ryzen processor required the High Precision Event Timer
+						service (HPET) for overclocking. Later system BIOS improvements have eliminated the need for
+						HPET for overclocking. AMD Ryzen Master automatically determines which mode to function
+						in. If your system BIOS requires HPET for AMD Ryzen processor overclocking, AMD Ryzen
+						Master will request that you enable the HPET service.</p>
+					<p><b>Option 1 - to enable HPET:</b></p>
+					<ul>
+						<li>To start a command prompt <u>as an administrator,</u> in the Windows Start field, type "cmd" then
+							hold down <b>Ctrl-Shift</b> buttons and press <b>Enter</b>.</li>
+						<li>Execute the "HPET.bat" available from the installation path of the AMD Ryzen Master
+							application</li>
+						<li>If HPET is already enabled, then no action is performed else the HPET.bat file will enable
+							HPET</li>
+						<li>Restart the system</li>
+					</ul>
+					<p><b>Option 2 - to enable HPET:</b></p>
+					<ul>
+						<li>To start a command prompt as an administrator, in the Windows Start field, type "cmd" then
+							hold down Ctrl-Shift with Enter.</li>
+						<li>In the command window, enter "bcdedit /set useplatformclock true"</li>
+						<li>Exit command window</li>
+						<li>Restart the system</li>
+					</ul>
+					<p><i><b>Note:</b> If system is not restarted after HPET is enabled, the Application will not behave as expected</i></p>
+					<p>Please also note that updates of Windows may reset and disable HPET. If you find that AMD
+						Ryzen Master has been running fine but unexpectedly begins warning you that HPET is not
+						enabled, your OS has probably been updated. In that case, please run the above instructions for
+						enabling HPET; it is not necessary to re-install AMD Ryzen Master.</p>
+				</article>
+			</section>
+
+			<section id="7.2_Disabling_HPET" class="sub-section">
+				<header><span class="subChapter">7.2</span> Disabling HPET</header>
+				<article>
+					<p>If you are upgrading your system to the new AMD Ryzen Master 1.0.1 and have upgraded your
+						system BIOS eliminating the need for HPET, you may want to disable HPET present from prior
+						installation of AMD Ryzen Master 1.0 and HPET enablement, or perhaps HPET was enabled by
+						default independent of AMD Ryzen Master. Disabling HPET may improve the performance of
+						some applications by eliminating the HPET service's consumption of CPU resources. Beware that
+						other applications you use may depend on the HPET service.</p>
+					<p><b>To disable HPET:</b></p>
+					<ul>
+						<li>Start a command prompt as an administrator. In the Windows Start field, type "cmd" then
+							hold down Ctrl-Shift with Enter.</li>
+						<li>In the command window, enter "bcdedit /deletevalue useplatformclock"</li>
+						<li>Exit the command window</li>
+						<li>Restart the system</li>
+					</ul>
+				</article>
+			</section>
+
+			<section id="7.3_Memory_Voltages_VDDIO_and_VTT" class="sub-section">
+				<header><span class="subChapter">7.3</span> Memory Voltages - VDDIO and VTT</header>
+				<article>
+					<p>When MEM VDDIO is set using AMD Ryzen Master, the VTT value is automatically set to
+						VDDIO/2. However, if the motherboard and its BIOS supports VTT control, the user can adjust
+						VTT to other than VDDIO/2 values after the automatic setting of VDDIO/2.</p>
+				</article>
+			</section>
+
+			<section id="7.4_Windows_Power_Options" class="sub-section">
+				<header><span class="subChapter">7.4</span> Windows® Power Options</header>
+				<article>
+					<p>For workloads that can use the full thread capacity of the CPU, the OS power policy should be set
+						to “High performance” by the user for maximum performance. For workloads that don’t stress the
+						thread capacity, the OS power policy can be left in “Balanced” mode for marginally lower idle
+						power and temperature.</p>
+				</article>
+			</section>
+
+			<section id="7.5_AMD_Ryzen_Master_Processor_Resource_Consumption" class="sub-section">
+				<header><span class="subChapter">7.5</span> AMD Ryzen Master Processor Resource Consumption</header>
+				<article>
+					<p>Since AMD Ryzen Master is an application and samples many processor parameters to display
+						real-time performance information, it consumes processor resources but presents a light load at
+						idle. You may notice AMD Ryzen Master taking slightly more resources as a percentage when a
+						heavy workload is running, such as a highly-threaded benchmark. The multi-thread workload of
+						Maxon’s CINEBENCH benchmark is a good example of this behavior. This is due to the
+						operating system’s higher overhead of thread-context switching between AMD Ryzen Master and
+						the other workload.</p>
+					<p>If a highly-threaded application can consume all available thread capacity and maximum
+						performance is important, you have several options:</p>
+					<ol>
+						<li>If you are using an application to test stability and need AMD Ryzen Master open to continue
+							optimizing the overclocking configuration, you can lower the AMD Ryzen Master process
+							priority as follows:</li>
+						<ul>
+							<li>Open Windows 10 Task Manager</li>
+							<li>In the Applications tab, locate and right-click on the Ryzen Master Application icon and
+								select 'Go To details' from the menu. You will be taken to the Details tab and the Ryzen
+								Master process will be highlighted. To stabilize the process list, left-click on the column
+								Name heading to sort alphabetically, then scroll down to the AMD Ryzen Master process.</li>
+							<li>Right-click on the AMD Ryzen Master process, hover over the Set Priority option and set to
+								'Below Normal' or 'Low'</li>
+							<li>Run your stability test applications. If your application can consume 90% or more of the
+								processing resource, you may notice that AMD Ryzen Master becomes unresponsive as the
+								application is using all the CPU resource it can consume. Under that extreme condition,
+								once the application finishes, or your pause it, AMD Ryzen Master will resume monitoring
+								where it left off when you started the application.</li>
+						</ul>
+
+						<li>If you don't need AMD Ryzen Master open, then simply close it and proceed with your
+							benchmarking and normal operations. The overclocked settings you configured with AMD
+							Ryzen Master will persist after closing AMD Ryzen Master.</li>
+					</ol>
+					<p>Example: When running CINEBENCH for maximum score while over-clocked</p>
+					<ul>
+						<li>Set the Windows power policy to “High Performance”</li>
+						<li>Lower the AMD Ryzen Master priority as described above</li>
+					</ul>
+				</article>
+			</section>
+		</section>
+
+
+		<!-- Chapter 8 -->
+		<section id="Chapter_8_Glossary_of_Terms" class="main-section">
+			<header><span class="chapter">Chapter 8</span> Glossary of Terms</header>
+			<article>
+				<p>The following table provides further information on the commonly used terms.</p>
+				<table>
+					<caption><b>Table 1. Glossary of Terms</b></caption>
+					<tr>
+						<th>Term</th>
+						<th>Description</th>
+					</tr>
+					<tr>
+						<td><code>AM4</code></td>
+						<td>AM4 is an AMD single-socket client infrastructure supporting DDR4 memory</td>
+					</tr>
+					<tr>
+						<td><code>CCLK</code></td>
+						<td>CPU Core Clock</td>
+					</tr>
+					<tr>
+						<td><code>CCX</code></td>
+						<td>Core Complex where more than one core shares L3 resources.</td>
+					</tr>
+					<tr>
+						<td><code>Core</code></td>
+						<td>The instruction execution unit of the processor when the term Core is used in an x86 core context.</td>
+					</tr>
+					<tr>
+						<td><code>CPU</code></td>
+						<td>The total resources of the specific processor model consisting of Cores and cache memory</td>
+					</tr>
+					<tr>
+						<td><code>CoreCOF</code></td>
+						<td>Core current operating frequency in MHz</td>
+					</tr>
+					<tr>
+						<td><code>FCLK</code></td>
+						<td>Data Fabric clock – equal to Memory clock</td>
+					</tr>
+					<tr>
+						<td><code>L1 cache</code></td>
+						<td>The level 1 caches (instruction cache and the data cache).</td>
+					</tr>
+					<tr>
+						<td><code>L2 cache</code></td>
+						<td>The level 2 caches.</td>
+					</tr>
+					<tr>
+						<td><code>L3 cache</code></td>
+						<td>Level 3 Cache.</td>
+					</tr>
+					<tr>
+						<td><code>MEMCLK</code></td>
+						<td>Internal and external memory clock</td>
+					</tr>
+					<tr>
+						<td><code>Memory interface</code></td>
+						<td>
+							<ul>
+								<li>2 Unified Memory Controllers (UMC), each supporting one DRAM channel</li>
+								<li>2 DDR4 PHYs. Each PHY supports:</li>
+								<ul>
+									<li>64-bit data</li>
+									<li>One DRAM channel per PHY, two DIMMs per channel</li>
+									<li>DDR4 transfer rates from 1333 MT/s to 2667 MT/s</li>
+									<li>UDIMM, RDIMM, LRDIMM, SODIMM, NVDIMM, Flash DIMM and 3DS support</li>
+								</ul>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td><code>Processor</code></td>
+						<td>The complete product that encompasses the CPU, memory interface and other computing resources.</td>
+					</tr>
+					<tr>
+						<td><code>P-state</code></td>
+						<td>Processor Performance State. P-states are valid combinations of CPU voltage and CPU COF</td>
+					</tr>
+					<tr>
+						<td><code>SMT</code></td>
+						<td>Simultaneous Multi-Threading.</td>
+					</tr>
+					<tr>
+						<td><code>Thread</code></td>
+						<td>One architectural context for instruction execution.</td>
+					</tr>
+					<tr>
+						<td><code>UCLK</code></td>
+						<td>Internal Memory Controller clock – equal to Memory clock</td>
+					</tr>
+					<tr>
+						<td><code>VDDCR_CPU</code></td>
+						<td>The VDDCR_CPU voltage is the VID-requested VDDCR_CPU supply level.</td>
+					</tr>
+					<tr>
+						<td><code>VDDCR_SOC</code></td>
+						<td>The VDDCR_SOC voltage is the VID-requested VDDCR_SOC supply level.</td>
+					</tr>
+				</table>
+			</article>
+		</section>
+
+
+		<!-- Chapter 9 -->
+		<section id="Chapter_9_AMD_Ryzen_Master_Application_Features_History" class="main-section">
+			<header><span class="chapter">Chapter 9</span> AMD Ryzen Master Application Features History</header>
+			<article>
+				<p>Table 2 describes the changes to the AMD Ryzen Master application with each revision.</p>
+				<table>
+					<caption><b>Table 2. AMD Ryzen Master Application Features History</b></caption>
+					<tr>
+						<th>Revision</th>
+						<th>Changes</th>
+					</tr>
+					<tr>
+						<td>1.0</td>
+						<td>Initial Release</td>
+					</tr>
+					<tr>
+						<td>1.0.1</td>
+						<td>
+							<ul>
+								<li>Eliminated need for HPET service with proper support of system BIOS.
+									Legacy system BIOS without such support will result in AMD Ryzen
+									Master requesting that the user enable HPET.</li>
+								<li>Corrected temperature reported for certain models to properly reflect processor temperature.</li>
+								<li>Added the processor model name string in the CPU heading.</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</article>
+		</section>
+
+
+		<!-- Reference -->
+		<section id="Reference" class="main-section">
+			<header>Reference</header>
+			<article>
+				<p>All the documentation in this page was taken from the AMD Ryzen Processor and AMD Ryzen Master Overclocking User's Guide. 
+					The real version of this guide is available as a pdf/download from <a target="_blank" href="http://support.amd.com/TechDocs/AMD%20Ryzen%20Processor%20and%20AMD%20Ryzen%20Master%20Overclocking%20Users%20Guide.pdf">the AMD website</a>.</p>
+			</article>
+		</section>
+	</main>
+
+	<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+</body>
+</html>

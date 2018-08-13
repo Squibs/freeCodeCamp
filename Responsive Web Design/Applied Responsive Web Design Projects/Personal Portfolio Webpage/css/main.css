@@ -1,0 +1,411 @@
+/*------------------------
+CSS DIRECTORY
+	1. =BACKSTRETCH
+	2. =NAVBAR
+	3. =HOME
+	4. =ABOUT
+	5. =PROJECTS
+		5.A =CARDS
+		5.B =CARD STYLES
+		5.C =CARD FLIP BTN
+	6. =CONTACT
+		6.A =FORM
+	7. =FOOTER
+------------------------*/
+
+
+/* =============================
+	1. =BACKSTRETCH
+============================= */
+.backstretch {
+	position: fixed;
+
+	height: 100vh;
+	width: 100%;
+	z-index: -100;
+
+	background-color: #165F88;
+	background-image: url("../img/image-vector-lighthouse.svg") !important;
+	background-position: center calc(50% - 3em);
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	/* iOS safari bottom bar fix */
+	transform: translate3d(0,0,0);
+}
+
+
+
+/* =============================
+	2. =NAVBAR
+============================= */
+navbar {
+	background-color: #DAF1FF;
+	box-shadow: 0 7px 10px -5px #333;
+}
+
+.navbar-brand { text-transform: uppercase; }
+
+
+
+/* =============================
+	3. =HOME
+============================= */
+.home { 
+	position: relative;
+	top: 25vh;
+	height: 100vh;
+	text-align: center;
+	color: white;
+	text-shadow: 	1px 1px 3px #333,
+					-1px 1px 3px #333;
+}
+
+.home h1 {
+	font-size: 4em;
+	font-weight: 300;
+	letter-spacing: 0.03em;
+	margin-bottom: 4vh;
+}
+
+.home h2 {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+
+
+/* =============================
+	4. =ABOUT
+============================= */
+.about {
+	background-color: #165F88;
+	box-shadow: 0 -7px 10px -5px #333;
+	padding: 5em 1% 5em 1%;
+	color: #222;
+	overflow: hidden;
+}
+
+.about h1 {
+	font-size: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+	color: #FFF;
+}
+
+.about h2 { 
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.img-container { margin-bottom: 1em; }
+
+.img-container img {
+	max-height: 300px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	box-shadow: 0 0 3px 1px rgba(0,0,0,0.25);
+}
+
+
+
+/* =============================
+	5. =PROJECTS
+============================= */
+.projects {
+	background-color: #2581B2;
+	box-shadow: 0 -7px 10px -5px #333;
+	padding: 5em 1% 5em 1%;
+	overflow: hidden;
+}
+
+.projects h1 {
+	font-size: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+	color: #FFF;
+}
+
+	/* =============================
+		5.A =CARDS
+	============================= */
+	/* controls flip animation perspective */
+	.card-container {
+		-webkit-perspective: 800px;
+		-moz-perspective: 800px;
+		-o-perspective: 800px;
+		perspective: 800px;
+
+		margin-bottom: 30px;
+	}
+
+	/* do not roate if .manual-flip class */
+	.card-container:not(.manual-flip):hover .card,
+	.card-container.hover.manual-flip .card {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+		-o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+	/* flip animation speed */
+	.card {
+		-webkit-transition: -webkit-transform 0.8s;
+		-moz-transition: -moz-transform 0.8s;
+		-o-transition: -o-transform 0.8s;
+		transition: transform 0.8s;
+
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		-o-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+
+		position: relative;
+	}
+
+	/* hide back-side of card */
+	.card-front, .card-back {
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		-o-backface-visibility: hidden;
+		backface-visibility: hidden;
+
+		position: absolute !important;
+		background-color: #FFF;
+	}
+
+	/* card-front placed above back */
+	.card-front { z-index: 2; }
+
+	/* card-back initially hidden */
+	.card-back {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+		-o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+
+		z-index: 3;
+	}
+
+	/* card height and width */
+	.card-container, .card-front, .card-back {
+		width: 100%;
+		height: 365px;
+	}
+
+	.card-back h1 { color: black; }
+
+
+	/* =============================
+		5.B =CARD STYLES
+	============================= */
+	.card, .card img {
+		border: 0;
+		border-radius: 0;
+	}
+
+	.card h1 { font-size: 2em; }
+
+	.card-front .card-content-header {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.card-content-header img {
+		position: absolute;
+		top: 	-9999px;
+		right:  -9999px;
+		bottom: -9999px;
+		left:  	-9999px;
+		margin: auto;
+	}
+
+	.card-content-main { padding: 10px; }
+
+	.card-front .card-content-main {
+		position: absolute;
+		top: 0%;
+		color: white;
+		text-shadow:-1px -1px 0 #000,
+					1px -1px 0 #000,
+					-1px 1px 0 #000,
+					1px 1px 0 #000;
+	}
+
+	.card-content-footer {
+		position: absolute;
+		bottom: 3px;
+		right: -3px;
+		width: 100%;
+		background-color: #ADADAD;
+		border-radius: 100px 0 0 15px;
+		padding: 8px 110px 8px 30px;
+		text-align: right;
+		box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
+	}
+
+	.card-back .card-content-footer {
+		left: 0;
+		border-radius: 0 100px 15px 0;
+		padding: 3px 0 2px 5px;
+		margin-left: -3px;
+		text-align: left;
+	}
+
+
+
+	/* =============================
+		5.C =CARD FLIP BTN
+	============================= */
+
+	.dummy-spacer {
+		height: 167px;
+		width: 0;
+		float: right;
+	}
+
+	.dummy-flip {
+		float: right;
+		clear: right;
+		height: 160px;
+		width: 75px;
+	}
+
+	.card-flip-btn {
+		position: absolute;
+		bottom: 25%;
+		right: 20px;
+
+		cursor: pointer;
+		color: white;
+		background-color: #F0AD4E;
+		border-radius: 50%;
+		padding: 10px 14px 10px 14px;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.75),
+					0 3px 6px rgba(0, 0, 0, 0.16),
+					0 1px 0 5px rgba(255, 255, 255, 1);
+	}
+
+	.card-back .card-flip-btn { right: 14px }
+
+	.card-flip-btn p {
+		position: absolute;
+		top: 20%;
+		left: 20%;
+		font-size: 2em;
+		text-shadow: 1px 1px 0 #000,
+					-1px 1px 0 #000,
+					1px -1px 0 #000,
+					-1px -1px 0 #000,
+					0 1px 0 #000,
+					0 -1px 0 #000,
+					-1px 0 0 #000;
+	}
+
+/* =============================
+	6. =CONTACT
+============================= */
+.contact {
+	background-color: #3696C9;
+	box-shadow: 0 -7px 10px -5px #333;
+	padding: 5em 1% 5em 1%;
+	color: #222;
+	overflow: hidden;
+}
+
+.contact h1 {
+	font-size: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+	color: #FFF;
+}
+
+.contact h2 { font-size: 1.5em; }
+
+.textLink:link { color: white; text-decoration: none; }
+.textLink:visited { color: white; text-decoration: none; }
+.textLink:hover { color: #ccc; text-decoration: none; }
+.textLink:active { color: #ccc; text-decoration: none; }
+
+.socials {
+	word-spacing: 2vw;
+}
+
+	/* =============================
+		6.A =FORM
+	============================= */
+	.form-fix { margin-bottom: 6%; }
+
+	.form-group {
+		display: flex;
+		margin-bottom: 25px;
+	}
+
+	label {
+		position: absolute;
+		transform: translate3d(14px, 6px, 0) scale(1);
+		transform-origin: left top;
+		transition: 240ms;
+		pointer-events: none; /* click through label */
+	}
+
+	.form-group.focused label {
+		transform: translate3d(6px, -20px, 0) scale(1);
+		background-color: rgba(2, 117, 216, 1);
+		border-radius: 10px 5%;
+		padding: 0 5px 0 5px;
+		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+		color: white;
+	}
+
+	.input:focus, textarea:focus {
+		transition: none;
+	}
+
+/* =============================
+	7. =FOOTER
+============================= */
+footer {
+	position: relative; /* fixes box-shadow */
+	background-color: #54AAD9;
+	padding: 0.25em 1% 0.25em 1%;
+	box-shadow: 0 -7px 10px -5px #333;
+	text-align: center;
+	color: #222;
+}
+
+footer h1 {
+	font-size: 1.25em;
+}
+
+/* =============================
+	SCROLLBARS
+============================= */
+/*
+::-webkit-scrollbar-track,
+.card-content-main::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar,
+.card-content-main::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb,
+.card-content-main::-webkit-scrollbar-thumb {
+	background-color: #0ae;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+						color-stop(.5, rgba(255, 255, 255, .2)),
+						color-stop(.5, transparent), to(transparent));
+}
+*/

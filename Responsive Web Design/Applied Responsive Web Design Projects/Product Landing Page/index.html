@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<title>Nike HyperAdapt 1.0</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css"/>
+</head>
+<body>
+	<header id="header">
+		<nav id="nav-bar">
+			<a href="#" class="nav-brand"><img id="header-img" src="img/logo-nike.png" height="25px" width="auto" alt="Image alt text"/></a>			
+			<a href="#" class="nav-toggle"><i class="fa fa-reorder fa-inverse"></i></a>
+			<div class="nav-left">
+				<a class="nav-link" href="#header">Nike Shoe Shop</a>
+				<a class="nav-link" href="#header">Upcoming Products</a>
+			</div>
+			<div class="nav-right">
+				<a class="nav-link" href="#header">Socials</a>
+			</div>
+		</nav>
+	</header>
+	<main id="main">
+		<section class="intro">
+			<div class="left">
+				<h1>Nike HyperAdapt 1.0</h1>
+				<p>
+					Welcome to the future of footwear. 
+					The Nike HyperAdapt 1.0 is the first fully-functioning athletic shoe 
+					that electronically adjusts to the contours of your foot via adaptive lacing technology 
+					– providing a personal, customized fit that makes it feel like an extension of your body.
+				</p>
+				<form id="form" type="GET" action="https://www.freecodecamp.com/email-submit">
+					<input id="email" type="email" name="email" placeholder="Enter your email address"/>
+					<input id="submit" class="ctaButton" type="submit" name="submit" value="GET STARTED"/>
+				</form>
+			</div>
+			<div class="right">
+				<div>
+					<video id="video"
+					poster="img/video-poster.jpg" 
+					src="http://nikevideo.nike.com/72451143001/201612/1032/72451143001_5230896488001_5230878321001.mp4" controls></video>
+				</div>
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="images">
+			<div class="carousel">
+				<div><h1><img src="img/image-1.jpg"/></h1></div>
+				<div><h1><img src="img/image-2.jpg"/></h1></div>
+				<div><h1><img src="img/image-3.jpg"/></h1></div>
+				<div><h1><img src="img/image-4.jpg"/></h1></div>
+				<div><h1><img src="img/image-5.jpg"/></h1></div>
+				<div><h1><img src="img/image-6.jpg"/></h1></div>
+				<div><h1><img src="img/image-7.jpg"/></h1></div>
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="features">
+			<div class="feature">
+				<h1>Auto-Unlace</h1>
+				<p>
+					Slide your foot in and let the laces tighten themselves. No more wasted time on tying your shoes.
+				</p>
+			</div>
+			<div class="feature">
+				<h1>Battery Indicator</h1>
+				<p>
+					Every button press triggers a light animation followed by a color flash corresponding to the battery level.
+				</p>
+			</div>
+			<div class="feature">
+				<h1>Adjust Comfort Preset</h1>
+				<p>Set your own personal comfort level for the laces to adjust to when lacing.</p>
+			</div>
+			<div class="feature">
+				<h1>Forget Bending Over</h1>
+				<p>Control every aspect of your shoe with the Nike HyperAdapt app from your phone.</p>
+			</div>
+			<div class="feature">
+				<h1>Charge Up!</h1>
+				<p>Charge your shoes with the built in charging-port with Nike fast-charge technology.</p>
+			</div>
+			<div class="feature">
+				<h1>Wow another feature</h1>
+				<p>This is where I would put another feature if I could think of one.</p>
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="testimonials">
+			<div class="testimonial">
+				<img src="http://res.cloudinary.com/squibs/image/upload/v1493914800/TributePage_Economist-John-Maynard_zkluft.jpg"/>
+				<p>
+					This shoe has saved my life ten times over. 
+					Before I would have to actually have to spend at least 7 seconds tying my shoe. 
+					Now that I have switched to these shoes, my daily 7 seconds are no longer going to take away time from my busy schedule.
+					<br>
+					<br>
+					~ Tammy Toothson
+				</p>
+			</div>
+			<div class="testimonial">
+				<img src="http://res.cloudinary.com/squibs/image/upload/v1493914800/TributePage_Economist-John-Maynard_zkluft.jpg"/>
+				<p>I never had the chance to learn how to tie my shoes growing up. 
+					Getting the real deal from the movies; we in the future now. 
+					I don't ever have to learn how to tie my shoes thanks to the HyperAdapts.
+					<br>
+					<br>
+					~ The Movie Man
+				</p>
+			</div>
+		</section>
+
+		<hr>
+		
+	</main>
+
+	<footer id="footer">
+		<div>
+			<h1>Website is not real. Created as freeCodeCamp project.</h1>
+			<span>&copy; 2017 Zachary Holman</span>
+		</div>
+		<p>Information on this site should not be considered true.</p>
+	</footer>
+
+	<!--<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>-->
+	<script>
+		const toggle = document.getElementsByClassName('nav-toggle');
+		const active = function () {
+			document.getElementById('nav-bar').classList.toggle('active');
+		};
+		toggle[0].addEventListener('click', active);
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+	<script src="carousel.js"></script>
+</body>
+</html>

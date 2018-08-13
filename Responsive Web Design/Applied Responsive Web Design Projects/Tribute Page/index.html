@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tribute Page - John M. Keynes</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"/>
+    <style>
+        body {
+            margin-top: 30px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        img {
+            justify-content: center;
+            padding: 5px;
+        }
+
+        strong {
+            margin-left: -10px;
+        }
+
+        blockquote {
+            margin-top: 20px;
+        }
+
+        li {
+            margin-left: 25px;
+        }
+
+        .card {
+            margin-top: 15px;
+        }
+
+        .card-text {
+            margin-top: -5px;
+        }
+    </style>
+</head>
+<body>
+<div id="main" class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 id="title" class="text-center">John M. Keynes</h1>
+        <h2 class="text-center"><em>One of the most influential economists of the Twentieth Century.</em></h2>
+
+        <!--Cards replace panels, wells, and thumbnails in bootstrap 4.0(alpha; currently being used here)-->
+        <div id="img-div" class="card" style="width: 100%">
+          <img id="image" class="card-img-top img-fluid" src="https://res.cloudinary.com/squibs/image/upload/v1493914800/TributePage_Economist-John-Maynard_zkluft.jpg" alt="Pictured is John M. Keynes sitting in a chair, legs crossed, with an open book; staring at the camera for a picture.">
+          <div class="card-block">
+            <p id="img-caption" class="card-text text-center">John M. Keynes seated reading a book looking into the camera for a picture.</p>
+          </div>
+        </div>
+        <div id="tribute-info" class="col-xs-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+          <h3>Here is a timeline of John M. Keynes life:</h3>
+          <ul>
+            <li><strong>1883</strong> - Born in Cambridge, England.</li>
+            <li><strong>1909</strong> - Publishes his first professional economic article in the <em>Economics Journal</em> about the effect of a recent global economic downturn on India.</li>
+            <li><strong>1911</strong> - Became editor of the <em>Economic Journal</em>.</li>
+            <li><strong>1919</strong> - Wrote the <em>Economic Consequences of the Peace</em>, which accurately predicted the difficulties Germany would have following the <em>Treaty of Versailles</em>.</li>
+            <li><strong>1922</strong> - Advocated reduction of German reparations with <em>A Revision of the Treaty</em>.</li>
+            <li><strong>1924</strong> - Adocated a fiscal response, where the government could create jobs by spending on public works.</li>
+            <li><strong>1931</strong> - Criticized Ramsay McDonald's austerity budget which cut public investment, wages and increased taxes.</li>
+            <li><strong>1936</strong> - <em>The General theory of Employment, Interest and Money</em> provided a framework for macroeconomics and was a radical depature from the more limited classical framework.</li>
+            <li><strong>1937</strong> - Limited participation in theoretical debates following the publication of the <em>General Theory</em> due to continued health issues.</li>
+            <li><strong>1946</strong> - Dies of a heart attack at the age of 62.</li>
+          </ul>
+          <blockquote class="blockquote">
+            <p>"I think it is pretty hard to explain most governments’ responses to the crisis and recession without a healthy dose of Keynes."</p>
+            <footer class="blockquote-footer"><cite title="Source Title">Alan S. Blinder</cite></footer>
+          </blockquote>
+          <h3>Read more in-depth about John M. Keynes on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/John_Maynard_Keynes" target="_blank">Wikipedia entry</a>.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="text-center">
+    <hr>
+    <p>Written and coded by <a href="https://www.freecodecamp.com/squibs" target="_blank">Zachary Holman</a>.</p>
+  </footer>
+</div>
+<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+</body>
+</html>
