@@ -35,22 +35,22 @@ pairwise([], 100); // should return 0.
 
 /* CONDENSED VERSION - NO CONSOLE OUTPUTS
 
-const pairwise = function (arr, arg) {
-  const array = arr;
-  let sum = 0;
+  const pairwise = function (arr, arg) {
+    const array = arr;
+    let sum = 0;
 
-  array.forEach((value, index) => {
-    for (let i = 0; i < array.length; i += 1) {
-      if (value + array[i] === arg && index !== i) {
-        sum += index + i;
-        array[i] = 'banana'; // could use delete, but i'd rather make it a banana
-        array[index] = 'banana';
-        break;
+    array.forEach((value, index) => {
+      for (let i = 0; i < array.length; i += 1) {
+        if (value + array[i] === arg && index !== i) {
+          sum += index + i;
+          array[i] = 'banana'; // could use delete, but i'd rather make it a banana
+          array[index] = 'banana';
+          break;
+        }
       }
-    }
-  });
+    });
 
-  return sum;
-};
+    return sum;
+  };
 
 */
