@@ -13,7 +13,7 @@ Click the links below to navigate through each section and view the solutions I 
 - ~~APIs and Microservices~~
 - ~~Information Security and Quality Assurance~~
 - ~~Contribute to Open Source and Help Nonprofits~~
-- ~~Coding Interview Prep and freeCodeCamp Legacy Projects~~
+- [Coding Interview Prep and freeCodeCamp Legacy Projects](https://github.com/Squibs/freeCodeCamp/tree/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects#coding-interview-prep-and-freecodecamp-legacy-projects)
 
 ## A few quick links
 
