@@ -27,7 +27,7 @@ palindrome("five|\_/|four"); // should return false
 /* CONDENSED VERSION - NO CONSOLE OUTPUTS
 
 	function palindrome(str) {
-    return str.toLowerCase().replace(/[\W_]/g, '').split('').every((value, index, array) => value === array[array.length - 1 - index]);
+        return str.toLowerCase().replace(/[\W_]/g, '').split('').every((value, index, array) => value === array[array.length - 1 - index]);
     }
     
 */

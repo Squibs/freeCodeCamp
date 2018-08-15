@@ -1,4 +1,4 @@
-console.log('Create a function that looks through an array (first argument) and returst he first element in the array that passes a truth test (second argument). \n');
+console.log('Create a function that looks through an array (first argument) and return the first element in the array that passes a truth test (second argument). \n');
 
 const findElement = function (arr, func) {
   for (let i = 0; i < arr.length; i += 1) {
