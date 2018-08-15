@@ -1,20 +1,17 @@
-# [freeCodeCamp](https://github.com/Squibs/freeCodeCamp#freecodecamp)
 
-## [Front End Development Projects](https://github.com/Squibs/freeCodeCamp/tree/master/Front%20End%20Development%20Certification#intermediate-algorithms) (Go Back)
+# Advanced Algorithm Scripting
 
-<img src="../../Images/screenshot-advanced-algorithms.png" height="400" alt="Screenshot of algorithms"/>
-
-### Advanced Algorithms
+<img src="/Images/screenshots/screenshot-advanced-algorithms.png" height="400" alt="Screenshot of algorithms"/>
 
 <em>Completed July 6, 2017</em>
 
-This was the last series of algorithm challenges for the Front End Development Certificaton. It was quite something going through all the beginner, intermediate and now advanced challenges. I learned quite a lot, and I know I still have much to learn yet. I will be moving onto the beta freeCodeCamp website completely, once I finish the rest of the Front End Development Certificaton.
+This was the last series of algorithm challenges for the Front End Development Certification. It was quite something going through all the beginner, intermediate and now advanced challenges. I learned quite a lot, and I know I still have much to learn yet. I will be moving onto the beta freeCodeCamp website completely, once I finish the rest of the Front End Development Certification.
 
-<img src="../../Images/icon-javascript.png" height="48" alt="JavaScript Icon"/>
+<img src="/Images/icons/icon-javascript.png" height="48" alt="JavaScript Icon"/>
 
 ---
 
-#### My notes for these algorithms:
+## My notes for these algorithms:
 
 <b>Advanced Algorithms</b>
 
@@ -30,12 +27,12 @@ This was the last series of algorithm challenges for the Front End Development C
 10. [Pairwise](#pairwise)
 
 
-##### General Notes
+### General Notes
 I created these solutions based on my current level of knowledge. Any of these solutions can most definitely be improved, I am by no means an expert at this at all. I believe I have come up with some decent alternative solutions for these advanced algorithm challenges.
 
 ---
 
-##### Validate US Telephone Numbers
+### Validate US Telephone Numbers
 
 ```JavaScript
 // CONDENSED VERSION - NO CONSOLE OUTPUTS
@@ -44,7 +41,7 @@ const telephoneCheck = function (str) {
 };
 ```
 
-(validate-telephone.js)
+[(validate-telephone.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/JavaScript%20Algorithms%20and%20Data%20Structures%20Projects/validate-telephone-old.js#L1)
 
 This challenge was all bout using `regular expressions`. Two sources made this possible to figure out on my own:
 - [A Regular Expressions reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
@@ -92,11 +89,11 @@ freeCodeCamp states that this example, the intermediate code solution, is an exa
 
 In the end I feel I completed this challenge in a way quite similar to the way freeCodeCamp would be expecting someone to finish this challenge at this stage of progress through the Front End Development Certification.
 
-In the future I would probably split the regular expression up into different variables and them combine them later to keep things neater and give more explaination of what is happening; and to make changes to the expression easier. This could also mean in longer strands of regex, previously variables could be used again instead of rewriting what may be already written if everything is formatted in a logical way.
+In the future I would probably split the regular expression up into different variables and them combine them later to keep things neater and give more explanation of what is happening; and to make changes to the expression easier. This could also mean in longer strands of regex, previously variables could be used again instead of rewriting what may be already written if everything is formatted in a logical way.
 
 ---
 
-##### Record Collection
+### Record Collection
 
 ```JavaScript
 // CONDENSED VERSION - NO CONSOLE OUTPUTS
@@ -119,7 +116,7 @@ return collection;
 };
 ```
 
-(record-collection.js)
+[(record-collection.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/Unused%20Legacy%20Algorithms/record-collection.js#L1)
 
 This challenge felt out of place. The entire time I was thinking there is probably going to be a better way to handle this; however, going to the provided solutions for this problem after completing my solution, I was left slightly confused. The provided solution, only a basic solution is available for this challenge, is much like mine. A lot of if statements, and nested if statements:
 
@@ -148,7 +145,7 @@ I now know how to add a property and how to delete a property. Adding a property
 
 ---
 
-##### Symmetric Difference
+### Symmetric Difference
 
 ```JavaScript
 // CONDENSED VERSION - NO CONSOLE OUTPUTS
@@ -172,7 +169,7 @@ const sym = function (...argument) {
 };
 ```
 
-(symmetric-difference.js)
+[(symmetric-difference.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/symmetric-difference.js#L1)
 
 I had to redo this challenge several times. It definitely helps to understand what you are trying to accomplish before jumping in and finding an incorrect solution. Initially I grouped every argument into a single array, flattened the array, sorted the array, and the removed all duplicate values `(1, 1, 2, 2, 3, 4, 5, 5) => (3, 4)`; as this is what I believed this challenge was asking for. This was not the case, as I soon found out after trying to submit my answer. I then went back and modified my original answer several times, before finally giving into the fact that I had no idea what the challenge was asking for.
 
@@ -194,7 +191,7 @@ Looking at the provided solutions, I feel as though I provided an adequate solut
 
 ---
 
-##### Exact Change
+### Exact Change
 
 ```JavaScript
 // CONDENSED VERSION - NO CONSOLE OUTPUTS
@@ -268,11 +265,11 @@ const checkCashRegister = function (price, cash, cid) {
 };
 ```
 
-(exact-change.js)
+[(exact-change.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/JavaScript%20Algorithms%20and%20Data%20Structures%20Projects/exact-change-old.js#L1)
 
 For this challenge I wanted to work with an object, because there have not been too many challenges where they were used; and every challenge has been using arrays and their methods.
 
-The passed cash register <em>inventory</em> or the amount of demonimations the cash register has, was in a two dimensional array. Converting this array to values in my `cashRegister` object is where I learned about some <em>experimental features</em> dealing with objects in JavaScript. I learned about `Object.entries()` and `Object.values()`. These two methods allow for iterating through objects without having to use a for loop such as `for (var key in obj)` or `for (const key of Object.keys(obj))`. Instead you would be able to do:
+The passed cash register <em>inventory</em> or the amount of denominations the cash register has, was in a two dimensional array. Converting this array to values in my `cashRegister` object is where I learned about some <em>experimental features</em> dealing with objects in JavaScript. I learned about `Object.entries()` and `Object.values()`. These two methods allow for iterating through objects without having to use a for loop such as `for (var key in obj)` or `for (const key of Object.keys(obj))`. Instead you would be able to do:
 ```JavaScript
 Object.entries(obj).forEach(([key, value]) => {
   console.log('do things other than a console log')
@@ -283,7 +280,7 @@ Or use `Object.values` similarly; or even combine the two in some way.
 
 I avoided using these for now. Instead I opted for using what I already knew in conjunction with my `cashRegister` object. My object stores each denomination/currency, their value, and the amount of each denomination passed to the function.
 
-After storing any denomination related information, I use the `filter()` method to go through a `worth` array I created which is holding the denomination names in order from highest value to lowest value. I had to create this array, because I opted to not use experimental object methods. Iterating through this array I check if the currency value is equel to or less than that of what is owed and if the currency amount is not 0. 
+After storing any denomination related information, I use the `filter()` method to go through a `worth` array I created which is holding the denomination names in order from highest value to lowest value. I had to create this array, because I opted to not use experimental object methods. Iterating through this array I check if the currency value is equal to or less than that of what is owed and if the currency amount is not 0. 
 
 If the checks pass I have a while loop that counts the amount of a currency that will be given to the customer, subtracts one of the currency from the cash register and updates the amount still owed to the customer. This loop is controlled by if the currency value is less than or equal to the amount owed and if the currency amount is not 0.
 
@@ -303,7 +300,7 @@ In the end, I'm glad I decided to use an object in this algorithm challenge inst
 
 ---
 
-##### Inventory Update
+### Inventory Update
 
 ```JavaScript
 // CONDENSED VERSION - NO CONSOLE OUTPUTS
@@ -337,17 +334,17 @@ const updateInventory = function (arr1, arr2) {
 };
 ```
 
-(inventory-update.js)
+[(inventory-update.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/inventory-update.js#L1)
 
 For this challenge, I combined the two passed arrays into one with the `concat()` method. I then sorted the combined two dimensional array with the `sort()` method and from there I did the rest with the `reduce()` method.
 
 I needed two things for of the `reduce()` method to get this to work. I needed an outside variable `combined` and a `flag` to control what was being pushed to `combined`. If the length of combined is 0 I would push the previous array into it, this would only run on the first iteration of the `reduce()` method. I then used the `forEach()` method on combined and tested if the current value of the `forEach()` method is equal to the current value of the `reduce()` method and if it is combine the total in the previous and current arrays and set the flag to false. Finally if the flag is true push the current value (to control repeats).
 
-Looking at the provided solutions it is easy to see where I could have improved. Instead of using the `reduce()` method, I could have used nested `forEach()` methods. I had the right idea in using a flag to control whether or not to push the current value or not, I just was not sure how to go about comparing the values. I think my major issue / flaw / querk for this challenge was combining the two arrays right off the bat and trying to work with the combined array. It would have been much simpler to work with the two separate passed arrays.
+Looking at the provided solutions it is easy to see where I could have improved. Instead of using the `reduce()` method, I could have used nested `forEach()` methods. I had the right idea in using a flag to control whether or not to push the current value or not, I just was not sure how to go about comparing the values. I think my major issue / flaw / quirk for this challenge was combining the two arrays right off the bat and trying to work with the combined array. It would have been much simpler to work with the two separate passed arrays.
 
 ---
 
-##### No Repeats Please
+### No Repeats Please
 
 ```JavaScript
 // CONDENSED VERSION - NO CONSOLE OUTPUTS
@@ -382,7 +379,7 @@ const permAlone = function (str) {
 };
 ```
 
-(no-repeats-please.js)
+[(no-repeats-please.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/no-repeats-please.js#L1)
 
 This one was very difficult. I repeatedly tried to solve this with what I already know, and failed many times. Many of my attempts included this:
 
@@ -422,7 +419,7 @@ Looking for the provided solution to this challenge, it looks like a great deal 
 
 ---
 
-##### Make a Person
+### Make a Person
 
 ```JavaScript
 // CONDENSED VERSION - NO CONSOLE OUTPUTS
@@ -458,7 +455,7 @@ const bob = new Person('Bob Ross');
 bob.getFullName();
 ```
 
-(make-a-person.js)
+[(make-a-person.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/make-a-person-old.js#L1)
 
 I enjoyed this one. While it is not hard, it was about how I learned how to program in the first place. While this is not using getters and setters, which it honestly should probably be doing; this challenge showed me how JavaScript handled setting and getting before getters and setters were introduced.
 
@@ -498,11 +495,13 @@ class Person {
 }
 ```
 
+[(make-a-person-revised.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/make-a-person-revised-old.js#L1)
+
 After testing this revised part some more it seems that there is no real way to set private variables with this quite yet, or I just can't seem to find a real answer to do it. There really is not a whole lot of examples or information in general on using the ES6 way of classes. I tried fiddling with getters and setters in this as well, but it really didn't seem to make that much of a difference. `bob.fullName` was always accessible in my recreation when it should not be.
 
 ---
 
-##### Map the Debris
+### Map the Debris
 
 ```JavaScript
 // CONDENSED VERSION - NO CONSOLE OUTPUTS
@@ -519,7 +518,7 @@ const orbitalPeriod = function (arr) {
 };
 ```
 
-(map-the-debris.js)
+[(map-the-debris.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/map-the-debris-old.js#L1)
 
 This one truly was not much of a challenge. The hardest part was finding the correct formula in order to calculate the desired results. I ended up finding [this equation](https://en.wikipedia.org/wiki/Orbital_period#Small_body_orbiting_a_central_body) for a small body orbiting a central body. I then converted the equation to make sense for the already provided function variables:
 
@@ -527,13 +526,13 @@ This one truly was not much of a challenge. The hardest part was finding the cor
 2π * square √((avgAlt + earthRadius)³ / GM)
 ```
 
-I then went and solved the challenge pretty easily. It just requries a lot of `Math` object calls in order to calcuate the correct result. You then push an object with the correct values into an array and return that array.
+I then went and solved the challenge pretty easily. It just requires a lot of `Math` object calls in order to calculate the correct result. You then push an object with the correct values into an array and return that array.
 
 Looking at the provided answer, they give a hint as to the formula to use. That would have been nice to have a bit earlier; however, it didn't very long to find and convert for myself.
 
 ---
 
-##### Pairwise
+### Pairwise
 
 ```JavaScript
 // CONDENSED VERSION - NO CONSOLE OUTPUTS
@@ -556,7 +555,7 @@ const pairwise = function (arr, arg) {
 };
 ```
 
-(pairwise.js)
+[(pairwise.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/pairwise.js#L1)
 
 This challenge wasn't all that hard either. Once again as long as I understand what is happening I think finding a solution is quite simple. For this challenge I stored the passed array in new variable `array`, as I would be changing values of the passed array and due to AirBnB / eslint standards you should not really be assigning values to passed arguments / variables. I then create a sum variable to hold the desired outcome for this challenge.
 

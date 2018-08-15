@@ -1,10 +1,6 @@
-# [freeCodeCamp](https://github.com/Squibs/freeCodeCamp#freecodecamp)
+# Object Oriented and Functional Programming
 
-## [Front End Development Projects](https://github.com/Squibs/freeCodeCamp/tree/master/Front%20End%20Development%20Certification#object-oriented-and-functional-programming) (Go Back)
-
-<img src="../../Images/screenshot-oop.png" height="400" alt="Screenshot of JavaScript objects."/>
-
-### Object Oriented and Functional Programming
+<img src="/Images/screenshots/screenshot-oop.png" height="400" alt="Screenshot of JavaScript objects."/>
 
 <em>Completed May 24, 2017</em>
 
@@ -15,11 +11,11 @@ This was a small series of lessons that featured:
 
 I learned quite a bit about object-oriented programming previously, before I started learning from freeCodeCamp. Much of this section of lessons was just a refresher for me. View my notes on this section for what I found to be useful.
 
-<img src="../../Images/icon-javascript.png" height="48" alt="JavaScript Icon"/>
+<img src="/Images/icons/icon-javascript.png" height="48" alt="JavaScript Icon"/>
 
 ---
 
-#### My notes for these lessons:
+## My notes for these lessons:
 
 <b>Object Oriented and Functional Programming Lessons</b>
 
@@ -37,7 +33,7 @@ I learned quite a bit about object-oriented programming previously, before I sta
 	1. [Make Object Properties Private](#make-object-properties-private)
 
 
-##### Constructor Functions
+### Constructor Functions
 
 A constructor function is given a capitalized name to make it clear that it is a constructor. For example:
 ```JavaScript
@@ -66,13 +62,13 @@ var myCar = new Car(4, 8, 1); // 4 wheels, 8 seats, 1 engine
 
 Objects have their own attributes (called properties) and functions (called methods).
 - Objects can have private properties and methods.
-	- To do this, decalre the variable instead of using the this.property() method.
+	- To do this, declare the variable instead of using the this.property() method.
 		- var speed = 10; instead of this.speed = 10;
 
 
-##### Useful Array Methods
+### Useful Array Methods
 
-###### Map()
+#### Map()
 
 The map() method is a way to iterate through arrays:
 ```JavaScript
@@ -87,7 +83,7 @@ var newArray = oldArray.map(function(val){
 
 ---
 
-###### Reduce()
+#### Reduce()
 
 The reduce() method is a way to iterate through an array and condense it into one value:
 ```JavaScript
@@ -103,7 +99,7 @@ singleVal = array.reduce(function(previousVal, currentVal) {
 
 ---
 
-###### Filter()
+#### Filter()
 
 The filter() method is used to iterate through an array and filter out elements where a given condition is not true:
 ```JavaScript
@@ -118,7 +114,7 @@ var newArray = oldArray.filter(function(val) {
 
 ---
 
-###### Sort()
+#### Sort()
 
 The sort() method is used to sort the values in an array alphabetically or numerically (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort?v=example)
 
@@ -129,12 +125,12 @@ array.sort(function(a, b) {
   return b - a; 
 }); 
 
-// b-a sorts from larget to smallest ... use a - b for smallest to largest; if no compare (callback) function is passed in it will convert the values to strings and sort alphabetically.
+// b-a sorts from largest to smallest ... use a - b for smallest to largest; if no compare (callback) function is passed in it will convert the values to strings and sort alphabetically.
 ```
 
 ---
 
-###### Reverse()
+#### Reverse()
 
 The reverse() method is used to reverse the elements in an array:
 
@@ -149,7 +145,7 @@ newArray = array.reverse();
 
 ---
 
-###### Concat()
+#### Concat()
 
 The concat() method can be used to merge the contents of two arrays into one:
 
@@ -166,7 +162,7 @@ newArray = oldArray.concat(concatMe);
 
 ---
 
-###### Split()
+#### Split()
 
 The split() method can be used to split a string into an array:
 
@@ -181,7 +177,7 @@ array = string.split(' '); //splits at every space
 
 ---
 
-###### Join()
+#### Join()
 
 The join() method is used to join each element of an array into a string separated by whatever delimiter that is used as an argument:
 
@@ -195,11 +191,11 @@ joinedString = joinMe.join(' ');
 ```
 
 
-##### Examples
+### Examples
 
 Random examples I learned something from:
 
-###### Make Object Properties Private
+#### Make Object Properties Private
 
 Private gear property. Two public methods that allow the private gear property to be set.
 

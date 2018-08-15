@@ -1,10 +1,6 @@
-# [freeCodeCamp](https://github.com/Squibs/freeCodeCamp#freecodecamp)
+# Basic Javascript
 
-## [Front End Development Projects](https://github.com/Squibs/freeCodeCamp/tree/master/Front%20End%20Development%20Certification#basic-javascript) (Go Back)
-
-<img src="../../Images/screenshot-basic-javascript.png" height="400" alt="Screenshot of some JavaScript source code."/>
-
-### Basic Javascript
+<img src="/Images/screenshots/screenshot-basic-javascript.png" height="400" alt="Screenshot of some JavaScript source code."/>
 
 <em>Completed May 23, 2017</em>
 
@@ -17,11 +13,11 @@ This was a series of many lessons relating to:
 
 View the "Random JavaScript examples I learned something from:" at the end of my notes to see various created functions from these lessons that I myself found to be useful or ended up teaching me something of value.
 
-<img src="../../Images/icon-javascript.png" height="48" alt="JavaScript Icon"/>
+<img src="/Images/icons/icon-javascript.png" height="48" alt="JavaScript Icon"/>
 
 ---
 
-#### My notes for these lessons:
+## My notes for these lessons:
 
 <b>Basic JavaScript Lessons:</b>
 
@@ -38,7 +34,7 @@ View the "Random JavaScript examples I learned something from:" at the end of my
 	9. [Generate Random Whole Numbers within a Range](#generate-random-whole-numbers-within-a-range)
 
 
-##### Basic Notes
+### Basic Notes
 
 Arrays:
 - ```.unshift()``` Add to front of an array.
@@ -165,11 +161,11 @@ var nonSpaceCount = testString.match(expression).length; // nonSpaceCount will b
 ```
 
 
-##### Examples
+### Examples
 
 Random examples I learned something from:
 
-###### Stand in Line
+#### Stand in Line
 Function takes two arguments, an array and a number. Puts the number at the end of the array and removes the first element of the array and returns that value
 
 ```JavaScript
@@ -189,7 +185,7 @@ console.log(nextInLine(testArr, 6)); // Modify this line to test
 console.log("After: " + JSON.stringify(testArr));
 ```
 
-###### Counting Cards
+#### Counting Cards
 A mini-challenge within the basic javascript lessions. Create a function that will state whether or not to hold or bet after a sequence of cards.
 
 ```Javascript
@@ -224,7 +220,7 @@ function cc(card) {
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 ```
 
-###### Returning Boolean Values from Functions
+#### Returning Boolean Values from Functions
 These functions (top compared to bottom) test for and return the same values. Returns either true or false.
 
 ```JavaScript
@@ -241,7 +237,7 @@ function isEqual(a,b) {							function is less(a,b) {
 }												}
 ```
 
-###### Using Objects for Lookups
+#### Using Objects for Lookups
 You can use Objects as way to lookup values rather than using a switch statement or an if/else chain.
 
 ```JavaScript
@@ -270,7 +266,7 @@ function phoneticLookup(val) {
 phoneticLookup("charlie");
 ```
 
-###### Testing Objects for Properties
+#### Testing Objects for Properties
 Using a function to test if an object has a property and returning the value of that property if it exists within the object.
 
 ```JavaScript
@@ -294,7 +290,7 @@ function checkObj(checkProp) {
 checkObj("gift");
 ```
 
-###### Manipulating Complex Objects
+#### Manipulating Complex Objects
 A complex object is created like this in JSON.
 
 ```JavaScript
@@ -321,7 +317,7 @@ var myMusic = [
 ```
 
 
-###### Nesting For Loops
+#### Nesting For Loops
 You can use nested For loops to loop through an array and any sub-arrays.
 
 ```JavaScript
@@ -345,7 +341,7 @@ multiplyAll([[1,2],[3,4],[5,6,7]]);
 ```
 
 
-###### Profile Lookup
+#### Profile Lookup
 Send a name as well as a property through a function. The property is returned if the name and the property exist in the complex object.
 
 ```JavaScript
@@ -403,7 +399,7 @@ function lookUpProfile(firstName, prop){
 lookUpProfile("Sherlock", "likes"); //returns ["Intriguing Cases","Violin"]
 ```
 
-###### Generate Random Whole Numbers within a Range
+#### Generate Random Whole Numbers within a Range
 A way to generate a random number within a given range.
 
 ```JavaScript
