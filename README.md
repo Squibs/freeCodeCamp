@@ -10,9 +10,8 @@ Click the links below to navigate through each section and view the solutions I 
 - [Javascript Algorithms and Data Structures](https://github.com/Squibs/freeCodeCamp/tree/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures#javascript-algorithms-and-data-structures)
 - [Front End Libraries](https://github.com/Squibs/freeCodeCamp/tree/master/3.%20Front%20End%20Libraries)
 - ~~Data Visualization~~
-- ~~APIs and Microservices~~
+- [APIs and Microservices](https://github.com/Squibs/freeCodeCamp/tree/master/5.%20Apis%20and%20Microservices#apis-and-microservices)
 - ~~Information Security and Quality Assurance~~
-- ~~Contribute to Open Source and Help Nonprofits~~
 - [Coding Interview Prep and freeCodeCamp Legacy Projects](https://github.com/Squibs/freeCodeCamp/tree/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects#coding-interview-prep-and-freecodecamp-legacy-projects)
 
 ## A few quick links
