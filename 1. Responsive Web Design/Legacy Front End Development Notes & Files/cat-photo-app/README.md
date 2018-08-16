@@ -1,6 +1,8 @@
-# [Cat Photo App](https://codepen.io/Sulph/pen/qmPGwq) (Responsive Design with Bootstrap) (Click to view functional site on Code-Pen)
+# Cat Photo App
 
 <img src="/Images/screenshots/screenshot-cat-photo-app.png" height="400" alt="Screenshot of a cat photo app built with html"/>
+
+[Cat Photo App](https://codepen.io/Sulph/pen/qmPGwq) (Responsive Design with Bootstrap) (Click to view functional site on Code-Pen)
 
 <em>Completed May 03, 2017</em>
 

@@ -1,6 +1,8 @@
-# [jQuery Playground](https://codepen.io/Sulph/pen/aWEyaK) (Click to view functional site on Code-Pen)
+# jQuery Playground
 
-<a href="https://codepen.io/Sulph/pen/aWEyaK" target="_blank"><img src="/Images/screenshots/screenshot-jquery-playground.png" height="400" alt="Screenshot of jQuery Playground html and jQuery source code."/></a>
+<img src="/Images/screenshots/screenshot-jquery-playground.png" height="400" alt="Screenshot of jQuery Playground html and jQuery source code."/>
+
+# [jQuery Playground](https://codepen.io/Sulph/pen/aWEyaK) (Click to view functional site on Code-Pen)
 
 <em>Completed May 04, 2017</em>
 
