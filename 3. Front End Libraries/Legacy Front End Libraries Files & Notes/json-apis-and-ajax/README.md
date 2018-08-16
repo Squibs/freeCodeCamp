@@ -1,10 +1,6 @@
-# [freeCodeCamp](https://github.com/Squibs/freeCodeCamp#freecodecamp)
+# JSON APIs and Ajax
 
-## [Front End Development Projects](https://github.com/Squibs/freeCodeCamp/tree/master/Front%20End%20Development%20Certification#json-apis-and-ajax) (Go Back)
-
-<img src="../../Images/screenshot-json-apis-and-ajax.png" height="400" alt="Screenshot of my JSON APIs and Ajax notes"/>
-
-### JSON APIs and Ajax
+<img src="/Images/screenshots/screenshot-json-apis-and-ajax.png" height="400" alt="Screenshot of my JSON APIs and Ajax notes"/>
 
 <em>Completed May 28, 2017</em>
 
@@ -12,11 +8,11 @@ This was a small series of lessons in which taught the very basics of retrieving
 
 While this series was quite short, it did give me some insight on how APIs are used, and I feel as though I could create something with a given API; although probably nothing complicated yet.
 
-<img src="../../Images/icon-javascript.png" height="48" alt="JavaScript Icon"/>
+<img src="/Images/icons/icon-javascript.png" height="48" alt="JavaScript Icon"/>
 
 ---
 
-#### My notes for these lessons:
+## My notes for these lessons:
 
 <b>JSON APIs and Ajax</b>
 
@@ -30,12 +26,10 @@ While this series was quite short, it did give me some insight on how APIs are u
 	5. [Prefilter JSON](#prefilter-json)
 	6. [Get Geolocation Data](#get-geolocation-data)
 
-
-##### Refreshers:
+### Refreshers:
 
 ```javascript
 $(document).ready() // runs once the page has finished loading.
-
 ```
 
 API - Application Programming Interfaces
@@ -43,9 +37,9 @@ API - Application Programming Interfaces
 
 Json - JavaScript Object Notation
 - Object properties and their current values; between { }
-	- Refered to as key-value pairs
+	- Referred to as key-value pairs
 
-##### Basic layout of what is being used throughout these lessons (some bootstrap classes):
+### Basic layout of what is being used throughout these lessons (some bootstrap classes):
 ```HTML
 <script>
   $(document).ready(function() {
@@ -76,9 +70,9 @@ Json - JavaScript Object Notation
 </div>
 ```
 
-##### Some examples that can be used with this particular function:
+### Some examples that can be used with this particular function:
 
-###### Trigger Click Events with jQuery & Change Text with Click Events:
+#### Trigger Click Events with jQuery & Change Text with Click Events:
 ```JavaScript
 // acts as a listener for the get message button; listens for a click then does something
 $("#getMessage").on("click", function() {
@@ -89,8 +83,7 @@ $("#getMessage").on("click", function() {
 }); 
 ```
 
-
-###### Get JSON with the jQuery getJSON Method:
+#### Get JSON with the jQuery getJSON Method:
 ```JavaScript
 // retrieves the JSON from the cat photo API
 $.getJSON("/json/cats.json", function(json) { 
@@ -119,8 +112,7 @@ Keys and their values make sense to me now. Here's some examples:
 - altText is a key with a value of "A white cat wearing a green helmet shaped melon on it's head."
 - codenames is a key with a value of ["Juggernaut", "Mrs. Wallace", "Buttercup"]
 
-
-###### Convert JSON Data to HTML:
+#### Convert JSON Data to HTML:
 ```JavaScript
 $("#getMessage").on("click", function() {
 
@@ -197,8 +189,7 @@ The HTML would look like this (as an example for only the first cat, each subseq
 </div>
 ```
 
-
-###### Render Images from Data Sources:
+#### Render Images from Data Sources:
 ```JavaScript
 $(document).ready(function() {
   $("#getMessage").on("click"), function() {
@@ -224,17 +215,16 @@ $(document).ready(function() {
 });
 ```
 
-The HTML created with this (in the .message well div; looks like apostrophies are messed up in this example; this is only an example of the first image, the others would be here as well; they also have no formatting to them, so they are the original size... so the code would have to change to possibly correct this, or the css could do it):
+The HTML created with this (in the .message well div; looks like apostrophes are messed up in this example; this is only an example of the first image, the others would be here as well; they also have no formatting to them, so they are the original size... so the code would have to change to possibly correct this, or the css could do it):
 ```HTML
 <div class="col-xs-12 well message">
   <div class="cat">
-    <img src="https://s3.amazonaws.com/freecodecamp/funny-cat.jpg" alt="A white cat wearinga  green helmet shaped melon on it" s head. '>
+    <img src="https://s3.amazonaws.com/freecodecamp/funny-cat.jpg" alt="A white cat wearing a green helmet shaped melon on it" s head. '>
   </div>
 </div>
 ```
 
-
-###### Prefilter JSON:
+#### Prefilter JSON:
 ```JavaScript
 $(document).ready(function() {
 
@@ -269,8 +259,7 @@ $(document).ready(function() {
 });	
 ```
 
-
-###### Get Geolocation Data:
+#### Get Geolocation Data:
 ```HTML
 <script>
 // Only change code below this line.
