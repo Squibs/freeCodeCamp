@@ -629,7 +629,7 @@ const binaryAgent = function (str) {
 };
 ```
 
-(binary-agents.js)
+[(binary-agents.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/binary-agents-old.js#L1)
 
 This is the solution I came up with initially. Then I came up with a revised solution:
 
@@ -645,6 +645,7 @@ const binaryAgent = function (str) {
   }).join('');
 };
 ```
+[(binary-agents-revised.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/binary-agents-revised-old.js#L1)
 
 I create an array for an 8 bit value. I then split the passed string into an array at each space. I then `map()` the array and for each value I use a for loop to get each character and add that value times the current 8-bit/binary position (binary[i]) to a sum. I then return the charcode of the sum and repeat this for each value. I then join the array and return it as a string. I used instructions mainly from [here](https://www.kidscodecs.com/a-binary-numbers-tutorial-with-1-and-0/) as I never knew how to translate binary.
 
