@@ -2,24 +2,33 @@
 
 I created this check list as the beta freeCodeCamp website is currently not reliable in tracking progress. The progress will be wiped in the future anyways once the site is pushed live. It is interesting to see how many tasks there are in this way anyhow.
 
-<strong>608</strong> out of <strong>1456</strong> tasks complete.
-(<em>May or may not be up-to-date.</em>)
+**685** out of **1463** tasks complete.
+(*My own challenge count. May or may not be up-to-date.*)
+
+freeCodeCamp lists: 
+- **712** of **1408** challenges
+- **14** of **30** projects
+- **1** of **3** legacy certifications
+- **2** of **6** certifications
 
 ---
 
 ## Navigation:
 
-- [Getting Started](#getting-started)
-- [Responsive Web Design](#responsive-web-design)
+- [~~*Getting Started*~~](#getting-started)
+
+- [~~*Responsive Web Design*~~](#responsive-web-design)
 	- [~~*Basic HTML and HTML5*~~](#basic-html-and-html5)
 	- [~~*Basic CSS*~~](#basic-css)
 	- [~~*Applied Visual Design*~~](#applied-visual-design)
 	- [~~*Applied Accessibility*~~](#applied-accessibility)
 	- [~~*Responsive Web Design Principles*~~](#responsive-web-design-principles)
 	- [~~*CSS Flexbox*~~](#css-flexbox)
-	- [~~*Applied Responsive Web Design Projects*~~](#applied-responsive-web-design-projects)
-	- [Claim Your Responsive Web Design Certificate](#claim-your-responsive-web-design-certificate)
-- [JavaScript Algorithms and Data Structures](#javascript-algorithms-and-data-structures)
+	- [~~*CSS Grid*~~](#css-grid)
+	- [~~*Responsive Web Design Projects*~~](#responsive-web-design-projects)
+	- [~~*Claim Your Responsive Web Design Certificate*~~](#claim-your-responsive-web-design-certificate)
+
+- [~~*JavaScript Algorithms and Data Structures*~~](#javascript-algorithms-and-data-structures)
 	- [~~*Basic JavaScript*~~](#basic-javascript)
 	- [~~*ES6*~~](#es6)
 	- [~~*Regular Expressions*~~](#regular-expressions)
@@ -29,7 +38,9 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*Object Oriented Programming*~~](#object-oriented-programming)
 	- [~~*Functional Programming*~~](#functional-programming)
 	- [~~*Intermediate Algorithm Scripting*~~](#intermediate-algorithm-scripting)
-	- [Claim Your JavaScript Algorithms and Data Structures Certificate](#claim-your-javascript-algorithms-and-data-structures-certificate)
+	- [~~*JavaScript Algorithms and Data Structures Projects*~~](#javascript-algorithms-and-data-structures-projects)
+	- [~~*Claim Your JavaScript Algorithms and Data Structures Certificate*~~](#claim-your-javascript-algorithms-and-data-structures-certificate)
+
 - [Front End Libraries](#front-end-libraries)
 	- [~~*Bootstrap*~~](#bootstrap)
 	- [~~*jQuery*~~](#jquery)
@@ -37,27 +48,29 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 	- [~~*React*~~](#react)
 	- [~~*Redux*~~](#redux)
 	- [~~*React and Redux*~~](#react-and-redux)
-	- [Front End Frameworks Projects](#front-end-frameworks-projects)
+	- [Front End Libraries Projects](#front-end-libraries-projects)
 	- [Claim Your Front End Libraries Certificate](#claim-your-front-end-libraries-certificate)
+
 - [Data Visualization](#data-visualization)
 	- [Data Visualization with D3](#data-visualization-with-d3)
 	- [JSON APIs and AJAX](#json-apis-and-ajax)
 	- [Data Visualization Projects](#data-visualization-projects)
 	- [Claim Your Data Visualization Certificate](#claim-your-data-visualization-certificate)
+
 - [APIs and Microservices](#apis-and-microservices)
-	- [Managing Packages with npm](#managing-packages-with-npm)
-	- [Basic Node and Express](#basic-node-and-express)
+	- [~~*Managing Packages with npm*~~](#managing-packages-with-npm)
+	- [~~*Basic Node and Express*~~](#basic-node-and-express)
 	- [MongoDB and Mongoose](#mongodb-and-mongoose)
 	- [API and Microservice Projects](#api-and-microservice-projects)
 	- [Claim Your APIs and Microservices Certificate](#claim-your-apis-and-microservices-certificate)
+
 - [Information Security and Quality Assurance](#information-security-and-quality-assurance)
 	- [Information Security with HelmetJS](#information-security-with-helmetjs)
 	- [Quality Assurance and Testing with Chai](#quality-assurance-and-testing-with-chai)
 	- [Advanced Node and Express](#advanced-node-and-express)
 	- [Information Security and Quality Assurance Projects](#information-security-and-quality-assurance-projects)
 	- [Claim Your Information Security and Quality Assurance Certificate](#claim-your-information-security-and-quality-assurance-certificate)
-- [Contribute to Open Source and Help Nonprofits](#contribute-to-open-source-and-help-nonprofits)
-	- [Open Source Contributions](#open-source-contributions)
+
 - [Coding Interview Questions and Take Home Assignments](#coding-interview-questions-and-take-home-assignments)
 	- [Coding Interview Algorithm Questions](#coding-interview-algorithm-questions)
 	- [Coding Interview Data Structure Questions](#coding-interview-data-structure-questions)
@@ -67,19 +80,19 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 
 ---
 
-### Getting Started
+### ~~*Getting Started*~~
 * [X] ~~*Getting Started*~~
-	* [X] ~~*Join the freeCodeCamp Community*~~
-		* [X] ~~*Learn How freeCodeCamp Works*~~
-		* [X] ~~*Create a GitHub Account and Join our Chat Rooms*~~
-		* [X] ~~*Configure Your Code Portfolio*~~
-		* [X] ~~*Join a freeCodeCamp Group in Your City*~~
-		* [X] ~~*Read Coding News on our Medium Publication*~~
-		* [X] ~~*Learn What to Do If You Get Stuck*~~
+* [X] ~~*Join the freeCodeCamp Community*~~
+* [X] ~~*Learn How freeCodeCamp Works*~~
+* [X] ~~*Create a GitHub Account and Join our Chat Rooms*~~
+* [X] ~~*Configure Your Code Portfolio*~~
+* [X] ~~*Join a freeCodeCamp Group in Your City*~~
+* [X] ~~*Read Coding News on our Medium Publication*~~
+* [X] ~~*Learn What to Do If You Get Stuck*~~
 
-### Responsive Web Design
+### ~~*Responsive Web Design*~~
 #### ~~*Basic HTML and HTML5*~~
-* [X] ~~*Introduction to the Basic HTML and HTML5 Challenges*~~
+* [X] ~~*Introduction to Basic HTML and HTML5*~~
 * [X] ~~*Say Hello to HTML Elements*~~
 * [X] ~~*Headline with the h2 Element*~~
 * [X] ~~*Inform with the Paragraph Element*~~
@@ -145,6 +158,13 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use Abbreviated Hex Code*~~
 * [X] ~~*Use RGB values to Color Elements*~~
 * [X] ~~*Use RGB to Mix Colors*~~
+* [X] ~~*Use CSS Variables to change several elements at once*~~
+* [X] ~~*Create a custom CSS Variable*~~
+* [X] ~~*Use a custom CSS Variable*~~
+* [X] ~~*Attach a Fallback value to a CSS Variable*~~
+* [X] ~~*Cascading CSS variables*~~
+* [X] ~~*Change a variable for a specific area*~~
+* [X] ~~*Use a media query to change a variable*~~
 #### ~~*Applied Visual Design*~~
 * [X] ~~*Introduction to the Applied Visual Design Challenges*~~
 * [X] ~~*Create Visual Balance Using the text-align Property*~~
@@ -153,7 +173,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use the strong Tag to Make Text Bold*~~
 * [X] ~~*Use the u Tag to Underline Text*~~
 * [X] ~~*Use the em Tag to Italicize Text*~~
-* [X] ~~*Use the del Tag to Strikethrough Text*~~
+* [X] ~~*Use the s Tag to Strikethrough Text*~~
 * [X] ~~*Create a Horizontal Line Using the hr Element*~~
 * [X] ~~*Adjust the background-color Property of Text*~~
 * [X] ~~*Adjust the Size of a Header Versus a Paragraph Tag*~~
@@ -248,19 +268,43 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use the flex Shorthand Property*~~
 * [X] ~~*Use the order Property to Rearrange Items*~~
 * [X] ~~*Use the align-self Property*~~
-#### ~~*Applied Responsive Web Design Projects*~~
-* [X] ~~*Get Set for our Responsive Web Design Projects*~~
-* [X] ~~*Build a Tribute Page**~~
-* [X] ~~*Build a Survey Form**~~
-* [X] ~~*Build a Product Landing Page**~~
-* [X] ~~*Build a Technical Documentation Page**~~
-* [X] ~~*Build a Personal Portfolio Webpage**~~
-#### Claim Your Responsive Web Design Certificate
-* [ ] Claim Your Responsive Web Design Certificate
+#### ~~*CSS Grid*~~
+* [X] ~~*Introduction to the CSS Grid Challenges*~~
+* [X] ~~*Create Your First CSS Grid*~~
+* [X] ~~*Add Columns with grid-template-columns*~~
+* [X] ~~*Add Rows with grid-template-rows*~~
+* [X] ~~*Use CSS Grid units to Change the Size of Columns and Rows*~~
+* [X] ~~*Create a Column Gap Using grid-column-gap*~~
+* [X] ~~*Create a Row Gap using grid-row-gap*~~
+* [X] ~~*Add Gaps Faster with grid-gap*~~
+* [X] ~~*Use grid-column to Control Spacing*~~
+* [X] ~~*Use grid-row to Control Spacing*~~
+* [X] ~~*Align an Item Horizontally using justify-self*~~
+* [X] ~~*Align an Item Vertically using align-self*~~
+* [X] ~~*Align All Items Horizontally using justify-items*~~
+* [X] ~~*Align All Items Vertically using align-items*~~
+* [X] ~~*Divide the Grid Into an Area Template*~~
+* [X] ~~*Place Items in Grid Areas Using the grid-area Property*~~
+* [X] ~~*Use grid-area Without Creating an Areas Template*~~
+* [X] ~~*Reduce Repetition Using the repeat Function*~~
+* [X] ~~*Limit Item Size Using the minmax Function*~~
+* [X] ~~*Create Flexible Layouts Using auto-fill*~~
+* [X] ~~*Create Flexible Layouts Using auto-fit*~~
+* [X] ~~*Use Media Queries to Create Responsive Layouts*~~
+* [X] ~~*Create Grids within Grids*~~
+#### ~~*Responsive Web Design Projects*~~
+* [X] ~~*Introduction to the Responsive Web Design Projects*~~
+* [X] ~~*Build a Tribute Page*~~
+* [X] ~~*Build a Survey Form*~~
+* [X] ~~*Build a Product Landing Page*~~
+* [X] ~~*Build a Technical Documentation Page*~~
+* [X] ~~*Build a Personal Portfolio Webpage*~~
+#### ~~*Claim Your Responsive Web Design Certificate*~~
+* [X] ~~*Claim Your Responsive Web Design Certificate*~~
 
 ---
 
-### JavaScript Algorithms and Data Structures
+### ~~*JavaScript Algorithms and Data Structures*~~
 #### ~~*Basic JavaScript*~~
 * [X] ~~*Introduction to JavaScript*~~
 * [X] ~~*Comment Your JavaScript Code*~~
@@ -277,7 +321,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Decrement a Number with JavaScript*~~
 * [X] ~~*Create Decimal Numbers with JavaScript*~~
 * [X] ~~*Multiply Two Decimals with JavaScript*~~
-* [X] ~~*Divide one Decimal by Another with JavaScript*~~
+* [X] ~~*Divide One Decimal by Another with JavaScript*~~
 * [X] ~~*Finding a Remainder in JavaScript*~~
 * [X] ~~*Compound Assignment With Augmented Addition*~~
 * [X] ~~*Compound Assignment With Augmented Subtraction*~~
@@ -314,12 +358,14 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Local Scope and Functions*~~
 * [X] ~~*Global vs. Local Scope in Functions*~~
 * [X] ~~*Return a Value from a Function with Return*~~
+* [X] ~~*Understanding Undefined Value returned from a Function*~~
 * [X] ~~*Assignment with a Returned Value*~~
 * [X] ~~*Stand in Line*~~
 * [X] ~~*Understanding Boolean Values*~~
 * [X] ~~*Use Conditional Logic with If Statements*~~
 * [X] ~~*Comparison with the Equality Operator*~~
 * [X] ~~*Comparison with the Strict Equality Operator*~~
+* [X] ~~*Practice comparing different values*~~
 * [X] ~~*Comparison with the Inequality Operator*~~
 * [X] ~~*Comparison with the Strict Inequality Operator*~~
 * [X] ~~*Comparison with the Greater Than Operator*~~
@@ -341,7 +387,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Return Early Pattern for Functions*~~
 * [X] ~~*Counting Cards*~~
 * [X] ~~*Build JavaScript Objects*~~
-* [X] ~~*Accessing Object Properties with the Dot Operator*~~
+* [X] ~~*Accessing Object Properties with Dot Notation*~~
 * [X] ~~*Accessing Object Properties with Bracket Notation*~~
 * [X] ~~*Accessing Object Properties with Variables*~~
 * [X] ~~*Updating Object Properties*~~
@@ -359,6 +405,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Count Backwards With a For Loop*~~
 * [X] ~~*Iterate Through an Array with a For Loop*~~
 * [X] ~~*Nesting For Loops*~~
+* [X] ~~*Iterate with JavaScript Do...While Loops*~~
 * [X] ~~*Profile Lookup*~~
 * [X] ~~*Generate Random Fractions with JavaScript*~~
 * [X] ~~*Generate Random Whole Numbers with JavaScript*~~
@@ -367,12 +414,13 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use the parseInt Function with a Radix*~~
 * [X] ~~*Use the Conditional (Ternary) Operator*~~
 * [X] ~~*Use Multiple Conditional (Ternary) Operators*~~
-#### ES6
+#### ~~*ES6*~~
 * [X] ~~*Introduction to the ES6 Challenges*~~
-* [X] ~~*Explore Problems with the var Keyword*~~
+* [X] ~~*Explore Differences Between the var and let Keywords*~~
 * [X] ~~*Compare Scopes of the var and let Keywords*~~
 * [X] ~~*Declare a Read-Only Variable with the const Keyword*~~
 * [X] ~~*Mutate an Array Declared with const*~~
+* [X] ~~*Prevent Object Mutation*~~
 * [X] ~~*Use Arrow Functions to Write Concise Anonymous Functions*~~
 * [X] ~~*Write Arrow Functions with Parameters*~~
 * [X] ~~*Write Higher Order Arrow Functions*~~
@@ -394,7 +442,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use * to Import Everything from a File*~~
 * [X] ~~*Create an Export Fallback with export default*~~
 * [X] ~~*Import a Default Export*~~
-#### Regular Expressions
+#### ~~*Regular Expressions*~~
 * [X] ~~*Introduction to the Regular Expression Challenges*~~
 * [X] ~~*Using the Test Method*~~
 * [X] ~~*Match Literal Strings*~~
@@ -428,9 +476,10 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Reuse Patterns Using Capture Groups*~~
 * [X] ~~*Use Capture Groups to Search and Replace*~~
 * [X] ~~*Remove Whitespace from Start and End*~~
-#### Debugging
+#### ~~*Debugging*~~
 * [X] ~~*Introduction to the Debugging Challenges*~~
 * [X] ~~*Use the JavaScript Console to Check the Value of a Variable*~~
+* [X] ~~*Understanding the Differences between the freeCodeCamp and Browser Console*~~
 * [X] ~~*Use typeof to Check the Type of a Variable*~~
 * [X] ~~*Catch Misspelled Variable and Function Names*~~
 * [X] ~~*Catch Unclosed Parentheses, Brackets, Braces and Quotes*~~
@@ -441,8 +490,8 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Catch Off By One Errors When Using Indexing*~~
 * [X] ~~*Use Caution When Reinitializing Variables Inside a Loop*~~
 * [X] ~~*Prevent Infinite Loops with a Valid Terminal Condition*~~
-#### Basic Data Structures
-* [X] ~~*Introduction to Arrays*~~
+#### ~~*Basic Data Structures*~~
+* [X] ~~*Introduction to the Basic Data Structure Challenges*~~
 * [X] ~~*Use an Array to Store a Collection of Data*~~
 * [X] ~~*Access an Array's Contents Using Bracket Notation*~~
 * [X] ~~*Add Items to an Array with push() and unshift()*~~
@@ -455,33 +504,33 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Check For The Presence of an Element With indexOf()*~~
 * [X] ~~*Iterate Through All an Array's Items Using For Loops*~~
 * [X] ~~*Create complex multi-dimensional arrays*~~
-* [X] ~~*Introduction to Objects*~~
 * [X] ~~*Add Key-Value Pairs to JavaScript Objects*~~
 * [X] ~~*Modify an Object Nested Within an Object*~~
 * [X] ~~*Access Property Names with Bracket Notation*~~
 * [X] ~~*Use the delete Keyword to Remove Object Properties*~~
 * [X] ~~*Check if an Object has a Property*~~
-* [X] ~~*Iterate Through the Keys of an Object with a for...in Statement*~~
+* [X] ~~* Iterate Through the Keys of an Object with a for...in Statement*~~
 * [X] ~~*Generate an Array of All Object Keys with Object.keys()*~~
 * [X] ~~*Modify an Array Stored in an Object*~~
-#### Basic Algorithm Scripting
-* [X] ~~*Get Set for our Algorithm Challenges*~~
-* [X] ~~*Convert Celsius to Fahrenheit**~~
-* [X] ~~*Reverse a String**~~
-* [X] ~~*Factorialize a Number**~~
-* [X] ~~*Find the Longest Word in a String**~~
-* [X] ~~*Return Largest Numbers in Arrays**~~
-* [X] ~~*Confirm the Ending**~~
-* [X] ~~*Repeat a String Repeat a String**~~
-* [X] ~~*Truncate a String**~~
-* [X] ~~*Finders Keepers**~~
-* [X] ~~*Boo who**~~
-* [X] ~~*Title Case a Sentence**~~
-* [X] ~~*Falsy Bouncer**~~
-* [X] ~~*Where do I Belong**~~
-* [X] ~~*Mutations**~~
-* [X] ~~*Chunky Monkey**~~
-#### Object Oriented Programming
+#### ~~*Basic Algorithm Scripting*~~
+* [X] ~~*Introduction to Basic Algorithm Scripting*~~
+* [X] ~~*Convert Celsius to Fahrenheit*~~
+* [X] ~~*Reverse a String*~~
+* [X] ~~*Factorialize a Number*~~
+* [X] ~~*Find the Longest Word in a String*~~
+* [X] ~~*Return Largest Numbers in Arrays*~~
+* [X] ~~*Confirm the Ending*~~
+* [X] ~~*Repeat a String Repeat a String*~~
+* [X] ~~*Truncate a String*~~
+* [X] ~~*Finders Keepers*~~
+* [X] ~~*Boo who*~~
+* [X] ~~*Title Case a Sentence*~~
+* [X] ~~*Slice and Splice*~~
+* [X] ~~*Falsy Bouncer*~~
+* [X] ~~*Where do I Belong*~~
+* [X] ~~*Mutations*~~
+* [X] ~~*Chunky Monkey*~~
+#### ~~*Object Oriented Programming*~~
 * [X] ~~*Introduction to the Object Oriented Programming Challenges*~~
 * [X] ~~*Create a Basic JavaScript Object*~~
 * [X] ~~*Use Dot Notation to Access the Properties of an Object*~~
@@ -506,10 +555,10 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Add Methods After Inheritance*~~
 * [X] ~~*Override Inherited Methods*~~
 * [X] ~~*Use a Mixin to Add Common Behavior Between Unrelated Objects*~~
-* [X] ~~*Use Closure to Protect Properties Within an Object from Being Modified Externally*~~
+* [X] ~~*Use Closure to Protect Properties Within an Object from Being Modified *~~Externally
 * [X] ~~*Understand the Immediately Invoked Function Expression (IIFE)*~~
 * [X] ~~*Use an IIFE to Create a Module*~~
-#### Functional Programming
+#### ~~*Functional Programming*~~
 * [X] ~~*Introduction to the Functional Programming Challenges*~~
 * [X] ~~*Learn About Functional Programming*~~
 * [X] ~~*Understand Functional Programming Terminology*~~
@@ -534,38 +583,43 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use the every Method to Check that Every Element in an Array Meets a Criteria*~~
 * [X] ~~*Use the some Method to Check that Any Elements in an Array Meet a Criteria*~~
 * [X] ~~*Introduction to Currying and Partial Application*~~
-#### Intermediate Algorithm Scripting
-* [X] ~~*Sum All Numbers in a Range**~~
-* [X] ~~*Diff Two Arrays**~~
-* [X] ~~*Check for Palindromes**~~
-* [X] ~~*Seek and Destroy**~~
-* [X] ~~*Wherefore art thou**~~
-* [X] ~~*Spinal Tap Case**~~
-* [X] ~~*Roman Numeral Converter**~~
-* [X] ~~*Caesars Cipher**~~
-* [X] ~~*Pig Latin**~~
-* [X] ~~*Search and Replace**~~
-* [X] ~~*DNA Pairing**~~
-* [X] ~~*Missing letters**~~
-* [X] ~~*Sorted Union**~~
-* [X] ~~*Convert HTML Entities**~~
-* [X] ~~*Sum All Odd Fibonacci Numbers**~~
-* [X] ~~*Sum All Primes**~~
-* [X] ~~*Smallest Common Multiple**~~
-* [X] ~~*Drop it**~~
-* [X] ~~*Steamroller**~~
-* [X] ~~*Binary Agents**~~
-* [X] ~~*Everything Be True**~~
-* [X] ~~*Arguments Optional**~~
+#### ~~*Intermediate Algorithm Scripting*~~
+* [X] ~~*Introduction to the Intermediate Algorithm Scripting Challenges*~~
+* [X] ~~*Sum All Numbers in a Range*~~
+* [X] ~~*Diff Two Arrays*~~
+* [X] ~~*Seek and Destroy*~~
+* [X] ~~*Wherefore art thou*~~
+* [X] ~~*Spinal Tap Case*~~
+* [X] ~~*Pig Latin*~~
+* [X] ~~*Search and Replace*~~
+* [X] ~~*DNA Pairing*~~
+* [X] ~~*Missing letters*~~
+* [X] ~~*Sorted Union*~~
+* [X] ~~*Convert HTML Entities*~~
+* [X] ~~*Sum All Odd Fibonacci Numbers*~~
+* [X] ~~*Sum All Primes*~~
+* [X] ~~*Smallest Common Multiple*~~
+* [X] ~~*Drop it*~~
+* [X] ~~*Steamroller*~~
+* [X] ~~*Binary Agents*~~
+* [X] ~~*Everything Be True*~~
+* [X] ~~*Arguments Optional*~~
 * [X] ~~*Make a Person*~~
 * [X] ~~*Map the Debris*~~
-#### Claim Your JavaScript Algorithms and Data Structures Certificate
-* [ ] Claim Your JavaScript Algorithms and Data Structures Certificate
+#### ~~*JavaScript Algorithms and Data Structures Projects*~~
+* [X] ~~*Introduction to the JavaScript Algorithms and Data Structures Projects*~~
+* [X] ~~*Palindrome Checker*~~
+* [X] ~~*Roman Numeral Converter*~~
+* [X] ~~*Caesars Cipher*~~
+* [X] ~~*Telephone Number Validator*~~
+* [X] ~~*Cash Register*~~
+#### ~~*Claim Your JavaScript Algorithms and Data Structures Certificate*~~
+* [X] ~~*Claim Your JavaScript Algorithms and Data Structures Certificate*~~
 
 ---
 
 ### Front End Libraries
-#### Bootstrap
+#### ~~*Bootstrap*~~
 * [X] ~~*Introduction to the Bootstrap Challenges*~~
 * [X] ~~*Use Responsive Design with Bootstrap Fluid Containers*~~
 * [X] ~~*Make Images Mobile Responsive*~~
@@ -598,7 +652,8 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Give Each Element a Unique id*~~
 * [X] ~~*Label Bootstrap Buttons*~~
 * [X] ~~*Use Comments to Clarify Code*~~
-#### jQuery
+#### ~~*jQuery*~~
+* [X] ~~*Introduction to jQuery*~~
 * [X] ~~*Learn How Script Tags and Document Ready Work*~~
 * [X] ~~*Target HTML Elements with Selectors Using jQuery*~~
 * [X] ~~*Target Elements by Class Using jQuery*~~
@@ -617,7 +672,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Target a Specific Child of an Element Using jQuery*~~
 * [X] ~~*Target Even Elements Using jQuery*~~
 * [X] ~~*Use jQuery to Modify the Entire Page*~~
-#### Sass
+#### ~~*Sass*~~
 * [X] ~~*Introduction to the Sass Challenges*~~
 * [X] ~~*Store Data with Sass Variables*~~
 * [X] ~~*Nest CSS with Sass*~~
@@ -628,7 +683,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Apply a Style Until a Condition is Met with @while*~~
 * [X] ~~*Split Your Styles into Smaller Chunks with Partials*~~
 * [X] ~~*Extend One Set of CSS Styles to Another Element*~~
-#### React
+#### ~~*React*~~
 * [X] ~~*Introduction to the React Challenges*~~
 * [X] ~~*Create a Simple JSX Element*~~
 * [X] ~~*Create a Complex JSX Element*~~
@@ -637,7 +692,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Define an HTML Class in JSX*~~
 * [X] ~~*Learn About Self-Closing JSX Tags*~~
 * [X] ~~*Create a Stateless Functional Component*~~
-* [X] ~~*Create a Component with React*~~
+* [X] ~~*Create a React Component*~~
 * [X] ~~*Create a Component with Composition*~~
 * [X] ~~*Use React to Render Nested Components*~~
 * [X] ~~*Compose React Components*~~
@@ -649,13 +704,12 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Override Default Props*~~
 * [X] ~~*Use PropTypes to Define the Props You Expect*~~
 * [X] ~~*Access Props Using this.props*~~
-* [X] ~~*Using Props with Stateless Functional Components*~~
+* [X] ~~*Review Using Props with Stateless Functional Components*~~
 * [X] ~~*Create a Stateful Component*~~
 * [X] ~~*Render State in the User Interface*~~
 * [X] ~~*Render State in the User Interface Another Way*~~
 * [X] ~~*Set State with this.setState*~~
 * [X] ~~*Bind 'this' to a Class Method*~~
-* [X] ~~*Bind 'this' with an ES6 Arrow Function*~~
 * [X] ~~*Use State to Toggle an Element*~~
 * [X] ~~*Write a Simple Counter*~~
 * [X] ~~*Create a Controlled Input*~~
@@ -663,7 +717,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Pass State as Props to Child Components*~~
 * [X] ~~*Pass a Callback as Props*~~
 * [X] ~~*Use the Lifecycle Method componentWillMount*~~
-* [X] ~~*Use the Lifecycle Method compnenentDidMount*~~
+* [X] ~~*Use the Lifecycle Method componentDidMount*~~
 * [X] ~~*Add Event Listeners*~~
 * [X] ~~*Manage Updates with Lifecycle Methods*~~
 * [X] ~~*Optimize Re-Renders with shouldComponentUpdate*~~
@@ -672,7 +726,6 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Use Advanced JavaScript in React Render Method*~~
 * [X] ~~*Render with an If/Else Condition*~~
 * [X] ~~*Use && for a More Concise Conditional*~~
-* [X] ~~*Return null to Prevent Rendering*~~
 * [X] ~~*Use a Ternary Expression for Conditional Rendering*~~
 * [X] ~~*Render Conditionally from Props*~~
 * [X] ~~*Change Inline CSS Conditionally Based on Component State*~~
@@ -680,10 +733,10 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Give Sibling Elements a Unique Key Attribute*~~
 * [X] ~~*Use Array.filter() to Dynamically Filter an Array*~~
 * [X] ~~*Render React on the Server with renderToString*~~
-#### Redux
+#### ~~*Redux*~~
 * [X] ~~*Introduction to the Redux Challenges*~~
 * [X] ~~*Create a Redux Store*~~
-* [X] ~~*Get the State of the Redux Store*~~
+* [X] ~~*Get State from the Redux Store*~~
 * [X] ~~*Define a Redux Action*~~
 * [X] ~~*Define an Action Creator*~~
 * [X] ~~*Dispatch an Action Event*~~
@@ -694,13 +747,12 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Combine Multiple Reducers*~~
 * [X] ~~*Send Action Data to the Store*~~
 * [X] ~~*Use Middleware to Handle Asynchronous Actions*~~
-* [X] ~~*Write a Coutner in Redux*~~
+* [X] ~~*Write a Counter with Redux*~~
 * [X] ~~*Never Mutate State*~~
 * [X] ~~*Use the Spread Operator on Arrays*~~
 * [X] ~~*Remove an Item from an Array*~~
 * [X] ~~*Copy an Object with Object.assign*~~
-* [X] ~~*Use the ES6 Spread Operator with Objects*~~
-#### React and Redux
+#### ~~*React and Redux*~~
 * [X] ~~*Introduction to the React and Redux Challenges*~~
 * [X] ~~*Getting Started with React Redux*~~
 * [X] ~~*Manage State Locally First*~~
@@ -712,12 +764,13 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [X] ~~*Connect Redux to the Messages App*~~
 * [X] ~~*Extract Local State into Redux*~~
 * [X] ~~*Moving Forward From Here*~~
-#### Front End Frameworks Projects
-* [ ] Build a Random Quote Machine*
-* [ ] Build a Markdown Previewer*
-* [ ] Build a Drum Machine*
-* [ ] Build a JavaScript Calculator*
-* [ ] Build a Pomodoro Clock*
+#### Front End Libraries Projects
+* [X] ~~*Introduction to the Front End Libraries Projects*~~
+* [X] ~~*Build a Random Quote Machine*~~
+* [X] ~~*Build a Markdown Previewer*~~
+* [ ] Build a Drum Machine
+* [ ] Build a JavaScript Calculator
+* [ ] Build a Pomodoro Clock
 #### Claim Your Front End Libraries Certificate
 * [ ] Claim Your Front End Libraries Certificate
 
@@ -767,43 +820,44 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Get Geolocation Data to Find A User's GPS Coordinates
 * [ ] Post Data with the JavaScript XMLHttpRequest Method
 #### Data Visualization Projects
-* [ ] Visualize Data with a Bar Chart*
-* [ ] Visualize Data with a Scatterplot Graph*
-* [ ] Visualize Data with a Heat Map*
-* [ ] Visualize Data with a Choropleth Map*
-* [ ] Visualize Data with a Treemap Diagram*
+* [ ] Introduction to the Data Visualization Projects
+* [ ] Visualize Data with a Bar Chart
+* [ ] Visualize Data with a Scatterplot Graph
+* [ ] Visualize Data with a Heat Map
+* [ ] Visualize Data with a Choropleth Map
+* [ ] Visualize Data with a Treemap Diagram
 #### Claim Your Data Visualization Certificate
 * [ ] Claim Your Data Visualization Certificate
 
 ---
 
 ### APIs and Microservices
-#### Managing Packages with npm
-* [ ] Introduction to the Managing Packages with npm Challenges
-* [ ] How to Use package.json, the Core of Any Node.js Project or npm Package
-* [ ] Add a Description to Your package.json
-* [ ] Add Keywords to Your package.json
-* [ ] Add a License to Your package.json
-* [ ] Add a Version to Your package.json
-* [ ] Expand Your Project with External Packages from npm
-* [ ] Manage npm Dependencies By Understanding Semantic Versioning
-* [ ] Use the Tilde-Character to Always Use the Latest Patch Version of a Dependency
-* [ ] Use the Caret-Character to Use the Latest Minor Version of a Dependency
-* [ ] Remove a Package from Your Dependencies
+#### ~~*Introduction to the Managing Packages with npm Challenges*~~
+* [X] ~~*Introduction to the Managing Packages with npm Challenges*~~
+* [X] ~~*How to Use package.json, the Core of Any Node.js Project or npm Package*~~
+* [X] ~~*Add a Description to Your package.json*~~
+* [X] ~~*Add Keywords to Your package.json*~~
+* [X] ~~*Add a License to Your package.json*~~
+* [X] ~~*Add a Version to Your package.json*~~
+* [X] ~~*Expand Your Project with External Packages from npm*~~
+* [X] ~~*Manage npm Dependencies By Understanding Semantic Versioning*~~
+* [X] ~~*Use the Tilde-Character to Always Use the Latest Patch Version of a Dependency*~~
+* [X] ~~*Use the Caret-Character to Use the Latest Minor Version of a Dependency*~~
+* [X] ~~*Remove a Package from Your Dependencies*~~
 #### Basic Node and Express
-* [ ] Introduction to the Basic Node and Express Challenges
-* [ ] Meet the Node console
-* [ ] Start a Working Express Server
-* [ ] Serve an HTML File
-* [ ] Serve Static Assets
-* [ ] Serve JSON on a Specific Route
-* [ ] Use the .env File
-* [ ] Implement a Root-Level Request Logger Middleware
-* [ ] Chain Middleware to Create a Time Server
-* [ ] Get Route Parameter Input from the Client
-* [ ] Get Query Parameter Input from the Client
-* [ ] Use body-parser to Parse POST Requests
-* [ ] Get Data from POST Requests
+* [X] ~~*Introduction to the Basic Node and Express Challenges*~~
+* [X] ~~*Meet the Node console*~~
+* [X] ~~*Start a Working Express Server*~~
+* [X] ~~*Serve an HTML File*~~
+* [X] ~~*Serve Static Assets*~~
+* [X] ~~*Serve JSON on a Specific Route*~~
+* [X] ~~*Use the .env File*~~
+* [X] ~~*Implement a Root-Level Request Logger Middleware*~~
+* [X] ~~*Chain Middleware to Create a Time Server*~~
+* [X] ~~*Get Route Parameter Input from the Client*~~
+* [X] ~~*Get Query Parameter Input from the Client*~~
+* [X] ~~*Use body-parser to Parse POST Requests*~~
+* [X] ~~*Get Data from POST Requests*~~
 #### MongoDB and Mongoose
 * [ ] Introduction to the MongoDB and Mongoose Challenges
 * [ ] Install and Set Up Mongoose
@@ -819,11 +873,12 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Delete Many Documents with model.remove()
 * [ ] Chain Search Query Helpers to Narrow Search Results
 #### API and Microservice Projects
-* [ ] Timestamp Microservice*
-* [ ] Request Header Parser Microservice*
-* [ ] URL Shortener Microservice*
-* [ ] Exercise Tracker*
-* [ ] File Metadata Microservice*
+* [ ] Introduction to the APIs and Microservices Projects
+* [ ] Timestamp Microservice
+* [ ] Request Header Parser Microservice
+* [ ] URL Shortener Microservice
+* [ ] Exercise Tracker
+* [ ] File Metadata Microservice
 #### Claim Your APIs and Microservices Certificate
 * [ ] Claim Your APIs and Microservices Certificate
 
@@ -831,7 +886,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 
 ### Information Security and Quality Assurance
 #### Information Security with HelmetJS
-* [ ] Information Security Introduction
+* [ ] Introduction to Information Security with HelmetJS Challenges
 * [ ] Install and Require Helmet
 * [ ] Hide Potentially Dangerous Information Using helmet.hidePoweredBy()
 * [ ] Mitigate the Risk of Clickjacking with helmet.frameguard()
@@ -843,12 +898,11 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Disable Client-Side Caching with helmet.noCache()
 * [ ] Set a Content Security Policy with helmet.contentSecurityPolicy()
 * [ ] Configure Helmet Using the ‘parent’ helmet() Middleware
-* [ ] Protect Your Data with BCrypt
 * [ ] Understand BCrypt Hashes
 * [ ] Hash and Compare Passwords Asynchronously
 * [ ] Hash and Compare Passwords Synchronously
 #### Quality Assurance and Testing with Chai
-* [ ] Quality Assurance Introduction
+* [ ] Introduction to the Quality Assurance with Chai Challenges
 * [ ] Learn How JavaScript Assertions Work
 * [ ] Test if a Variable or Function is Defined
 * [ ] Use Assert.isOK and Assert.isNotOK
@@ -870,11 +924,11 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Run Functional Tests on API Endpoints using Chai-HTTP
 * [ ] Run Functional Tests on API Endpoints using Chai-HTTP II
 * [ ] Run Functional Tests on an API Response using Chai-HTTP III - PUT method
-* [ ] Run Functional Tests on an API Response using Chai-HTTP IV - PUT method redux
+* [ ] Run Functional Tests on an API Response using Chai-HTTP IV - PUT method
 * [ ] Run Functional Tests using a Headless Browser
 * [ ] Run Functional Tests using a Headless Browser II
 #### Advanced Node and Express
-* [ ] Advanced Node/Express Introduction
+* [ ] Introduction to the Advances Node and Express Challenges
 * [ ] Set up a Template Engine
 * [ ] Use a Template Engine's Powers
 * [ ] Set up Passport
@@ -888,53 +942,41 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Registration of New Users
 * [ ] Hashing Your Passwords
 * [ ] Clean Up Your Project with Modules
-* [ ] Social Authentication with OAuth
 * [ ] Implementation of Social Authentication
 * [ ] Implementation of Social Authentication II
 * [ ] Implementation of Social Authentication III
-* [ ] Socket.IO Introduction
-* [ ] Set up the Enviroment
+* [ ] Set up the Environment
 * [ ] Communicate by Emitting
 * [ ] Handle a Disconnect
 * [ ] Authentication with Socket.IO
 * [ ] Announce New Users
 * [ ] Send and Display Chat Messages
-* [ ] Continuing Your Live Chat
 #### Information Security and Quality Assurance Projects
-* [ ] Metric-Imperial Converter*
-* [ ] Issue Tracker*
-* [ ] Personal Library*
-* [ ] Stock Price Checker*
-* [ ] Anonymous Message Board*
+* [ ] Introduction to the Information Security and Quality Assurance Projects
+* [ ] Metric-Imperial Converter
+* [ ] Issue Tracker
+* [ ] Personal Library
+* [ ] Stock Price Checker
+* [ ] Anonymous Message Board
 #### Claim Your Information Security and Quality Assurance Certificate
 * [ ] Claim Your Information Security and Quality Assurance Certificate
 
 ---
 
-### Contribute to Open Source and Help Nonprofits
-#### Open Source Contributions
-* [ ] Contribute Pull Requests to Open Source projects*
-* [ ] QA Other Developers' Pull Requests*
-* [ ] Greenfield Code Grant Project for a Nonprofit*
-* [ ] Legacy Code Grant Project for a Nonprofit*
-* [ ] Claim Your Full Stack Development Certificate
-
----
-
-### Coding Interview Questions and Take Home Assignments
-#### Coding Interview Algorithm Questions
-* [ ] Validate US Telephone Numbers
-* [ ] Symmetric Difference
-* [ ] Exact Change
-* [ ] Inventory Update
-* [ ] No Repeats Please
-* [ ] Pairwise
+### Coding Interview Prep
+#### Algorithms
+* [X] ~~*Introduction to the Coding Interview Algorithms*~~
+* [X] ~~*Find the Symmetric Difference*~~
+* [X] ~~*Inventory Update*~~
+* [X] ~~*No Repeats Please*~~
+* [X] ~~*Pairwise*~~
 * [ ] Implement Bubble Sort
 * [ ] Implement Selection Sort
 * [ ] Implement Insertion Sort
 * [ ] Implement Quick Sort
 * [ ] Implement Merge Sort
-#### Coding Interview Data Structure Questions
+#### Data Structures
+* [ ] Introduction to the Coding Interview Data Structure Questions
 * [ ] Typed Arrays
 * [ ] Learn how a Stack Works
 * [ ] Create a Stack Class
@@ -977,15 +1019,126 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Insert an Element into a Max Heap
 * [ ] Remove an Element from a Max Heap
 * [ ] Implement Heap Sort with a Min Heap
-* [ ] Introduction to Graphs
 * [ ] Adjacency List
 * [ ] Adjacency Matrix
 * [ ] Incidence Matrix
 * [ ] Breadth-First Search
 * [ ] Depth-First Search
-#### Project Euler Problems
+#### Take Home Projects
+* [X] ~~*Introduction to the Coding Interview Take Home Projects*~~
+* [X] ~~*Show the Local Weather*~~
+* [X] ~~*Build a Wikipedia Viewer*~~
+* [X] ~~*Use the Twitch JSON API*~~
+* [ ] Build an Image Search Abstraction Layer
+* [X] ~~*Build a Tic Tac Toe Game*~~
+* [X] ~~*Build a Simon Game*~~
+* [ ] Build a Camper Leaderboard
+* [ ] Build a Recipe Box
+* [ ] Build the Game of Life
+* [ ] Build a Roguelike Dungeon Crawler Game
+* [ ] P2P Video Chat Application
+* [ ] Show National Contiguity with a Force Directed Graph
+* [ ] Map Data Across the Globe
+* [ ] Manage a Book Trading Club
+* [ ] Build a Pinterest Clone
+* [ ] Build a Nightlife Coordination App
+* [ ] Chart the Stock Market
+* [ ] Build a Voting App
+* [ ] Build a Pong Game
+* [ ] Build a Light-Bright App
+#### Rosetta Code
+* [ ] Introduction to the Rosetta Code Problems
+* [ ] 100 doors
+* [ ] 24 game
+* [ ] 9 billion names of God the integer
+* [ ] ABC Problem
+* [ ] Abundant, deficient and perfect number classifications
+* [ ] Accumulator factory
+* [ ] Ackermann function
+* [ ] Align columns
+* [ ] Amicable pairs
+* [ ] Averages/Mode
+* [ ] Averages/Pythagorean means
+* [ ] Averages/Root mean square
+* [ ] Babbage problem
+* [ ] Balanced brackets
+* [ ] Circles of given radius through two points
+* [ ] Closest-pair problem
+* [ ] Combinations
+* [ ] Comma quibbling
+* [ ] Compare a list of strings
+* [ ] Convert seconds to compound duration
+* [ ] Count occurrences of a substring
+* [ ] Count the coins
+* [ ] Cramer's rule
+* [ ] Date format
+* [ ] Date manipulation
+* [ ] Day of the week
+* [ ] Deal cards for FreeCell
+* [ ] Deepcopy
+* [ ] Define a primitive data type
+* [ ] Department Numbers
+* [ ] Discordian date
+* [ ] Element-wise operations
+* [ ] Emirp primes
+* [ ] Entropy
+* [ ] Equilibrium index
+* [ ] Ethiopian multiplication
+* [ ] Euler method
+* [ ] Evaluate binomial coefficients
+* [ ] Execute a Markov algorithm
+* [ ] Execute Brain****
+* [ ] Extensible prime generator
+* [ ] Factorial
+* [ ] Factors of a Mersenne number
+* [ ] Factors of an integer
+* [ ] Farey sequence
+* [ ] Fibonacci n-step number sequences
+* [ ] Fibonacci sequence
+* [ ] Fibonacci word
+* [ ] Fractran
+* [ ] Gamma function
+* [ ] Gaussian elimination
+* [ ] General FizzBuzz
+* [ ] Generate lower case ASCII alphabet
+* [ ] Generator/Exponential
+* [ ] Gray code
+* [ ] Greatest common divisor
+* [ ] Greatest subsequential sum
+* [ ] Hailstone sequence
+* [ ] Happy numbers
+* [ ] Harshad or Niven series
+* [ ] Hash from two arrays
+* [ ] Hash join
+* [ ] Heronian triangles
+* [ ] Hofstadter Figure-Figure sequences
+* [ ] Hofstadter Q sequence
+* [ ] I before E except after C
+* [ ] IBAN
+* [ ] Identity matrix
+* [ ] Iterated digits squaring
+* [ ] Jaro distance
+* [ ] JortSort
+* [ ] Josephus problem
+* [ ] Sailors, coconuts and a monkey problem
+* [ ] SEDOLs
+* [ ] S-Expressions
+* [ ] Taxicab numbers
+* [ ] Tokenize a string with escaping
+* [ ] Topological sort
+* [ ] Top rank per group
+* [ ] Towers of Hanoi
+* [ ] Vector cross product
+* [ ] Vector dot product
+* [ ] Word wrap
+* [ ] Y combinator
+* [ ] Zeckendorf number representation
+* [ ] Zhang-Suen thinning algorithm
+* [ ] Zig-zag matrix
+#### Project Euler
+* [ ] Introduction to the Project Euler Problems
 * [ ] Problem 1: Multiples of 3 and 5
-* [ ] Problem 2: Even Fibonacci numbers
+* [ ] Problem 2: Even Fibonacci Numbers
 * [ ] Problem 3: Largest prime factor
 * [ ] Problem 4: Largest palindrome product
 * [ ] Problem 5: Smallest multiple
@@ -1013,7 +1166,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Problem 27: Quadratic primes
 * [ ] Problem 28: Number spiral diagonals
 * [ ] Problem 29: Distinct powers
-* [ ] Problem 30: Digit fifth powers
+* [ ] Problem 30: Digit n powers
 * [ ] Problem 31: Coin sums
 * [ ] Problem 32: Pandigital products
 * [ ] Problem 33: Digit cancelling fractions
@@ -1091,9 +1244,9 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Problem 105: Special subset sums: testing
 * [ ] Problem 106: Special subset sums: meta-testing
 * [ ] Problem 107: Minimal network
-* [ ] Problem 108: About Project Euler
+* [ ] Problem 108: Diophantine Reciprocals I
 * [ ] Problem 109: Darts
-* [ ] Problem 110: About Project Euler
+* [ ] Problem 110: Diophantine Reciprocals II
 * [ ] Problem 111: Primes with runs
 * [ ] Problem 112: Bouncy numbers
 * [ ] Problem 113: Non-bouncy numbers
@@ -1411,7 +1564,7 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Problem 425: Prime connection
 * [ ] Problem 426: Box-ball system
 * [ ] Problem 427: n-sequences
-* [ ] Problem 428: About Project Euler
+* [ ] Problem 428: Necklace of Circles
 * [ ] Problem 429: Sum of squares of unitary divisors
 * [ ] Problem 430: Range flips
 * [ ] Problem 431: Square Space Silo
@@ -1464,138 +1617,3 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 * [ ] Problem 478: Mixtures
 * [ ] Problem 479: Roots on the Rise
 * [ ] Problem 480: The Last Question
-* [ ] Problem 481: Chef Showdown
-* [ ] Problem 482: The incenter of a triangle
-* [ ] Problem 483: Repeated permutation
-* [ ] Problem 484: Arithmetic Derivative
-* [ ] Problem 485: Maximum number of divisors
-* [ ] Problem 486: Palindrome-containing strings
-* [ ] Problem 487: Sums of power sums
-* [ ] Problem 488: Unbalanced Nim
-* [ ] Problem 489: Common factors between two sequences
-* [ ] Problem 490: Jumping frog
-* [ ] Problem 491: Double pandigital number divisible by 11
-* [ ] Problem 492: Exploding sequence
-* [ ] Problem 493: Under The Rainbow
-* [ ] Problem 494: Collatz prefix families
-* [ ] Problem 495: Writing n as the product of k distinct positive integers
-* [ ] Problem 496: Incenter and circumcenter of triangle
-* [ ] Problem 497: Drunken Tower of Hanoi
-* [ ] Problem 498: Remainder of polynomial division
-* [ ] Problem 499: St. Petersburg Lottery
-* [ ] Problem 500: Problem 500!!!
-* [ ] Problem 501: Eight Divisors
-* [ ] Problem 502: Counting Castles
-* [ ] Problem 503: Compromise or persist
-* [ ] Problem 504: Square on the Inside
-* [ ] Problem 505: Bidirectional Recurrence
-* [ ] Problem 506: Clock sequence
-* [ ] Problem 507: Shortest Lattice Vector
-* [ ] Problem 508: Integers in base i-1
-* [ ] Problem 509: Divisor Nim
-* [ ] Problem 510: Tangent Circles
-* [ ] Problem 511: Sequences with nice divisibility properties
-* [ ] Problem 512: Sums of totients of powers
-* [ ] Problem 513: Integral median
-* [ ] Problem 514: Geoboard Shapes
-* [ ] Problem 515: Dissonant Numbers
-* [ ] Problem 516: 5-smooth totients
-* [ ] Problem 517: A real recursion
-* [ ] Problem 518: Prime triples and geometric sequences
-* [ ] Problem 519: Tricolored Coin Fountains
-* [ ] Problem 520: Simbers
-* [ ] Problem 521: Smallest prime factor
-* [ ] Problem 522: Hilbert's Blackout
-* [ ] Problem 523: First Sort I
-* [ ] Problem 524: First Sort II
-* [ ] Problem 525: Rolling Ellipse
-* [ ] Problem 526: Largest prime factors of consecutive numbers
-* [ ] Problem 527: Randomized Binary Search
-* [ ] Problem 528: Constrained Sums
-* [ ] Problem 529: 10-substrings
-* [ ] Problem 530: GCD of Divisors
-* [ ] Problem 531: Chinese leftovers
-* [ ] Problem 532: Nanobots on Geodesics
-* [ ] Problem 533: Minimum values of the Carmichael function
-* [ ] Problem 534: Weak Queens
-* [ ] Problem 535: Fractal Sequence
-* [ ] Problem 536: Modulo power identity
-* [ ] Problem 537: Counting tuples
-* [ ] Problem 538: Maximum quadrilaterals
-* [ ] Problem 539: Odd elimination
-* [ ] Problem 540: Counting primitive Pythagorean triples
-* [ ] Problem 541: Divisibility of Harmonic Number Denominators
-* [ ] Problem 542: Geometric Progression with Maximum Sum
-* [ ] Problem 543: Prime-Sum Numbers
-* [ ] Problem 544: Chromatic Conundrum
-* [ ] Problem 545: Faulhaber's Formulas
-* [ ] Problem 546: The Floor's Revenge
-* [ ] Problem 547: Distance of random points within hollow square laminae
-* [ ] Problem 548: Gozinta Chains
-* [ ] Problem 549: Divisibility of factorials
-* [ ] Problem 550: Divisor game
-* [ ] Problem 551: Sum of digits sequence
-* [ ] Problem 552: Chinese leftovers II
-* [ ] Problem 553: Power sets of power sets
-* [ ] Problem 554: Centaurs on a chess board
-* [ ] Problem 555: McCarthy 91 function
-* [ ] Problem 556: Squarefree Gaussian Integers
-* [ ] Problem 557: Cutting triangles
-* [ ] Problem 558: Irrational base
-* [ ] Problem 559: Permuted Matrices
-* [ ] Problem 560: Coprime Nim
-* [ ] Problem 561: Divisor Pairs
-* [ ] Problem 562: Maximal perimeter
-* [ ] Problem 563: Robot Welders
-* [ ] Problem 564: Maximal polygons
-* [ ] Problem 565: Divisibility of sum of divisors
-* [ ] Problem 566: Cake Icing Puzzle
-* [ ] Problem 567: Reciprocal games I
-* [ ] Problem 568: Reciprocal games II
-* [ ] Problem 569: Prime Mountain Range
-* [ ] Problem 570: Snowflakes
-* [ ] Problem 571: Super Pandigital Numbers
-* [ ] Problem 572: Idempotent matrices
-* [ ] Problem 573: Unfair race
-* [ ] Problem 574: Verifying Primes
-* [ ] Problem 575: Wandering Robots
-* [ ] Problem 576: Irrational jumps
-* [ ] Problem 577: Counting hexagons
-* [ ] Problem 578: Integers with decreasing prime powers
-* [ ] Problem 579: Lattice points in lattice cubes
-* [ ] Problem 580: Squarefree Hilbert numbers
-* [ ] Problem 581: 47-smooth triangular numbers
-* [ ] Problem 582: Nearly isosceles 120 degree triangles
-* [ ] Problem 583: Heron Envelopes
-* [ ] Problem 584: Birthday Problem Revisited
-* [ ] Problem 585: Nested square roots
-* [ ] Problem 586: Binary Quadratic Form
-* [ ] Problem 587: Concave triangle
-* [ ] Problem 588: Quintinomial coefficients
-* [ ] Problem 589: Poohsticks Marathon
-* [ ] Problem 590: Sets with a given Least Common Multiple
-* [ ] Problem 591: Best Approximations by Quadratic Integers
-* [ ] Problem 592: Factorial trailing digits 2
-* [ ] Problem 593: Fleeting Medians
-* [ ] Problem 594: Rhombus Tilings
-* [ ] Problem 595: Incremental Random Sort
-* [ ] Problem 596: Number of lattice points in a hyperball
-* [ ] Problem 597: Torpids
-* [ ] Problem 598: Split Divisibilities
-* [ ] Problem 599: Distinct Colourings of a Rubik's Cube
-* [ ] Problem 600: Integer sided equiangular hexagons
-#### Coding Interview Take-home Projects
-* [ ] Show the Local Weather
-* [ ] Build a Wikipedia Viewer
-* [ ] Use the Twitch.tv JSON API
-* [ ] Build a Tic Tac Toe Game
-* [ ] Build a Simon Game
-* [ ] Build a Camper Leaderboard
-* [ ] Build a Recipe Box
-* [ ] Build the Game of Life
-* [ ] Build a Roguelike Dungeon Crawler Game
-* [ ] P2P Video Chat Application
-* [ ] Show National Contiguity with a Force Directed Graph
-* [ ] Map Data Across the Globe
-* [ ] Manage a Book Trading Club
-* [ ] Build a Pinterest Clone
