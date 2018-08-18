@@ -25,3 +25,5 @@ Click the links below to navigate through each section and view the solutions I 
 <a href="https://www.freecodecamp.org/squibs" target="_blank"><img src="Images/screenshots/screenshot-freeCodeCamp-profile.png" height="150" alt="Screenshot of my freeCodeCamp profile."/></a>
 
 - [JavaScript References](https://github.com/Squibs/freeCodeCamp/blob/master/JavaScript%20References.md#javascript-references) (A reference page I created to consolidate JavaScript information in one place.)
+
+- [Challenge Checklist](https://github.com/Squibs/freeCodeCamp/blob/master/Challenge%20Checklist.md#freecodecamp-challenge-checklist) (My own freeCodeCamp challenge checklist)
