@@ -10,7 +10,7 @@ Click any of the links below to view my notes and answers I came up with while g
 - [React](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/4.%20React.md#react)
 - [Redux](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/5.%20Redux.md#redux)
 - [React and Redux](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/6.%20React%20and%20Redux.md#react-and-redux)
-- [**Front End Libraries Projects**](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/7.%20Front%20End%Libraries%20Projects.md#front-end-libraries-projects)
+- [**Front End Libraries Projects**](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/7.%20Front%20End%20Libraries%20Projects.md#front-end-libraries-projects)
 - [Claim Your Front End Libraries Certificate](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/8.%20Claim%20Your%20Front%20End%20Libraries%20Certificate.md#claim-your-front-end-libraries-certificate)
 
 
