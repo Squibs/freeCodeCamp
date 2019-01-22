@@ -18,11 +18,11 @@ Click the links below to navigate through each section and view the solutions I 
 
 - [My Portfolio](https://github.com/Squibs/Squibs.github.io) (Created as one of the first few project challenges for freeCodeCamp)
 
-<a href="https://github.com/Squibs/Squibs.github.io" target="_blank"><img src="Images/screenshots/screenshot-portfolio.png" height="150" alt="Screenshot of my portfolio page."/></a>
+<a href="https://github.com/Squibs/Squibs.github.io" target="_blank"><img src="Images/screenshots/screenshot-portfolio.png" height="300" alt="Screenshot of my portfolio page."/></a>
 
 - [My freeCodeCamp Profile](https://www.freecodecamp.org/squibs)
 
-<a href="https://www.freecodecamp.org/squibs" target="_blank"><img src="Images/screenshots/screenshot-freeCodeCamp-profile.png" height="150" alt="Screenshot of my freeCodeCamp profile."/></a>
+<a href="https://www.freecodecamp.org/squibs" target="_blank"><img src="Images/screenshots/screenshot-freeCodeCamp-profile.png" height="300" alt="Screenshot of my freeCodeCamp profile."/></a>
 
 - [JavaScript References](https://github.com/Squibs/freeCodeCamp/blob/master/JavaScript%20References.md#javascript-references) (A reference page I created to consolidate JavaScript information in one place.)
 
