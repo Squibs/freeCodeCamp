@@ -1,0 +1,38 @@
+Mock CatPhotoApp created as first lesson in freeCodeCamp. 
+
+Keywords: BootStrap (responsive design), CSS, 
+
+CSS & CSS Classes
+	classes start with '.' eg(.thick-green-border {})
+		apply classes to pretty much any other declared element eg(<div class="thick-green-border">)
+	use # to stylize IDs eg(#thick-green-border {})
+	styles are read from top to bottom; stylings declared after previous ones will take precedence
+		(div class="brown-font blue-font") whichever class was declared second will take precedence
+	in-line styles will take precedence over CSS classes and stylings at top
+	SUMMARY OF PRECEDENCE: Body Element < CSS Class < Order of CSS Classes < ID stylings < in-line styles < !important
+	!important will take precedence over everything
+	padding, margins, borders
+		padding is space between element and border
+		margin is space between border and other elements / edges
+		border is space between padding and margins
+	
+Uses BootStrap to allow for screen scaling of various elements. 
+	Everything is scaling for small web phones atm.
+	bootstrap classes eg(text-primary, text-center, text-danger)
+		centering, colors
+	fluid container (overall containing div with class container-fluid)
+	bootstrap grid (rows with up to 12 columns) ".col-xs-*"
+
+Uses Font Awesome Icons to put icons within buttons.
+	can scale icons just like text
+
+Hexadecimal Colors and RGB colors
+	Both can create the same amount of colors:
+	#000000 
+		(0-9, A-F)
+		follows RGB; two for each eg(00.00.00)
+		0 is the lowest while F is the highest
+	RGB(0, 0, 0);
+		numbers rather than hexadecimal; otherwise the same
+
+HTML Form for user input
