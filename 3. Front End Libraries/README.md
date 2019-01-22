@@ -12,4 +12,8 @@ Click any of the links below to view my notes and answers I came up with while g
 - [React and Redux](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/6.%20React%20and%20Redux.md#react-and-redux)
 - [**Front End Libraries Projects**](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/7.%20Front%20End%Libraries%20Projects.md#front-end-libraries-projects)
 - [Claim Your Front End Libraries Certificate](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/8.%20Claim%20Your%20Front%20End%20Libraries%20Certificate.md#claim-your-front-end-libraries-certificate)
-- <span style="font-size: 0.7em">*[Legacy Front End Libraries Files & Notes](https://github.com/Squibs/freeCodeCamp/tree/master/3.%20Front%20End%20Libraries/Legacy%20Front%20End%20Libraries%20Files%20%26%20Notes/jquery-playground)*</span>
+
+
+I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
+
+- *[Legacy Front End Libraries Files & Notes](https://github.com/Squibs/freeCodeCamp/tree/master/3.%20Front%20End%20Libraries/Legacy%20Front%20End%20Libraries%20Files%20%26%20Notes/jquery-playground)*

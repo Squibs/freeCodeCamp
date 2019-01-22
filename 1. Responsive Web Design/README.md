@@ -13,4 +13,8 @@ Click any of the links below to view my notes and answers I came up with while g
 - [CSS Grid](https://github.com/Squibs/freeCodeCamp/blob/master/1.%20Responsive%20Web%20Design/7.%20CSS%20Grid.md#css-grid)
 - [**Responsive Web Design Projects**](https://github.com/Squibs/freeCodeCamp/blob/master/1.%20Responsive%20Web%20Design/8.%20Responsive%20Web%20Design%20Projects.md#responsive-web-design-projects)
 - [Claim Your Responsive Web Design Certification](https://github.com/Squibs/freeCodeCamp/blob/master/1.%20Responsive%20Web%20Design/9.%20Claim%20Your%20Responsive%20Web%20Design%20Certificate.md#claim-your-responsive-web-design-certificate)
-- <span style="font-size: 0.7em">*[Legacy Front End Development Files & Notes](https://github.com/Squibs/freeCodeCamp/tree/master/1.%20Responsive%20Web%20Design/Legacy%20Front%20End%20Development%20Files%20%26%20Notes/cat-photo-app)*</span>
+
+
+I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
+
+- *[Legacy Front End Development Files & Notes](https://github.com/Squibs/freeCodeCamp/tree/master/1.%20Responsive%20Web%20Design/Legacy%20Front%20End%20Development%20Files%20%26%20Notes/cat-photo-app)*
