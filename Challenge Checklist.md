@@ -6,93 +6,84 @@ I created this check list as the beta freeCodeCamp website is currently not reli
 (*My own challenge count. May or may not be up-to-date.*)
 
 freeCodeCamp lists: 
-- **712** of **1408** challenges
-- **14** of **30** projects
+- **684** of **1651** challenges
+- **14** of **70** projects
 - **1** of **3** legacy certifications
-- **2** of **6** certifications
+- **2** of **9** certifications
 
 ---
 
 ## Navigation:
 
-- [~~*Getting Started*~~](#getting-started)
-
-- [~~*Responsive Web Design*~~](#responsive-web-design)
-	- [~~*Basic HTML and HTML5*~~](#basic-html-and-html5)
-	- [~~*Basic CSS*~~](#basic-css)
-	- [~~*Applied Visual Design*~~](#applied-visual-design)
-	- [~~*Applied Accessibility*~~](#applied-accessibility)
-	- [~~*Responsive Web Design Principles*~~](#responsive-web-design-principles)
-	- [~~*CSS Flexbox*~~](#css-flexbox)
-	- [~~*CSS Grid*~~](#css-grid)
-	- [~~*Responsive Web Design Projects*~~](#responsive-web-design-projects)
-	- [~~*Claim Your Responsive Web Design Certificate*~~](#claim-your-responsive-web-design-certificate)
-
-- [~~*JavaScript Algorithms and Data Structures*~~](#javascript-algorithms-and-data-structures)
-	- [~~*Basic JavaScript*~~](#basic-javascript)
-	- [~~*ES6*~~](#es6)
-	- [~~*Regular Expressions*~~](#regular-expressions)
-	- [~~*Debugging*~~](#debugging)
-	- [~~*Basic Data Structures*~~](#basic-data-structures)
-	- [~~*Basic Algorithm Scripting*~~](#basic-algorithm-scripting)
-	- [~~*Object Oriented Programming*~~](#object-oriented-programming)
-	- [~~*Functional Programming*~~](#functional-programming)
-	- [~~*Intermediate Algorithm Scripting*~~](#intermediate-algorithm-scripting)
-	- [~~*JavaScript Algorithms and Data Structures Projects*~~](#javascript-algorithms-and-data-structures-projects)
-	- [~~*Claim Your JavaScript Algorithms and Data Structures Certificate*~~](#claim-your-javascript-algorithms-and-data-structures-certificate)
-
-- [Front End Libraries](#front-end-libraries)
-	- [~~*Bootstrap*~~](#bootstrap)
-	- [~~*jQuery*~~](#jquery)
-	- [~~*Sass*~~](#sass)
-	- [~~*React*~~](#react)
-	- [~~*Redux*~~](#redux)
-	- [~~*React and Redux*~~](#react-and-redux)
-	- [Front End Libraries Projects](#front-end-libraries-projects)
-	- [Claim Your Front End Libraries Certificate](#claim-your-front-end-libraries-certificate)
-
-- [Data Visualization](#data-visualization)
-	- [Data Visualization with D3](#data-visualization-with-d3)
-	- [JSON APIs and AJAX](#json-apis-and-ajax)
-	- [Data Visualization Projects](#data-visualization-projects)
-	- [Claim Your Data Visualization Certificate](#claim-your-data-visualization-certificate)
-
-- [APIs and Microservices](#apis-and-microservices)
-	- [~~*Managing Packages with npm*~~](#managing-packages-with-npm)
-	- [~~*Basic Node and Express*~~](#basic-node-and-express)
-	- [MongoDB and Mongoose](#mongodb-and-mongoose)
-	- [API and Microservice Projects](#api-and-microservice-projects)
-	- [Claim Your APIs and Microservices Certificate](#claim-your-apis-and-microservices-certificate)
-
-- [Information Security and Quality Assurance](#information-security-and-quality-assurance)
-	- [Information Security with HelmetJS](#information-security-with-helmetjs)
-	- [Quality Assurance and Testing with Chai](#quality-assurance-and-testing-with-chai)
-	- [Advanced Node and Express](#advanced-node-and-express)
-	- [Information Security and Quality Assurance Projects](#information-security-and-quality-assurance-projects)
-	- [Claim Your Information Security and Quality Assurance Certificate](#claim-your-information-security-and-quality-assurance-certificate)
-
-- [Coding Interview Questions and Take Home Assignments](#coding-interview-questions-and-take-home-assignments)
-	- [Coding Interview Algorithm Questions](#coding-interview-algorithm-questions)
-	- [Coding Interview Data Structure Questions](#coding-interview-data-structure-questions)
-	- [Project Euler Problems](#project-euler-problems)
-	- [Coding Interview Take-home Projects](#coding-interview-take-home-projects)
-
+- [~~*Responsive Web Design Certification (300 hours)*~~ [194/194]](#responsive-web-design-certification-300-hours-194194)
+	- [~~*Basic HTML and HTML5*~~ [28/28]](#basic-html-and-html5-2828)
+	- [~~*Basic CSS*~~ [44/44]](#basic-css-4444)
+	- [~~*Applied Visual Design*~~ [52/52]](#applied-visual-design-5252)
+	- [~~*Applied Accessibility*~~ [22/22]](#applied-accessibility-2222)
+	- [~~*Responsive Web Design Principles*~~ [4/4]](#responsive-web-design-principles-44)
+	- [~~*CSS Flexbox*~~ [17/17]](#css-flexbox-1717)
+	- [~~*CSS Grid*~~ [22/22]](#css-grid-2222)
+	- [~~*Responsive Web Design Projects*~~ [5/5]](#responsive-web-design-projects-55)
+- [~~*JavaScript Algorithms and Data Structures Certification (300 hours)*~~ [299/299]](#javascript-algorithms-and-data-structures-certification-300-hours-299299)
+	- [~~*Basic JavaScript*~~ [111/111]](#basic-javascript-111111)
+	- [~~*ES6*~~ [31/31]](#es6-3131)
+	- [~~*Regular Expressions*~~ [33/33]](#regular-expressions-3333)
+	- [~~*Debugging*~~ [12/12]](#debugging-1212)
+	- [~~*Basic Data Structures*~~ [20/20]](#basic-data-structures-2020)
+	- [~~*Basic Algorithm Scripting*~~ [16/16]](#basic-algorithm-scripting-1616)
+	- [~~*Object Oriented Programming*~~ [26/26]](#object-oriented-programming-2626)
+	- [~~*Functional Programming*~~ [24/24]](#functional-programming-2424)
+	- [~~*Intermediate Algorithm Scripting*~~ [21/21]](#intermediate-algorithm-scripting-2121)
+	- [~~*JavaScript Algorithms and Data Structures Projects*~~ [5/5]](#javascript-algorithms-and-data-structures-projects-55)
+- [Front End Libraries Certification (300 hours) [136/137]](#front-end-libraries-certification-300-hours-136137)
+	- [~~*Bootstrap*~~ [31/31]](#bootstrap-3131)
+	- [~~*jQuery*~~ [18/18]](#jquery-1818)
+	- [~~*Sass*~~ [9/9]](#sass-99)
+	- [~~*React*~~ [47/47]](#react-4747)
+	- [~~*Redux*~~ [17/17]](#redux-1717)
+	- [~~*React and Redux*~~ [10/10]](#react-and-redux-1010)
+	- [Front End Libraries Projects [4/5]](#front-end-libraries-projects-45)
+- [Data Visualization Certification (300) [9/44]](#data-visualization-certification-300-944)
+	- [Data Visualization with D3 [0/29]](#data-visualization-with-d3-029)
+	- [JSON APIs and Ajax [9/10]](#json-apis-and-ajax-910)
+	- [Data Visualization Projects [0/5]](#data-visualization-projects-05)
+- [APIs and Microservices Certification (300 hours) [22/39]](#apis-and-microservices-certification-300-hours-2239)
+	- [Managing Packages with Npm [10/10]](#managing-packages-with-npm-1010)
+	- [Basic Node and Express [12/12]](#basic-node-and-express-1212)
+	- [MongoDB and Mongoose [0/12]](#mongodb-and-mongoose-012)
+	- [APIs and Microservices Projects [0/5]](#apis-and-microservices-projects-05)
+- [Quality Assurance Certification (300 hours) [0/52]](#quality-assurance-certification-300-hours-052)
+	- [Quality Assurance and Testing with Chai [0/25]](#quality-assurance-and-testing-with-chai-025)
+	- [Advanced Node and Express [0/22]](#advanced-node-and-express-022)
+	- [Quality Assurance Projects [0/5]](#quality-assurance-projects-05)
+- [Scientific Computing with Python Certification (300 hours) [0/61]](#scientific-computing-with-python-certification-300-hours-061)
+	- [Python for Everybody [0/56]](#python-for-everybody-056)
+	- [Scientific Computing with Python Projects [0/5]](#scientific-computing-with-python-projects-05)
+- [Data Analysis with Python Certification (300 hours) [0/42]](#data-analysis-with-python-certification-300-hours-042)
+	- [Data Analysis with Python Course [0/28]](#data-analysis-with-python-course-028)
+	- [Numpy [0/9]](#numpy-09)
+	- [Data Analysis with Python Projects [0/5]](#data-analysis-with-python-projects-05)
+- [Information Security Certification (300 hours) [14/26]](#information-security-certification-300-hours-1426)
+	- [Information Security with HelmetJS [14/14]](#information-security-with-helmetjs-1414)
+	- [Python for Penetration Testing [0/7]](#python-for-penetration-testing-07)
+	- [Information Security Projects [0/5]](#information-security-projects-05)
+- [Machine Learning with Python Certification (300 hours) [0/41]](#machine-learning-with-python-certification-300-hours-041)
+	- [TensorFlow [0/32]](#tensorflow-032)
+	- [How Neural Networks Work [0/4]](#how-neural-networks-work-04)
+	- [Machine Learning with Python Projects [0/5]](#machine-learning-with-python-projects-05)
+- [Coding Interview Prep (Thousands of hours of challenges) [9/715]](#coding-interview-prep-thousands-of-hours-of-challenges-9715)
+	- [Algorithms [4/9]](#algorithms-49)
+	- [Data Structures [0/46]](#data-structures-046)
+	- [Take Home Projects [5/20]](#take-home-projects-520)
+	- [Rosetta Code [0/160]](#rosetta-code-0160)
+	- [Project Euler [0/480]](#project-euler-0480)
 
 ---
 
-### ~~*Getting Started*~~
-* [X] ~~*Getting Started*~~
-* [X] ~~*Join the freeCodeCamp Community*~~
-* [X] ~~*Learn How freeCodeCamp Works*~~
-* [X] ~~*Create a GitHub Account and Join our Chat Rooms*~~
-* [X] ~~*Configure Your Code Portfolio*~~
-* [X] ~~*Join a freeCodeCamp Group in Your City*~~
-* [X] ~~*Read Coding News on our Medium Publication*~~
-* [X] ~~*Learn What to Do If You Get Stuck*~~
+### ~~*Responsive Web Design Certification (300 hours)*~~ [194/194]
 
-### ~~*Responsive Web Design*~~
-#### ~~*Basic HTML and HTML5*~~
-* [X] ~~*Introduction to Basic HTML and HTML5*~~
+#### ~~*Basic HTML and HTML5*~~ [28/28]
+* ~~*Introduction to Basic HTML and HTML5*~~
 * [X] ~~*Say Hello to HTML Elements*~~
 * [X] ~~*Headline with the h2 Element*~~
 * [X] ~~*Inform with the Paragraph Element*~~
@@ -116,12 +107,14 @@ freeCodeCamp lists:
 * [X] ~~*Use HTML5 to Require a Field*~~
 * [X] ~~*Create a Set of Radio Buttons*~~
 * [X] ~~*Create a Set of Checkboxes*~~
+* [X] ~~*Use the value attribute with Radio Buttons and Checkboxes*~~
 * [X] ~~*Check Radio Buttons and Checkboxes by Default*~~
 * [X] ~~*Nest Many Elements within a Single div Element*~~
 * [X] ~~*Declare the Doctype of an HTML Document*~~
 * [X] ~~*Define the Head and Body of an HTML Document*~~
-#### ~~*Basic CSS*~~
-* [X] ~~*Introduction to Basic CSS*~~
+
+#### ~~*Basic CSS*~~ [44/44]
+* ~~*Introduction to Basic CSS*~~
 * [X] ~~*Change the Color of Text*~~
 * [X] ~~*Use CSS Selectors to Style Elements*~~
 * [X] ~~*Use a CSS Class to Style an Element*~~
@@ -162,11 +155,13 @@ freeCodeCamp lists:
 * [X] ~~*Create a custom CSS Variable*~~
 * [X] ~~*Use a custom CSS Variable*~~
 * [X] ~~*Attach a Fallback value to a CSS Variable*~~
-* [X] ~~*Cascading CSS variables*~~
+* [X] ~~*Improve Compatibility with Browser Fallbacks*~~
+* [X] ~~*Inherit CSS Variables*~~
 * [X] ~~*Change a variable for a specific area*~~
 * [X] ~~*Use a media query to change a variable*~~
-#### ~~*Applied Visual Design*~~
-* [X] ~~*Introduction to the Applied Visual Design Challenges*~~
+
+#### ~~*Applied Visual Design*~~ [52/52]
+* ~~*Introduction to the Applied Visual Design Challenges*~~
 * [X] ~~*Create Visual Balance Using the text-align Property*~~
 * [X] ~~*Adjust the Width of an Element Using the width Property*~~
 * [X] ~~*Adjust the Height of an Element Using the height Property*~~
@@ -219,8 +214,9 @@ freeCodeCamp lists:
 * [X] ~~*Learn How Bezier Curves Work*~~
 * [X] ~~*Use a Bezier Curve to Move a Graphic*~~
 * [X] ~~*Make Motion More Natural Using a Bezier Curve*~~
-#### ~~*Applied Accessibility*~~
-* [X] ~~*Introduction to the Applied Accessibility Challenges*~~
+
+#### ~~*Applied Accessibility*~~ [22/22]
+* ~~*Introduction to the Applied Accessibility Challenges*~~
 * [X] ~~*Add a Text Alternative to Images for Visually Impaired Accessibility*~~
 * [X] ~~*Know When Alt Text Should be Left Blank*~~
 * [X] ~~*Use Headings to Show Hierarchical Relationships of Content*~~
@@ -240,17 +236,19 @@ freeCodeCamp lists:
 * [X] ~~*Avoid Colorblindness Issues by Using Sufficient Contrast*~~
 * [X] ~~*Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information*~~
 * [X] ~~*Give Links Meaning by Using Descriptive Link Text*~~
-* [X] ~~*Make Links Navigatable with HTML Access Keys*~~
+* [X] ~~*Make Links Navigable with HTML Access Keys*~~
 * [X] ~~*Use tabindex to Add Keyboard Focus to an Element*~~
 * [X] ~~*Use tabindex to Specify the Order of Keyboard Focus for Several Elements*~~
-#### ~~*Responsive Web Design Principles*~~
-* [X] ~~*Introduction to the Responsive Web Design Challenges*~~
+
+#### ~~*Responsive Web Design Principles*~~ [4/4]
+* ~~*Introduction to the Responsive Web Design Challenges*~~
 * [X] ~~*Create a Media Query*~~
 * [X] ~~*Make an Image Responsive*~~
 * [X] ~~*Use a Retina Image for Higher Resolution Displays*~~
 * [X] ~~*Make Typography Responsive*~~
-#### ~~*CSS Flexbox*~~
-* [X] ~~*Introduction to the CSS Flexbox Challenges*~~
+
+#### ~~*CSS Flexbox*~~ [17/17]
+* ~~*Introduction to the CSS Flexbox Challenges*~~
 * [X] ~~*Use display: flex to Position Two Boxes*~~
 * [X] ~~*Add Flex Superpowers to the Tweet Embed*~~
 * [X] ~~*Use the flex-direction Property to Make a Row*~~
@@ -268,8 +266,9 @@ freeCodeCamp lists:
 * [X] ~~*Use the flex Shorthand Property*~~
 * [X] ~~*Use the order Property to Rearrange Items*~~
 * [X] ~~*Use the align-self Property*~~
-#### ~~*CSS Grid*~~
-* [X] ~~*Introduction to the CSS Grid Challenges*~~
+
+#### ~~*CSS Grid*~~ [22/22]
+* ~~*Introduction to the CSS Grid Challenges*~~
 * [X] ~~*Create Your First CSS Grid*~~
 * [X] ~~*Add Columns with grid-template-columns*~~
 * [X] ~~*Add Rows with grid-template-rows*~~
@@ -292,24 +291,24 @@ freeCodeCamp lists:
 * [X] ~~*Create Flexible Layouts Using auto-fit*~~
 * [X] ~~*Use Media Queries to Create Responsive Layouts*~~
 * [X] ~~*Create Grids within Grids*~~
-#### ~~*Responsive Web Design Projects*~~
-* [X] ~~*Introduction to the Responsive Web Design Projects*~~
+
+#### ~~*Responsive Web Design Projects*~~ [5/5]
+* ~~*Introduction to the Responsive Web Design Projects*~~
 * [X] ~~*Build a Tribute Page*~~
 * [X] ~~*Build a Survey Form*~~
 * [X] ~~*Build a Product Landing Page*~~
 * [X] ~~*Build a Technical Documentation Page*~~
 * [X] ~~*Build a Personal Portfolio Webpage*~~
-#### ~~*Claim Your Responsive Web Design Certificate*~~
-* [X] ~~*Claim Your Responsive Web Design Certificate*~~
 
----
 
-### ~~*JavaScript Algorithms and Data Structures*~~
-#### ~~*Basic JavaScript*~~
-* [X] ~~*Introduction to JavaScript*~~
+###  ~~*JavaScript Algorithms and Data Structures Certification (300 hours)*~~ [299/299]
+
+#### ~~*Basic JavaScript*~~ [111/111]
+* ~~*Introduction to JavaScript*~~
 * [X] ~~*Comment Your JavaScript Code*~~
 * [X] ~~*Declare JavaScript Variables*~~
 * [X] ~~*Storing Values with the Assignment Operator*~~
+* [X] ~~*Assigning the Value of One Variable to Another*~~
 * [X] ~~*Initializing Variables with the Assignment Operator*~~
 * [X] ~~*Understanding Uninitialized Variables*~~
 * [X] ~~*Understanding Case Sensitivity in Variables*~~
@@ -406,6 +405,7 @@ freeCodeCamp lists:
 * [X] ~~*Iterate Through an Array with a For Loop*~~
 * [X] ~~*Nesting For Loops*~~
 * [X] ~~*Iterate with JavaScript Do...While Loops*~~
+* [X] ~~*Replace Loops using Recursion*~~
 * [X] ~~*Profile Lookup*~~
 * [X] ~~*Generate Random Fractions with JavaScript*~~
 * [X] ~~*Generate Random Whole Numbers with JavaScript*~~
@@ -414,8 +414,11 @@ freeCodeCamp lists:
 * [X] ~~*Use the parseInt Function with a Radix*~~
 * [X] ~~*Use the Conditional (Ternary) Operator*~~
 * [X] ~~*Use Multiple Conditional (Ternary) Operators*~~
-#### ~~*ES6*~~
-* [X] ~~*Introduction to the ES6 Challenges*~~
+* [X] ~~*Use Recursion to Create a Countdown*~~
+* [X] ~~*Use Recursion to Create a Range of Numbers*~~
+
+#### ~~*ES6*~~ [31/31]
+* ~~*Introduction to the ES6 Challenges*~~
 * [X] ~~*Explore Differences Between the var and let Keywords*~~
 * [X] ~~*Compare Scopes of the var and let Keywords*~~
 * [X] ~~*Declare a Read-Only Variable with the const Keyword*~~
@@ -423,27 +426,33 @@ freeCodeCamp lists:
 * [X] ~~*Prevent Object Mutation*~~
 * [X] ~~*Use Arrow Functions to Write Concise Anonymous Functions*~~
 * [X] ~~*Write Arrow Functions with Parameters*~~
-* [X] ~~*Write Higher Order Arrow Functions*~~
 * [X] ~~*Set Default Parameters for Your Functions*~~
-* [X] ~~*Use the Rest Operator with Function Parameters*~~
+* [X] ~~*Use the Rest Parameter with Function Parameters*~~
 * [X] ~~*Use the Spread Operator to Evaluate Arrays In-Place*~~
+* [X] ~~*Use Destructuring Assignment to Extract Values from Objects*~~
 * [X] ~~*Use Destructuring Assignment to Assign Variables from Objects*~~
 * [X] ~~*Use Destructuring Assignment to Assign Variables from Nested Objects*~~
 * [X] ~~*Use Destructuring Assignment to Assign Variables from Arrays*~~
-* [X] ~~*Use Destructuring Assignment with the Rest Operator to Reassign Array Elements*~~
+* [X] ~~*Use Destructuring Assignment with the Rest Parameter to Reassign Array Elements*~~
 * [X] ~~*Use Destructuring Assignment to Pass an Object as a Function's Parameters*~~
 * [X] ~~*Create Strings using Template Literals*~~
-* [X] ~~*Write Concise Object Literal Declarations Using Simple Fields*~~
+* [X] ~~*Write Concise Object Literal Declarations Using Object Property Shorthand*~~
 * [X] ~~*Write Concise Declarative Functions with ES6*~~
 * [X] ~~*Use class Syntax to Define a Constructor Function*~~
 * [X] ~~*Use getters and setters to Control Access to an Object*~~
-* [X] ~~*Understand the Differences Between import and require*~~
-* [X] ~~*Use export to Reuse a Code Block*~~
+* [X] ~~*Create a Module Script*~~
+* [X] ~~*Use export to Share a Code Block*~~
+* [X] ~~*Reuse JavaScript Code Using import*~~
 * [X] ~~*Use * to Import Everything from a File*~~
 * [X] ~~*Create an Export Fallback with export default*~~
 * [X] ~~*Import a Default Export*~~
-#### ~~*Regular Expressions*~~
-* [X] ~~*Introduction to the Regular Expression Challenges*~~
+* [X] ~~*Create a JavaScript Promise*~~
+* [X] ~~*Complete a Promise with resolve and reject*~~
+* [X] ~~*Handle a Fulfilled Promise with then*~~
+* [X] ~~*Handle a Rejected Promise with catch*~~
+
+#### ~~*Regular Expressions*~~ [33/33]
+* ~~*Introduction to the Regular Expression Challenges*~~
 * [X] ~~*Using the Test Method*~~
 * [X] ~~*Match Literal Strings*~~
 * [X] ~~*Match a Literal String with Different Possibilities*~~
@@ -473,11 +482,13 @@ freeCodeCamp lists:
 * [X] ~~*Specify Exact Number of Matches*~~
 * [X] ~~*Check for All or None*~~
 * [X] ~~*Positive and Negative Lookahead*~~
+* [X] ~~*Check For Mixed Grouping of Characters*~~
 * [X] ~~*Reuse Patterns Using Capture Groups*~~
 * [X] ~~*Use Capture Groups to Search and Replace*~~
 * [X] ~~*Remove Whitespace from Start and End*~~
-#### ~~*Debugging*~~
-* [X] ~~*Introduction to the Debugging Challenges*~~
+
+#### ~~*Debugging*~~ [12/12]
+* ~~*Introduction to the Debugging Challenges*~~
 * [X] ~~*Use the JavaScript Console to Check the Value of a Variable*~~
 * [X] ~~*Understanding the Differences between the freeCodeCamp and Browser Console*~~
 * [X] ~~*Use typeof to Check the Type of a Variable*~~
@@ -490,8 +501,9 @@ freeCodeCamp lists:
 * [X] ~~*Catch Off By One Errors When Using Indexing*~~
 * [X] ~~*Use Caution When Reinitializing Variables Inside a Loop*~~
 * [X] ~~*Prevent Infinite Loops with a Valid Terminal Condition*~~
-#### ~~*Basic Data Structures*~~
-* [X] ~~*Introduction to the Basic Data Structure Challenges*~~
+
+#### ~~*Basic Data Structures*~~ [20/20]
+* ~~*Introduction to the Basic Data Structure Challenges*~~
 * [X] ~~*Use an Array to Store a Collection of Data*~~
 * [X] ~~*Access an Array's Contents Using Bracket Notation*~~
 * [X] ~~*Add Items to an Array with push() and unshift()*~~
@@ -509,11 +521,12 @@ freeCodeCamp lists:
 * [X] ~~*Access Property Names with Bracket Notation*~~
 * [X] ~~*Use the delete Keyword to Remove Object Properties*~~
 * [X] ~~*Check if an Object has a Property*~~
-* [X] ~~* Iterate Through the Keys of an Object with a for...in Statement*~~
+* [X] ~~*Iterate Through the Keys of an Object with a for...in Statement*~~
 * [X] ~~*Generate an Array of All Object Keys with Object.keys()*~~
 * [X] ~~*Modify an Array Stored in an Object*~~
-#### ~~*Basic Algorithm Scripting*~~
-* [X] ~~*Introduction to Basic Algorithm Scripting*~~
+
+#### ~~*Basic Algorithm Scripting*~~ [16/16]
+* ~~*Introduction to Basic Algorithm Scripting*~~
 * [X] ~~*Convert Celsius to Fahrenheit*~~
 * [X] ~~*Reverse a String*~~
 * [X] ~~*Factorialize a Number*~~
@@ -530,8 +543,9 @@ freeCodeCamp lists:
 * [X] ~~*Where do I Belong*~~
 * [X] ~~*Mutations*~~
 * [X] ~~*Chunky Monkey*~~
-#### ~~*Object Oriented Programming*~~
-* [X] ~~*Introduction to the Object Oriented Programming Challenges*~~
+
+#### ~~*Object Oriented Programming*~~ [26/26]
+* ~~*Introduction to the Object Oriented Programming Challenges*~~
 * [X] ~~*Create a Basic JavaScript Object*~~
 * [X] ~~*Use Dot Notation to Access the Properties of an Object*~~
 * [X] ~~*Create a Method on an Object*~~
@@ -555,11 +569,12 @@ freeCodeCamp lists:
 * [X] ~~*Add Methods After Inheritance*~~
 * [X] ~~*Override Inherited Methods*~~
 * [X] ~~*Use a Mixin to Add Common Behavior Between Unrelated Objects*~~
-* [X] ~~*Use Closure to Protect Properties Within an Object from Being Modified *~~Externally
+* [X] ~~*Use Closure to Protect Properties Within an Object from Being Modified Externally*~~
 * [X] ~~*Understand the Immediately Invoked Function Expression (IIFE)*~~
 * [X] ~~*Use an IIFE to Create a Module*~~
-#### ~~*Functional Programming*~~
-* [X] ~~*Introduction to the Functional Programming Challenges*~~
+
+#### ~~*Functional Programming*~~ [24/24]
+* ~~*Introduction to the Functional Programming Challenges*~~
 * [X] ~~*Learn About Functional Programming*~~
 * [X] ~~*Understand Functional Programming Terminology*~~
 * [X] ~~*Understand the Hazards of Using Imperative Code*~~
@@ -575,6 +590,7 @@ freeCodeCamp lists:
 * [X] ~~*Combine Two Arrays Using the concat Method*~~
 * [X] ~~*Add Elements to the End of an Array Using concat Instead of push*~~
 * [X] ~~*Use the reduce Method to Analyze Data*~~
+* [X] ~~*Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem*~~
 * [X] ~~*Sort an Array Alphabetically using the sort Method*~~
 * [X] ~~*Return a Sorted Array Without Changing the Original Array*~~
 * [X] ~~*Split a String into an Array Using the split Method*~~
@@ -583,8 +599,9 @@ freeCodeCamp lists:
 * [X] ~~*Use the every Method to Check that Every Element in an Array Meets a Criteria*~~
 * [X] ~~*Use the some Method to Check that Any Elements in an Array Meet a Criteria*~~
 * [X] ~~*Introduction to Currying and Partial Application*~~
-#### ~~*Intermediate Algorithm Scripting*~~
-* [X] ~~*Introduction to the Intermediate Algorithm Scripting Challenges*~~
+
+#### ~~*Intermediate Algorithm Scripting*~~ [21/21]
+* ~~*Introduction to the Intermediate Algorithm Scripting Challenges*~~
 * [X] ~~*Sum All Numbers in a Range*~~
 * [X] ~~*Diff Two Arrays*~~
 * [X] ~~*Seek and Destroy*~~
@@ -606,21 +623,20 @@ freeCodeCamp lists:
 * [X] ~~*Arguments Optional*~~
 * [X] ~~*Make a Person*~~
 * [X] ~~*Map the Debris*~~
-#### ~~*JavaScript Algorithms and Data Structures Projects*~~
-* [X] ~~*Introduction to the JavaScript Algorithms and Data Structures Projects*~~
+
+#### ~~*JavaScript Algorithms and Data Structures Projects*~~ [5/5]
+* ~~*Introduction to the JavaScript Algorithms and Data Structures Projects*~~
 * [X] ~~*Palindrome Checker*~~
 * [X] ~~*Roman Numeral Converter*~~
 * [X] ~~*Caesars Cipher*~~
 * [X] ~~*Telephone Number Validator*~~
 * [X] ~~*Cash Register*~~
-#### ~~*Claim Your JavaScript Algorithms and Data Structures Certificate*~~
-* [X] ~~*Claim Your JavaScript Algorithms and Data Structures Certificate*~~
 
----
 
-### Front End Libraries
-#### ~~*Bootstrap*~~
-* [X] ~~*Introduction to the Bootstrap Challenges*~~
+### Front End Libraries Certification (300 hours) [136/137]
+
+#### ~~*Bootstrap*~~ [31/31]
+* ~~*Introduction to the Bootstrap Challenges*~~
 * [X] ~~*Use Responsive Design with Bootstrap Fluid Containers*~~
 * [X] ~~*Make Images Mobile Responsive*~~
 * [X] ~~*Center Text with Bootstrap*~~
@@ -652,8 +668,9 @@ freeCodeCamp lists:
 * [X] ~~*Give Each Element a Unique id*~~
 * [X] ~~*Label Bootstrap Buttons*~~
 * [X] ~~*Use Comments to Clarify Code*~~
-#### ~~*jQuery*~~
-* [X] ~~*Introduction to jQuery*~~
+
+#### ~~*jQuery*~~ [18/18]
+* ~~*Introduction to jQuery*~~
 * [X] ~~*Learn How Script Tags and Document Ready Work*~~
 * [X] ~~*Target HTML Elements with Selectors Using jQuery*~~
 * [X] ~~*Target Elements by Class Using jQuery*~~
@@ -672,8 +689,9 @@ freeCodeCamp lists:
 * [X] ~~*Target a Specific Child of an Element Using jQuery*~~
 * [X] ~~*Target Even Elements Using jQuery*~~
 * [X] ~~*Use jQuery to Modify the Entire Page*~~
-#### ~~*Sass*~~
-* [X] ~~*Introduction to the Sass Challenges*~~
+
+#### ~~*Sass*~~ [9/9]
+* ~~*Introduction to the Sass Challenges*~~
 * [X] ~~*Store Data with Sass Variables*~~
 * [X] ~~*Nest CSS with Sass*~~
 * [X] ~~*Create Reusable CSS with Mixins*~~
@@ -683,8 +701,9 @@ freeCodeCamp lists:
 * [X] ~~*Apply a Style Until a Condition is Met with @while*~~
 * [X] ~~*Split Your Styles into Smaller Chunks with Partials*~~
 * [X] ~~*Extend One Set of CSS Styles to Another Element*~~
-#### ~~*React*~~
-* [X] ~~*Introduction to the React Challenges*~~
+
+#### ~~*React*~~ [47/47]
+* ~~*Introduction to the React Challenges*~~
 * [X] ~~*Create a Simple JSX Element*~~
 * [X] ~~*Create a Complex JSX Element*~~
 * [X] ~~*Add Comments in JSX*~~
@@ -719,12 +738,11 @@ freeCodeCamp lists:
 * [X] ~~*Use the Lifecycle Method componentWillMount*~~
 * [X] ~~*Use the Lifecycle Method componentDidMount*~~
 * [X] ~~*Add Event Listeners*~~
-* [X] ~~*Manage Updates with Lifecycle Methods*~~
 * [X] ~~*Optimize Re-Renders with shouldComponentUpdate*~~
 * [X] ~~*Introducing Inline Styles*~~
 * [X] ~~*Add Inline Styles in React*~~
 * [X] ~~*Use Advanced JavaScript in React Render Method*~~
-* [X] ~~*Render with an If/Else Condition*~~
+* [X] ~~*Render with an If-Else Condition*~~
 * [X] ~~*Use && for a More Concise Conditional*~~
 * [X] ~~*Use a Ternary Expression for Conditional Rendering*~~
 * [X] ~~*Render Conditionally from Props*~~
@@ -733,8 +751,9 @@ freeCodeCamp lists:
 * [X] ~~*Give Sibling Elements a Unique Key Attribute*~~
 * [X] ~~*Use Array.filter() to Dynamically Filter an Array*~~
 * [X] ~~*Render React on the Server with renderToString*~~
-#### ~~*Redux*~~
-* [X] ~~*Introduction to the Redux Challenges*~~
+
+#### ~~*Redux*~~ [17/17]
+* ~~*Introduction to the Redux Challenges*~~
 * [X] ~~*Create a Redux Store*~~
 * [X] ~~*Get State from the Redux Store*~~
 * [X] ~~*Define a Redux Action*~~
@@ -752,7 +771,8 @@ freeCodeCamp lists:
 * [X] ~~*Use the Spread Operator on Arrays*~~
 * [X] ~~*Remove an Item from an Array*~~
 * [X] ~~*Copy an Object with Object.assign*~~
-#### ~~*React and Redux*~~
+
+#### ~~*React and Redux*~~ [10/10]
 * [X] ~~*Introduction to the React and Redux Challenges*~~
 * [X] ~~*Getting Started with React Redux*~~
 * [X] ~~*Manage State Locally First*~~
@@ -764,21 +784,20 @@ freeCodeCamp lists:
 * [X] ~~*Connect Redux to the Messages App*~~
 * [X] ~~*Extract Local State into Redux*~~
 * [X] ~~*Moving Forward From Here*~~
-#### Front End Libraries Projects
-* [X] ~~*Introduction to the Front End Libraries Projects*~~
+
+#### Front End Libraries Projects [4/5]
+* ~~*Introduction to the Front End Libraries Projects*~~
 * [X] ~~*Build a Random Quote Machine*~~
 * [X] ~~*Build a Markdown Previewer*~~
 * [ ] Build a Drum Machine
-* [ ] Build a JavaScript Calculator
-* [ ] Build a Pomodoro Clock
-#### Claim Your Front End Libraries Certificate
-* [ ] Claim Your Front End Libraries Certificate
+* [X] ~~*Build a JavaScript Calculator*~~
+* [X] ~~*Build a 25 + 5 Clock*~~
 
----
 
-### Data Visualization
-#### Data Visualization with D3
-* [ ] Introduction to the Data Visualization with D3 Challenges
+### Data Visualization Certification (300) [9/44]
+
+#### Data Visualization with D3 [0/29]
+* Introduction to the Data Visualization with D3 Challenges
 * [ ] Add Document Elements with D3
 * [ ] Select a Group of Elements with D3
 * [ ] Work with Data in D3
@@ -808,32 +827,32 @@ freeCodeCamp lists:
 * [ ] Use Dynamic Scales
 * [ ] Use a Pre-Defined Scale to Place Elements
 * [ ] Add Axes to a Visualization
-#### JSON APIs and AJAX
-* [ ] Introduction to the JSON APIs and AJAX Challenges
-* [ ] Handle Click Events with JavaScript using the onclick property
-* [ ] Change Text with click Events
-* [ ] Get JSON with the JavaScript XMLHttpRequest Method
-* [ ] Access the JSON Data from an API
-* [ ] Convert JSON Data to HTML
-* [ ] Render Images from Data Sources
-* [ ] Pre-filter JSON to Get the Data You Need
-* [ ] Get Geolocation Data to Find A User's GPS Coordinates
-* [ ] Post Data with the JavaScript XMLHttpRequest Method
-#### Data Visualization Projects
-* [ ] Introduction to the Data Visualization Projects
+
+#### JSON APIs and Ajax [9/10]
+* ~~*Introduction to the JSON APIs and AJAX Challenges*~~
+* [X] ~~*Handle Click Events with JavaScript using the onclick property*~~
+* [X] ~~*Change Text with click Events*~~
+* [X] ~~*Get JSON with the JavaScript XMLHttpRequest Method*~~
+* [ ] Get JSON with the JavaScript fetch method
+* [X] ~~*Access the JSON Data from an API*~~
+* [X] ~~*Convert JSON Data to HTML*~~
+* [X] ~~*Render Images from Data Sources*~~
+* [X] ~~*Pre-filter JSON to Get the Data You Need*~~
+* [X] ~~*Get Geolocation Data to Find A User's GPS Coordinates*~~
+* [X] ~~*Post Data with the JavaScript XMLHttpRequest Method*~~
+
+#### Data Visualization Projects [0/5]
+* Introduction to the Data Visualization Projects
 * [ ] Visualize Data with a Bar Chart
 * [ ] Visualize Data with a Scatterplot Graph
 * [ ] Visualize Data with a Heat Map
 * [ ] Visualize Data with a Choropleth Map
 * [ ] Visualize Data with a Treemap Diagram
-#### Claim Your Data Visualization Certificate
-* [ ] Claim Your Data Visualization Certificate
 
----
+### APIs and Microservices Certification (300 hours) [22/39]
 
-### APIs and Microservices
-#### ~~*Introduction to the Managing Packages with npm Challenges*~~
-* [X] ~~*Introduction to the Managing Packages with npm Challenges*~~
+#### Managing Packages with Npm [10/10]
+* ~~*Introduction to the Managing Packages with npm Challenges*~~
 * [X] ~~*How to Use package.json, the Core of Any Node.js Project or npm Package*~~
 * [X] ~~*Add a Description to Your package.json*~~
 * [X] ~~*Add Keywords to Your package.json*~~
@@ -844,8 +863,9 @@ freeCodeCamp lists:
 * [X] ~~*Use the Tilde-Character to Always Use the Latest Patch Version of a Dependency*~~
 * [X] ~~*Use the Caret-Character to Use the Latest Minor Version of a Dependency*~~
 * [X] ~~*Remove a Package from Your Dependencies*~~
-#### Basic Node and Express
-* [X] ~~*Introduction to the Basic Node and Express Challenges*~~
+
+#### Basic Node and Express [12/12]
+* ~~*Introduction to the Basic Node and Express Challenges*~~
 * [X] ~~*Meet the Node console*~~
 * [X] ~~*Start a Working Express Server*~~
 * [X] ~~*Serve an HTML File*~~
@@ -858,8 +878,9 @@ freeCodeCamp lists:
 * [X] ~~*Get Query Parameter Input from the Client*~~
 * [X] ~~*Use body-parser to Parse POST Requests*~~
 * [X] ~~*Get Data from POST Requests*~~
-#### MongoDB and Mongoose
-* [ ] Introduction to the MongoDB and Mongoose Challenges
+
+#### MongoDB and Mongoose [0/12]
+* Introduction to the MongoDB and Mongoose Challenges
 * [ ] Install and Set Up Mongoose
 * [ ] Create a Model
 * [ ] Create and Save a Record of a Model
@@ -872,37 +893,20 @@ freeCodeCamp lists:
 * [ ] Delete One Document Using model.findByIdAndRemove
 * [ ] Delete Many Documents with model.remove()
 * [ ] Chain Search Query Helpers to Narrow Search Results
-#### API and Microservice Projects
-* [ ] Introduction to the APIs and Microservices Projects
+
+#### APIs and Microservices Projects [0/5]
+* Introduction to the APIs and Microservices Projects
 * [ ] Timestamp Microservice
 * [ ] Request Header Parser Microservice
 * [ ] URL Shortener Microservice
 * [ ] Exercise Tracker
 * [ ] File Metadata Microservice
-#### Claim Your APIs and Microservices Certificate
-* [ ] Claim Your APIs and Microservices Certificate
 
----
 
-### Information Security and Quality Assurance
-#### Information Security with HelmetJS
-* [ ] Introduction to Information Security with HelmetJS Challenges
-* [ ] Install and Require Helmet
-* [ ] Hide Potentially Dangerous Information Using helmet.hidePoweredBy()
-* [ ] Mitigate the Risk of Clickjacking with helmet.frameguard()
-* [ ] Mitigate the Risk of Cross Site Scripting (XSS) Attacks with helmet.xssFilter()
-* [ ] Avoid Inferring the Response MIME Type with helmet.noSniff()
-* [ ] Prevent IE from Opening Untrusted HTML with helmet.ieNoOpen()
-* [ ] Ask Browsers to Access Your Site via HTTPS Only with helmet.hsts()
-* [ ] Disable DNS Prefetching with helmet.dnsPrefetchControl()
-* [ ] Disable Client-Side Caching with helmet.noCache()
-* [ ] Set a Content Security Policy with helmet.contentSecurityPolicy()
-* [ ] Configure Helmet Using the ‘parent’ helmet() Middleware
-* [ ] Understand BCrypt Hashes
-* [ ] Hash and Compare Passwords Asynchronously
-* [ ] Hash and Compare Passwords Synchronously
-#### Quality Assurance and Testing with Chai
-* [ ] Introduction to the Quality Assurance with Chai Challenges
+### Quality Assurance Certification (300 hours) [0/52]
+
+#### Quality Assurance and Testing with Chai [0/25]
+* Introduction to the Quality Assurance with Chai Challenges
 * [ ] Learn How JavaScript Assertions Work
 * [ ] Test if a Variable or Function is Defined
 * [ ] Use Assert.isOK and Assert.isNotOK
@@ -925,10 +929,12 @@ freeCodeCamp lists:
 * [ ] Run Functional Tests on API Endpoints using Chai-HTTP II
 * [ ] Run Functional Tests on an API Response using Chai-HTTP III - PUT method
 * [ ] Run Functional Tests on an API Response using Chai-HTTP IV - PUT method
+* [ ] Simulate Actions Using a Headless Browser
 * [ ] Run Functional Tests using a Headless Browser
-* [ ] Run Functional Tests using a Headless Browser II
-#### Advanced Node and Express
-* [ ] Introduction to the Advances Node and Express Challenges
+* [ ] Run Functional Tests Using a Headless Browser II
+
+#### Advanced Node and Express [0/22]
+* Introduction to the Advanced Node and Express Challenges
 * [ ] Set up a Template Engine
 * [ ] Use a Template Engine's Powers
 * [ ] Set up Passport
@@ -951,21 +957,233 @@ freeCodeCamp lists:
 * [ ] Authentication with Socket.IO
 * [ ] Announce New Users
 * [ ] Send and Display Chat Messages
-#### Information Security and Quality Assurance Projects
-* [ ] Introduction to the Information Security and Quality Assurance Projects
+
+#### Quality Assurance Projects [0/5]
+* Introduction to the Quality Assurance Projects
 * [ ] Metric-Imperial Converter
 * [ ] Issue Tracker
 * [ ] Personal Library
+* [ ] Sudoku Solver
+* [ ] American British Translator
+
+### Scientific Computing with Python Certification (300 hours) [0/61]
+
+#### Python for Everybody [0/56]
+* Introduction to Python for Everybody
+* [ ] Introduction: Why Program?
+* [ ] Introduction: Hardware Architecture
+* [ ] Introduction: Python as a Language
+* [ ] Introduction: Elements of Python
+* [ ] Variables, Expressions, and Statements
+* [ ] Intermediate Expressions
+* [ ] Conditional Execution
+* [ ] More Conditional Structures
+* [ ] Python Functions
+* [ ] Build your own Functions
+* [ ] Loops and Iterations
+* [ ] Iterations: Definite Loops
+* [ ] Iterations: Loop Idioms
+* [ ] Iterations: More Patterns
+* [ ] Strings in Python
+* [ ] Intermediate Strings
+* [ ] Reading Files
+* [ ] Files as a Sequence
+* [ ] Python Lists
+* [ ] Working with Lists
+* [ ] Strings and Lists
+* [ ] Python Dictionaries
+* [ ] Dictionaries: Common Applications
+* [ ] Dictionaries and Loops
+* [ ] The Tuples Collection
+* [ ] Comparing and Sorting Tuples
+* [ ] Regular Expressions
+* [ ] Regular Expressions: Matching and Extracting Data
+* [ ] Regular Expressions: Practical Applications
+* [ ] Networking with Python
+* [ ] Networking Protocol
+* [ ] Networking: Write a Web Browser
+* [ ] Networking: Text Processing
+* [ ] Networking: Using urllib in Python
+* [ ] Networking: Web Scraping with Python
+* [ ] Using Web Services
+* [ ] Web Services: XML
+* [ ] Web Services: XML Schema
+* [ ] Web Services: JSON
+* [ ] Web Services: Service Oriented Approach
+* [ ] Web Services: APIs
+* [ ] Web Services: API Rate Limiting and Security
+* [ ] Python Objects
+* [ ] Objects: A Sample Class
+* [ ] Object Lifecycle
+* [ ] Objects: Inheritance
+* [ ] Relational Databases and SQLite
+* [ ] Make a Relational Database
+* [ ] Relational Database Design
+* [ ] Representing Relationships in a Relational Database
+* [ ] Relational Databases: Relationship Building
+* [ ] Relational Databases: Join Operation
+* [ ] Relational Databases: Many-to-many Relationships
+* [ ] Visualizing Data with Python
+* [ ] Data Visualization: Page Rank
+* [ ] Data Visualization: Mailing Lists
+
+#### Scientific Computing with Python Projects [0/5]
+* Introduction to the Scientific Computing with Python Projects
+* [ ] Arithmetic Formatter
+* [ ] Time Calculator
+* [ ] Budget App
+* [ ] Polygon Area Calculator
+* [ ] Probability Calculator
+
+
+### Data Analysis with Python Certification (300 hours) [0/42]
+
+#### Data Analysis with Python Course [0/28]
+* Introduction to the Data Analysis with Python Course Lectures
+* [ ] Introduction to Data Analysis
+* [ ] Data Analysis Example A
+* [ ] Data Analysis Example B
+* [ ] How to use Jupyter Notebooks Intro
+* [ ] Jupyter Notebooks Cells
+* [ ] Jupyter Notebooks Importing and Exporting Data
+* [ ] Numpy Introduction A
+* [ ] Numpy Introduction B
+* [ ] Numpy Arrays
+* [ ] Numpy Operations
+* [ ] Numpy Boolean Arrays
+* [ ] Numpy Algebra and Size
+* [ ] Pandas Introduction
+* [ ] Pandas Indexing and Conditional Selection
+* [ ] Pandas DataFrames
+* [ ] Pandas Conditional Selection and Modifying DataFrames
+* [ ] Pandas Creating Columns
+* [ ] Data Cleaning Introduction
+* [ ] Data Cleaning with DataFrames
+* [ ] Data Cleaning Duplicates
+* [ ] Data Cleaning and Visualizations
+* [ ] Reading Data Introduction
+* [ ] Reading Data CSV and TXT
+* [ ] Reading Data from Databases
+* [ ] Parsing HTML and Saving Data
+* [ ] Python Introduction
+* [ ] Python Functions and Collections
+* [ ] Python Iteration and Modules
+
+#### Numpy [0/9]
+* Introduction to the Numpy Lectures
+* [ ] What is NumPy
+* [ ] Basics of Numpy
+* [ ] Accessing and Changing Elements, Rows, Columns
+* [ ] Initializing Different Arrays
+* [ ] Initialize Array Problem
+* [ ] Copying Arrays Warning
+* [ ] Mathematics
+* [ ] Reorganizing Arrays
+* [ ] Loading Data and Advanced Indexing
+
+#### Data Analysis with Python Projects [0/5]
+* Introduction to the Data Analysis with Python Projects
+* [ ] Mean-Variance-Standard Deviation Calculator
+* [ ] Demographic Data Analyzer
+* [ ] Medical Data Visualizer
+* [ ] Page View Time Series Visualizer
+* [ ] Sea Level Predictor
+
+### Information Security Certification (300 hours) [14/26]
+
+#### Information Security with HelmetJS [14/14]
+* ~~*Introduction to Information Security with HelmetJS Challenges*~~
+* [X] ~~*Install and Require Helmet*~~
+* [X] ~~*Hide Potentially Dangerous Information Using helmet.hidePoweredBy()*~~
+* [X] ~~*Mitigate the Risk of Clickjacking with helmet.frameguard()*~~
+* [X] ~~*Mitigate the Risk of Cross Site Scripting (XSS) Attacks with helmet.xssFilter()*~~
+* [X] ~~*Avoid Inferring the Response MIME Type with helmet.noSniff()*~~
+* [X] ~~*Prevent IE from Opening Untrusted HTML with helmet.ieNoOpen()*~~
+* [X] ~~*Ask Browsers to Access Your Site via HTTPS Only with helmet.hsts()*~~
+* [X] ~~*Disable DNS Prefetching with helmet.dnsPrefetchControl()*~~
+* [X] ~~*Disable Client-Side Caching with helmet.noCache()*~~
+* [X] ~~*Set a Content Security Policy with helmet.contentSecurityPolicy()*~~
+* [X] ~~*Configure Helmet Using the ‘parent’ helmet() Middleware*~~
+* [X] ~~*Understand BCrypt Hashes*~~
+* [X] ~~*Hash and Compare Passwords Asynchronously*~~
+* [X] ~~*Hash and Compare Passwords Synchronously*~~
+
+#### Python for Penetration Testing [0/7]
+* Introduction to the Python for Penetration Testing Lectures
+* [ ] Introduction and Setup
+* [ ] Understanding Sockets and Creating a TCP Server
+* [ ] Creating a TCP Client
+* [ ] Developing an Nmap Scanner part 1
+* [ ] Developing an Nmap Scanner part 2
+* [ ] Developing a Banner Grabber
+* [ ] Developing a Port Scanner
+
+#### Information Security Projects [0/5]
+* Introduction to the Information Security Projects
 * [ ] Stock Price Checker
 * [ ] Anonymous Message Board
-#### Claim Your Information Security and Quality Assurance Certificate
-* [ ] Claim Your Information Security and Quality Assurance Certificate
+* [ ] Port Scanner
+* [ ] SHA-1 Password Cracker
+* [ ] Secure Real Time Multiplayer Game
 
----
 
-### Coding Interview Prep
-#### Algorithms
-* [X] ~~*Introduction to the Coding Interview Algorithms*~~
+### Machine Learning with Python Certification (300 hours) [0/41]
+
+#### TensorFlow [0/32]
+* Introduction to the TensorFlow Lectures
+* [ ] Introduction: Machine Learning Fundamentals
+* [ ] Introduction to TensorFlow
+* [ ] Core Learning Algorithms
+* [ ] Core Learning Algorithms: Working with Data
+* [ ] Core Learning Algorithms: Training and Testing Data
+* [ ] Core Learning Algorithms: The Training Process
+* [ ] Core Learning Algorithms: Classification
+* [ ] Core Learning Algorithms: Building the Model
+* [ ] Core Learning Algorithms: Clustering
+* [ ] Core Learning Algorithms: Hidden Markov Models
+* [ ] Core Learning Algorithms: Using Probabilities to make Predictions
+* [ ] Neural Networks with TensorFlow
+* [ ] Neural Networks: Activation Functions
+* [ ] Neural Networks: Optimizers
+* [ ] Neural Networks: Creating a Model
+* [ ] Convolutional Neural Networks
+* [ ] Convolutional Neural Networks: The Convolutional Layer
+* [ ] Creating a Convolutional Neural Network
+* [ ] Convolutional Neural Networks: Evaluating the Model
+* [ ] Convolutional Neural Networks: Picking a Pretrained Model
+* [ ] Natural Language Processing With RNNs
+* [ ] Natural Language Processing With RNNs: Part 2
+* [ ] Natural Language Processing With RNNs: Recurring Neural Networks
+* [ ] Natural Language Processing With RNNs: Sentiment Analysis
+* [ ] Natural Language Processing With RNNs: Making Predictions
+* [ ] Natural Language Processing With RNNs: Create a Play Generator
+* [ ] Natural Language Processing With RNNs: Building the Model
+* [ ] Natural Language Processing With RNNs: Training the Model
+* [ ] Reinforcement Learning With Q-Learning
+* [ ] Reinforcement Learning With Q-Learning: Part 2
+* [ ] Reinforcement Learning With Q-Learning: Example
+* [ ] Conclusion
+
+#### How Neural Networks Work [0/4]
+* Introduction to the How Neural Networks Work Lectures
+* [ ] How Deep Neural Networks Work
+* [ ] Recurrent Neural Networks RNN and Long Short Term Memory LSTM
+* [ ] Deep Learning Demystified
+* [ ] How Convolutional Neural Networks work
+
+#### Machine Learning with Python Projects [0/5]
+* Introduction to the Machine Learning Projects
+* [ ] Rock Paper Scissors
+* [ ] Cat and Dog Image Classifier
+* [ ] Book Recommendation Engine using KNN
+* [ ] Linear Regression Health Costs Calculator
+* [ ] Neural Network SMS Text Classifier
+
+
+### Coding Interview Prep (Thousands of hours of challenges) [9/715]
+
+#### Algorithms [4/9]
+* ~~*Introduction to the Coding Interview Algorithms*~~
 * [X] ~~*Find the Symmetric Difference*~~
 * [X] ~~*Inventory Update*~~
 * [X] ~~*No Repeats Please*~~
@@ -975,8 +1193,9 @@ freeCodeCamp lists:
 * [ ] Implement Insertion Sort
 * [ ] Implement Quick Sort
 * [ ] Implement Merge Sort
-#### Data Structures
-* [ ] Introduction to the Coding Interview Data Structure Questions
+
+#### Data Structures [0/46]
+* Introduction to the Coding Interview Data Structure Questions
 * [ ] Typed Arrays
 * [ ] Learn how a Stack Works
 * [ ] Create a Stack Class
@@ -984,8 +1203,6 @@ freeCodeCamp lists:
 * [ ] Create a Priority Queue Class
 * [ ] Create a Circular Queue
 * [ ] Create a Set Class
-* [ ] Remove from a Set
-* [ ] Size of the Set
 * [ ] Perform a Union on Two Sets
 * [ ] Perform an Intersection on Two Sets of Data
 * [ ] Perform a Difference on Two Sets of Data
@@ -1005,9 +1222,10 @@ freeCodeCamp lists:
 * [ ] Add Elements at a Specific Index in a Linked List
 * [ ] Create a Doubly Linked List
 * [ ] Reverse a Doubly Linked List
-* [ ] Find the Minimum and Maximum Value in a Binary Search Tree
 * [ ] Add a New Element to a Binary Search Tree
+* [ ] Find the Minimum and Maximum Value in a Binary Search Tree
 * [ ] Check if an Element is Present in a Binary Search Tree
+* [ ] Check if Tree is Binary Search Tree
 * [ ] Find the Minimum and Maximum Height of a Binary Search Tree
 * [ ] Use Depth First Search in a Binary Search Tree
 * [ ] Use Breadth First Search in a Binary Search Tree
@@ -1024,15 +1242,16 @@ freeCodeCamp lists:
 * [ ] Incidence Matrix
 * [ ] Breadth-First Search
 * [ ] Depth-First Search
-#### Take Home Projects
-* [X] ~~*Introduction to the Coding Interview Take Home Projects*~~
+
+#### Take Home Projects [5/20]
+* ~~*Introduction to the Coding Interview Take Home Projects*~~
 * [X] ~~*Show the Local Weather*~~
 * [X] ~~*Build a Wikipedia Viewer*~~
 * [X] ~~*Use the Twitch JSON API*~~
 * [ ] Build an Image Search Abstraction Layer
 * [X] ~~*Build a Tic Tac Toe Game*~~
 * [X] ~~*Build a Simon Game*~~
-* [ ] Build a Camper Leaderboard
+* [ ] Build a freeCodeCamp Forum Homepage
 * [ ] Build a Recipe Box
 * [ ] Build the Game of Life
 * [ ] Build a Roguelike Dungeon Crawler Game
@@ -1046,8 +1265,9 @@ freeCodeCamp lists:
 * [ ] Build a Voting App
 * [ ] Build a Pong Game
 * [ ] Build a Light-Bright App
-#### Rosetta Code
-* [ ] Introduction to the Rosetta Code Problems
+
+#### Rosetta Code [0/160]
+* Introduction to the Rosetta Code Problems
 * [ ] 100 doors
 * [ ] 24 game
 * [ ] 9 billion names of God the integer
@@ -1071,6 +1291,9 @@ freeCodeCamp lists:
 * [ ] Count occurrences of a substring
 * [ ] Count the coins
 * [ ] Cramer's rule
+* [ ] Cumulative standard deviation
+* [ ] CUSIP
+* [ ] Cut a rectangle
 * [ ] Date format
 * [ ] Date manipulation
 * [ ] Day of the week
@@ -1079,6 +1302,7 @@ freeCodeCamp lists:
 * [ ] Define a primitive data type
 * [ ] Department Numbers
 * [ ] Discordian date
+* [ ] Dot product
 * [ ] Element-wise operations
 * [ ] Emirp primes
 * [ ] Entropy
@@ -1096,6 +1320,7 @@ freeCodeCamp lists:
 * [ ] Fibonacci n-step number sequences
 * [ ] Fibonacci sequence
 * [ ] Fibonacci word
+* [ ] FizzBuzz
 * [ ] Fractran
 * [ ] Gamma function
 * [ ] Gaussian elimination
@@ -1120,9 +1345,76 @@ freeCodeCamp lists:
 * [ ] Jaro distance
 * [ ] JortSort
 * [ ] Josephus problem
-* [ ] Sailors, coconuts and a monkey problem
-* [ ] SEDOLs
+* [ ] K-d tree
+* [ ] Kaprekar numbers
+* [ ] Knapsack problem/0-1
+* [ ] Knapsack problem/Bounded
+* [ ] Knapsack problem/Continuous
+* [ ] Knapsack problem/Unbounded
+* [ ] Knight's tour
+* [ ] Largest int from concatenated ints
+* [ ] Last letter-first letter
+* [ ] Last Friday of each month
+* [ ] Leap year
+* [ ] Least common multiple
+* [ ] Left factorials
+* [ ] Letter frequency
+* [ ] Levenshtein distance
+* [ ] Linear congruential generator
+* [ ] Long multiplication
+* [ ] Longest common subsequence
+* [ ] Longest increasing subsequence
+* [ ] Longest string challenge
+* [ ] Look-and-say sequence
+* [ ] Loop over multiple arrays simultaneously
+* [ ] LU decomposition
+* [ ] Lucas-Lehmer test
+* [ ] Ludic numbers
+* [ ] Luhn test of credit card numbers
+* [ ] Lychrel numbers
+* [ ] LZW compression
 * [ ] S-Expressions
+* [ ] Sailors, coconuts and a monkey problem
+* [ ] Search a list of records
+* [ ] SEDOLs
+* [ ] Self Describing Numbers
+* [ ] Self-referential sequence
+* [ ] Semiprime
+* [ ] Set consolidation
+* [ ] Set of real numbers
+* [ ] SHA-1
+* [ ] SHA-256
+* [ ] Sort an array of composite structures
+* [ ] Sort disjoint sublist
+* [ ] Sort stability
+* [ ] Sort using a custom comparator
+* [ ] Sorting algorithms/Bead sort
+* [ ] Sorting algorithms/Bogosort
+* [ ] Sorting algorithms/Cocktail sort
+* [ ] Sorting algorithms/Comb sort
+* [ ] Sorting algorithms/Gnome sort
+* [ ] Sorting algorithms/Pancake sort
+* [ ] Sorting algorithms/Permutation sort
+* [ ] Sorting algorithms/Shell sort
+* [ ] Sorting algorithms/Stooge sort
+* [ ] Sorting algorithms/Strand sort
+* [ ] Soundex
+* [ ] Spiral matrix
+* [ ] Split a character string based on change of character
+* [ ] State name puzzle
+* [ ] Stern-Brocot sequence
+* [ ] Straddling checkerboard
+* [ ] Stream Merge
+* [ ] Strip control codes and extended characters from a string
+* [ ] Subleq
+* [ ] Sudoku
+* [ ] Sum digits of an integer
+* [ ] Sum multiples of 3 and 5
+* [ ] Sum of a series
+* [ ] Sum of squares
+* [ ] Sum to 100
+* [ ] Sutherland-Hodgman polygon clipping
+* [ ] Symmetric difference
 * [ ] Taxicab numbers
 * [ ] Tokenize a string with escaping
 * [ ] Topological sort
@@ -1130,13 +1422,15 @@ freeCodeCamp lists:
 * [ ] Towers of Hanoi
 * [ ] Vector cross product
 * [ ] Vector dot product
+* [ ] Word frequency
 * [ ] Word wrap
 * [ ] Y combinator
 * [ ] Zeckendorf number representation
 * [ ] Zhang-Suen thinning algorithm
 * [ ] Zig-zag matrix
-#### Project Euler
-* [ ] Introduction to the Project Euler Problems
+
+#### Project Euler [0/480]
+* Introduction to the Project Euler Problems
 * [ ] Problem 1: Multiples of 3 and 5
 * [ ] Problem 2: Even Fibonacci Numbers
 * [ ] Problem 3: Largest prime factor
@@ -1288,12 +1582,12 @@ freeCodeCamp lists:
 * [ ] Problem 149: Searching for a maximum-sum subsequence
 * [ ] Problem 150: Searching a triangular array for a sub-triangle having minimum-sum
 * [ ] Problem 151: Paper sheets of standard sizes: an expected-value problem
-* [ ] Problem 152: Writing 1/2 as a sum of inverse squares
+* [ ] Problem 152: Writing one half as a sum of inverse squares
 * [ ] Problem 153: Investigating Gaussian Integers
 * [ ] Problem 154: Exploring Pascal's pyramid
 * [ ] Problem 155: Counting Capacitor Circuits
 * [ ] Problem 156: Counting Digits
-* [ ] Problem 157: Solving the diophantine equation 1/a+1/b= p/10n
+* [ ] Problem 157: Solving the diophantine equation
 * [ ] Problem 158: Exploring strings for which only one character comes lexicographically after its neighbour to the left
 * [ ] Problem 159: Digital root sums of factorisations
 * [ ] Problem 160: Factorial trailing digits
@@ -1419,7 +1713,7 @@ freeCodeCamp lists:
 * [ ] Problem 280: Ant and seeds
 * [ ] Problem 281: Pizza Toppings
 * [ ] Problem 282: The Ackermann function
-* [ ] Problem 283: Integer sided triangles for which the area/perimeter ratio is integral
+* [ ] Problem 283: Integer sided triangles for which the area * perimeter ratio is integral
 * [ ] Problem 284: Steady Squares
 * [ ] Problem 285: Pythagorean odds
 * [ ] Problem 286: Scoring probabilities
