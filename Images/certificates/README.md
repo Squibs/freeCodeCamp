@@ -47,22 +47,4 @@ Many of these are just updated certificates, which mainly consists of an updated
 
 ## Udemy - Modern React with Redux by Stephen Grider - Certification
 
-<table>
-  <tr>
-    <th>Certificate</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="my-modern-react-redux-certificate-taught-by-stephen-grider.jpg" width="300px" alt="Screenshot of my Modern React with Redux Certificate from the Modern React with Redux Udemy course by Stephen Grider"/>
-      <br>
-      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <span>&nbsp;&nbsp;</span>
-    </td>
-  </tr>
-</table>
+<p align="center"><img src="my-modern-react-redux-certificate-taught-by-stephen-grider.jpg" width="300px" alt="Screenshot of my Modern React with Redux Certificate from the Modern React with Redux Udemy course by Stephen Grider"/></p>
