@@ -19,6 +19,8 @@ Many of these are just updated certificates, which mainly consists of an updated
   </tr>
 </table>
 
+[View This Certificate](https://www.freecodecamp.org/certification/squibs/legacy-front-end)
+
 ## freeCodeCamp Responsive Web Design Certification
 
 <table>
@@ -31,6 +33,8 @@ Many of these are just updated certificates, which mainly consists of an updated
     <td><img src="my-responsive-web-design-certificate-updated.png" width="540px" alt="Screenshot of my Responsive Web Design Certificate Certificate from freeCodeCamp that has been updated."/></td>
   </tr>
 </table>
+
+[View This Certificate](https://www.freecodecamp.org/certification/squibs/responsive-web-design)
 
 ## freeCodeCamp JavaScript Algorithms and Data Structures Certification
 
@@ -45,6 +49,11 @@ Many of these are just updated certificates, which mainly consists of an updated
   </tr>
 </table>
 
+[View This Certificate](https://www.freecodecamp.org/certification/squibs/javascript-algorithms-and-data-structures)
+
 ## Udemy - Modern React with Redux by Stephen Grider - Certification
 
-<p align="center"><img src="my-modern-react-redux-certificate-taught-by-stephen-grider.jpg" width="300px" alt="Screenshot of my Modern React with Redux Certificate from the Modern React with Redux Udemy course by Stephen Grider"/></p>
+<p align="center"><img src="my-modern-react-redux-certificate-taught-by-stephen-grider.jpg" width="425px" alt="Screenshot of my Modern React with Redux Certificate from the Modern React with Redux Udemy course by Stephen Grider"/></p>
+
+[View This Certificate](https://www.udemy.com/certificate/UC-cef4e679-5928-478a-a0e4-0be068c57752/)  
+[Link to my repository for this course](https://github.com/Squibs/modern-react-redux)
