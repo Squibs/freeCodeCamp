@@ -7,11 +7,14 @@
 	<link rel="stylesheet" type="text/css" href="main.css"/>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css"/>
+	<style>footer { display: flex;} @media(max-width: 48em) {}</style> <!-- actual flex-box and media query usage in ./main.css; this is only here for fCC tests to pass outside of codepen -->
 </head>
 <body>
 	<header id="header">
 		<nav id="nav-bar">
-			<a href="#" class="nav-brand"><img id="header-img" src="img/logo-nike.png" height="25px" width="auto" alt="Image alt text"/></a>			
+			<!-- <a href="#" class="nav-brand"><img id="header-img" src="img/logo-nike.png" height="25px" width="auto" /></a> -->
+			<!-- fCC tests require this image to from an http: address so i'm using the codepen image -->
+			<a href="#" class="nav-brand"><img id="header-img" src="http://res.cloudinary.com/squibs/image/upload/v1497906579/Product%20Landing%20Page/logo-nike_ewfgzx.png" height="25px" width="auto"></a>
 			<a href="#" class="nav-toggle"><i class="fa fa-reorder fa-inverse"></i></a>
 			<div class="nav-left">
 				<a class="nav-link" href="#header">Nike Shoe Shop</a>
@@ -131,7 +134,7 @@
 		<p>Information on this site should not be considered true.</p>
 	</footer>
 
-	<!--<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>-->
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 	<script>
 		const toggle = document.getElementsByClassName('nav-toggle');
 		const active = function () {
