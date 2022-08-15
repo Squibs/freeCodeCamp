@@ -9,5 +9,5 @@ Click any of the links below to view my notes and answers I came up with while g
 
 I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
 
-- _[Legacy Responsive Web Design Certificate](https://github.com/Squibs/freeCodeCamp/tree/master/1.%20Responsive%20Web%20Design/Legacy%20Responsive%20Web%20Design/)_
-- _[Legacy Front End Development Files & Notes](https://github.com/Squibs/freeCodeCamp/tree/master/1.%20Responsive%20Web%20Design/Legacy%20Front%20End%20Development%20Files%20%26%20Notes/cat-photo-app)_
+- _[Legacy Responsive Web Design Certificate](./Legacy%20Responsive%20Web%20Design/)_
+- _[Legacy Front End Development Files & Notes](./Legacy%20Front%20End%20Development%20Files%20%26%20Notes/)_
