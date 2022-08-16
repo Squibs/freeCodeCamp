@@ -16,9 +16,9 @@ Click the links below to navigate through each section and view the solutions I 
 
 ## A few quick links
 
-- [My Portfolio](https://github.com/Squibs/Squibs.github.io) (Created as one of the first few project challenges for freeCodeCamp)
+- [My Portfolio](https://github.com/Squibs/Squibs.github.io#my-portfolio) (Created as one of the first few project challenges for freeCodeCamp)
 
-<p align="center"><a href="https://github.com/Squibs/Squibs.github.io" target="_blank"><img src="Images/screenshots/screenshot-portfolio.png" height="300" alt="Screenshot of my portfolio page."/></a></p>
+<p align="center"><a href="https://github.com/Squibs/Squibs.github.io#my-portfolio" target="_blank"><img src="Images/screenshots/screenshot-portfolio.png" height="300" alt="Screenshot of my portfolio page."/></a></p>
 
 - [freeCodeCamp Profile](https://www.freecodecamp.org/squibs)
 

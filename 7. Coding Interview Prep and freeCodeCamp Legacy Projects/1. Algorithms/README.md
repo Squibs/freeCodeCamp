@@ -51,7 +51,7 @@ const sym = function (...argument) {
 };
 ```
 
-[(symmetric-difference.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/symmetric-difference.js#L1)
+[(symmetric-difference.js)](./1.%20Algorithms/Algorithms/symmetric-difference.js#L1)
 
 I had to redo this challenge several times. It definitely helps to understand what you are trying to accomplish before jumping in and finding an incorrect solution. Initially I grouped every argument into a single array, flattened the array, sorted the array, and the removed all duplicate values `(1, 1, 2, 2, 3, 4, 5, 5) => (3, 4)`; as this is what I believed this challenge was asking for. This was not the case, as I soon found out after trying to submit my answer. I then went back and modified my original answer several times, before finally giving into the fact that I had no idea what the challenge was asking for.
 
@@ -107,7 +107,7 @@ const updateInventory = function (arr1, arr2) {
 };
 ```
 
-[(inventory-update.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/inventory-update.js#L1)
+[(inventory-update.js)](./1.%20Algorithms/Algorithms/inventory-update.js#L1)
 
 For this challenge, I combined the two passed arrays into one with the `concat()` method. I then sorted the combined two dimensional array with the `sort()` method and from there I did the rest with the `reduce()` method.
 
@@ -153,7 +153,7 @@ const permAlone = function (str) {
 };
 ```
 
-[(no-repeats-please.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/no-repeats-please.js#L1)
+[(no-repeats-please.js)](./Algorithms/no-repeats-please.js#L1)
 
 This one was very difficult. I repeatedly tried to solve this with what I already know, and failed many times. Many of my attempts included this:
 
@@ -217,7 +217,7 @@ const pairwise = function (arr, arg) {
 };
 ```
 
-[(pairwise.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/pairwise.js#L1)
+[(pairwise.js)](./Algorithms/pairwise.js#L1)
 
 This challenge wasn't all that hard either. Once again as long as I understand what is happening I think finding a solution is quite simple. For this challenge I stored the passed array in new variable `array`, as I would be changing values of the passed array and due to AirBnB / eslint standards you should not really be assigning values to passed arguments / variables. I then create a sum variable to hold the desired outcome for this challenge.
 

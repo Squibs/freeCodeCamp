@@ -41,7 +41,7 @@ const telephoneCheck = function (str) {
 };
 ```
 
-[(validate-telephone.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/JavaScript%20Algorithms%20and%20Data%20Structures%20Projects/validate-telephone-old.js#L1)
+[(validate-telephone.js)](./JavaScript%20Algorithms%20and%20Data%20Structures%20Projects/validate-telephone-old.js#L1)
 
 This challenge was all bout using `regular expressions`. Two sources made this possible to figure out on my own:
 - [A Regular Expressions reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
@@ -116,7 +116,7 @@ return collection;
 };
 ```
 
-[(record-collection.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/Unused%20Legacy%20Algorithms/record-collection.js#L1)
+[(record-collection.js)](/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/Unused%20Legacy%20Algorithms/record-collection.js#L1)
 
 This challenge felt out of place. The entire time I was thinking there is probably going to be a better way to handle this; however, going to the provided solutions for this problem after completing my solution, I was left slightly confused. The provided solution, only a basic solution is available for this challenge, is much like mine. A lot of if statements, and nested if statements:
 
@@ -169,7 +169,7 @@ const sym = function (...argument) {
 };
 ```
 
-[(symmetric-difference.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/symmetric-difference.js#L1)
+[(symmetric-difference.js)](/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/symmetric-difference.js#L1)
 
 I had to redo this challenge several times. It definitely helps to understand what you are trying to accomplish before jumping in and finding an incorrect solution. Initially I grouped every argument into a single array, flattened the array, sorted the array, and the removed all duplicate values `(1, 1, 2, 2, 3, 4, 5, 5) => (3, 4)`; as this is what I believed this challenge was asking for. This was not the case, as I soon found out after trying to submit my answer. I then went back and modified my original answer several times, before finally giving into the fact that I had no idea what the challenge was asking for.
 
@@ -265,7 +265,7 @@ const checkCashRegister = function (price, cash, cid) {
 };
 ```
 
-[(exact-change.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/JavaScript%20Algorithms%20and%20Data%20Structures%20Projects/exact-change-old.js#L1)
+[(exact-change.js)](./JavaScript%20Algorithms%20and%20Data%20Structures%20Projects/exact-change-old.js#L1)
 
 For this challenge I wanted to work with an object, because there have not been too many challenges where they were used; and every challenge has been using arrays and their methods.
 
@@ -334,7 +334,7 @@ const updateInventory = function (arr1, arr2) {
 };
 ```
 
-[(inventory-update.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/inventory-update.js#L1)
+[(inventory-update.js)](/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/inventory-update.js#L1)
 
 For this challenge, I combined the two passed arrays into one with the `concat()` method. I then sorted the combined two dimensional array with the `sort()` method and from there I did the rest with the `reduce()` method.
 
@@ -379,7 +379,7 @@ const permAlone = function (str) {
 };
 ```
 
-[(no-repeats-please.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/no-repeats-please.js#L1)
+[(no-repeats-please.js)](/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/no-repeats-please.js#L1)
 
 This one was very difficult. I repeatedly tried to solve this with what I already know, and failed many times. Many of my attempts included this:
 
@@ -455,7 +455,7 @@ const bob = new Person('Bob Ross');
 bob.getFullName();
 ```
 
-[(make-a-person.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/make-a-person-old.js#L1)
+[(make-a-person.js)](./../Intermediate%20Algorithm%20Scripting/make-a-person-old.js#L1)
 
 I enjoyed this one. While it is not hard, it was about how I learned how to program in the first place. While this is not using getters and setters, which it honestly should probably be doing; this challenge showed me how JavaScript handled setting and getting before getters and setters were introduced.
 
@@ -495,7 +495,7 @@ class Person {
 }
 ```
 
-[(make-a-person-revised.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/make-a-person-revised-old.js#L1)
+[(make-a-person-revised.js)](./../Intermediate%20Algorithm%20Scripting/make-a-person-revised-old.js#L1)
 
 After testing this revised part some more it seems that there is no real way to set private variables with this quite yet, or I just can't seem to find a real answer to do it. There really is not a whole lot of examples or information in general on using the ES6 way of classes. I tried fiddling with getters and setters in this as well, but it really didn't seem to make that much of a difference. `bob.fullName` was always accessible in my recreation when it should not be.
 
@@ -518,7 +518,7 @@ const orbitalPeriod = function (arr) {
 };
 ```
 
-[(map-the-debris.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/map-the-debris-old.js#L1)
+[(map-the-debris.js)](./../Intermediate%20Algorithm%20Scripting/map-the-debris-old.js#L1)
 
 This one truly was not much of a challenge. The hardest part was finding the correct formula in order to calculate the desired results. I ended up finding [this equation](https://en.wikipedia.org/wiki/Orbital_period#Small_body_orbiting_a_central_body) for a small body orbiting a central body. I then converted the equation to make sense for the already provided function variables:
 
@@ -555,7 +555,7 @@ const pairwise = function (arr, arg) {
 };
 ```
 
-[(pairwise.js)](https://github.com/Squibs/freeCodeCamp/blob/master/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/pairwise.js#L1)
+[(pairwise.js)](/7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/pairwise.js#L1)
 
 This challenge wasn't all that hard either. Once again as long as I understand what is happening I think finding a solution is quite simple. For this challenge I stored the passed array in new variable `array`, as I would be changing values of the passed array and due to AirBnB / eslint standards you should not really be assigning values to passed arguments / variables. I then create a sum variable to hold the desired outcome for this challenge.
 

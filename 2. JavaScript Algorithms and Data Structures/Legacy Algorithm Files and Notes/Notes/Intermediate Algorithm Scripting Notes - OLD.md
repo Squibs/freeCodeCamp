@@ -63,7 +63,7 @@ return sum;
 };
 ```
 
-[(sum-numbers-range.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/sum-numbers-range-old.js#L1)
+[(sum-numbers-range.js)](./../Intermediate%20Algorithm%20Scripting/sum-numbers-range-old.js#L1)
 
 I believe the point of this algorithm was to help understand the use of the `reduce()` method. However I do not believe I have a full understanding of this method after coming up with my solution using this method. There are several other ways to go about solving this algorithm. One method which would have solved this even easier, which I probably should have remembered better from high school, is using summation (((max + min)(max - min + 1))/2).
 
@@ -79,7 +79,7 @@ const diffArray = function (arr1, arr2) {
 };
 ```
 
-[(diff-two-arrays.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/diff-two-arrays-old.js#L1)
+[(diff-two-arrays.js)](./../Intermediate%20Algorithm%20Scripting/diff-two-arrays-old.js#L1)
 
 This one was challenging for me. The last algorithm had me thinking I should use the `reduce()` method for the solution of this. I got to the point where I could filter out the duplicates, but I was missing a way to remove both numbers if they were duplicates. In the end I ended up having to seek additional answers outside of the method documentation. That's where I learned about the includes method.
 
@@ -127,7 +127,7 @@ const convertToRoman = function (num) {
 }
 ```
 
-[(roman-num-converter.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/JavaScript%20Algorithms%20and%20Data%20Structures%20Projects/roman-num-converter-old.js#L1)
+[(roman-num-converter.js)](./JavaScript%20Algorithms%20and%20Data%20Structures%20Projects/roman-num-converter-old.js#L1)
 
 While I did come up with a solution for this algorithm, I believe I took the most nonoptimal route in doing so. Taking a look at freeCodeCamp's basic code solution for this algorithm, I definitely could have done better. The more optimal way would to have just gone off of an array that goes off of values that are one behind introducing the next numeral letter (IX, XL); and decimalValues for these numerals.
 
@@ -153,7 +153,7 @@ const whatIsInAName = function (collection, source) {
 };
 ```
 
-[(wherefore-art-thou.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/wherefore-art-thou-old.js#L1)
+[(wherefore-art-thou.js)](./../Intermediate%20Algorithm%20Scripting/wherefore-art-thou-old.js#L1)
 
 This one again took me a while to get to a point where I was understanding how I should go about finding a solution. At the start I was looping through collection and source, while source was converted to an array of keys, with two for loops. Then I was comparing the keys in the currently selected object in collection with those of in source; however I could not find a way to do this for the sources that had multiple keys/values. I had peek at the answer to find a better solution than what I was trying to create. Using the `filter()` method was the correct choice for this algorithm, much like it was for the previous two algorithms. Using a for loop with the `filter()` method allows for the correct arguments for the if statement to be made and allow the correct object properties to be filtered out.
 
@@ -182,7 +182,7 @@ const myReplace = function (str, before, after) {
 };
 ```
 
-[(search-and-replace.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/search-and-replace-old.js#L1)
+[(search-and-replace.js)](./../Intermediate%20Algorithm%20Scripting/search-and-replace-old.js#L1)
 
 For this algorithm, since the previous algorithms were mainly working with arrays, I figured I should do the same here. I converted the passed string to an array and used the map method to iterate through the created array replacing the current value with the passed after variable if it was equal to the before value. The replaced value was checked for capitalization before replacing so the value replacing the before value would keep the same casing.
 
@@ -219,7 +219,7 @@ const translatePigLatin = function (str) {
 };
 ```
 
-[(pig-latin.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/pig-latin-old.js#L1)
+[(pig-latin.js)](./../Intermediate%20Algorithm%20Scripting/pig-latin-old.js#L1)
 
 I iterate through the string and a vowels array and compare the two. If the first letter is a vowel just add way to the end of the string. If the word contains a vowel somewhere else slice up to the vowel and put it to the end of the string then add ay to the end of that. If there is no vowel in the word, just ad ay to the end of the word.
 
@@ -240,7 +240,7 @@ const pairElement = function (str) {
 };
 ```
 
-[(dna-pairing.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/dna-pairing-old.js#L1)
+[(dna-pairing.js)](./../Intermediate%20Algorithm%20Scripting/dna-pairing-old.js#L1)
 
 I started off by putting each pair (AT TA CG GC) as an array in an array [[A,T],[T,A],[C,G],[G,C]]. Since I have been working with APIs in the previous intermediate front end development projects, I decided to turn the array of arrays into a format I'm now familiar with JSON / object. I then split the passed string into an array and used the `map()` method to iterate through the created array. I used the currently selected object/value of the `map()` method to return the correct DNA pair using the previously created object.
 
@@ -270,7 +270,7 @@ const fearNotLetter = function (str) {
 };
 ```
 
-[(missing-letters.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/missing-letters-old.js#L1)
+[(missing-letters.js)](./../Intermediate%20Algorithm%20Scripting/missing-letters-old.js#L1)
 
 I believe this might be one of the worst solutions I have come up with yet. After looking at the solutions and comparing to mine, I feel as if I'm going about everything incorrectly. I'm definitely using use the `filter()` method wrong in this case. I should have used the map function to iterate through instead of using filter to iterate through the created array from using split on the passed string.
 
@@ -311,7 +311,7 @@ return false;
 };
 ```
 
-[(boo-who.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Basic%20Algorithm%20Scripting/boo-who-old.js#L1)
+[(boo-who.js)](./../Basic%20Algorithm%20Scripting/boo-who-old.js#L1)
 
 I found this one to be quite easy; but of course looking at the provided solutions, I could have made this much simpler. The better solutions would have been: 
 
@@ -354,7 +354,7 @@ const uniteUnique = function (arr) {
 };
 ```
 
-[(sorted-union.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/sorted-union-old.js#L1)
+[(sorted-union.js)](./../Intermediate%20Algorithm%20Scripting/sorted-union-old.js#L1)
 
 For this solution I retrieved the multiple arguments with `Array.from(arguments)`. In the future I would accomplish the same using rest parameters which were introduced in ES2015(ES6). Rest parameters would allow for a indefinite number of arguments, as an array, in a similar fashion to the above.
 
@@ -372,7 +372,7 @@ const convertHTML = function (str) {
 };
 ```
 
-[(convert-html-entities.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/convert-html-entities-old.js#L1)
+[(convert-html-entities.js)](./../Intermediate%20Algorithm%20Scripting/convert-html-entities-old.js#L1)
 
 This is the first solution where I feel as though I accomplished everything in a manner that is appropriate out of all the previous intermediate algorithm challenges. I first set up an object relating the character codes to the html entities of which would be needed later to convert symbols in strings. I then used the `replace()` method with a regex expression to which would find matches that I would then convert to character codes to lookup in the previously created object and replace the symbol with the html entity.
 
@@ -390,7 +390,7 @@ const spinalCase = function (str) {
 };
 ```
 
-[(spinal-tap-case.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/spinal-tap-case-old.js#L1)
+[(spinal-tap-case.js)](./../Intermediate%20Algorithm%20Scripting/spinal-tap-case-old.js#L1)
 
 This challenge listed regex (regular expressions) as a 'helpful link' so I figured I should complete this challenge using regex. I split this into two parts, because I'm unsure of how to, or even if I can, combine these two parts together. 
 
@@ -434,7 +434,7 @@ const sumFibs = function (num) {
 };
 ```
 
-[(fibonacci-numbers.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/fibonacci-numbers-old.js#L1)
+[(fibonacci-numbers.js)](./../Intermediate%20Algorithm%20Scripting/fibonacci-numbers-old.js#L1)
 
 I first check the passed number to see if it is less than 3. If it is I just return the number as the sum off odd fibonacci sequence numbers for 2 is 2 (0, 1, 1) and for 1, there is only (0, 1) so this works as a simple solution for low numbers. Alternatively I could just leave this check out completely. I then push the sum of the last index value of the array to the second to last value to the end of the array and continue this while the last value of the array is less than the passed number. I then put in a check to see if the last value is less than the passed number, if it is greater: remove the last value. I then remove any even value by checking (value remainder 2) which will return 0 for even or 1 for odd. Then it's a matter of adding up the values in the index and returning that.
 
@@ -468,7 +468,7 @@ const sumPrimes = function (num) {
 };
 ```
 
-[(sum-all-primes.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/sum-all-primes-old.js#L1)
+[(sum-all-primes.js)](./../Intermediate%20Algorithm%20Scripting/sum-all-primes-old.js#L1)
 
 This one was probably the hardest for me yet. I had to look up a lot of help for this. In creating my solution; I found ways to tell if a number was prime, another round-about way to see if a number was prime, however, I could not figure out a reliable way to generate prime numbers without having duplicate numbers appear seemingly randomly. I found out about the <em>Sieve of Eratosthenes</em> and from there had to study how people where using it in javascript to generate prime numbers.
 
@@ -501,7 +501,7 @@ const smallestCommons = function (arr) {
 };
 ```
 
-[(smallest-multiple.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/smallest-multiple-old.js#L1)
+[(smallest-multiple.js)](./../Intermediate%20Algorithm%20Scripting/smallest-multiple-old.js#L1)
 
 This one was hard as well for me. I started out by putting the range of each passed argument into a new array and trying to work from that. Once I couldn't figure that out I moved onto finding new solutions. I created another method that loops through each number between the passed argument and tests whether or not the remainder of the total divided by the current number is not equal to 0. It returns false until they all match. The control for this method is in a while loop that addes the maximum to the total each time it returns false. This eventually leads to having the lowest common multiple in the range of numbers.
 
@@ -521,7 +521,7 @@ const findElement = function (arr, func) {
 };
 ```
 
-[(finders-keepers.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Basic%20Algorithm%20Scripting/finders-keepers-old.js#L1)
+[(finders-keepers.js)](./../Basic%20Algorithm%20Scripting/finders-keepers-old.js#L1)
 
 Since this one was so short I decided to take another go at it, and make it even shorter. I knew there Had to be some type of method that could handle this without a for loop. So I took a good look at the available array methods and came up with:
 
@@ -569,7 +569,7 @@ const dropElements = function (arr, func) {
 };
 ```
 
-[(drop-it.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/drop-it-old.js#L1)
+[(drop-it.js)](./../Intermediate%20Algorithm%20Scripting/drop-it-old.js#L1)
 
 After finishing my solution and looking at the provided answers I realized I could have made this solution one line as well. The provided solution:
 
@@ -601,7 +601,7 @@ const steamrollArray = function (arr) {
 };
 ```
 
-[(steamroller.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/steamroller-old.js#L1)
+[(steamroller.js)](./../Intermediate%20Algorithm%20Scripting/steamroller-old.js#L1)
 
 I already stumbled across how to do this when doing the <em>Sorted Union</em> algorithm challenge. I simply went back to that challenge and modified what I already had used.
 Previously I used: `.reduce((prev, curr) => prev.concat(curr));`. This time I needed to run this multiple times to flatten the array completely, so I use an argument in the `concat()` method. If the current value is an array flatten the array with the same function that is already flattening the array; otherwise concat the current value to the previous value. Importantly set the `concat()` method to an initial value of an empty array `[]` as well.
@@ -629,7 +629,7 @@ const binaryAgent = function (str) {
 };
 ```
 
-[(binary-agents.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/binary-agents-old.js#L1)
+[(binary-agents.js)](./../Intermediate%20Algorithm%20Scripting/binary-agents-old.js#L1)
 
 This is the solution I came up with initially. Then I came up with a revised solution:
 
@@ -645,7 +645,7 @@ const binaryAgent = function (str) {
   }).join('');
 };
 ```
-[(binary-agents-revised.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/binary-agents-revised-old.js#L1)
+[(binary-agents-revised.js)](./../Intermediate%20Algorithm%20Scripting/binary-agents-revised-old.js#L1)
 
 I create an array for an 8 bit value. I then split the passed string into an array at each space. I then `map()` the array and for each value I use a for loop to get each character and add that value times the current 8-bit/binary position (binary[i]) to a sum. I then return the charcode of the sum and repeat this for each value. I then join the array and return it as a string. I used instructions mainly from [here](https://www.kidscodecs.com/a-binary-numbers-tutorial-with-1-and-0/) as I never knew how to translate binary.
 
@@ -670,7 +670,7 @@ const truthCheck = function (collection, pre) {
 };
 ```
 
-[(everything-be-true.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/everything-be-true-old.js#L1)
+[(everything-be-true.js)](./../Intermediate%20Algorithm%20Scripting/everything-be-true-old.js#L1)
 
 It took me a while to figure out once part of this; below is an example of what I was using until I could figure it out:
 
@@ -714,7 +714,7 @@ const addTogether = function () {
 };
 ```
 
-[(arguments-optional.js)](https://github.com/Squibs/freeCodeCamp/blob/master/2.%20JavaScript%20Algorithms%20and%20Data%20Structures/Legacy%20Algorithm%20Files%20and%20Notes/Intermediate%20Algorithm%20Scripting/arguments-optional-old.js#L1)
+[(arguments-optional.js)](./../Intermediate%20Algorithm%20Scripting/arguments-optional-old.js#L1)
 
 I feel like I created a mess of this one. There has to be a way better way to accomplish this. I first create a variable `args` to store the passed arguments, ignoring ESLint errors to not edit the way the function is originally setup (no arguments). I then test if the first argument type is a number or not, then I test if the second argument is a number or not; if it is I add the first argument to the second and return it. If there is not I return the `value` as a closure and if the value is a number add it to the first argument and return that.
 
