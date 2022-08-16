@@ -6,7 +6,7 @@ I used to have two separate repositories dedicated to freeCodeCamp, one for the 
 
 Click the links below to navigate through each section and view the solutions I came up with for challenges and my completed projects. If a section is ~~crossed out~~, I have not yet finished the section and will update this list when I complete it in the future.
 
-- [Responsive Web Design](./1.%20Responsive%20Web%20Design#responsive-web-design)
+- [Responsive Web Design](./1.%20Responsive%20Web%20Design#responsive-web-design#responsive-web-design)
 - [JavaScript Algorithms and Data Structures](./2.%20JavaScript%20Algorithms%20and%20Data%20Structures#javascript-algorithms-and-data-structures)
 - [Front End Libraries](./3.%20Front%20End%20Libraries#front-end-libraries)
 - [Data Visualization](./4.%20Data%20Visualization#data-visualization)
