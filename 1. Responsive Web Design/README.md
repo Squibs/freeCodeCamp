@@ -3,7 +3,7 @@
 Click any of the links below to view my notes and answers I came up with while going through the _Responsive Web Design_ challenges and projects on freeCodeCamp.
 
 - [Learn HTML by Building a Cat Photo App](./1.%20Learn%20HTML%20by%20Building%20a%20Cat%20Photo%20App.md#learn-html-by-building-a-cat-photo-app)
-- [Learn Basic CSS by Building a Cafe Menu](./2.%20Learn%20Basic%20CSS%20by%20Building%20a%20Cafe%20Menu.md)
+- [Learn Basic CSS by Building a Cafe Menu](./2.%20Learn%20Basic%20CSS%20by%20Building%20a%20Cafe%20Menu.md#learn-basic-css-by-building-a-cafe-menu)
 - <font size="5">[**Responsive Web Design Projects**]()</font>
 - [Claim Your Responsive Web Design Certification]()
 
