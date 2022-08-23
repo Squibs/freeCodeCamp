@@ -1,0 +1,19 @@
+<svg fill="none" viewBox="0 0 800 75" width="800" height="75" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * {
+          mix-blend-mode: difference;
+        }
+
+        p {
+          text-align: center;
+        }
+      </style>
+      <div class="container">
+        <h1>Responsive Web Design Projects</h1>
+        <p>Click to see the projects</p>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
