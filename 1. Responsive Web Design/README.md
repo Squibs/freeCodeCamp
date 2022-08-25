@@ -11,6 +11,7 @@ Click any of the links below to view my notes and answers I came up with while g
 - **[Certification Project - Survey Form](5.%20Certification%20Project%20-%20Survey%20Form.md#survey-form)**
 - [Learn the CSS Box Model by Building a Rothko Painting](./6.%20Learn%20the%20CSS%20Box%20Model%20by%20Building%20a%20Rothko%20Painting.md#learn-the-css-box-model-by-building-a-rothko-painting)
 - [Learn CSS Flexbox by Building a Photo Gallery](./7.%20Learn%20CSS%20Flexbox%20by%20Building%20a%20Photo%20Gallery.md#-learn-css-flexbox-by-building-a-photo-gallery)
+- [Learn Typography by Building a Nutrition label](./8.%20Learn%20Typography%20by%20Building%20a%20Nutrition%20Label.md#learn-typography-by-building-a-nutrition-label)
 - [Claim Your Responsive Web Design Certification]()
 
 I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
