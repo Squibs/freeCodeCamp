@@ -21,5 +21,5 @@ Click any of the links below to view my notes and answers I came up with while g
 
 I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
 
-- _[Legacy Responsive Web Design Certificate](./Legacy%20Responsive%20Web%20Design#legacy-responsive-web-design#legacy-responsive-web-design)_
-- _[Legacy Front End Development Files and Notes](./Legacy%20Front%20End%20Development%20Files%20and%20Notes/cat-photo-app#cat-photo-app)_
+- _[Legacy Responsive Web Design Certificate](./Legacy%20Responsive%20Web%20Design/README.md#legacy-responsive-web-design)_
+- _[Legacy Front End Development Files and Notes](./Legacy%20Front%20End%20Development%20Files%20and%20Notes/cat-photo-app/README.md#cat-photo-app)_
