@@ -20,7 +20,10 @@ Click any of the links below to view my notes and answers I came up with while g
 - **[Certificaton Project - Technical Documentation Page](./14.%20Certification%20Project%20-%20Technical%20Documentation%20Page.md#technical-documentation-page)**
 - [Learn CSS Variables by Building a City Skyline](./15.%20Learn%20CSS%20Variables%20by%20Building%20a%20City%20Skyline.md#learn-css-variables-by-building-a-city-skyline)
 - [Learn CSS Grid by Building a Magazine](./16.%20Learn%20CSS%20Grid%20by%20Building%20a%20Magazine.md#learn-css-grid-by-building-a-magazine)
-- **[Certification Project - Personal Portfolio Webpage](./17.%20Certification%20Project%20-%20Personal%20Portfolio%20Webpage.md#personal-portfolio-webpage)**
+- **[Certification Project - Product Landing Page](./17.%20Certification%20Project%20-%20Product%20Landing%20Page.md#product-landing-page)**
+- [Learn CSS Animation by Building a Ferris Wheel](./18.%20Learn%20CSS%20Animation%20by%20Building%20a%20Ferris%20Wheel.md#learn-css-animation-by-building-a-ferris-wheel)
+- [Learn CSS Transforms by Building a Penguin](./19.%20Learn%20CSS%20Transforms%20by%20Building%20a%20Penguin.md#learn-css-transforms-by-building-a-penguin)
+- **[Certification Project - Personal Portfolio Webpage](./20.%20Certification%20Project%20-%20Personal%20Portfolio%20Webpage.md#personal-portfolio-webpage)**
 - [Claim Your Responsive Web Design Certification]()
 
 I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
