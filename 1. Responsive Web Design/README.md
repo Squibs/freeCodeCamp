@@ -16,6 +16,7 @@ Click any of the links below to view my notes and answers I came up with while g
 - **[Certification Project - Tribute Page](./10.%20Certification%20Project%20-%20Tribute%20Page.md#tribute-page)**
 - [Learn More About CSS Pseudo Selectors By Building A Balance Sheet](./11.%20Learn%20More%20About%20CSS%20Pseudo%20Selectors%20By%20Building%20A%20Balance%20Sheet.md#learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet)
 - [Learn Intermediate CSS by Building a Picasso Painting](./12.%20Learn%20Intermediate%20CSS%20by%20Building%20a%20Picasso%20Painting.md#learn-intermediate-css-by-building-a-picasso-painting)
+- [Learn Responsive Web Design by Building a Piano](./13.%20Learn%20Responsive%20Web%20Design%20by%20Building%20a%20Piano.md#learn-responsive-web-design-by-building-a-piano)
 - [Claim Your Responsive Web Design Certification]()
 
 I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
