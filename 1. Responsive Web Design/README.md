@@ -14,6 +14,7 @@ Click any of the links below to view my notes and answers I came up with while g
 - [Learn Typography by Building a Nutrition label](./8.%20Learn%20Typography%20by%20Building%20a%20Nutrition%20Label.md#learn-typography-by-building-a-nutrition-label)
 - [Learn Accessibility by Building a Quiz](./9.%20Learn%20Accessibility%20by%20BUilding%20a%20Quiz.md#learn-accessibility-by-building-a-quiz)
 - **[Certification Project - Tribute Page](./10.%20Certification%20Project%20-%20Tribute%20Page.md#tribute-page)**
+- [Learn More About CSS Pseudo Selectors By Building A Balance Sheet](./11.%20Learn%20More%20About%20CSS%20Pseudo%20Selectors%20By%20Building%20A%20Balance%20Sheet.md#learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet)
 - [Claim Your Responsive Web Design Certification]()
 
 I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
