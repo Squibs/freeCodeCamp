@@ -53,6 +53,12 @@ Many of these are just updated certificates, which mainly consists of an updated
 
 [View This Certificate](https://www.freecodecamp.org/certification/squibs/javascript-algorithms-and-data-structures)
 
+## freeCodeCamp Front End Development Libraries Certification
+
+<p align="center"><img src="my-front-end-development-libraries-certificate.png" width="425px" alt="Screenshot of my Front End Development Libraries certification from freeCodeCamp."/></p>
+
+[View This Certificate](https://www.freecodecamp.org/certification/squibs/front-end-development-libraries)
+
 ## Udemy - Modern React with Redux by Stephen Grider - Certification
 
 <p align="center"><img src="my-modern-react-redux-certificate-taught-by-stephen-grider.jpg" width="425px" alt="Screenshot of my Modern React with Redux Certificate from the Modern React with Redux Udemy course by Stephen Grider"/></p>
