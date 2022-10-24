@@ -59,6 +59,10 @@ Many of these are just updated certificates, which mainly consists of an updated
 
 [View This Certificate](https://www.freecodecamp.org/certification/squibs/front-end-development-libraries)
 
+## freeCodeCamp Data Visualization Certification
+
+<p align="center"><img src="my-data-visualization-certificate.png" width="425px" alt="Screenshot of my Data Visualization certification from freeCodeCamp."/></p>
+
 ## Udemy - Modern React with Redux by Stephen Grider - Certification
 
 <p align="center"><img src="my-modern-react-redux-certificate-taught-by-stephen-grider.jpg" width="425px" alt="Screenshot of my Modern React with Redux Certificate from the Modern React with Redux Udemy course by Stephen Grider"/></p>
