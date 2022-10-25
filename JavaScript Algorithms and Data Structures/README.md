@@ -15,8 +15,8 @@ Check out my [JavaScript References](/JavaScript%20References.md#javascript-refe
 - [Object Oriented Programming](./7.%20Object%20Oriented%20Programming.md#object-oriented-programming)
 - [Functional Programming](./8.%20Functional%20Programming.md#functional-programming)
 - [Intermediate Algorithm Scripting](./9.%20Intermediate%20Algorithm%20Scripting.md#intermediate-algorithm-scripting)
-- <font size="5">[**JavaScript Algorithms and Data Structures Projects**](./10.%20JavaScript%20Algorithms%20and%20Data%20Structures%20Projects.md#javascript-algorithms-and-data-structures-projects)</font>
-- [Claim Your JavaScript Algorithms and Data Structures Certificate](./11.%20Claim%20Your%20JavaScript%20Algorithms%20and%20Data%20Structures%20Certificate.md#claim-your-javascript-algorithms-and-data-structures-certificate)
+- <font size="5">📄 [**JavaScript Algorithms and Data Structures Projects**](./10.%20JavaScript%20Algorithms%20and%20Data%20Structures%20Projects.md#javascript-algorithms-and-data-structures-projects)</font>
+- 🏆 [Claim Your JavaScript Algorithms and Data Structures Certificate](./11.%20Claim%20Your%20JavaScript%20Algorithms%20and%20Data%20Structures%20Certificate.md#claim-your-javascript-algorithms-and-data-structures-certificate)
 
 I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
 

@@ -10,8 +10,8 @@ Click any of the links below to view my notes and answers I came up with while g
 - [React](./4.%20React.md#react)
 - [Redux](./5.%20Redux.md#redux)
 - [React and Redux](./6.%20React%20and%20Redux.md#react-and-redux)
-- <font size="5">[**Front End Libraries Projects**](./7.%20Front%20End%20Libraries%20Projects.md#front-end-libraries-projects)</font>
-- [Claim Your Front End Libraries Certificate](./8.%20Claim%20Your%20Front%20End%20Libraries%20Certificate.md#claim-your-front-end-libraries-certificate)
+- <font size="5">📄 [**Front End Libraries Projects**](./7.%20Front%20End%20Libraries%20Projects.md#front-end-libraries-projects)</font>
+- 🏆 [Claim Your Front End Libraries Certificate](./8.%20Claim%20Your%20Front%20End%20Libraries%20Certificate.md#claim-your-front-end-libraries-certificate)
 
 I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
 

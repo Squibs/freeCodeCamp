@@ -8,7 +8,7 @@ Click the links below to navigate through each section and view the solutions I 
 
 - [Responsive Web Design](./Responsive%20Web%20Design/README.md#responsive-web-design)
 - [JavaScript Algorithms and Data Structures](./JavaScript%20Algorithms%20and%20Data%20Structures/README.md#javascript-algorithms-and-data-structures)
-- [Front End Libraries](./Front%20End%20Libraries/README.md#front-end-libraries)
+- [Front End Libraries](./Front%20End%20Development%20Libraries/README.md#front-end-libraries)
 - [Data Visualization](./Data%20Visualization/README.md#data-visualization)
 - [APIs and Microservices](./APIs%20and%20Microservices/README.md#apis-and-microservices)
 - [Information Security and Quality Assurance](./Information%20Securty%20and%20Quality%20Assurance/README.md#information-security-and-quality-assurance)
