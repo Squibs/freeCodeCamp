@@ -228,7 +228,27 @@ I iterate through the passed array with the `forEach()` method and create a for 
 ## Implement Bubble Sort
 
 ```JavaScript
+  const arr = array;
+
+  for (let i = 0; i < arr.length; i += 1) {
+    for (let j = 0; j < arr.length; j += 1) {
+      if (arr[j] > arr[j + 1]) {
+        const tmp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = tmp;
+
+        arr = [...arr.slice]
+      }
+    }
+  }
+
+  return arr;
 ```
+
+[(bubble-sort.ts)](./Algorithms/bubble-sort.ts#L1)
+
+For this challenge we were not allowed to use the built-in `.sort()` method. I can see multiple ways to slightly optimize this sorting method. For starters you can store a variable that will control whether or not to keep looping over the array to continue bubble sorting. This could save a few iterations of looping over the array. In my `bubble-sort.ts` I provide a solution that uses one for loop, but resets the loop if two numbers in the array are switched. This would save a few loops in the right conditions, mostly if the last few numbers are already in the correct order.
+
 
 ---
 
