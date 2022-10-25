@@ -1,4 +1,4 @@
-# Coding Interview Prep and freeCodeCamp Legacy Projects
+# Coding Interview Prep
 
 This section acts as just bonus lessons and projects in which can be done for extra practice. Several of the projects in the *Take Home Projects* section are legacy projects, which were in the freeCodeCamp curriculum before they updated the site with their updated lessons and projects from their beta website.
 

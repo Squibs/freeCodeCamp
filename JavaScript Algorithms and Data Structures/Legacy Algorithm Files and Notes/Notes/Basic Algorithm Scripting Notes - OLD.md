@@ -282,7 +282,7 @@ function slasher(arr, howMany) {
   return arr;
 }
 ```
-[(slasher-flick.js)](/Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/1.%20Algorithms/Algorithms/Unused%20Legacy%20Algorithms/slasher-flick.js#L1)
+[(slasher-flick.js)](/Coding%20Interview%20Prep/1.%20Algorithms/Algorithms/Unused%20Legacy%20Algorithms/slasher-flick.js#L1)
 
 This one was very simple. You can just use the splice method to remove the passed amount and return the array.
 

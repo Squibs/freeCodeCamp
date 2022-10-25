@@ -12,8 +12,8 @@ Click the links below to navigate through each section and view the solutions I 
 - [Data Visualization](./Data%20Visualization/README.md#data-visualization)
 - [Relational Database](./Relational%20Database/README.md#relational-database)
 - [Back End Development and APIs](Back%20End%20Development%20and%20APIs/README.md#back-end-development-and-apis)
-- [Information Security](./Information%20Security/README.md#information-security-and-quality-assurance)
-- [Coding Interview Prep and freeCodeCamp Legacy Projects](./Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/README.md#coding-interview-prep-and-freecodecamp-legacy-projects)
+- [Information Security](./Information%20Security/README.md#information-security)
+- [Coding Interview Prep](./Coding%20Interview%20Prep/README.md#coding-interview-prep)
 
 ## A few quick links
 

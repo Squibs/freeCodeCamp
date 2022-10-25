@@ -1,4 +1,4 @@
-# Information Security and Quality Assurance
+# Information Security
 
 Click any of the links below to view my notes and answers I came up with while going through the *Information Security and Quality Assurance* challenges and projects on freeCodeCamp.
 
