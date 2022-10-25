@@ -6,13 +6,13 @@ I used to have two separate repositories dedicated to freeCodeCamp, one for the 
 
 Click the links below to navigate through each section and view the solutions I came up with for challenges and my completed projects. If a section is ~~crossed out~~, I have not yet finished the section and will update this list when I complete it in the future.
 
-- [Responsive Web Design](./1.%20Responsive%20Web%20Design/README.md#responsive-web-design)
-- [JavaScript Algorithms and Data Structures](./2.%20JavaScript%20Algorithms%20and%20Data%20Structures/README.md#javascript-algorithms-and-data-structures)
-- [Front End Libraries](./3.%20Front%20End%20Libraries/README.md#front-end-libraries)
-- [Data Visualization](./4.%20Data%20Visualization/README.md#data-visualization)
-- [APIs and Microservices](./5.%20APIs%20and%20Microservices/README.md#apis-and-microservices)
-- [Information Security and Quality Assurance](./6.%20Information%20Securty%20and%20Quality%20Assurance/README.md#information-security-and-quality-assurance)
-- [Coding Interview Prep and freeCodeCamp Legacy Projects](./7.%20Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/README.md#coding-interview-prep-and-freecodecamp-legacy-projects)
+- [Responsive Web Design](./Responsive%20Web%20Design/README.md#responsive-web-design)
+- [JavaScript Algorithms and Data Structures](./JavaScript%20Algorithms%20and%20Data%20Structures/README.md#javascript-algorithms-and-data-structures)
+- [Front End Libraries](./Front%20End%20Libraries/README.md#front-end-libraries)
+- [Data Visualization](./Data%20Visualization/README.md#data-visualization)
+- [APIs and Microservices](./APIs%20and%20Microservices/README.md#apis-and-microservices)
+- [Information Security and Quality Assurance](./Information%20Securty%20and%20Quality%20Assurance/README.md#information-security-and-quality-assurance)
+- [Coding Interview Prep and freeCodeCamp Legacy Projects](./Coding%20Interview%20Prep%20and%20freeCodeCamp%20Legacy%20Projects/README.md#coding-interview-prep-and-freecodecamp-legacy-projects)
 
 ## A few quick links
 

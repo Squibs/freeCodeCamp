@@ -36,7 +36,7 @@ Many of these are just updated certificates, which mainly consists of an updated
 
 [View This Certificate](https://www.freecodecamp.org/certification/squibs/responsive-web-design)
 
-[Read My Thoughts on Receiving this Certificate](/1.%20Responsive%20Web%20Design/Legacy%20Responsive%20Web%20Design/9.%20Claim%20Your%20Responsive%20Web%20Design%20Certificate.md#claim-your-responsive-web-design-certificate)
+[Read My Thoughts on Receiving this Certificate](/Responsive%20Web%20Design/Legacy%20Responsive%20Web%20Design/9.%20Claim%20Your%20Responsive%20Web%20Design%20Certificate.md#claim-your-responsive-web-design-certificate)
 
 ## freeCodeCamp JavaScript Algorithms and Data Structures Certification
 
