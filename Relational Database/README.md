@@ -4,7 +4,7 @@ Click any of the links below to view my notes and answers I came up with while g
 
 - [Learn Bash by Building a Boilerplate](Learn%20Bash%20by%20Building%20a%20Boilerplate.md#learn-bash-by-building-a-boilerplate)
 - [Learn Relational Databases by Building a Mario Database](Learn%20Relational%20Databases%20by%20Building%20a%20Mario%20Database.md#learn-relational-databases-by-building-a-mario-database)
-- ~~Celestial Bodies Database~~
+- [Certification Project - Celestial Bodies Database](Certification%20Project%20-%20Celestial%20Bodies%20Database.md#celestial-bodies-database)
 - ~~Learn Bash Scripting by Building Five Programs~~
 - ~~Learn SQL by Building a Student Database: Part 1~~
 - ~~Learn SQL by Building a Student Database: Part 2~~
