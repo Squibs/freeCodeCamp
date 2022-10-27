@@ -2,7 +2,7 @@
 
 > Welcome! Are you ready to build a database of the universe?
 
-## 1. Instructions
+## Requirements / Instructions / User Stories
 
 For this project, you need to log in to PostgreSQL with psql to create your database. Do that by entering `psql --username=freecodecamp --dbname=postgres` in the terminal. Make all the tests below pass to complete the project. Be sure to get creative, and have fun!
 
@@ -43,76 +43,3 @@ Complete the tasks below:
 - [x] All columns named `name` should be of type `VARCHAR`
 - [x] Each primary key column should follow the naming convention `table_name_id`. For example, the `moon` table should have a primary key column named `moon_id`
 - [x] Each foreign key column should have the same name as the column it is referencing
-
-Example of a table and it's automatically incremented primary key:
-
-```sql
-mario_database=> \d
-                        List of relations
-+--------+-----------------------------+----------+--------------+
-| Schema |            Name             |   Type   |    Owner     |
-+--------+-----------------------------+----------+--------------+
-| public | actions                     | table    | freecodecamp |
-| public | actions_action_id_seq       | sequence | freecodecamp |
-| public | character_actions           | table    | freecodecamp |
-| public | characters                  | table    | freecodecamp |
-| public | characters_character_id_seq | sequence | freecodecamp |
-| public | more_info                   | table    | freecodecamp |
-| public | more_info_more_info_id_seq  | sequence | freecodecamp |
-| public | sounds                      | table    | freecodecamp |
-| public | sounds_sound_id_seq         | sequence | freecodecamp |
-+--------+-----------------------------+----------+--------------+
-(9 rows)
-
-mario_database=> \d characters
-                                             Table "public.characters"
-+----------------+-----------------------+-----------+----------+--------------------------------------------------+
-|     Column     |         Type          | Collation | Nullable |                     Default                      |
-+----------------+-----------------------+-----------+----------+--------------------------------------------------+
-| character_id   | integer               |           | not null | nextval('characters_character_id_seq'::regclass) |
-| name           | character varying(30) |           | not null |                                                  |
-| homeland       | character varying(60) |           |          |                                                  |
-| favorite_color | character varying(30) |           |          |                                                  |
-+----------------+-----------------------+-----------+----------+--------------------------------------------------+
-Indexes:
-    "characters_pkey" PRIMARY KEY, btree (character_id)
-Referenced by:
-    TABLE "character_actions" CONSTRAINT "character_actions_character_id_fkey" FOREIGN KEY (character_id) REFERENCES characters(character_id)
-    TABLE "more_info" CONSTRAINT "more_info_character_id_fkey" FOREIGN KEY (character_id) REFERENCES characters(character_id)
-    TABLE "sounds" CONSTRAINT "sounds_character_id_fkey" FOREIGN KEY (character_id) REFERENCES characters(character_id)
-
-mario_database=> SELECT * FROM characters;
-                               
-+--------------+--------+------------------+----------------+
-| character_id |  name  |     homeland     | favorite_color |
-+--------------+--------+------------------+----------------+
-|            2 | Luigi  | Mushroom Kingdom | Green          |
-|            3 | Peach  | Mushroom Kingdom | Pink           |
-|            7 | Yoshi  | Dinosaur Land    | Green          |
-|            6 | Daisy  | Sarasaland       | Orange         |
-|            1 | Mario  | Mushroom Kingdom | Red            |
-|            4 | Toad   | Mushroom Kingdom | Blue           |
-|            5 | Bowser | Koopa Kingdom    | Yellow         |
-+--------------+--------+------------------+----------------+
-(7 rows)
-
-mario_database=> \d characters_character_id_seq;
-             Sequence "public.characters_character_id_seq"
-+---------+-------+---------+------------+-----------+---------+-------+
-|  Type   | Start | Minimum |  Maximum   | Increment | Cycles? | Cache |
-+---------+-------+---------+------------+-----------+---------+-------+
-| integer |     1 |       1 | 2147483647 |         1 | no      |     1 |
-+---------+-------+---------+------------+-----------+---------+-------+
-Owned by: public.characters.character_id
-
-mario_database=> SELECT * FROM characters_character_id_seq;
-                  
-+------------+---------+-----------+
-| last_value | log_cnt | is_called |
-+------------+---------+-----------+
-|          7 |       0 | t         |
-+------------+---------+-----------+
-(1 row)
-
-mario_database=> 
-```
