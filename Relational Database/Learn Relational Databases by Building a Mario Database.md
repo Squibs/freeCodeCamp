@@ -22,6 +22,7 @@ List of Sections:
 - [Deleting a row](#deleting-a-row)
 - [Removing a table](#removing-a-table)
 - [Rename a database / making a mario database](#rename-a-database--making-a-mario-database)
+- [DELETE / DROP Database](#delete--drop-database)
 - [Starting the Mario database](#starting-the-mario-database)
 - [Data type constraints](#data-type-constraints)
 - [Change a table value](#change-a-table-value)
@@ -495,6 +496,10 @@ second_database=>                                     List of databases
 +-----------------+--------------+----------+---------+---------+-----------------------+
 (5 rows)
 ```
+
+---
+
+## DELETE / DROP Database
 
 ```sql
 second_database=> \c mario_database;
