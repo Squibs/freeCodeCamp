@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Universe" id="e56a1550-8fbb-45ad-956c-1786394a9013">
-        <mxGraphModel dx="2501" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" background="#2a2a2a" math="0" shadow="0">
+        <mxGraphModel dx="1855" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" background="#2a2a2a" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1108,7 +1108,7 @@
                         <mxGeometry x="-647.5" y="1188" width="375" height="40" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <mxCell id="366" value="&lt;div&gt;&lt;span&gt;universe=&amp;gt; CREATE TABLE constellation(&lt;/span&gt;&lt;/div&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;constellation_id PRIMARY KEY,&lt;br&gt;&lt;/span&gt;universe=&amp;gt; name VARCHAR(25) NOT NULL,&lt;br&gt;universe=&amp;gt; abbreviation VARCHAR(3) NOT NULL,&lt;br&gt;universe=&amp;gt; percentage_of_sky NUMERIC(3, 2),&lt;br&gt;universe=&amp;gt; iau_quadrant VARCHAR(3),&lt;br&gt;universe=&amp;gt; num_main_stars INT NOT NULL&lt;br&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;);&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=0;verticalAlign=top;align=left;glass=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="366" value="&lt;div&gt;&lt;span&gt;universe=&amp;gt; CREATE TABLE constellation(&lt;/span&gt;&lt;/div&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;constellation_id SERIAL PRIMARY KEY,&lt;br&gt;&lt;/span&gt;universe=&amp;gt; name VARCHAR(25) NOT NULL,&lt;br&gt;universe=&amp;gt; abbreviation VARCHAR(3) NOT NULL,&lt;br&gt;universe=&amp;gt; percentage_of_sky NUMERIC(3, 2),&lt;br&gt;universe=&amp;gt; iau_quadrant VARCHAR(3),&lt;br&gt;universe=&amp;gt; num_main_stars INT NOT NULL&lt;br&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;);&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=0;verticalAlign=top;align=left;glass=0;fontColor=#FFFFFF;" vertex="1" parent="1">
                     <mxGeometry x="240" y="968" width="300" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="367" value="Constellation" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;pointerEvents=1;swimlaneFillColor=#3D3D3D;" vertex="1" parent="1">
