@@ -1,12 +1,14 @@
 # Celestial Bodies Database
 
-It has been a long time coming for me to start learning how to build my own database. I've learned a lot through freeCodeCamp, and figured I should continue going through their lessons / challenges for other parts of web development. I've had a small amount of previous experience in working with databases, but none of what I have learned previously really stuck with me.
-
-I wanted to plan out the structure of the database, first, before I started creating it in PostgreSQL. It makes everything easier for myself to visualize. So I created this entity-relationship diagram:
-
 <p align="center"><img src="./Celestial Bodies Database ER Diagram.png" height="500" alt="Screenshot of my Celestial Bodies Database entity relationship diagram."/></p>
 
-Next to each database table, I have how the table will be declared when I am making the database. I also included some example entries for each table, to help myself get going on that end, as well.
+<em>Completed October 28, 2022</em>
+
+It has been a long time coming for me to start learning how to build my own database. I've learned a lot through freeCodeCamp, and figured I should continue going through their lessons / challenges for other parts of web development. I've had a small amount of previous experience in working with databases, but none of what I have learned previously really stuck with me.
+
+I wanted to plan out the structure of the database first before I started creating it in PostgreSQL. It made everything easier for myself to visualize.
+
+Next to each database table, I have the console commands needed to create the table written out. I also included some example entries for each table, to help myself get going as well.
 
 I wanted to really make sure I went onto the Codeally virtual machine with as much planned out as I could, for my own ease, and so if anything went wrong with the database not being saved due to the virtual machine going to sleep or anything else, I could recreate what I have with ease.
 
