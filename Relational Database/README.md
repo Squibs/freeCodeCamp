@@ -5,8 +5,8 @@ Click any of the links below to view my notes and answers I came up with while g
 - [Learn Bash by Building a Boilerplate](./Learn%20Bash%20by%20Building%20a%20Boilerplate#learn-bash-by-building-a-boilerplate)
 - [Learn Relational Databases by Building a Mario Database](./Learn%20Relational%20Databases%20by%20Building%20a%20Mario%20Database#learn-relational-databases-by-building-a-mario-database)
 - 🌌 [Certification Project - Celestial Bodies Database](./Celestial%20Bodies%20Database#celestial-bodies-database)
-- [Learn Bash Scripting by Building Five Programs](./Learn%20Bash%20Scripting%20by%20Building%20Five%20Programs#learn-bash-scripting-by-building-five-programs)
-- ~~Learn SQL by Building a Student Database: Part 1~~
+- [Learn Bash Scripting by Building Five Programs](./Learn%20Bash%20Scripting%20by%20Building%20Five%20Programs#L1)
+- [Learn SQL by Building a Student Database: Part 1](./Build%20a%20Student%20Database%20-%20Part%201/README.md#L1)
 - ~~Learn SQL by Building a Student Database: Part 2~~
 - ~~World Cup Database~~
 - ~~Learn Advanced Bash by Building a Kitty Ipsum Translator~~
