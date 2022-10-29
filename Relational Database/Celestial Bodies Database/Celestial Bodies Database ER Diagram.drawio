@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Universe" id="e56a1550-8fbb-45ad-956c-1786394a9013">
-        <mxGraphModel dx="2374" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" background="#2a2a2a" math="0" shadow="0">
+        <mxGraphModel dx="4789" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" background="#2a2a2a" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -422,7 +422,7 @@
                 <mxCell id="172" value="&lt;div&gt;&lt;span&gt;universe=&amp;gt; CREATE TABLE star(&lt;/span&gt;&lt;/div&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;star_id SERIAL PRIMARY KEY,&lt;br&gt;&lt;/span&gt;universe=&amp;gt; name VARCHAR(25) NOT NULL,&lt;br&gt;universe=&amp;gt; spectral_type VARCHAR(8),&lt;br&gt;universe=&amp;gt; bolometric_luminosity INT NOT NULL,&lt;br&gt;universe=&amp;gt; solar_radius NUMERIC(6, 3),&lt;br&gt;universe=&amp;gt; age_m_years INT&lt;br&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;);&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=0;verticalAlign=top;align=left;glass=0;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="320" y="540" width="300" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="173" value="&lt;div&gt;&lt;span&gt;universe=&amp;gt; CREATE TABLE moon(&lt;/span&gt;&lt;/div&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;moon_id SERIAL PRIMARY KEY,&lt;br&gt;&lt;/span&gt;universe=&amp;gt; name VARCHAR(25) NOT NULL,&lt;br&gt;universe=&amp;gt; radius NUMERIC(5, 1),&lt;br&gt;universe=&amp;gt; surface_gravity NUMERIC(4, 3),&lt;br&gt;universe=&amp;gt; discovery TEXT NOT NULL,&lt;br&gt;universe=&amp;gt; tidal_locked BOOLEAN NOT NULL&lt;br&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;);&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=0;verticalAlign=top;align=left;glass=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+                <mxCell id="173" value="&lt;div&gt;&lt;span&gt;universe=&amp;gt; CREATE TABLE moon(&lt;/span&gt;&lt;/div&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;moon_id SERIAL PRIMARY KEY,&lt;br&gt;&lt;/span&gt;universe=&amp;gt; name VARCHAR(25) NOT NULL,&lt;br&gt;universe=&amp;gt; radius_km NUMERIC(5, 1),&lt;br&gt;universe=&amp;gt; surface_gravity NUMERIC(4, 3),&lt;br&gt;universe=&amp;gt; discovery TEXT NOT NULL,&lt;br&gt;universe=&amp;gt; tidal_locked BOOLEAN NOT NULL&lt;br&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;);&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=0;verticalAlign=top;align=left;glass=0;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="-620" y="127" width="300" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="174" value="&lt;div&gt;&lt;span&gt;universe=&amp;gt; CREATE TABLE planet(&lt;/span&gt;&lt;/div&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;planet_id SERIAL PRIMARY KEY,&lt;br&gt;&lt;/span&gt;universe=&amp;gt; name VARCHAR(25) NOT NULL,&lt;br&gt;universe=&amp;gt; orbital_period_days NUMERIC(6, 1),&lt;br&gt;universe=&amp;gt; radius_km NUMERIC(6,1),&lt;br&gt;universe=&amp;gt; type VARCHAR(15) NOT NULL,&lt;br&gt;universe=&amp;gt; distance_from_star_au NUMERIC(7, 5)&lt;br&gt;universe=&amp;gt;&amp;nbsp;&lt;span&gt;);&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=0;verticalAlign=top;align=left;glass=0;fontColor=#FFFFFF;" parent="1" vertex="1">
@@ -1000,27 +1000,27 @@
                 <mxCell id="298" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="261" vertex="1">
                     <mxGeometry y="270" width="400" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="299" value="HATS-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
+                <mxCell id="299" value="HATS-16 b" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
                     <mxGeometry width="80" height="40" as="geometry">
                         <mxRectangle width="80" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="300" value="0.7 days" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
+                <mxCell id="300" value="2.8 days" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
                     <mxGeometry x="80" width="80" height="40" as="geometry">
                         <mxRectangle width="80" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="301" value="11945.6 km" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
+                <mxCell id="301" value="90115.3 km" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
                     <mxGeometry x="160" width="80" height="40" as="geometry">
                         <mxRectangle width="80" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="302" value="-" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
+                <mxCell id="302" value="Gas Giant" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
                     <mxGeometry x="240" width="80" height="40" as="geometry">
                         <mxRectangle width="80" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="303" value="0.01544 AU" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
+                <mxCell id="303" value="0.0413 AU" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontColor=#FFFFFF;" parent="298" vertex="1">
                     <mxGeometry x="320" width="80" height="40" as="geometry">
                         <mxRectangle width="80" height="40" as="alternateBounds"/>
                     </mxGeometry>
