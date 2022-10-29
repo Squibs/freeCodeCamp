@@ -1,23 +1,27 @@
 # Celestial Bodies Database
 
-> Welcome! Are you ready to build a database of the universe?
+It has been a long time coming for me to start learning how to build my own database. I've learned a lot through freeCodeCamp, and figured I should continue going through their lessons / challenges for other parts of web development. I've had a small amount of previous experience in working with databases, but none of what I have learned previously really stuck with me.
+
+I wanted to plan out the structure of the database, first, before I started creating it in PostgreSQL. It makes everything easier for myself to visualize. So I created this entity-relationship diagram:
+
 
 ## Requirements / Instructions / User Stories
 
-For this project, you need to log in to PostgreSQL with psql to create your database. Do that by entering `psql --username=freecodecamp --dbname=postgres` in the terminal. Make all the tests below pass to complete the project. Be sure to get creative, and have fun!
+<details>
+  <summary>Codeally virtual machine specific Instructions</summary>
+  For this project, you need to log in to PostgreSQL with psql to create your database. Do that by entering `psql --username=freecodecamp --dbname=postgres` in the terminal. Make all the tests below pass to complete the project. Be sure to get creative, and have fun!
 
-**Don't forget to connect to your database after you create it** :smile:
+  **Don't forget to connect to your database after you create it** :smile:
 
-Here's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.
+  Here's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.
 
-**Notes:**
-If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering `pg_dump -cC --inserts -U freecodecamp universe > universe.sql` in a bash terminal (not the psql one). It will save the commands to rebuild your database in `universe.sql`. The file will be located where the command was entered. If it's anything inside the `project` folder, the file will be saved in the VM. You can rebuild the database by entering `psql -U postgres < universe.sql` in a terminal where the `.sql` file is.
+  **Notes:**
+  If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering `pg_dump -cC --inserts -U freecodecamp universe > universe.sql` in a bash terminal (not the psql one). It will save the commands to rebuild your database in `universe.sql`. The file will be located where the command was entered. If it's anything inside the `project` folder, the file will be saved in the VM. You can rebuild the database by entering `psql -U postgres < universe.sql` in a terminal where the `.sql` file is.
 
-If you are saving your progress on freeCodeCamp.org, after getting all the tests to pass, follow the instructions above to save a dump of your database. Save the `universe.sql` file in a public repository and submit the URL to it on freeCodeCamp.org.
+  If you are saving your progress on freeCodeCamp.org, after getting all the tests to pass, follow the instructions above to save a dump of your database. Save the `universe.sql` file in a public repository and submit the URL to it on freeCodeCamp.org.
+</details>
 
-<br>
-
-Complete the tasks below:
+Tasks required for this database to be considered complete:
 
 - [x] You should create a database named `universe`
 - [x] Be sure to connect to your database with `\c universe`. Then, you should add tables named `galaxy`, `star`, `planet`, and `moon`
@@ -31,11 +35,11 @@ Complete the tasks below:
 - [x] Each "star" should have a foreign key that references one of the rows in `galaxy`
 - [x] Each "planet" should have a foreign key that references one of the rows in `star`
 - [x] Each "moon" should have a foreign key that references one of the rows in `planet`
-- [ ] Your database should have at least five tables
+- [x] Your database should have at least five tables
 - [x] Each table should have at least three rows
 - [x] The `galaxy` and `star` tables should each have at least six rows
-- [ ] The `planet` table should have at least 12 rows
-- [ ] The `moon` table should have at least 20 rows
+- [x] The `planet` table should have at least 12 rows
+- [x] The `moon` table should have at least 20 rows
 - [x] Each table should have at least three columns
 - [x] The `galaxy`, `star`, `planet`, and `moon` tables should each have at least five columns
 - [X] At least two columns per table should not accept `NULL` values
