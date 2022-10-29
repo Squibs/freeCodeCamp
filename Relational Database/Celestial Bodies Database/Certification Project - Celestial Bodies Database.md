@@ -4,7 +4,7 @@ It has been a long time coming for me to start learning how to build my own data
 
 I wanted to plan out the structure of the database, first, before I started creating it in PostgreSQL. It makes everything easier for myself to visualize. So I created this entity-relationship diagram:
 
-<p align="center"><img src="./Celestial Bodies Database/Celestial Bodies Database ER Diagram.png" height="500" alt="Screenshot of my Celestial Bodies Database entity relationship diagram."/></p>
+<p align="center"><img src="./Celestial Bodies Database ER Diagram.png" height="500" alt="Screenshot of my Celestial Bodies Database entity relationship diagram."/></p>
 
 Next to each database table, I have how the table will be declared when I am making the database. I also included some example entries for each table, to help myself get going on that end, as well.
 

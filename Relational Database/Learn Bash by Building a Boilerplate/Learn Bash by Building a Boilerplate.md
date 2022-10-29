@@ -1,7 +1,5 @@
 # Learn Bash by Building a Boilerplate
 
-[(copy of repo made throughout this challenge)](./Learn%20Bash%20by%20Building%20a%20Boilerplate)
-
 ---
 
 List of Sections:

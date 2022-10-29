@@ -1,6 +1,5 @@
 # Learn Relational Databases by Building a Mario Database
 
-[(copy of repo made throughout this challenge)](./Learn%20Relational%20Databases%20by%20Building%20a%20Mario%20Database)
 ---
 
 List of Sections:
