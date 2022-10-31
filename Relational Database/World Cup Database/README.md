@@ -1,6 +1,6 @@
 # World Cup Database
 
-<p align="center"><img src="/Images/screenshots/screenshot-world-cup-database" height="500" alt="Screenshot of my World Cup Database project."/></p>
+<p align="center"><img src="/Images/screenshots/screenshot-world-cup-database.png" height="500" alt="Screenshot of my World Cup Database project."/></p>
 
 <em>Completed October 31, 2022</em>
 
