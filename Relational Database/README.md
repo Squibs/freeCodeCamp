@@ -9,7 +9,7 @@ Click any of the links below to view my notes and answers I came up with while g
 - [Learn SQL by Building a Student Database: Part 1](./Build%20a%20Student%20Database%20-%20Part%201#learn-sql-by-building-a-student-database-part-1)
 - [Learn SQL by Building a Student Database: Part 2](./Build%20a%20Student%20Database%20-%20Part%202#learn-sql-by-building-a-student-database-part-2)
 - ⚽ [ Certification Project - World Cup Database](./World%20Cup%20Database#world-cup-database)
-- ~~Learn Advanced Bash by Building a Kitty Ipsum Translator~~
+- [Learn Advanced Bash by Building a Kitty Ipsum Translator](./Kitty%20Ipsun%20Translator#learn-advanced-bash-by-building-a-kitty-ipsum-translator)
 - ~~Learn Bash and SQL by Building a Bike Rental Shop~~
 - ~~Salon Appointment Scheduler~~
 - ~~Learn Nano by Building a Castle~~
