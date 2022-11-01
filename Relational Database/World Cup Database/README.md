@@ -271,7 +271,7 @@ I didn't particularly find any part of this hard. I struggled more with working 
 ## Requirements / Instructions / User Stories
 
 <details>
-  <summary>Codeally virtual machine specific Instructions</summary>
+  <summary>Codeally virtual machine specific instructions</summary>
 
   Follow the instructions and get all the user stories below to pass to finish the project.
 
