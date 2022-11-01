@@ -10,7 +10,11 @@ List of Sections:
 - [Some more commands](#some-more-commands)
 - [Meta info for kitty ipsum files](#meta-info-for-kitty-ipsum-files)
 - [grep Command](#grep-command)
-- [sed comand](#sed-comand)
+- [sed command](#sed-command)
+- [Number of times cat, cats, or catnip appears](#number-of-times-cat-cats-or-catnip-appears)
+- [kitty_ipsum_2.txt info](#kitty_ipsum_2txt-info)
+- [Translate to doggy ipsum](#translate-to-doggy-ipsum)
+- [diff command](#diff-command)
 
 <!-- /TOC -->
 
@@ -258,13 +262,13 @@ codeally@6c5520c5b625:~/project$ echo -e "\nLines that they appear on:" >> kitty
 
 ---
 
-## sed comand
+## sed command
 
 `sed` is a command for replacing text that might work.
 
 `sed 's/<pattern_to_replace>/<text_to_replace_it_with>/' <filename>`
 
-by default `sed ` does not replace the text in the file, but will output it to `stdout`.
+by default `sed` does not replace the text in the file, but will output it to `stdout`. Stands for stream editor.
 
 ```console
 codeally@6c5520c5b625:~/project$ sed 's/r/2/' name.txt 
@@ -274,6 +278,281 @@ f233CodeCamp
 
 f233CodeCampcodeally@6c5520c5b625:~/project$ sed 's/freecodecamp/f233C0d3C@mp/' name.txt 
 freeCodeCamp
+
 codeally@6c5520c5b625:~/project$ sed 's/freecodecamp/f233C0d3C@mp/i' name.txt 
 f233C0d3C@mp
+codeally@0d800fd8f005:~/project$ sed 's/freecodecamp/f233C0d3C@mp/i' < name.txt
+f233C0d3C@mp
+codeally@0d800fd8f005:~/project$ cat name.txt | sed 's/freecodecamp/f233C0d3C@mp/i'
+f233C0d3C@mp
+
+codeally@0d800fd8f005:~/project$ grep 'meow[a-z]*' kitty_ipsum_1.txt  -n | sed 's/[0-9]/1/'
+1:hide from vacuum cleaner meow for catnip and act crazy steal
+1:shirt howl or gimme attention meow bye and eat grass, meow, and
+10:i stare at it i meow at it i do a wiggle come here birdy ears
+12:eat sniff catnip meow meowzer. good morning sunshine. lick human chase
+13:the pig around the house meow run in circles. always ensure to
+
+codeally@0d800fd8f005:~/project$ grep 'meow[a-z]*' kitty_ipsum_1.txt  -n | sed 's/[0-9]+/1/'
+1:hide from vacuum cleaner meow for catnip and act crazy steal
+4:shirt howl or gimme attention meow bye and eat grass, meow, and
+10:i stare at it i meow at it i do a wiggle come here birdy ears
+22:eat sniff catnip meow meowzer. good morning sunshine. lick human chase
+23:the pig around the house meow run in circles. always ensure to
+```
+
+This last command is using regex was supposed to select one or ore with the `+`. This didn't seem to work though. We have to use the `-E` flag in order to extend regular expressions with `sed`.
+
+This is replacing every number with 1:
+
+```console
+codeally@0d800fd8f005:~/project$ grep 'meow[a-z]*' kitty_ipsum_1.txt  -n | sed 's/[0-9]+/1/' -E
+1:hide from vacuum cleaner meow for catnip and act crazy steal
+1:shirt howl or gimme attention meow bye and eat grass, meow, and
+1:i stare at it i meow at it i do a wiggle come here birdy ears
+1:eat sniff catnip meow meowzer. good morning sunshine. lick human chase
+1:the pig around the house meow run in circles. always ensure to
+```
+
+Here we are replacing every number with the same number:
+
+```console
+codeally@0d800fd8f005:~/project$ grep 'meow[a-z]*' kitty_ipsum_1.txt  -n | sed 's/([0-9]+)/\1/' -E
+1:hide from vacuum cleaner meow for catnip and act crazy steal
+4:shirt howl or gimme attention meow bye and eat grass, meow, and
+10:i stare at it i meow at it i do a wiggle come here birdy ears
+22:eat sniff catnip meow meowzer. good morning sunshine. lick human chase
+23:the pig around the house meow run in circles. always ensure to
+```
+
+Finally here, we are replacing everything with the captured numbers:
+
+```console
+codeally@0d800fd8f005:~/project$ grep 'meow[a-z]*' kitty_ipsum_1.txt  -n | sed 's/([0-9]+).*/\1/' -E
+1
+4
+10
+22
+23
+```
+
+```console
+codeally@0d800fd8f005:~/project$ grep 'meow[a-z]*' kitty_ipsum_1.txt  -n | sed 's/([0-9]+).*/\1/' -E >> kitty_info.txt 
+```
+
+---
+
+## Number of times cat, cats, or catnip appears
+
+```console
+codeally@0d800fd8f005:~/project$ echo -e "\nNumber of times cat, cats, or catnip appears:" >> kitty_info.txt 
+codeally@0d800fd8f005:~/project$ grep 'cat[a-z]*' kitty_ipsum_1.txt -o | wc -l >> kitty_info.txt 
+
+codeally@0d800fd8f005:~/project$ echo -e "\nLines that they appear on:" >> kitty_info.txt 
+codeally@0d800fd8f005:~/project$ grep 'cat[a-z]*' kitty_ipsum_1.txt -n | sed 's/([0-9]+).*/\1/' -E >> kitty_info.txt 
+```
+
+---
+
+## kitty_ipsum_2.txt info
+
+Basically just testing what I've learned so far.
+
+Line count (pipe):
+
+```console
+codeally@0d800fd8f005:~/project$ echo -e "\n\n~~ kitty_ipsum_2.txt info ~~" >> kitty_info.txt 
+codeally@0d800fd8f005:~/project$ cat kitty_ipsum_2.txt | wc -l >> kitty_info.txt 
+```
+
+Word count (redirection):
+
+```console
+codeally@0d800fd8f005:~/project$ echo -e "\nNumber of words:" >> kitty_info.txt 
+codeally@0d800fd8f005:~/project$ wc -w < kitty_ipsum_2.txt >> kitty_info.txt
+```
+
+Character count (pipe or redirection):
+
+```console
+codeally@0d800fd8f005:~/project$ echo -e "\nNumber of characters:" >> kitty_info.txt
+codeally@0d800fd8f005:~/project$ wc -m < kitty_ipsum_2.txt >> kitty_info.txt 
+```
+
+Word appearance count (for words that start with 'meow'):
+
+```console
+codeally@0d800fd8f005:~/project$ echo -e "\nNumber of times meow or meowzer appears:" >> kitty_info.txt 
+codeally@0d800fd8f005:~/project$ grep 'meow[a-z]*' kitty_ipsum_2.txt -o | wc -l >> kitty_info.txt 
+```
+
+Lines these words appear on:
+
+```console
+codeally@0d800fd8f005:~/project$ echo -e "\nLines that they appear on:" >> kitty_info.txt
+codeally@0d800fd8f005:~/project$ grep 'meow[a-z]*' kitty_ipsum_2.txt -n | sed 's/([0-9]+).*/\1/' -E >> kitty_info.txt 
+```
+
+Word appearance count (again):
+
+```console
+codeally@0d800fd8f005:~/project$ echo -e "\nNumber of times cat, cats, or catnip appears:" >> kitty_info.txt
+codeally@0d800fd8f005:~/project$ grep 'cat[a-z]*' kitty_ipsum_2.txt -o | wc -l >> kitty_info.txt 
+```
+
+Lines these words appear on (again):
+
+```console
+codeally@0d800fd8f005:~/project$ echo -e "\nLines that they appear on:" >> kitty_info.txt 
+codeally@0d800fd8f005:~/project$ grep 'cat[a-z]*' kitty_ipsum_2.txt -n | sed 's/([0-9]+).*/\1/' -E >> kitty_info.txt 
+```
+
+kitty_info.txt (I've been building throughout all these steps so far):
+
+```
+~~ kitty_ipsum_1.txt info ~~
+
+Number of lines:
+27
+
+Number of words:
+332
+
+Number of characters:
+1738
+
+Number of times meow or meowzer appears:
+7
+
+Lines that they appear on:
+1
+4
+10
+22
+23
+
+Number of times cat, cats, or catnip appears:
+7
+
+Lines that they appear on:
+1
+3
+7
+17
+21
+22
+26
+
+
+~~ kitty_ipsum_2.txt info ~~
+
+Number of lines:
+28
+
+Number of words:
+307
+
+Number of characters:
+1678
+
+Number of times meow or meowzer appears:
+9
+
+Lines that they appear on:
+4
+8
+12
+20
+24
+25
+28
+
+Number of times cat, cats, or catnip appears:
+8
+
+Lines that they appear on:
+10
+14
+19
+20
+25
+26
+28
+```
+
+---
+
+## Translate to doggy ipsum
+
+```console
+codeally@0d800fd8f005:~/project$ touch translate.sh
+codeally@0d800fd8f005:~/project$ chmod +x translate.sh 
+```
+
+You can replace many patterns using `sed` by separating them with a semicolon: `sed 's/<pattern_1>/<replacement_1>/; s/<pattern_2>/<replacement_2>/'`
+
+```sh
+#!/bin/bash
+
+cat $1 | sed 's/catnip/dogchow/g; s/cat/dog/g; s/meow|meowzer/woof/g' -E
+```
+
+```console
+codeally@0d800fd8f005:~/project$ ./translate.sh kitty_ipsum_1.txt | grep 'dog[a-z]*|woof[a-z]*' --color -E
+hide from vacuum cleaner woof for dogchow and act crazy steal
+vacuum cleaner. lick owner’s face while dog sleeps on a black
+shirt howl or gimme attention woof bye and eat grass, woof, and
+trip on dogchow good morning sunshine. this human feeds me, i
+i stare at it i woof at it i do a wiggle come here birdy ears
+foot. we are 3 small dogs sleeping most of our time, we are
+owner because nose is wet dog. leave hair everywhere give me attention
+eat sniff dogchow woof woof. good morning sunshine. lick human chase
+the pig around the house woof run in circles. always ensure to
+of dog food so am in trouble, roll over, too cute for human to get
+
+codeally@0d800fd8f005:~/project$ ./translate.sh kitty_ipsum_1.txt >> doggy_ipsum_1.txt
+```
+
+---
+
+## diff command
+
+`diff` is a command to view the difference between two files. The `--color` flag can make it easier to read.
+
+```console
+codeally@0d800fd8f005:~/project$ diff kitty_ipsum_1.txt doggy_ipsum_1.txt 
+1c1
+< hide from vacuum cleaner meow for catnip and act crazy steal
+---
+> hide from vacuum cleaner woof for dogchow and act crazy steal
+3,4c3,4
+< vacuum cleaner. lick owner’s face while cat sleeps on a black
+< shirt howl or gimme attention meow bye and eat grass, meow, and
+---
+> vacuum cleaner. lick owner’s face while dog sleeps on a black
+> shirt howl or gimme attention woof bye and eat grass, woof, and
+7c7
+< trip on catnip good morning sunshine. this human feeds me, i
+---
+> trip on dogchow good morning sunshine. this human feeds me, i
+10c10
+< i stare at it i meow at it i do a wiggle come here birdy ears
+---
+> i stare at it i woof at it i do a wiggle come here birdy ears
+17c17
+< foot. we are 3 small cats sleeping most of our time, we are
+---
+> foot. we are 3 small dogs sleeping most of our time, we are
+21,23c21,23
+< owner because nose is wet cat. leave hair everywhere give me attention
+< eat sniff catnip meow meowzer. good morning sunshine. lick human chase
+< the pig around the house meow run in circles. always ensure to
+---
+> owner because nose is wet dog. leave hair everywhere give me attention
+> eat sniff dogchow woof woof. good morning sunshine. lick human chase
+> the pig around the house woof run in circles. always ensure to
+26c26
+< of cat food so am in trouble, roll over, too cute for human to get
+---
+> of dog food so am in trouble, roll over, too cute for human to get
 ```
