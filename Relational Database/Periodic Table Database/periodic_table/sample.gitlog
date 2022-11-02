@@ -1,0 +1,37 @@
+codeally@42a9f81304de:~/project/periodic_table$ git log
+
+commit 6db5aa14bac0cf11b03c595a84762cd1dfc08cbb (HEAD -> main)
+Author: Squibs <zachary.r.holman@gmail.com>
+Date:   Wed Nov 2 20:38:38 2022 +0000
+
+    refactor:SELECT change for database refactor
+
+commit bf818989df6c5ed71fd580e83fb41628a256e0b8
+Author: Squibs <zachary.r.holman@gmail.com>
+Date:   Wed Nov 2 20:33:26 2022 +0000
+
+    feat:Script working
+
+commit cc32aadfc785ed6c1eef44cc3ddc4dd817fdeca6
+Author: Squibs <zachary.r.holman@gmail.com>
+Date:   Wed Nov 2 20:01:27 2022 +0000
+
+    feat:Check if element exists
+
+commit 062afe77bd5d6fe79f6a57708f2227ce21a91481
+Author: Squibs <zachary.r.holman@gmail.com>
+Date:   Wed Nov 2 19:51:33 2022 +0000
+
+    feat:Script rejects if no parameters
+
+commit 4ff5f030493f5e5071cefc414670d8f4f80ee1f2
+Author: Squibs <zachary.r.holman@gmail.com>
+Date:   Wed Nov 2 19:46:05 2022 +0000
+
+    fix:Updated script permissions
+
+commit 65cec7801ca859952d31b6e10c58dfcacac9df8e
+Author: Squibs <zachary.r.holman@gmail.com>
+Date:   Wed Nov 2 19:44:01 2022 +0000
+
+    Initial commit
