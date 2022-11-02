@@ -16,3 +16,4 @@ Click any of the links below to view my notes and answers I came up with while g
 - [Learn Git by Building an SQL Reference Object](./Learn%20Git%20by%20Building%20an%20SQL%20Reference%20Object#learn-git-by-building-an-sql-reference-object)
 - ⚗️ [Certification Project - Periodic Table Database](./Periodic%20Table%20Database#periodic-table-database)
 - 🔢 [Certification Project - Number Guessing Game](./Number%20Guessing%20Game#number-guessing-game)
+- 🏆 [Claim Your Relational Database Certificate](./Relational%20Database%20Certificate.md#claim-your-relational-database-certificate)
