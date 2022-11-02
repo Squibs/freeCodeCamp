@@ -1,6 +1,6 @@
 # Periodic Table Database
 
-<p align="center"><img src="./Images/screenshots/screenshot-periodic-table.png" height="500" alt="Screenshot of my Periodic Table Database project."/></p>
+<p align="center"><img src="/Images/screenshots/screenshot-periodic-table.png" height="500" alt="Screenshot of my Periodic Table Database project."/></p>
 
 <em>Completed November 2, 2022</em>
 
