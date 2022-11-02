@@ -12,7 +12,7 @@ Click any of the links below to view my notes and answers I came up with while g
 - [Learn Advanced Bash by Building a Kitty Ipsum Translator](./Kitty%20Ipsun%20Translator#learn-advanced-bash-by-building-a-kitty-ipsum-translator)
 - [Learn Bash and SQL by Building a Bike Rental Shop](./Bike%20Rental%20Shop#learn-bash-and-sql-by-building-a-bike-rental-shop)
 - 💈 [Certification Project - Salon Appointment Scheduler](./Salon%20Appointment%20Scheduler#salon-appointment-scheduler)
-- ~~Learn Nano by Building a Castle~~
-- ~~Learn Git by Building an SQL Reference Object~~
-- ~~Periodic Table Database~~
-- ~~Number Guessing Game~~
+- [Learn Nano by Building a Castle](./Learn%20Nano%20by%20Building%20a%20Castle#learn-nano-by-building-a-castle)
+- [Learn Git by Building an SQL Reference Object](./Learn%20Git%20by%20Building%20an%20SQL%20Reference%20Object#learn-git-by-building-an-sql-reference-object)
+- ⚗️ [Certification Project - Periodic Table Database](./Periodic%20Table%20Database#periodic-table-database)
+- 🔢 [Certification Project - Number Guessing Game](./Number%20Guessing%20Game#number-guessing-game)
