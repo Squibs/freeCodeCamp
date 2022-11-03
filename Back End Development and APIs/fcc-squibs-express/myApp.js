@@ -4,6 +4,9 @@ var express = require('express');
 var app = express();
 
 // --> 7)  Mount the Logger middleware here
+// express evaluates routes from top to bottom
+// so we want this custom middleware at the top
+// so it logs this information for every route
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.path} - ${req.ip}`);
   next();
@@ -19,34 +22,29 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 /** 2) A first working Express Server */
-// app.get('/', (req, res) => {
-//   res.send('Hello Express');
-// });
+// app.get('/', (req, res) => res.send('Hello Express'));
 
 
 /** 3) Serve an HTML file */
 app.get('/', (req, res) => {
-  res.sendFile(__dirname  + '/views/index.html');
+  res.sendFile(`${__dirname}/views/index.html`);
 });
 
 
 /** 4) Serve static assets  */
-app.use(express.static('public'));
+app.use('/public', express.static(`${__dirname}/public`));
 
 
 /** 5) serve JSON on a specific route */
-// app.get('/json', (req, res) => {
-//   res.json({ message: 'Hello json' });
-// });
+// app.get('/json', (req, res) => res.json({ message: "Hello json" }));
 
 
 /** 6) Use the .env file to configure the app */
 app.get('/json', (req, res) => {
-  const message = 'Hello json';
-  if (process.env.MESSAGE_STYLE === 'uppercase') {
-    return res.json({ message: message.toUpperCase() });
-  }
-  return res.json({ message });
+  const responseObject = { message: "Hello json" };
+  if (process.env.MESSAGE_STYLE === 'uppercase')
+    responseObject.message = responseObject.message.toUpperCase();
+  res.json(responseObject);
 });
 
 
@@ -56,28 +54,21 @@ app.get('/json', (req, res) => {
 
 /** 8) Chaining middleware. A Time server */
 app.get('/now', (req, res, next) => {
-  req.time = new Date().toString();
+  req.time = `${new Date()}`;
   next();
 }, (req, res) => {
-  res.json({ time: req.time });
+  res.send({ time: req.time });
 });
 
 
 /** 9)  Get input from client - Route parameters */
-app.get('/:word/echo', (req, res) => {
-  const word = req.params.word;
-  res.json({ echo: word });
-});
+app.get('/:word/echo', (req, res) => res.json({ echo: `${req.params.word}` }));
 
 
 /** 10) Get input from client - Query parameters */
 // /name?first=<firstname>&last=<lastname>
-app.route('/name')
-  .get((req, res) => {
-    const firstName = req.query.first;
-    const lastName = req.query.last;
-    res.json({ name: `${firstName} ${lastName}` });
-  })
+// app.get('/name', (req, res) => res.send({ name: `${req.query.first} ${req.query.last}` }));
+app.route('/name').get((req, res) => res.send({ name: `${req.query.first} ${req.query.last}` }))
   
 
 /** 11) Get ready for POST Requests - the `body-parser` */
