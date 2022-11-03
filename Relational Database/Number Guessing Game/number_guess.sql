@@ -101,19 +101,49 @@ ALTER TABLE ONLY public.users ALTER COLUMN user_id SET DEFAULT nextval('public.u
 -- Data for Name: user_stats; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.user_stats VALUES (126, 1, 8);
+INSERT INTO public.user_stats VALUES (128, 2, 565);
+INSERT INTO public.user_stats VALUES (127, 5, 509);
+INSERT INTO public.user_stats VALUES (130, 2, 814);
+INSERT INTO public.user_stats VALUES (129, 5, 668);
+INSERT INTO public.user_stats VALUES (132, 2, 455);
+INSERT INTO public.user_stats VALUES (131, 5, 580);
+INSERT INTO public.user_stats VALUES (134, 2, 727);
+INSERT INTO public.user_stats VALUES (133, 5, 994);
+INSERT INTO public.user_stats VALUES (136, 2, 843);
+INSERT INTO public.user_stats VALUES (135, 5, 907);
+INSERT INTO public.user_stats VALUES (138, 2, 730);
+INSERT INTO public.user_stats VALUES (137, 5, 934);
+INSERT INTO public.user_stats VALUES (140, 2, 689);
+INSERT INTO public.user_stats VALUES (139, 5, 930);
 
 
 --
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.users VALUES (126, 'Squibs');
+INSERT INTO public.users VALUES (127, 'user_1667440019633');
+INSERT INTO public.users VALUES (128, 'user_1667440019632');
+INSERT INTO public.users VALUES (129, 'user_1667440078302');
+INSERT INTO public.users VALUES (130, 'user_1667440078301');
+INSERT INTO public.users VALUES (131, 'user_1667440081910');
+INSERT INTO public.users VALUES (132, 'user_1667440081909');
+INSERT INTO public.users VALUES (133, 'user_1667440084682');
+INSERT INTO public.users VALUES (134, 'user_1667440084681');
+INSERT INTO public.users VALUES (135, 'user_1667440092387');
+INSERT INTO public.users VALUES (136, 'user_1667440092386');
+INSERT INTO public.users VALUES (137, 'user_1667440132781');
+INSERT INTO public.users VALUES (138, 'user_1667440132780');
+INSERT INTO public.users VALUES (139, 'user_1667440136132');
+INSERT INTO public.users VALUES (140, 'user_1667440136131');
 
 
 --
 -- Name: users_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.users_user_id_seq', 86, true);
+SELECT pg_catalog.setval('public.users_user_id_seq', 140, true);
 
 
 --
