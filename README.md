@@ -10,7 +10,7 @@ Click the links below to navigate through each section and view the solutions I 
 - ✔️ [JavaScript Algorithms and Data Structures](./JavaScript%20Algorithms%20and%20Data%20Structures/README.md#javascript-algorithms-and-data-structures)
 - ✔️ [Front End Development Libraries](./Front%20End%20Development%20Libraries/README.md#front-end-libraries)
 - ✔️ [Data Visualization](./Data%20Visualization/README.md#data-visualization)
-- 🚧 [Relational Database](./Relational%20Database/README.md#relational-database)
+- ✔️ [Relational Database](./Relational%20Database/README.md#relational-database)
 - 🚧 [Back End Development and APIs](./Back%20End%20Development%20and%20APIs/README.md#back-end-development-and-apis)
 - ❌ ~~Quality Assurance~~
 - ❌ ~~Scientific Computing with Python~~
