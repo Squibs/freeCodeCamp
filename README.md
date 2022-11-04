@@ -6,18 +6,18 @@ I used to have two separate repositories dedicated to freeCodeCamp, one for the 
 
 Click the links below to navigate through each section and view the solutions I came up with for challenges and my completed projects. If a section is ~~crossed out~~, I have not yet finished the section and will update this list when I complete it in the future.
 
-- ✔️ [Responsive Web Design](./Responsive%20Web%20Design/README.md#responsive-web-design)
-- ✔️ [JavaScript Algorithms and Data Structures](./JavaScript%20Algorithms%20and%20Data%20Structures/README.md#javascript-algorithms-and-data-structures)
-- ✔️ [Front End Development Libraries](./Front%20End%20Development%20Libraries/README.md#front-end-libraries)
-- ✔️ [Data Visualization](./Data%20Visualization/README.md#data-visualization)
-- ✔️ [Relational Database](./Relational%20Database/README.md#relational-database)
-- 🚧 [Back End Development and APIs](./Back%20End%20Development%20and%20APIs/README.md#back-end-development-and-apis)
+- [✔️ Responsive Web Design](./Responsive%20Web%20Design/README.md#responsive-web-design)
+- [✔️ JavaScript Algorithms and Data Structures](./JavaScript%20Algorithms%20and%20Data%20Structures/README.md#javascript-algorithms-and-data-structures)
+- [✔️ Front End Development Libraries](./Front%20End%20Development%20Libraries/README.md#front-end-libraries)
+- [✔️ Data Visualization](./Data%20Visualization/README.md#data-visualization)
+- [✔️ Relational Database](./Relational%20Database/README.md#relational-database)
+- [🚧 Back End Development and APIs](./Back%20End%20Development%20and%20APIs/README.md#back-end-development-and-apis)
 - ❌ ~~Quality Assurance~~
 - ❌ ~~Scientific Computing with Python~~
 - ❌ ~~Data Analysis with Python~~
-- 🚧 [Information Security](./Information%20Security/README.md#information-security)
+- [🚧 Information Security](./Information%20Security/README.md#information-security)
 - ❌ ~~Machine Learning with Python~~
-- 🚧 [Coding Interview Prep](./Coding%20Interview%20Prep/README.md#coding-interview-prep)
+- [🚧 Coding Interview Prep](./Coding%20Interview%20Prep/README.md#coding-interview-prep)
 
 ## A few quick links
 
