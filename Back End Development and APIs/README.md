@@ -4,8 +4,9 @@ Click any of the links below to view my notes and answers I came up with while g
 
 - [Managing Packages with npm](./1.%20Managing%20Packages%20with%20npm.md#managing-packages-with-npm)
 - [Basic Node and Express](./2.%20Basic%20Node%20and%20Express.md#basic-node-and-express)
-- ~~MongoDB and Mongoose~~
+- [MongoDB and Mongoose](./3.%20MongoDB%20and%20Mongoose.md#monogodb-and-mongoose)
 - ~~APIs and Microservices Projects~~
+- ~~Claim Your Data Visualization Certificate~~
 
 I also have some legacy files and notes related to this section; in which I wanted to keep to be able to look back on:
 
