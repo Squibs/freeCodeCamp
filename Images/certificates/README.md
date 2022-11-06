@@ -65,17 +65,17 @@ Many of these are just updated certificates, which mainly consists of an updated
 
 [View This Certificate](https://www.freecodecamp.org/certification/squibs/data-visualization)
 
-## freeCodeCamp Back End Development and APIs Certification
-
-<p align="center"><img src="my-back-end-development-and-apis-certificate.png" width="425px" alt="Screenshot of my Back End Development and APIs certification from freeCodeCamp."/></p>
-
-[View This Certificate](https://www.freecodecamp.org/certification/squibs/back-end-development-and-apis)
-
 ## freeCodeCamp Relational Database Certification
 
 <p align="center"><img src="my-relational-database-certificate.png" width="425px" alt="Screenshot of my Relational Database certification from freeCodeCamp."/></p>
 
 [View This Certificate](https://www.freecodecamp.org/certification/squibs/relational-database-v8)
+
+## freeCodeCamp Back End Development and APIs Certification
+
+<p align="center"><img src="my-back-end-development-and-apis-certificate.png" width="425px" alt="Screenshot of my Back End Development and APIs certification from freeCodeCamp."/></p>
+
+[View This Certificate](https://www.freecodecamp.org/certification/squibs/back-end-development-and-apis)
 
 ## Udemy - Modern React with Redux by Stephen Grider - Certification
 
