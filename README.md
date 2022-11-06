@@ -11,8 +11,8 @@ Click the links below to navigate through each section and view the solutions I 
 - [✔️ Front End Development Libraries](./Front%20End%20Development%20Libraries/README.md#front-end-libraries)
 - [✔️ Data Visualization](./Data%20Visualization/README.md#data-visualization)
 - [✔️ Relational Database](./Relational%20Database/README.md#relational-database)
-- [🚧 Back End Development and APIs](./Back%20End%20Development%20and%20APIs/README.md#back-end-development-and-apis)
-- ❌ ~~Quality Assurance~~
+- [✔️ Back End Development and APIs](./Back%20End%20Development%20and%20APIs/README.md#back-end-development-and-apis)
+- [🚧 Quality Assurance](./Quality%20Assurance/README.md#quality-assurance)
 - ❌ ~~Scientific Computing with Python~~
 - ❌ ~~Data Analysis with Python~~
 - [🚧 Information Security](./Information%20Security/README.md#information-security)
