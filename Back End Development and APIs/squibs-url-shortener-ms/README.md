@@ -4,7 +4,7 @@
 
 <em>Completed November 4, 2022</em>
 
-## [Request Header Parser Microservice](https://url-shortener.sulph.repl.co/) (Click to view functional site)
+## [URL Shortener Microservice](https://url-shortener.sulph.repl.co/) (Click to view functional site)
 
 [Link to files on replit](https://replit.com/@Sulph/url-shortener#index.js)
 
