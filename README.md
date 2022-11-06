@@ -19,6 +19,10 @@ Click the links below to navigate through each section and view the solutions I 
 - ❌ ~~Machine Learning with Python~~
 - [🚧 Coding Interview Prep](./Coding%20Interview%20Prep/README.md#coding-interview-prep)
 
+|<p align="center">✔️</p>|<p align="center">🚧</p>|<p align="center">❌</p>|
+|---|---|---
+|Completed|Started|Yet to start|
+
 ## A few quick links
 
 ### [My Portfolio](https://zachary-holman.netlify.app/) (New and Improved)
