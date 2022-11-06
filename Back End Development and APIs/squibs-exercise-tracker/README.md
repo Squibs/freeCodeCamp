@@ -4,7 +4,7 @@
 
 <em>Completed November 5, 2022</em>
 
-### [Exercise Tracker](https://exercise-tracker.sulph.repl.co/) (Click to view functional site)
+## [Exercise Tracker](https://exercise-tracker.sulph.repl.co/) (Click to view functional site)
 
 [Link to files on replit](https://replit.com/@Sulph/exercise-tracker#index.js)
 
