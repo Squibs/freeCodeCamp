@@ -29,65 +29,65 @@ suite('Functional Tests', function() {
       });
   });
 
-  // test('Convert an invalid input such as 32g: GET request to /api/convert.', (done) => {
-  //   chai
-  //     .request(server)
-  //     .get('/api/convert')
-  //     .query({ input: '32g' })
-  //     .end((err, res) => {
-  //       if (err) return done(err);
-  //       assert.strictEqual(res.status, 200, 'response should be 200');
-  //       assert.strictEqual(res.text, 'invalid unit');
-  //       return done();
-  //     });
-  // });
+  test('Convert an invalid input such as 32g: GET request to /api/convert.', (done) => {
+    chai
+      .request(server)
+      .get('/api/convert')
+      .query({ input: '32g' })
+      .end((err, res) => {
+        if (err) return done(err);
+        assert.strictEqual(res.status, 200, 'response should be 200');
+        assert.strictEqual(res.text, 'invalid unit');
+        return done();
+      });
+  });
 
-  // test('Convert an invalid number such as 3/7.2/4kg: GET request to /api/convert.', (done) => {
-  //   chai
-  //     .request(server)
-  //     .get('/api/convert')
-  //     .query({ input: '3/7.2/4kg' })
-  //     .end((err, res) => {
-  //       if (err) return done(err);
-  //       assert.strictEqual(res.status, 200, 'response should be 200');
-  //       assert.strictEqual(res.text, 'invalid number');
-  //       return done();
-  //     });
-  // });
+  test('Convert an invalid number such as 3/7.2/4kg: GET request to /api/convert.', (done) => {
+    chai
+      .request(server)
+      .get('/api/convert')
+      .query({ input: '3/7.2/4kg' })
+      .end((err, res) => {
+        if (err) return done(err);
+        assert.strictEqual(res.status, 200, 'response should be 200');
+        assert.strictEqual(res.text, 'invalid number');
+        return done();
+      });
+  });
 
-  // test('Convert an invalid number AND unit such as 3/7.2/4kilomegagram: GET request to /api/convert.', (done) => {
-  //   chai
-  //     .request(server)
-  //     .get('/api/convert')
-  //     .query({ input: '3/7.2/4kilomegagram' })
-  //     .end((err, res) => {
-  //       if (err) return done(err);
-  //       assert.strictEqual(res.status, 200, 'response should be 200');
-  //       assert.strictEqual(res.text, 'invalid number and unit');
-  //       return done();
-  //     });
-  // });
+  test('Convert an invalid number AND unit such as 3/7.2/4kilomegagram: GET request to /api/convert.', (done) => {
+    chai
+      .request(server)
+      .get('/api/convert')
+      .query({ input: '3/7.2/4kilomegagram' })
+      .end((err, res) => {
+        if (err) return done(err);
+        assert.strictEqual(res.status, 200, 'response should be 200');
+        assert.strictEqual(res.text, 'invalid number and unit');
+        return done();
+      });
+  });
 
-  // test('Convert with no number such as kg: GET request to /api/convert.', (done) => {
-  //   chai
-  //     .request(server)
-  //     .get('/api/convert')
-  //     .query({ input: 'l' })
-  //     .end((err, res) => {
-  //       if (err) return done(err);
-  //       assert.strictEqual(res.status, 200, 'response should be 200');
-  //       assert.deepEqual(
-  //         res.body,
-  //         {
-  //           initNum: 1,
-  //           initUnit: 'L',
-  //           returnNum: 0.26417,
-  //           returnUnit: 'gal',
-  //           string: '1 liter converts to 0.26417 gallons',
-  //         },
-  //         'expected values in object are incorrect',
-  //       );
-  //       return done();
-  //     });
-  // });
+  test('Convert with no number such as kg: GET request to /api/convert.', (done) => {
+    chai
+      .request(server)
+      .get('/api/convert')
+      .query({ input: 'l' })
+      .end((err, res) => {
+        if (err) return done(err);
+        assert.strictEqual(res.status, 200, 'response should be 200');
+        assert.deepEqual(
+          res.body,
+          {
+            initNum: 1,
+            initUnit: 'L',
+            returnNum: 0.26417,
+            returnUnit: 'gal',
+            string: '1 liter converts to 0.26417 gallons',
+          },
+          'expected values in object are incorrect',
+        );
+        return done();
+      });
+  });
 });

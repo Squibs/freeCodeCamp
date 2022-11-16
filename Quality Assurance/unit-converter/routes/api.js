@@ -12,11 +12,7 @@ module.exports = function (app) {
 
     const numberToConvert = convertHandler.getNum(userInput);
     const unitToConvert = convertHandler.getUnit(userInput);
-
-    console.log(userInput);
-    console.log(numberToConvert);
-    console.log(unitToConvert);
-
+    
     // check if invalid
     if (numberToConvert === 'invalid number' && unitToConvert === 'invalid unit')
       return res.send('invalid number and unit');
@@ -43,13 +39,13 @@ module.exports = function (app) {
     };
 
     // example shape of response
-    // const responseObject = {
-    //   initNum: 3.1,
-    //   initUnit: 'mi',
-    //   returnNum: 4.98895,
-    //   returnUnit: 'km',
-    //   string: '3.1 miles converts to 4.98895 kilometers',
-    // };
+    /* const responseObject = {
+        initNum: 3.1,
+        initUnit: 'mi',
+        returnNum: 4.98895,
+        returnUnit: 'km',
+        string: '3.1 miles converts to 4.98895 kilometers',
+      }; */
     
     res.json(responseObject);
   });

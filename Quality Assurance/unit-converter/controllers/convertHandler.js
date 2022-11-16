@@ -81,7 +81,7 @@ function ConvertHandler() {
   
   this.getString = function(initNum, initUnit, returnNum, returnUnit) {
     let singularOrPlural = initUnit;
-    if (initNum === 1) initUnit = initUnit.slice(0, -1);
+    if (initNum == 1) singularOrPlural = singularOrPlural.slice(0, -1);
     return `${initNum} ${singularOrPlural} converts to ${returnNum} ${returnUnit}`;
   };
   
