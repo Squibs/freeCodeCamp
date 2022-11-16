@@ -49,7 +49,7 @@ app.get('/', (req, res) => {
 });
 
 // req.query -> from url ?query=value
-// req.param -> from url mysite/:param/place
+// req.params -> from url mysite/:param/place
 // req.body -> from form submission
 
 // get list of all users
