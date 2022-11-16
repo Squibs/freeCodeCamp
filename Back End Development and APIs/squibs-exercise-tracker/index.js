@@ -48,9 +48,9 @@ app.get('/', (req, res) => {
   return res.sendFile(__dirname + '/views/index.html')
 });
 
-// res.query -> from url ?query=value
-// res.param -> from url mysite/:param/place
-// res.body -> from form submission
+// req.query -> from url ?query=value
+// req.param -> from url mysite/:param/place
+// req.body -> from form submission
 
 // get list of all users
 app.get('/api/users', (req, res) => {
@@ -63,9 +63,9 @@ app.get('/api/users', (req, res) => {
 
 // create new users
 app.post('/api/users', (req, res) => {
-  // 
   User.findOne({ username: req.body.username}, (err, foundUserData) => {
     if (err) return res.json({ error: err });
+    // if username exists
     if (foundUserData && foundUserData.username === req.body.username) {
       return res.json({ msg: 'Username already exists, displaying user information', username: foundUserData.username, _id: foundUserData._id });
     } else {
