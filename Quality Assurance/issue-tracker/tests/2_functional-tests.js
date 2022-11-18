@@ -17,7 +17,6 @@ const data = {
 
 let updateID1;
 let updateID2;
-let updateID3;
 
 suite('Functional Tests', function() {
   
