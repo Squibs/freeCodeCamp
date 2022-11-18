@@ -4,7 +4,7 @@
 
 <em>Completed November 16, 2022</em>
 
-### [https://issue-tracker.sulph.repl.co/]() (Click to view functional site)
+### [Issue Tracker](https://issue-tracker.sulph.repl.co/) (Click to view functional site)
 
 [Link to files on replit](https://replit.com/@Sulph/issue-tracker#tests/2_functional-tests.js)
 
