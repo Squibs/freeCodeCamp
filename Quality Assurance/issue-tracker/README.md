@@ -1,6 +1,6 @@
 # Issue Tracker
 
-<p align="center"><img src="/Images/screenshots/screenshot" height="400" alt="Screenshot of my Issue Tracker project."/></p>
+<p align="center"><img src="/Images/screenshots/screenshot-issue-tracker.png" height="400" alt="Screenshot of my Issue Tracker project."/></p>
 
 <em>Completed November 16, 2022</em>
 

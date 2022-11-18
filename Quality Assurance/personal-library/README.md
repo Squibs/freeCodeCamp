@@ -1,6 +1,6 @@
 # Personal Library
 
-<p align="center"><img src="/Images/screenshots/screenshot" height="400" alt="Screenshot of my Personal Library project."/></p>
+<p align="center"><img src="/Images/screenshots/screenshot-personal-library.png" height="400" alt="Screenshot of my Personal Library project."/></p>
 
 <em>Completed November 18, 2022</em>
 
