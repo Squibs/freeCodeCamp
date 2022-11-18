@@ -50,7 +50,7 @@ module.exports = function (app) {
                 book.comments.push(comment.comment);
               }
             });
-            book.commentcount = comments.length;
+            book.commentcount = book.comments.length;
           });
 
           return res.json(booksWithComments);

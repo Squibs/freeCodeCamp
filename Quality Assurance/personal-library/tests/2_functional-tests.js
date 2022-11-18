@@ -83,8 +83,11 @@ suite('Functional Tests', function() {
             if (err) return done(err);
             assert.strictEqual(res.status, 200);
             assert.isAtLeast(res.body.length, 1);
-            assert.exists(res.body[0].title);
-            assert.exists(res.body[0]._id);
+            res.body.forEach((book) => {
+              assert.strictEqual(book.comments.length, book.commentcount);
+              assert.exists(book.title);
+              assert.exists(book._id);
+            });
             done();
           });
       });      
