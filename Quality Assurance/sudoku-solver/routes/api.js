@@ -31,8 +31,6 @@ module.exports = function (app) {
       // split coordinates
       const coords = [req.body.coordinate.slice(0, 1), req.body.coordinate.slice(1)];
 
-      console.log(coords);
-
       // check for conflicts
       let conflicts = [];
       if (!solver.checkRowPlacement(req.body.puzzle, coords[0], coords[1], req.body.value))
