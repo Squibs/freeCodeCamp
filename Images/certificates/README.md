@@ -77,6 +77,12 @@ Many of these are just updated certificates, which mainly consists of an updated
 
 [View This Certificate](https://www.freecodecamp.org/certification/squibs/back-end-development-and-apis)
 
+## freeCodeCamp Quality Assurance Certification
+
+<p align="center"><img src="my-quality-assurance-certificate.png" width="425px" alt="Screenshot of my Quality Assurance certification from freeCodeCamp."/></p>
+
+[View This Certificate](https://www.freecodecamp.org/certification/squibs/quality-assurance-v7)
+
 ## Udemy - Modern React with Redux by Stephen Grider - Certification
 
 <p align="center"><img src="my-modern-react-redux-certificate-taught-by-stephen-grider.jpg" width="425px" alt="Screenshot of my Modern React with Redux Certificate from the Modern React with Redux Udemy course by Stephen Grider"/></p>
